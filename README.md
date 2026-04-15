@@ -36,7 +36,7 @@ h5py
 Once deployed, try asking your agent:
 
 **Bucket exploration:**
-- `"What's in s3://aind-scratch-data/dynamic-routing/cache/nwb/ ?"`
+- `"What's in s3://my-bucket/data/ ?"`
 - `"How many sessions and subjects are in this bucket? s3://my-bucket/nwb/"`
 - `"Summarize the dataset at s3://my-bucket/data/ — file count, size, subjects, date range"`
 

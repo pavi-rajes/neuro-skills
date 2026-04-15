@@ -77,7 +77,7 @@ The skill is a single file. Run the commands below from your project root — th
 Claude Code reads `CLAUDE.md` automatically at the start of every session.
 
 ```bash
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/nwb-s3-browser/SKILL.md >> CLAUDE.md
+curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md >> CLAUDE.md
 ```
 
 The VS Code Claude extension (Claude Code for VS Code) uses the same `CLAUDE.md` mechanism — no extra steps needed.
@@ -86,7 +86,7 @@ The VS Code Claude extension (Claude Code for VS Code) uses the same `CLAUDE.md`
 
 ### Claude.ai Projects
 
-1. Open [SKILL.md](https://github.com/pavi-rajes/neuro-skills/blob/main/nwb-s3-browser/SKILL.md) and copy its contents
+1. Open [SKILL.md](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/nwb-s3-browser/SKILL.md) and copy its contents
 2. Go to your Project → **Project Knowledge** → **Add content** and paste
 
 Active for all conversations in that project.
@@ -101,14 +101,14 @@ Cursor reads agent rules from `.cursor/rules/*.mdc` files. The SKILL.md frontmat
 
 ```bash
 mkdir -p .cursor/rules
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/nwb-s3-browser/SKILL.md -o .cursor/rules/nwb-s3-browser.mdc
+curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md -o .cursor/rules/nwb-s3-browser.mdc
 ```
 
 **Global** (active in every Cursor project):
 
 ```bash
 mkdir -p ~/.cursor/rules
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/nwb-s3-browser/SKILL.md -o ~/.cursor/rules/nwb-s3-browser.mdc
+curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md -o ~/.cursor/rules/nwb-s3-browser.mdc
 ```
 
 The `description` in the frontmatter tells the Cursor agent when to activate the skill (e.g. when you mention an `s3://` path with `.nwb` files).
@@ -121,7 +121,7 @@ The `description` in the frontmatter tells the Cursor agent when to activate the
 
 ```bash
 mkdir -p .github
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/nwb-s3-browser/SKILL.md -o .github/copilot-instructions.md
+curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md -o .github/copilot-instructions.md
 ```
 
 Copilot Chat automatically includes `.github/copilot-instructions.md` for all requests in the workspace.
@@ -130,4 +130,4 @@ Copilot Chat automatically includes `.github/copilot-instructions.md` for all re
 
 1. Open VS Code Settings (`Cmd+,`) and search for `copilot instructions`
 2. Under **GitHub Copilot › Chat: Code Generation Instructions**, click **Add Item**
-3. Paste the contents of [SKILL.md](https://github.com/pavi-rajes/neuro-skills/blob/main/nwb-s3-browser/SKILL.md)
+3. Paste the contents of [SKILL.md](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/nwb-s3-browser/SKILL.md)

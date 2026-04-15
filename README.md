@@ -58,14 +58,9 @@ Once deployed, try asking your agent:
 - `"Find sessions in s3://my-bucket/nwb/ with enough CA1 neurons for decoding (>30 good units)"`
 - `"Show me high-firing-rate units in motor cortex with presence_ratio > 0.95 in s3://my-bucket/nwb/"`
 
-**Epoch and task structure:**
-- `"Which sessions in s3://my-bucket/nwb/ have an optotagging epoch?"`
-- `"Find sessions with a visual context block in s3://my-bucket/nwb/"`
-- `"How many sessions in s3://my-bucket/nwb/ include auditory trials?"`
-
 **Allen Dynamic Routing specific:**
 - `"Summarize the dataset at s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/"`
-- `"How many sessions in s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/ have both visual and auditory context blocks?"`
+- `"How many sessions have both visual context block as the first block?"`
 - `"Find sessions suitable for VISp↔MOs communication subspace analysis in s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/"`
 
 ---

@@ -10,6 +10,8 @@ Agent skills for neuroscience data workflows. Drop these into your AI coding ass
 
 Browse and query NWB (Neurodata Without Borders) datasets stored on public or private S3 buckets — without downloading files. Uses `lazynwb` + `polars` for fast, selective multi-file queries over S3.
 
+**Default bucket:** `s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/` — used automatically when no S3 path is specified. To change it, update the `description` field in `SKILL.md` before deploying.
+
 **Capabilities:**
 - List bucket contents: file counts, sizes, subjects, date ranges
 - Filter sessions by subject, date, or session count from filenames alone (no file I/O)
@@ -46,25 +48,25 @@ Once deployed, try asking your agent:
 - `"List sessions recorded in October 2024"`
 
 **Brain region queries:**
-- `"Which sessions have recordings in visual cortex?"`
+- `"Which sessions in s3://my-bucket/nwb/ have recordings in visual cortex?"`
 - `"Find all NWB files with hippocampus recordings at s3://my-bucket/nwb/"`
-- `"Sessions that recorded both VISp and CA1 simultaneously"`
-- `"What brain regions are covered across the dataset?"`
+- `"Which sessions in s3://my-bucket/nwb/ recorded both VISp and CA1 simultaneously?"`
+- `"What brain regions are covered across s3://my-bucket/nwb/?"`
 
 **Unit quality and counts:**
-- `"Which sessions have at least 50 good units in VISp?"`
-- `"Find sessions with enough CA1 neurons for decoding (>30 good units)"`
-- `"Show me high-firing-rate units in motor cortex with presence_ratio > 0.95"`
+- `"Which sessions in s3://my-bucket/nwb/ have at least 50 good units in VISp?"`
+- `"Find sessions in s3://my-bucket/nwb/ with enough CA1 neurons for decoding (>30 good units)"`
+- `"Show me high-firing-rate units in motor cortex with presence_ratio > 0.95 in s3://my-bucket/nwb/"`
 
 **Epoch and task structure:**
-- `"Which sessions have an optotagging epoch?"`
-- `"Find sessions with a visual context block"`
-- `"How many sessions include auditory trials?"`
+- `"Which sessions in s3://my-bucket/nwb/ have an optotagging epoch?"`
+- `"Find sessions with a visual context block in s3://my-bucket/nwb/"`
+- `"How many sessions in s3://my-bucket/nwb/ include auditory trials?"`
 
 **Allen Dynamic Routing specific:**
-- `"Summarize the Allen Dynamic Routing dataset"`
-- `"How many sessions have both visual and auditory context blocks?"`
-- `"Find sessions suitable for VISp↔MOs communication subspace analysis"`
+- `"Summarize the dataset at s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/"`
+- `"How many sessions in s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/ have both visual and auditory context blocks?"`
+- `"Find sessions suitable for VISp↔MOs communication subspace analysis in s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/"`
 
 ---
 

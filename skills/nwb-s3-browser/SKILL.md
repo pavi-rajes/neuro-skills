@@ -6,6 +6,8 @@ description: >
   which subjects, file sizes, or wants to query NWB content (brain regions, unit counts, quality
   metrics, trial structure). Also trigger on phrases like "tell me about the files in s3://...",
   "what sessions are in this bucket", "explore this NWB dataset", "find recordings with VISp".
+  If no S3 path is provided but the question is about NWB sessions, subjects, brain regions,
+  units, or epochs, use the default bucket: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/
 ---
 
 # NWB S3 Browser

@@ -35,7 +35,17 @@ h5py
 
 ## Example Queries
 
-Once deployed, try asking your agent:
+Once deployed, try asking your agent. You can tell it your bucket once per session and skip the path in follow-up questions:
+
+```
+"Remember s3://my-bucket/nwb/ as my default dataset"
+"Which subjects have at least 4 sessions?"
+"Which sessions have an optotagging epoch?"
+"Find sessions with VISp and CA1 co-recorded"
+```
+
+Or include the path explicitly each time:
+
 
 **Bucket exploration:**
 - `"What's in s3://my-bucket/data/ ?"`

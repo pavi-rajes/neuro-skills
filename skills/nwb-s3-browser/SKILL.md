@@ -120,13 +120,39 @@ Everything in this step reads NWB file contents over S3. Always try the fastest 
 
 ### Setup
 
+> **Anonymous access:** Set `anon=True` in the lazynwb config **before** any `scan_nwb` call. Without it, lazy table loading fails with "Failed to open as HDF5 or Zarr" on every file.
+
 ```python
 import lazynwb
 import polars as pl
 from upath import UPath
 
+lazynwb.config.use_obstore = False
+lazynwb.config.fsspec_storage_options = {"anon": True}  # must be set before scan_nwb
+
 nwb_paths = list(UPath("s3://bucket/prefix/").glob("**/*.nwb"))
 ```
+
+> **Private buckets:** omit `anon: True` — boto3/fsspec will pick up `~/.aws/` credentials automatically.
+
+### Brain region column location
+
+**Prefer scanning `electrodes` for region-based selection** — it is the most reliable source across datasets, faster than `units`, and works even when `location` is absent from the units table:
+
+```python
+lf = lazynwb.scan_nwb(nwb_paths, "electrodes", ignore_errors=True)
+sessions_with_region = (
+    lf
+    .select("_nwb_path", "location")
+    .filter(pl.col("location").str.starts_with("VISp"))
+    .select("_nwb_path").unique()
+    .collect()
+)
+```
+
+**Which table answers which question:**
+- `electrodes` — "what brain structure did each recording site pass through?" (per-channel, anatomical trajectory)
+- `units` — "what structure is each neuron assigned to?" (per-unit, spike-sorted assignment); `location` may or may not be present depending on the dataset version — always verify on one file first
 
 ### Region name normalization
 

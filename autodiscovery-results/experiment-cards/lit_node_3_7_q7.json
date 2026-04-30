@@ -1,0 +1,2296 @@
+{
+  "query": "Cross-region noise correlations as a measure of inter-areal communication and functional connectivity in electrophysiology",
+  "results": [
+    {
+      "corpusId": 92107884,
+      "title": "Task-evoked activity quenches neural correlations and variability across cortical areas",
+      "abstract": "Many large-scale functional connectivity studies have emphasized the importance of communication through increased inter-region correlations during task states. In contrast, local circuit studies have demonstrated that task states primarily reduce correlations among pairs of neurons, likely enhancing their information coding by suppressing shared spontaneous activity. Here we sought to adjudicate between these conflicting perspectives, assessing whether co-active brain regions during task states tend to increase or decrease their correlations. We found that variability and correlations decrease across a variety of cortical regions in two highly distinct data sets: non-human primate spiking data and human functional magnetic resonance imaging data. Moreover, this observed variability and correlation reduction was accompanied by an overall increase in dimensionality (reflecting less information redundancy) during task states, suggesting that decreased correlations increased information coding capacity. We further found in both spiking and neural mass computational models that task-evoked activity increased the stability around a stable attractor, globally quenching neural variability and correlations. Together, our results provide an integrative mechanistic account that encompasses measures of large-scale neural activity, variability, and correlations during resting and task states.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Takuya Ito",
+          "id": ""
+        },
+        {
+          "name": "S. Brincat",
+          "id": ""
+        },
+        {
+          "name": "M. Siegel",
+          "id": ""
+        },
+        {
+          "name": "R. Mill",
+          "id": ""
+        },
+        {
+          "name": "Biyu J. He",
+          "id": ""
+        },
+        {
+          "name": "E. Miller",
+          "id": ""
+        },
+        {
+          "name": "H. Rotstein",
+          "id": ""
+        },
+        {
+          "name": "Michael W. Cole",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/32745096",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9566745304107653,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 6085896,
+      "title": "Network dynamics of human face perception",
+      "abstract": "Prevailing theories suggests that cortical regions responsible for face perception operate in a serial, feed-forward fashion. Here, we utilize invasive human electrophysiology to evaluate serial models of face-processing via measurements of cortical activation, functional connectivity, and cortico-cortical evoked potentials. We find that task-dependent changes in functional connectivity between face-selective regions in the inferior occipital (f-IOG) and fusiform gyrus (f-FG) are bidirectional, not feed-forward, and emerge following feed-forward input from early visual cortex (EVC) to both of these regions. Cortico-cortical evoked potentials similarly reveal independent signal propagations between EVC and both f-IOG and f-FG. These findings are incompatible with serial models, and support a parallel, distributed network underpinning face perception in humans.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "C. Kadipasaoglu",
+          "id": ""
+        },
+        {
+          "name": "Christopher R. Conner",
+          "id": ""
+        },
+        {
+          "name": "Vatche G. Baboyan",
+          "id": ""
+        },
+        {
+          "name": "Matthew J. Rollo",
+          "id": ""
+        },
+        {
+          "name": "Thomas A. Pieters",
+          "id": ""
+        },
+        {
+          "name": "N. Tandon",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS ONE",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/c4ef/20ca34b24ff37bd7b15e5e808d56a2c448ef.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9436375080247672,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 15796164,
+      "title": "Spontaneous Neural Dynamics and Multi-scale Network Organization",
+      "abstract": "Spontaneous neural activity has historically been viewed as task-irrelevant noise that should be controlled for via experimental design, and removed through data analysis. However, electrophysiology and functional MRI studies of spontaneous activity patterns, which have greatly increased in number over the past decade, have revealed a close correspondence between these intrinsic patterns and the structural network architecture of functional brain circuits. In particular, by analyzing the large-scale covariation of spontaneous hemodynamics, researchers are able to reliably identify functional networks in the human brain. Subsequent work has sought to identify the corresponding neural signatures via electrophysiological measurements, as this would elucidate the neural origin of spontaneous hemodynamics and would reveal the temporal dynamics of these processes across slower and faster timescales. Here we survey common approaches to quantifying spontaneous neural activity, reviewing their empirical success, and their correspondence with the findings of neuroimaging. We emphasize invasive electrophysiological measurements, which are amenable to amplitude- and phase-based analyses, and which can report variations in connectivity with high spatiotemporal precision. After summarizing key findings from the human brain, we survey work in animal models that display similar multi-scale properties. We highlight that, across many spatiotemporal scales, the covariance structure of spontaneous neural activity reflects structural properties of neural networks and dynamically tracks their functional repertoire.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "B. Foster",
+          "id": ""
+        },
+        {
+          "name": "Biyu J. He",
+          "id": ""
+        },
+        {
+          "name": "C. Honey",
+          "id": ""
+        },
+        {
+          "name": "K. Jerbi",
+          "id": ""
+        },
+        {
+          "name": "A. Maier",
+          "id": ""
+        },
+        {
+          "name": "Y. Saalmann",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Systems Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26903823",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9393320608502059,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 57757053,
+      "title": "Understanding Sensory Information Processing Through Simultaneous Multi-area Population Recordings",
+      "abstract": "The goal of sensory neuroscience is to understand how the brain creates its myriad of representations of the world, and uses these representations to produce perception and behavior. Circuits of neurons in spatially segregated regions of brain tissue have distinct functional specializations, and these regions are connected to form a functional processing hierarchy. Advances in technology for recording neuronal activity from multiple sites in multiple cortical areas mean that we are now able to collect data that reflects how information is transformed within and between connected members of this hierarchy. This advance is an important step in understanding the brain because, after the sensory organs have transduced a physical signal, every processing stage takes the activity of other neurons as its input, not measurements of the physical world. However, as we explore the potential of studying how populations of neurons in multiple areas respond in concert, we must also expand both the analytical tools that we use to make sense of these data and the scope of the theories that we attempt to define. In this article, we present an overview of some of the most promising analytical approaches for making inferences from population recordings in multiple brain areas, such as dimensionality reduction and measuring changes in correlated variability, and examine how they may be used to address longstanding questions in sensory neuroscience.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "E. Zavitz",
+          "id": ""
+        },
+        {
+          "name": "N. Price",
+          "id": ""
+        }
+      ],
+      "venue": "Front. Neural Circuits",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/30687020",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9096614164941128,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253968032,
+      "title": "The impact of functional correlations on task information coding",
+      "abstract": "State-dependent neural correlations can be understood from a neural coding framework. Noise correlations \u2013 trial-to-trial or moment-to-moment co-variability \u2013 can be interpreted only if the underlying signal correlation \u2013 similarity of task selectivity between pairs of neural units \u2013 is known. Despite many investigations in local spiking circuits, it remains unclear how this coding framework applies to large-scale brain networks. Here we investigated relationships between large-scale noise correlations and signal correlations in a multi-task human fMRI dataset. We found that task-state noise correlation changes (e.g., functional connectivity) did not typically change in the same direction as their underlying signal correlation (e.g., tuning similarity of two regions). This suggests that 1) trial-by-trial variability typically decreases between similarly tuned regions, and 2) stimulus-driven activity does not linearly superimpose atop the network\u2019s background activity. Crucially, noise correlations that changed in the opposite direction as their signal correlation (i.e., anti-aligned correlations) improved information coding of these brain regions. In contrast, noise correlations that changed in the same direction (aligned noise correlations) as their signal correlation did not. Interestingly, these aligned noise correlations were primarily correlation increases, suggesting that most functional correlation increases across fMRI networks actually degrade information coding. These findings illustrate that state-dependent noise correlations shape information coding of functional brain networks, with interpretation of correlation changes requiring knowledge of underlying signal correlations.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Takuya Ito",
+          "id": ""
+        },
+        {
+          "name": "J. Murray",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1162/netn_a_00402",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7835421518327013,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 220650833,
+      "title": "Lack of redundancy between electrophysiological measures of long-range neuronal communication",
+      "abstract": "Background Communication between brain areas has been implicated in a wide range of cognitive and emotive functions and is impaired in numerous mental disorders. In rodent models, various metrics have been used to quantify inter-regional neuronal communication. However, in individual studies, typically, only very few measures of coupling are reported and, hence, redundancy across such indicators is implicitly assumed. Results In order to test this assumption, we here comparatively assessed a broad range of directional and non-directional metrics like coherence, Weighted Phase Lag Index (wPLI), phase-locking value (PLV), pairwise phase consistency (PPC), parametric and non-parametric Granger causality (GC), partial directed coherence (PDC), directed transfer function (DTF), spike-phase coupling (SPC), cross-regional phase-amplitude coupling, amplitude cross-correlations and others. We applied these analyses to simultaneous field recordings from the prefrontal cortex and the ventral and dorsal hippocampus in the schizophrenia-related Gria1- knockout mouse model which displays a robust novelty-induced hyperconnectivity phenotype. Using the detectability of coupling deficits in Gria1 \u2212/\u2212 mice and bivariate correlations within animals as criteria, we found that across such measures, there is a considerable lack of functional redundancy. Except for three pairwise correlations\u2014PLV with PPC, PDC with DTF and parametric with non-parametric Granger causality\u2014almost none of the analysed metrics consistently co-varied with any of the other measures across the three connections and two genotypes analysed. Notable exceptions to this were the correlation of coherence with PPC and PLV that was found in most cases, and partial correspondence between these three measures and Granger causality. Perhaps most surprisingly, partial directed coherence and Granger causality\u2014sometimes regarded as equivalent measures of directed influence\u2014diverged profoundly. Also, amplitude cross-correlation, spike-phase coupling and theta-gamma phase-amplitude coupling each yielded distinct results compared to all other metrics. Conclusions Our analysis highlights the difficulty of quantifying real correlates of inter-regional information transfer, underscores the need to assess multiple coupling measures and provides some guidelines which metrics to choose for a comprehensive, yet non-redundant characterization of functional connectivity.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Daniel Strahnen",
+          "id": ""
+        },
+        {
+          "name": "Sampath K. T. Kapanaiah",
+          "id": ""
+        },
+        {
+          "name": "A. Bygrave",
+          "id": ""
+        },
+        {
+          "name": "D. K\u00e4tzel",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1186/s12915-021-00950-4",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.769621973430465,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 259946448,
+      "title": "Bilateral widefield calcium imaging reveals circuit asymmetries and lateralized functional activation of the mouse auditory cortex",
+      "abstract": "Significance Coordinated functioning of the two cortical hemispheres is crucial for perception, and neurodevelopmental disorders are associated with altered functional connectivity. The human auditory cortex shows functional lateralization, but the origin of lateralization is unknown. We developed a widefield microscope enabling bilateral calcium imaging on large areas of both temporal lobes in mice. Our results show that while auditory cortex topography is highly symmetrical, higher-order area A2 shows functional lateralization to high-frequency tones and adult vocalizations. Functional circuit analysis shows that A2 has lower and asymmetric hemispheric functional connections, which might underlie the functional lateralization. Lack of sound experiences prevents the development of asymmetric connections. Therefore, altered interhemispheric connections should be considered when treating developmental sensory disorders such as congenital deafness.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Georgia Calhoun",
+          "id": ""
+        },
+        {
+          "name": "Chih-Ting Chen",
+          "id": ""
+        },
+        {
+          "name": "P. Kanold",
+          "id": ""
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/ec04/d41006ac541f007669aff31bed6ee1517557.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7437628377360452,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 285103249,
+      "title": "State-Dependent Dissociation of Shared Input and Directed Information Flow in the Visual Cortex",
+      "abstract": "Understanding how brain state and sensory input shape inter-laminar communication is essential for interpreting cortical population dynamics. Using laminar recordings in macaque V1, we apply reduced-rank regression to quantify low-dimensional predictive subspaces linking Input and Superficial layers. We find that both visual stimulation and internal state (eyes open vs. closed) modulate the structure and efficacy of these subspaces, but through distinct mechanisms. Visual input induces a directional, feedforward pattern from input to superficial layers, while wakefulness-related modulation enhances coordination more symmetrically. Delay analysis and network simulations confirm that structured, layer-specific inputs produce directional prediction, whereas global fluctuations yield undirected co-activation. Importantly, differential structure across layers predicts the emergence of communication asymmetry. These findings dissociate communication from shared modulation, providing a principled framework for interpreting inter-population correlations. Our results generalize to broader cortical circuits, offering insights into when population coupling reflects genuine information flow versus global state dynamics.",
+      "year": 2026,
+      "authors": [
+        {
+          "name": "Yuxuan Xue",
+          "id": ""
+        },
+        {
+          "name": "Mitchell P. Morton",
+          "id": ""
+        },
+        {
+          "name": "AS Nandy",
+          "id": ""
+        },
+        {
+          "name": "Monika P. Jadi",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/41648268",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7320883790029762,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 231605541,
+      "title": "Functional and directed connectivity of the cortico-limbic network in mice in vivo",
+      "abstract": "Higher cognitive processes and emotional regulation depend on densely interconnected telencephalic and limbic areas. Central structures of this cortico-limbic network are ventral hippocampus (vHC), medial prefrontal cortex (PFC), basolateral amygdala (BLA) and nucleus accumbens (NAC). Human and animal studies have revealed both anatomical and functional alterations in specific connections of this network in several psychiatric disorders. However, it is often not clear whether functional alterations within these densely interconnected brain areas are caused by modifications in the direct pathways, or alternatively through indirect interactions. We performed multi-site extracellular recordings of spontaneous activity in three different brain regions to study the functional connectivity in the BLA\u2013NAC\u2013PFC\u2013vHC network of the lightly anesthetized mouse in vivo. We show that BLA, NAC, PFC and vHC are functionally connected in distinct frequency bands and determined the influence of a third brain region on this connectivity. In addition to describing mutual synchronicity, we determined the strength of functional connectivity for each region in the BLA\u2013NAC\u2013PFC\u2013vHC network. We find a region-specificity in the strength of feedforward and feedback connections for each region in its interaction with other areas in the network. Our results provide insights into functional and directed connectivity in the cortico-limbic network of adult wild-type mice, which may be helpful to further elucidate the pathophysiological changes of this network in psychiatric disorders and to develop target-specific therapeutic interventions.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Zeinab Khastkhodaei",
+          "id": ""
+        },
+        {
+          "name": "M. Muthuraman",
+          "id": ""
+        },
+        {
+          "name": "Jenq-Wei Yang",
+          "id": ""
+        },
+        {
+          "name": "Sergiu Groppa",
+          "id": ""
+        },
+        {
+          "name": "Heiko J. Luhmann",
+          "id": ""
+        }
+      ],
+      "venue": "Brain Structure and Function",
+      "journal": null,
+      "url": "https://doi.org/10.1007/s00429-020-02202-7",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7252214872382355,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 257235889,
+      "title": "Coherence fails to reliably capture inter-areal interactions in bidirectional neural systems with transmission delays",
+      "abstract": "Accurately measuring and quantifying the underlying interactions between brain areas is crucial for understanding the flow of information in the brain. Of particular interest in the field of electrophysiology is the analysis and characterization of the spectral properties of these interactions. Coherence and Granger-Geweke Causality are commonly used and well-established methods for quantifying inter-areal interactions, and are thought to reflect the strength of inter-areal interactions. Here we show that the application of both methods to bidirectional systems with transmission delays is problematic, especially for coherence. Under certain circumstances, coherence can be completely abolished despite there being a true underlying interaction. This problem occurs due to interference caused in the computation of coherence, and is an artifact of the method. We motivate an understanding of the problem through computational modelling and numerical simulations. In addition, we have developed two methods that can recover the true bidirectional interactions in the presence of transmission delays.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "J. R. Dowdall",
+          "id": ""
+        },
+        {
+          "name": "M. Vinck",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/36863546",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6782225442864562,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 255828381,
+      "title": "Lack of redundancy between electrophysiological measures of long-range neuronal communication",
+      "abstract": "Communication between brain areas has been implicated in a wide range of cognitive and emotive functions and is impaired in numerous mental disorders. In rodent models, various metrics have been used to quantify inter-regional neuronal communication. However, in individual studies, typically, only very few measures of coupling are reported and, hence, redundancy across such indicators is implicitly assumed. In order to test this assumption, we here comparatively assessed a broad range of directional and non-directional metrics like coherence, Weighted Phase Lag Index (wPLI), phase-locking value (PLV), pairwise phase consistency (PPC), parametric and non-parametric Granger causality (GC), partial directed coherence (PDC), directed transfer function (DTF), spike-phase coupling (SPC), cross-regional phase-amplitude coupling, amplitude cross-correlations and others. We applied these analyses to simultaneous field recordings from the prefrontal cortex and the ventral and dorsal hippocampus in the schizophrenia-related Gria1-knockout mouse model which displays a robust novelty-induced hyperconnectivity phenotype. Using the detectability of coupling deficits in Gria1\u2212/\u2212 mice and bivariate correlations within animals as criteria, we found that across such measures, there is a considerable lack of functional redundancy. Except for three pairwise correlations\u2014PLV with PPC, PDC with DTF and parametric with non-parametric Granger causality\u2014almost none of the analysed metrics consistently co-varied with any of the other measures across the three connections and two genotypes analysed. Notable exceptions to this were the correlation of coherence with PPC and PLV that was found in most cases, and partial correspondence between these three measures and Granger causality. Perhaps most surprisingly, partial directed coherence and Granger causality\u2014sometimes regarded as equivalent measures of directed influence\u2014diverged profoundly. Also, amplitude cross-correlation, spike-phase coupling and theta-gamma phase-amplitude coupling each yielded distinct results compared to all other metrics. Our analysis highlights the difficulty of quantifying real correlates of inter-regional information transfer, underscores the need to assess multiple coupling measures and provides some guidelines which metrics to choose for a comprehensive, yet non-redundant characterization of functional connectivity.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Daniel Strahnen",
+          "id": ""
+        },
+        {
+          "name": "Sampath K. T. Kapanaiah",
+          "id": ""
+        },
+        {
+          "name": "A. Bygrave",
+          "id": ""
+        },
+        {
+          "name": "D. K\u00e4tzel",
+          "id": ""
+        }
+      ],
+      "venue": "BMC Biology",
+      "journal": null,
+      "url": "https://doi.org/10.1186/s12915-021-00950-4",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6731007227188666,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 282310369,
+      "title": "Evaluating oscillatory mechanisms underlying flexible neural communication in the human brain",
+      "abstract": "How the brain orchestrates the flow of information between its multiple functional units flexibly, quickly, and accurately, remains a fundamental question in neuroscience. Multiple theories identify neural oscillations as a likely basis for this process. However, a lack of empirical validation of proposed theories, particularly at the whole-brain scale, has hampered consensus on oscillatory principles governing neural communication, limiting our understanding of a process central to perception and cognition and its integration into experiments and clinical applications. Here, we empirically validate previously proposed neural-oscillatory communication mechanisms in the human brain \u2013 specifically those involving power and interareal phase coherence \u2013 at the whole-brain scale. We do this by estimating the dependence of inferred communication on oscillatory measures that have been theorised to facilitate communication, in source-localised resting-state magnetoencephalography (MEG) recordings. We find that power and phase coherence in the alpha, beta, and high-gamma bands track communication better than others. Crucially, the relation between communication and oscillatory measures varied across regions, indicating spatial heterogeneity in routing mechanisms. Notably, power and coherence-based principles tracked communication patterns of unimodal regions better than those of transmodal regions. In sum, these findings suggest that the human brain implements regionally specific communication mechanisms with complex neural-oscillatory dependence. Significance statement Flexible and dynamic routing of information between neural elements is vital for human brain function. Despite its importance, the mechanisms underlying flexible communication in the brain are not fully understood. Several lines of evidence suggest that neural oscillations might mediate flexible communication, but whether such mechanisms operate at whole-brain scales remains uncertain. Here, we investigate the oscillatory underpinnings of communication by assessing how well observed communication patterns from magnetoencephalography data align with the predictions of established theories. Our findings suggest that the brain follows complex region-specific routing principles to realise flexible communication. Knowledge of these principles can develop our fundamental understanding of functions like perception and cognition, refine models of interareal interactions, and help develop more effective stimulation-based clinical interventions.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "Varun Madan Mohan",
+          "id": ""
+        },
+        {
+          "name": "Thomas F. Varley",
+          "id": ""
+        },
+        {
+          "name": "Anthony M. Harris",
+          "id": ""
+        },
+        {
+          "name": "Robin F. H. Cash",
+          "id": ""
+        },
+        {
+          "name": "Caio Seguin",
+          "id": ""
+        },
+        {
+          "name": "Andrew Zalesky",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/41279923",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6558123135750703,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 275173524,
+      "title": "Context-Dependent PSIICOS: A Novel Framework for Functional Connectivity Estimation Accounting for Task-Related Power Leakage",
+      "abstract": "Functional connectivity (FC) analysis using non-invasive neuroimaging methods, such as MEG and EEG, is often confounded by artifacts from spatial leakage and task-related power modulations. To address these limitations, we present Context-Dependent PSIICOS (CD-PSIICOS), a novel framework that improves the estimation of FC by incorporating task-specific cortical power distributions into the projection operator applied to the vectorized sensor-space cross-spectrum. Unlike the original PSIICOS (Phase Shift Invariant Imaging of Coherent Sources) approach, designed to suppress spatial leakage from all the sources, CD-PSIICOS dynamically adjusts the projection based on the active source distribution, enabling more accurate suppression of spatial leakage while preserving true zero-phase interactions. We validated CD-PSIICOS using realistic simulations and a multi-subject MEG dataset. The results demonstrate that CD-PSIICOS outperforms the original PSIICOS in suppressing artifacts at the lower projection ranks, maintaining robust detection of functional networks across theta and gamma frequency bands. By requiring lower projection ranks for optimal performance, CD-PSIICOS facilitates the reconstruction of physiologically relevant networks with improved sensitivity and stability.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "Daria Kleeva",
+          "id": ""
+        },
+        {
+          "name": "A. Ossadtchi",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/40447207",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6449419739625702,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 208600153,
+      "title": "Edge-centric functional network representations of human cerebral cortex reveal overlapping system-level architecture",
+      "abstract": "Network neuroscience has relied on a node-centric network model in which cells, populations and regions are linked to one another via anatomical or functional connections. This model cannot account for interactions of edges with one another. In this study, we developed an edge-centric network model that generates constructs \u2018edge time series\u2019 and \u2018edge functional connectivity\u2019 (eFC). Using network analysis, we show that, at rest, eFC is consistent across datasets and reproducible within the same individual over multiple scan sessions. We demonstrate that clustering eFC yields communities of edges that naturally divide the brain into overlapping clusters, with regions in sensorimotor and attentional networks exhibiting the greatest levels of overlap. We show that eFC is systematically modulated by variation in sensory input. In future work, the edge-centric approach could be useful for identifying novel biomarkers of disease, characterizing individual variation and mapping the architecture of highly resolved neural circuits. The authors present an edge-centric model of brain connectivity. Edge networks are stable across datasets, and their structure can be modulated by sensory input. When clustered, edge networks yield pervasively overlapping functional modules.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Joshua Faskowitz",
+          "id": ""
+        },
+        {
+          "name": "Farnaz Zamani Esfahlani",
+          "id": ""
+        },
+        {
+          "name": "Youngheun Jo",
+          "id": ""
+        },
+        {
+          "name": "O. Sporns",
+          "id": ""
+        },
+        {
+          "name": "Richard F. Betzel",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41593-020-00719-y",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6332363306479281,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 221096713,
+      "title": "Cortical silencing results in paradoxical fMRI overconnectivity",
+      "abstract": "fMRI-based measurements of functional connectivity are commonly interpreted as an index of anatomical coupling and direct interareal communication. However, causal testing of this hypothesis has been lacking. Here we combine neural silencing, resting-state fMRI and in vivo electrophysiology to causally probe how inactivation of a cortical region affects brain-wide functional coupling. We find that chronic silencing of the prefrontal cortex (PFC) via overexpression of a potassium channel paradoxically increases rsfMRI connectivity between the silenced area and its thalamo-cortical terminals. Acute chemogenetic silencing of the PFC reproduces analogous patterns of overconnectivity, an effect associated with over-synchronous fMRI coupling between polymodal thalamic regions and widespread cortical districts. Notably, multielectrode recordings revealed that chemogenetic inactivation of the PFC attenuates gamma activity and increases delta power in the silenced area, resulting in robustly increased delta band coherence between functionally overconnected regions. The observation of enhanced rsfMRI coupling between chemogenetically silenced areas challenges prevailing interpretations of functional connectivity as a monotonic index of direct axonal communication, and points at a critical contribution of slow rhythm generators to the establishment of brain-wide functional coupling.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Carola Canella",
+          "id": ""
+        },
+        {
+          "name": "Federico Rocchi",
+          "id": ""
+        },
+        {
+          "name": "Shahryar Noei",
+          "id": ""
+        },
+        {
+          "name": "Daniel Gutierrez-Barragan",
+          "id": ""
+        },
+        {
+          "name": "L. Coletta",
+          "id": ""
+        },
+        {
+          "name": "A. Galbusera",
+          "id": ""
+        },
+        {
+          "name": "S. Vassanelli",
+          "id": ""
+        },
+        {
+          "name": "M. Pasqualetti",
+          "id": ""
+        },
+        {
+          "name": "Giuliano Iurilli",
+          "id": ""
+        },
+        {
+          "name": "S. Panzeri",
+          "id": ""
+        },
+        {
+          "name": "A. Gozzi",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1101/2020.08.05.237958",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6248867811534753,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 3762606,
+      "title": "Disambiguating brain functional connectivity",
+      "abstract": "Functional connectivity (FC) analyses of correlations of neural activity are used extensively in neuroimaging and electrophysiology to gain insights into neural interactions. However, correlation fails to distinguish sources as different as changes in neural signal amplitudes or noise levels. This ambiguity substantially diminishes the value of FC for inferring system properties and clinical states. Network modelling approaches may avoid ambiguities, but require specific assumptions. We present an enhancement to FC analysis with improved specificity of inferences, minimal assumptions and no reduction in flexibility. The Additive Signal Change (ASC) approach characterises FC changes into certain prevalent classes involving additions of signal. With FMRI data, the approach reveals a rich diversity of signal changes underlying measured changes in FC, bringing into question standard interpretations. The ASC method can also be used to disambiguate other measures of dependency, such as regression and coherence, providing a flexible tool for the analysis of neural data.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "E. Duff",
+          "id": ""
+        },
+        {
+          "name": "T. Makin",
+          "id": ""
+        },
+        {
+          "name": "Stephen M. Smith",
+          "id": ""
+        },
+        {
+          "name": "M. Woolrich",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1016/j.neuroimage.2018.01.053",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5753162475246153,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 25708661,
+      "title": "Inter-regional ECoG correlations predicted by communication dynamics, geometry, and correlated gene expression",
+      "abstract": "Electrocorticography (ECoG) provides direct measurements of synchronized postsynaptic potentials at the exposed cortical surface. Patterns of signal covariance across ECoG sensors have been associated with diverse cognitive functions and remain a critical marker of seizure onset, progression, and termination. Yet, a systems level understanding of these patterns (or networks) has remained elusive, in part due to variable electrode placement and sparse cortical coverage. Here, we address these challenges by constructing inter-regional ECoG networks from multi-subject recordings, demonstrate similarities between these networks and those constructed from blood-oxygen-level-dependent signal in functional magnetic resonance imaging, and predict network topology from anatomical connectivity, interregional distance, and correlated gene expression patterns. Our models accurately predict out-of-sample ECoG networks and perform well even when fit to data from individual subjects, suggesting shared organizing principles across persons. In addition, we identify a set of genes whose brain-wide co-expression is highly correlated with ECoG network organization. Using gene ontology analysis, we show that these same genes are enriched for membrane and ion channel maintenance and function, suggesting a molecular underpinning of ECoG connectivity. Our findings provide fundamental understanding of the factors that influence interregional ECoG networks, and open the possibility for predictive modeling of surgical outcomes in disease.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Richard F. Betzel",
+          "id": ""
+        },
+        {
+          "name": "J. Medaglia",
+          "id": ""
+        },
+        {
+          "name": "Ari E. Kahn",
+          "id": ""
+        },
+        {
+          "name": "Jonathan M. Soffer",
+          "id": ""
+        },
+        {
+          "name": "Daniel R. Schonhaut",
+          "id": ""
+        },
+        {
+          "name": "D. Bassett",
+          "id": ""
+        }
+      ],
+      "venue": null,
+      "journal": null,
+      "url": "https://arxiv.org/pdf/1706.06088.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5610175024429834,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 208021353,
+      "title": "Human cortical networking by probabilistic and frequency-specific coupling",
+      "abstract": "Large-scale cortical networking patterns have been established based on the correlation of slow fluctuations of resting fMRI signals. However, the electrophysiological mechanism of cortical networking remained to be elucidated. With large-scale human ECoG recording, we developed a novel approach for functional network parcellation on the basis of probabilistic co-activation of cortical sites in spatio-temporal microstates. The parcellated networks were verified by electrical cortical stimulation (ECS) and somatosensory evoked potentials recording, which showed significantly higher accuracy than the traditional long-term correlation method. This provides direct electrophysiological evidence supporting the dynamic nature of cortical networking. Further analysis revealed that the brain-wide connectivity is likely established on the coupling of ECoG power envelop over a common carrier frequency ranging from alpha to low-beta (8-32Hz). Surprisingly, the cortical networking pattern over this specific frequency was found to be consistent across various tasks, which resembles the resting networks. The high similarity between the above functional network parcellation and the fMRI resting network atlas in individuals also suggested the slow power-envelope coupling of band-limited neural oscillations as the electrophysiological basis of spontaneous BOLD signals. Collectively, our findings on direct human recording revealed a probabilistic and frequency specific coupling mechanism for large-scale cortical networking shared by task and resting brain.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Yuxiang Yan",
+          "id": ""
+        },
+        {
+          "name": "Tianyi Qian",
+          "id": ""
+        },
+        {
+          "name": "Xin Xu",
+          "id": ""
+        },
+        {
+          "name": "Hao Han",
+          "id": ""
+        },
+        {
+          "name": "Zhipei Ling",
+          "id": ""
+        },
+        {
+          "name": "Wenjing Zhou",
+          "id": ""
+        },
+        {
+          "name": "Hesheng Liu",
+          "id": ""
+        },
+        {
+          "name": "B. Hong",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/31740339",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5332186450136969,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1893012,
+      "title": "A Tutorial Review of Functional Connectivity Analysis Methods and Their Interpretational Pitfalls",
+      "abstract": "Oscillatory neuronal activity may provide a mechanism for dynamic network coordination. Rhythmic neuronal interactions can be quantified using multiple metrics, each with their own advantages and disadvantages. This tutorial will review and summarize current analysis methods used in the field of invasive and non-invasive electrophysiology to study the dynamic connections between neuronal populations. First, we review metrics for functional connectivity, including coherence, phase synchronization, phase-slope index, and Granger causality, with the specific aim to provide an intuition for how these metrics work, as well as their quantitative definition. Next, we highlight a number of interpretational caveats and common pitfalls that can arise when performing functional connectivity analysis, including the common reference problem, the signal to noise ratio problem, the volume conduction problem, the common input problem, and the sample size bias problem. These pitfalls will be illustrated by presenting a set of MATLAB-scripts, which can be executed by the reader to simulate each of these potential problems. We discuss how these issues can be addressed using current methods.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "A. Bastos",
+          "id": ""
+        },
+        {
+          "name": "J. Schoffelen",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Systems Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26778976",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.49267224477212923,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 244883160,
+      "title": "In vitro neurons learn and exhibit sentience when embodied in a simulated game-world",
+      "abstract": "Integrating neurons into digital systems to leverage their innate intelligence may enable performance infeasible with silicon alone, along with providing insight into the cellular origin of intelligence. We developed DishBrain, a system which exhibits natural intelligence by harnessing the inherent adaptive computation of neurons in a structured environment. In vitro neural networks from human or rodent origins, are integrated with in silico computing via high-density multielectrode array. Through electrophysiological stimulation and recording, cultures were embedded in a simulated game-world, mimicking the arcade game \u2018Pong\u2019. Applying a previously untestable theory of active inference via the Free Energy Principle, we found that learning was apparent within five minutes of real-time gameplay, not observed in control conditions. Further experiments demonstrate the importance of closed-loop structured feedback in eliciting learning over time. Cultures display the ability to self-organise in a goal-directed manner in response to sparse sensory information about the consequences of their actions.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Brett J. Kagan",
+          "id": ""
+        },
+        {
+          "name": "Andy Kitchen",
+          "id": ""
+        },
+        {
+          "name": "N. Tran",
+          "id": ""
+        },
+        {
+          "name": "Bradyn J. Parker",
+          "id": ""
+        },
+        {
+          "name": "Anjali Bhat",
+          "id": ""
+        },
+        {
+          "name": "Ben Rollo",
+          "id": ""
+        },
+        {
+          "name": "Adeel Razi",
+          "id": ""
+        },
+        {
+          "name": "Karl J. Friston",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/36228614",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.485345157772763,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 252762558,
+      "title": "CommsVAE: Learning the brain's macroscale communication dynamics using coupled sequential VAEs",
+      "abstract": "Communication within or between complex systems is commonplace in the natural sciences and fields such as graph neural networks. The brain is a perfect example of such a complex system, where communication between brain regions is constantly being orchestrated. To analyze communication, the brain is often split up into anatomical regions that each perform certain computations. These regions must interact and communicate with each other to perform tasks and support higher-level cognition. On a macroscale, these regions communicate through signal propagation along the cortex and along white matter tracts over longer distances. When and what types of signals are communicated over time is an unsolved problem and is often studied using either functional or structural data. In this paper, we propose a non-linear generative approach to communication from functional data. We address three issues with common connectivity approaches by explicitly modeling the directionality of communication, finding communication at each timestep, and encouraging sparsity. To evaluate our model, we simulate temporal data that has sparse communication between nodes embedded in it and show that our model can uncover the expected communication dynamics. Subsequently, we apply our model to temporal neural data from multiple tasks and show that our approach models communication that is more specific to each task. The specificity of our method means it can have an impact on the understanding of psychiatric disorders, which are believed to be related to highly specific communication between brain regions compared to controls. In sum, we propose a general model for dynamic communication learning on graphs, and show its applicability to a subfield of the natural sciences, with potential widespread scientific impact.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "E. Geenjaar",
+          "id": ""
+        },
+        {
+          "name": "N. Lewis",
+          "id": ""
+        },
+        {
+          "name": "A. Kashyap",
+          "id": ""
+        },
+        {
+          "name": "Robyn L. Miller",
+          "id": ""
+        },
+        {
+          "name": "V. Calhoun",
+          "id": ""
+        }
+      ],
+      "venue": "arXiv.org",
+      "journal": null,
+      "url": "https://arxiv.org/pdf/2210.03667.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.47739676137501164,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 12854169,
+      "title": "Predicting haemodynamic networks using electrophysiology: The role of non-linear and cross-frequency interactions",
+      "abstract": "Understanding the electrophysiological basis of resting state networks (RSNs) in the human brain is a critical step towards elucidating how inter-areal connectivity supports healthy brain function. In recent years, the relationship between RSNs (typically measured using haemodynamic signals) and electrophysiology has been explored using functional Magnetic Resonance Imaging (fMRI) and magnetoencephalography (MEG). Significant progress has been made, with similar spatial structure observable in both modalities. However, there is a pressing need to understand this relationship beyond simple visual similarity of RSN patterns. Here, we introduce a mathematical model to predict fMRI-based RSNs using MEG. Our unique model, based upon a multivariate Taylor series, incorporates both phase and amplitude based MEG connectivity metrics, as well as linear and non-linear interactions within and between neural oscillations measured in multiple frequency bands. We show that including non-linear interactions, multiple frequency bands and cross-frequency terms significantly improves fMRI network prediction. This shows that fMRI connectivity is not only the result of direct electrophysiological connections, but is also driven by the overlap of connectivity profiles between separate regions. Our results indicate that a complete understanding of the electrophysiological basis of RSNs goes beyond simple frequency-specific analysis, and further exploration of non-linear and cross-frequency interactions will shed new light on distributed network connectivity, and its perturbation in pathology.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "P. Tewarie",
+          "id": ""
+        },
+        {
+          "name": "M. Bright",
+          "id": ""
+        },
+        {
+          "name": "A. Hillebrand",
+          "id": ""
+        },
+        {
+          "name": "S. Robson",
+          "id": ""
+        },
+        {
+          "name": "Lauren E. Gascoyne",
+          "id": ""
+        },
+        {
+          "name": "P. Morris",
+          "id": ""
+        },
+        {
+          "name": "J. Meier",
+          "id": ""
+        },
+        {
+          "name": "P. Mieghem",
+          "id": ""
+        },
+        {
+          "name": "M. Brookes",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26827811",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4754315365659223,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 11714171,
+      "title": "Integrating cross-frequency and within band functional networks in resting-state MEG: A multi-layer network approach",
+      "abstract": "Neuronal oscillations exist across a broad frequency spectrum, and are thought to provide a mechanism of interaction between spatially separated brain regions. Since ongoing mental activity necessitates the simultaneous formation of multiple networks, it seems likely that the brain employs interactions within multiple frequency bands, as well as cross-frequency coupling, to support such networks. Here, we propose a multi-layer network framework that elucidates this pan-spectral picture of network interactions. Our network consists of multiple layers (frequency-band specific networks) that influence each other via inter-layer (cross-frequency) coupling. Applying this model to MEG resting-state data and using envelope correlations as connectivity metric, we demonstrate strong dependency between within layer structure and inter-layer coupling, indicating that networks obtained in different frequency bands do not act as independent entities. More specifically, our results suggest that frequency band specific networks are characterised by a common structure seen across all layers, superimposed by layer specific connectivity, and inter-layer coupling is most strongly associated with this common mode. Finally, using a biophysical model, we demonstrate that there are two regimes of multi-layer network behaviour; one in which different layers are independent and a second in which they operate highly dependent. Results suggest that the healthy human brain operates at the transition point between these regimes, allowing for integration and segregation between layers. Overall, our observations show that a complete picture of global brain network connectivity requires integration of connectivity patterns across the full frequency spectrum.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "P. Tewarie",
+          "id": ""
+        },
+        {
+          "name": "A. Hillebrand",
+          "id": ""
+        },
+        {
+          "name": "B. Dijk",
+          "id": ""
+        },
+        {
+          "name": "C. Stam",
+          "id": ""
+        },
+        {
+          "name": "G. O\u2019Neill",
+          "id": ""
+        },
+        {
+          "name": "P. Mieghem",
+          "id": ""
+        },
+        {
+          "name": "J. Meier",
+          "id": ""
+        },
+        {
+          "name": "M. Woolrich",
+          "id": ""
+        },
+        {
+          "name": "P. Morris",
+          "id": ""
+        },
+        {
+          "name": "M. Brookes",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/27498371",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4731199651880522,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273428816,
+      "title": "Dynamic patterns of functional connectivity in the human brain underlie individual memory formation",
+      "abstract": "Remembering our everyday experiences involves dynamically coordinating information distributed across different brain regions. Investigating how momentary fluctuations in connectivity in the brain are relevant for episodic memory formation, however, has been challenging. Here we leverage the high temporal precision of intracranial EEG to examine sub-second changes in functional connectivity in the human brain as 20 participants perform a paired associates verbal memory task. We first identify potential functional connections by selecting electrode pairs across the neocortex that exhibit strong correlations with a consistent time delay across random recording segments. We then find that successful memory formation during the task involves dynamic sub-second changes in functional connectivity that are specific to each word pair. These patterns of dynamic changes are reinstated when participants successfully retrieve the word pairs from memory. Therefore, our data provide direct evidence that specific patterns of dynamic changes in human brain connectivity are associated with successful memory formation. Using direct brain recordings, Phan et al. find that fast sub-second changes in connectivity between brain regions are involved in forming individual memories and are recapitulated when retrieving the same memory.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "A. Phan",
+          "id": ""
+        },
+        {
+          "name": "Weizhen Xie",
+          "id": ""
+        },
+        {
+          "name": "Julio I. Chapeton",
+          "id": ""
+        },
+        {
+          "name": "S. Inati",
+          "id": ""
+        },
+        {
+          "name": "K. Zaghloul",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41467-024-52744-1",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4679192956647548,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 20118772,
+      "title": "Detection of time-, frequency- and direction-resolved communication within brain networks",
+      "abstract": "Electroencephalography (EEG) records fast-changing neuronal signalling and communication and thus can offer a deep understanding of cognitive processes. However, traditional data analyses which employ the Fast-Fourier Transform (FFT) have been of limited use as they do not allow time- and frequency-resolved tracking of brain activity and detection of directional connectivity. Here, we applied advanced qEEG tools using autoregressive (AR) modelling, alongside traditional approaches, to murine data sets from common research scenarios: (a) the effect of age on resting EEG; (b) drug actions on non-rapid eye movement (NREM) sleep EEG (pharmaco-EEG); and (c) dynamic EEG profiles during correct vs incorrect spontaneous alternation responses in the Y-maze. AR analyses of short data strips reliably detected age- and drug-induced spectral EEG changes, while renormalized partial directed coherence (rPDC) reported direction- and time-resolved connectivity dynamics in mice. Our approach allows for the first time inference of behaviour- and stage-dependent data in a time- and frequency-resolved manner, and offers insights into brain networks that underlie working memory processing beyond what can be achieved with traditional methods.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "B. Crouch",
+          "id": ""
+        },
+        {
+          "name": "L. Sommerlade",
+          "id": ""
+        },
+        {
+          "name": "Peter Veselcic",
+          "id": ""
+        },
+        {
+          "name": "G. Riedel",
+          "id": ""
+        },
+        {
+          "name": "B. Schelter",
+          "id": ""
+        },
+        {
+          "name": "B. Platt",
+          "id": ""
+        }
+      ],
+      "venue": "Scientific Reports",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41598-018-19707-1",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.46274658723537737,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1369018,
+      "title": "Measuring functional connectivity using MEG: Methodology and comparison with fcMRI",
+      "abstract": "Functional connectivity (FC) between brain regions is thought to be central to the way in which the brain processes information. Abnormal connectivity is thought to be implicated in a number of diseases. The ability to study FC is therefore a key goal for neuroimaging. Functional connectivity (fc) MRI has become a popular tool to make connectivity measurements but the technique is limited by its indirect nature. A multimodal approach is therefore an attractive means to investigate the electrodynamic mechanisms underlying hemodynamic connectivity. In this paper, we investigate resting state FC using fcMRI and magnetoencephalography (MEG). In fcMRI, we exploit the advantages afforded by ultra high magnetic field. In MEG we apply envelope correlation and coherence techniques to source space projected MEG signals. We show that beamforming provides an excellent means to measure FC in source space using MEG data. However, care must be taken when interpreting these measurements since cross talk between voxels in source space can potentially lead to spurious connectivity and this must be taken into account in all studies of this type. We show good spatial agreement between FC measured independently using MEG and fcMRI; FC between sensorimotor cortices was observed using both modalities, with the best spatial agreement when MEG data are filtered into the \u03b2 band. This finding helps to reduce the potential confounds associated with each modality alone: while it helps reduce the uncertainties in spatial patterns generated by MEG (brought about by the ill posed inverse problem), addition of electrodynamic metric confirms the neural basis of fcMRI measurements. Finally, we show that multiple MEG based FC metrics allow the potential to move beyond what is possible using fcMRI, and investigate the nature of electrodynamic connectivity. Our results extend those from previous studies and add weight to the argument that neural oscillations are intimately related to functional connectivity and the BOLD response.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "M. Brookes",
+          "id": ""
+        },
+        {
+          "name": "J. Hale",
+          "id": ""
+        },
+        {
+          "name": "J. Zumer",
+          "id": ""
+        },
+        {
+          "name": "C. Stevenson",
+          "id": ""
+        },
+        {
+          "name": "S. Francis",
+          "id": ""
+        },
+        {
+          "name": "G. Barnes",
+          "id": ""
+        },
+        {
+          "name": "J. Owen",
+          "id": ""
+        },
+        {
+          "name": "P. Morris",
+          "id": ""
+        },
+        {
+          "name": "S. Nagarajan",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/21352925",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4532261818398604,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 277633596,
+      "title": "A data-driven approach to identifying and evaluating connectivity-based neural correlates of conscious visual perception",
+      "abstract": "Identifying the neural correlates of conscious visual perception remains a major challenge in neuroscience, requiring theories that bridge between subjective experience and measurable neural correlates. However, theoretical interpretation of empirical evidence is often post hoc and susceptible to confirmation bias. Building upon the adversarial collaboration mediated by the COGITATE Consortium, we present a generalizable approach for the data-driven identification, evaluation, and theoretical modeling of connectivity-based neural correlates of conscious visual perception. Using the same magnetoencephalography (MEG) dataset and accompanying pre-registered hypotheses from the COGITATE Consortium, we systematically compared 246 functional connectivity (FC) measures between regions predicted to underlie conscious vision by Integrated Information Theory (IIT) and/or Global Neuronal Workspace Theory (GNWT). We identified a family of FC measures based on the barycenter\u2014tracking the \u2018center of mass\u2019 between two signals\u2014as the top-performing stimulus decoding measures that generalize across regions central to predictions of both IIT and GNWT. To interpret these findings within a theoretical framework, we developed neural mass models that recapitulate the neural dynamics hypothesized to underlie conscious perception by each theory. Comparing simulated barycenter values from these models against empirically measured MEG data revealed that both the GNWT-based model, featuring delayed ignition dynamics, and the IIT-based model, which relied on synchronous sensory dynamics, captured the observed connectivity patterns. These results lend tentative support to GNWT, as the presence of ignition dynamics independent of task-demand conditions contradicts the predictions of IIT. Beyond dataset-specific conclusions and limitations, we introduce a framework for systematically identifying and testing candidate neural correlates of conscious visual perception in an unbiased and interpretable manner.",
+      "year": 2026,
+      "authors": [
+        {
+          "name": "Annie G. Bryant",
+          "id": ""
+        },
+        {
+          "name": "Christopher J. Whyte",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1101/2025.04.06.646695",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4464423511547794,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 3608217,
+      "title": "Ghost interactions in MEG/EEG source space: A note of caution on inter-areal coupling measures",
+      "abstract": "When combined with source modeling, magneto\u2010 (MEG) and electroencephalography (EEG) can be used to study long-range interactions among cortical processes non-invasively. Estimation of such inter-areal connectivity is nevertheless hindered by instantaneous field spread and volume conduction, which artificially introduce linear correlations and impair source separability in cortical current estimates. To overcome the inflating effects of linear source mixing inherent to standard interaction measures, alternative phase\u2010 and amplitude-correlation based connectivity measures, such as imaginary coherence and orthogonalized amplitude correlation have been proposed. Being by definition insensitive to zero-lag correlations, these techniques have become increasingly popular in the identification of correlations that cannot be attributed to field spread or volume conduction. We show here, however, that while these measures are immune to the direct effects of linear mixing, they may still reveal large numbers of spurious false positive connections through field spread in the vicinity of true interactions. This fundamental problem affects both region-of-interest-based analyses and all-to-all connectome mappings. Most importantly, beyond defining and illustrating the problem of spurious, or \u201cghost\u201d interactions, we provide a rigorous quantification of this effect through extensive simulations. Additionally, we further show that signal mixing also significantly limits the separability of neuronal phase and amplitude correlations. We conclude that spurious correlations must be carefully considered in connectivity analyses in MEG/EEG source space even when using measures that are immune to zero-lag correlations. Highlights \u2713 Reliable estimation of neuronal coupling with MEG and EEG is challenged by signal mixing \u2713 A number of coupling techniques attempt to overcome this limitation by excluding zero-lag interactions \u2713 Contrary to what is commonly admitted, our simulations illustrate that such interaction metrics will still yield false positives \u2713 Spurious, or \u201cghost\u201d, interactions are generally detected between sources in the vicinity of true phase-lagged interacting sources \u2713 Signal mixing also severely affects the mutual separability of phase and amplitude correlations",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "M. Palva",
+          "id": ""
+        },
+        {
+          "name": "Sheng H. Wang",
+          "id": ""
+        },
+        {
+          "name": "S. Palva",
+          "id": ""
+        },
+        {
+          "name": "A. Zhigalov",
+          "id": ""
+        },
+        {
+          "name": "S. Monto",
+          "id": ""
+        },
+        {
+          "name": "M. Brookes",
+          "id": ""
+        },
+        {
+          "name": "J. Schoffelen",
+          "id": ""
+        },
+        {
+          "name": "K. Jerbi",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1016/j.neuroimage.2018.02.032",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4421340076401722,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 198913382,
+      "title": "Patterned functional network disruption in amyotrophic lateral sclerosis",
+      "abstract": "Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease primarily affecting motor function, with additional evidence of extensive nonmotor involvement. Despite increasing recognition of the disease as a multisystem network disorder characterised by impaired connectivity, the precise neuroelectric characteristics of impaired cortical communication remain to be fully elucidated. Here, we characterise changes in functional connectivity using beamformer source analysis on resting\u2010state electroencephalography recordings from 74 ALS patients and 47 age\u2010matched healthy controls. Spatiospectral characteristics of network changes in the ALS patient group were quantified by spectral power, amplitude envelope correlation (co\u2010modulation) and imaginary coherence (synchrony). We show patterns of decreased spectral power in the occipital and temporal (\u03b4\u2010 to \u03b2\u2010band), lateral/orbitofrontal (\u03b4\u2010 to \u03b8\u2010band) and sensorimotor (\u03b2\u2010band) regions of the brain in patients with ALS. Furthermore, we show increased co\u2010modulation of neural oscillations in the central and posterior (\u03b4\u2010, \u03b8\u2010 and \u03b3l\u2010band) and frontal (\u03b4\u2010 and \u03b3l\u2010band) regions, as well as decreased synchrony in the temporal and frontal (\u03b4\u2010 to \u03b2\u2010band) and sensorimotor (\u03b2\u2010band) regions. Factorisation of these complex connectivity patterns reveals a distinct disruption of both motor and nonmotor networks. The observed changes in connectivity correlated with structural MRI changes, functional motor scores and cognitive scores. Characteristic patterned changes of cortical function in ALS signify widespread disease\u2010associated network disruption, pointing to extensive dysfunction of both motor and cognitive networks. These statistically robust findings, that correlate with clinical scores, provide a strong rationale for further development as biomarkers of network disruption for future clinical trials.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "S. Dukic",
+          "id": ""
+        },
+        {
+          "name": "R. McMackin",
+          "id": ""
+        },
+        {
+          "name": "Teresa Buxo",
+          "id": ""
+        },
+        {
+          "name": "Antonio Fasano",
+          "id": ""
+        },
+        {
+          "name": "Rangariroyashe Chipika",
+          "id": ""
+        },
+        {
+          "name": "Marta Pinto-Grau",
+          "id": ""
+        },
+        {
+          "name": "E. Costello",
+          "id": ""
+        },
+        {
+          "name": "Christina Schuster",
+          "id": ""
+        },
+        {
+          "name": "Michaela Hammond",
+          "id": ""
+        },
+        {
+          "name": "M. Heverin",
+          "id": ""
+        },
+        {
+          "name": "Amina Coffey",
+          "id": ""
+        },
+        {
+          "name": "Michael P. Broderick",
+          "id": ""
+        },
+        {
+          "name": "P. Iyer",
+          "id": ""
+        },
+        {
+          "name": "Kieran Mohr",
+          "id": ""
+        },
+        {
+          "name": "Brighid Gavin",
+          "id": ""
+        },
+        {
+          "name": "N. Pender",
+          "id": ""
+        },
+        {
+          "name": "P. Bede",
+          "id": ""
+        },
+        {
+          "name": "M. Muthuraman",
+          "id": ""
+        },
+        {
+          "name": "E. Lalor",
+          "id": ""
+        },
+        {
+          "name": "O. Hardiman",
+          "id": ""
+        },
+        {
+          "name": "B. Nasseroleslami",
+          "id": ""
+        }
+      ],
+      "venue": "Human Brain Mapping",
+      "journal": null,
+      "url": "https://doi.org/10.1002/hbm.24740",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.44053651446475944,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 249929887,
+      "title": "A multiplex of connectome trajectories enables several connectivity patterns in parallel",
+      "abstract": "Complex brain function comprises a multitude of neural operations in parallel and often at different speeds. Each of these operations is carried out across a network of distributed brain regions. How multiple distributed processes are facilitated in parallel is largely unknown. We postulate that such processing relies on a multiplex of dynamic network patterns emerging in parallel but from different functional connectivity (FC) timescales. Given the dominance of inherently slow fMRI in network science, it is unknown whether the brain leverages such multi-timescale network dynamics. We studied FC dynamics concurrently across a breadth of timescales (from infraslow to \u03b3-range) in rare, simultaneously recorded intracranial EEG and fMRI in humans, and source-localized scalp EEG-fMRI data. We examined spatial and temporal convergence of connectome trajectories across timescales. \u2018Spatial convergence\u2019 refers to spatially similar EEG and fMRI connectome patterns, while \u2018temporal convergence\u2019 signifies the more specific case of spatial convergence at corresponding timepoints in EEG and fMRI. We observed spatial convergence but temporal divergence across FC timescales; connectome states (recurrent FC patterns) with partial spatial similarity were found in fMRI and all EEG frequency bands, but these occurred asynchronously across FC timescales. Our findings suggest that hemodynamic and frequency-specific electrophysiological signals, while involving similar large-scale networks, represent functionally distinct connectome trajectories that operate at different FC speeds and in parallel. This multiplex is poised to enable concurrent connectivity across multiple sets of brain regions independently.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "Parham Mostame",
+          "id": ""
+        },
+        {
+          "name": "Jonathan Wirsich",
+          "id": ""
+        },
+        {
+          "name": "Thomas H. Alderson",
+          "id": ""
+        },
+        {
+          "name": "B. Ridley",
+          "id": ""
+        },
+        {
+          "name": "D. Carmichael",
+          "id": ""
+        },
+        {
+          "name": "S. Vulli\u00e9moz",
+          "id": ""
+        },
+        {
+          "name": "M. Guye",
+          "id": ""
+        },
+        {
+          "name": "L. Lemieux",
+          "id": ""
+        },
+        {
+          "name": "Sepideh Sadaghiani",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/40511797",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4396367058375567,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 277896118,
+      "title": "Cross brain reshaping in congenital visual or hearing impairment: triple-network dysfunction",
+      "abstract": "Abstract This research examines how congenital visual or hearing impairment reshapes brain function using EEG. The study involved 40 children with congenital visual impairment, 40 with hearing impairment and 42 age and gender-matched normal children as controls. The investigation included assessments of visual and auditory abilities, along with comprehensive EEG evaluations. Techniques such as source localization, functional connectivity and cross-frequency coupling were used to analyse variations in brain activity. Machine learning methods, specifically support vector machines, were utilized to identify key reshaping characteristics associated with congenital impairments. Results showed reduced activation in the visual cortex for visually impaired children and decreased activation in the auditory cortex for hearing-impaired children compared with the control group. Both impairment groups demonstrated significant reductions in functional connectivity across various brain regions, including the visual and auditory cortices, insula, parahippocampal gyrus, posterior cingulate gyrus and frontal cortex. The machine learning model highlighted aberrant connectivity between the visual/auditory cortex and the right insula, the medial prefrontal cortex and dorsolateral prefrontal cortex and the visual and auditory cortex in children with these impairments in the alpha frequency band. Spatially similar patterns of cross-frequency coupling of rhythmic activity were also observed. The study concludes that congenital visual and hearing impairments significantly impact brain development, identifying distinct functional characteristics and shared reshaping patterns. The consistent presence of dysrhythmic activity and reduced functional connectivity suggest the existence of a triple network anomaly.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "Jiahong Li",
+          "id": ""
+        },
+        {
+          "name": "Binbin Xiong",
+          "id": ""
+        },
+        {
+          "name": "Suijun Chen",
+          "id": ""
+        },
+        {
+          "name": "Jing Li",
+          "id": ""
+        },
+        {
+          "name": "Ying Luo",
+          "id": ""
+        },
+        {
+          "name": "Yu-Chen Chen",
+          "id": ""
+        },
+        {
+          "name": "Jae-Jin Song",
+          "id": ""
+        },
+        {
+          "name": "Fei Zhao",
+          "id": ""
+        },
+        {
+          "name": "Jing Yang",
+          "id": ""
+        },
+        {
+          "name": "Chenlong Li",
+          "id": ""
+        },
+        {
+          "name": "Yiqing Zheng",
+          "id": ""
+        },
+        {
+          "name": "Lan Gui",
+          "id": ""
+        },
+        {
+          "name": "Huanling Feng",
+          "id": ""
+        },
+        {
+          "name": "Weirong Chen",
+          "id": ""
+        },
+        {
+          "name": "Yuexin Cai",
+          "id": ""
+        },
+        {
+          "name": "Wan Chen",
+          "id": ""
+        }
+      ],
+      "venue": "Brain Communications",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/8f68/5bf5468b154ddc4a7e026f343cd41a22f4cc.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43831104247313096,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 52954688,
+      "title": "Functional Connectivity in Multiple Sclerosis: Recent Findings and Future Directions",
+      "abstract": "Multiple sclerosis is a debilitating disorder resulting from scattered lesions in the central nervous system. Because of the high variability of the lesion patterns between patients, it is difficult to relate existing biomarkers to symptoms and their progression. The scattered nature of lesions in multiple sclerosis offers itself to be studied through the lens of network analyses. Recent research into multiple sclerosis has taken such a network approach by making use of functional connectivity. In this review, we briefly introduce measures of functional connectivity and how to compute them. We then identify several common observations resulting from this approach: (a) high likelihood of altered connectivity in deep-gray matter regions, (b) decrease of brain modularity, (c) hemispheric asymmetries in connectivity alterations, and (d) correspondence of behavioral symptoms with task-related and task-unrelated networks. We propose incorporating such connectivity analyses into longitudinal studies in order to improve our understanding of the underlying mechanisms affected by multiple sclerosis, which can consequently offer a promising route to individualizing imaging-related biomarkers for multiple sclerosis.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Marlene Tahedl",
+          "id": ""
+        },
+        {
+          "name": "S. Levine",
+          "id": ""
+        },
+        {
+          "name": "M. Greenlee",
+          "id": ""
+        },
+        {
+          "name": "Robert Weissert",
+          "id": ""
+        },
+        {
+          "name": "J. Schwarzbach",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neurology",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/30364281",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43343971232789597,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 257124543,
+      "title": "Source-Space Brain Functional Connectivity Features in Electroencephalogram-Based Driver Fatigue Classification",
+      "abstract": "This study examined the brain source space functional connectivity from the electroencephalogram (EEG) activity of 48 participants during a driving simulation experiment where they drove until fatigue developed. Source-space functional connectivity (FC) analysis is a state-of-the-art method for understanding connections between brain regions that may indicate psychological differences. Multi-band FC in the brain source space was constructed using the phased lag index (PLI) method and used as features to train an SVM classification model to classify driver fatigue and alert conditions. With a subset of critical connections in the beta band, a classification accuracy of 93% was achieved. Additionally, the source-space FC feature extractor demonstrated superiority over other methods, such as PSD and sensor-space FC, in classifying fatigue. The results suggested that source-space FC is a discriminative biomarker for detecting driving fatigue.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "KhanhBui Nguyen",
+          "id": ""
+        },
+        {
+          "name": "Matthew Ebbatson",
+          "id": ""
+        },
+        {
+          "name": "Y. Tran",
+          "id": ""
+        },
+        {
+          "name": "A. Craig",
+          "id": ""
+        },
+        {
+          "name": "Hung Nguyen",
+          "id": ""
+        },
+        {
+          "name": "R. Chai",
+          "id": ""
+        }
+      ],
+      "venue": "Italian National Conference on Sensors",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/a523/c0bba0b440551c0dc5e07c6fa4042d4bd598.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.42965289110604815,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256665412,
+      "title": "Towards a more robust non-invasive assessment of functional connectivity",
+      "abstract": "Non-invasive evaluation of functional connectivity, based on source-reconstructed estimates of phase-difference-based metrics, is notoriously non-robust. This is due to a combination of factors, ranging from a misspecification of seed regions to suboptimal baseline assumptions, and residual signal leakage. In this work, we propose a new analysis scheme of source level phase-difference-based connectivity, which is aimed at optimizing the detection of interacting brain regions. Our approach is based on the combined use of sensor subsampling and dual-source beamformer estimation of all-to-all connectivity on a prespecified dipolar grid. First, a pairwise two-dipole model, to account for reciprocal leakage in the estimation of the localized signals, allows for a usable approximation of the pairwise bias in connectivity due to residual leakage of \u2018third party\u2019 noise. Secondly, using sensor array subsampling, the recreation of multiple connectivity maps using different subsets of sensors allows for the identification of consistent spatially localized peaks in the 6-dimensional connectivity maps, indicative of true brain region interactions. These steps are combined with the subtraction of null coherence estimates to obtain the final coherence maps. With extensive simulations, we compared different analysis schemes for their detection rate of connected dipoles, as a function of signal-to-noise ratio, phase difference and connection strength. We demonstrate superiority of the proposed analysis scheme in comparison to single-dipole models, or an approach that discards the zero phase difference component of the connectivity. We conclude that the proposed pipeline allows for a more robust identification of functional connectivity in experimental data, opening up new possibilities to study brain networks with mechanistically inspired connectivity measures in cognition and in the clinic.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Britta U. Westner",
+          "id": ""
+        },
+        {
+          "name": "J. Kujala",
+          "id": ""
+        },
+        {
+          "name": "J. Gross",
+          "id": ""
+        },
+        {
+          "name": "J. Schoffelen",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1162/imag_a_00119",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4264302868180045,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 23411380,
+      "title": "A wavelet-based method for measuring the oscillatory dynamics of resting-state functional connectivity in MEG",
+      "abstract": "Determining the dynamics of functional connectivity is critical for understanding the brain. Recent functional magnetic resonance imaging (fMRI) studies demonstrate that measuring correlations between brain regions in resting-state activity can be used to reveal intrinsic neural networks. To study the oscillatory dynamics that underlie intrinsic functional connectivity between regions requires high temporal resolution measures of electrophysiological brain activity, such as magnetoencephalography (MEG). However, there is a lack of consensus as to the best method for examining connectivity in resting-state MEG data. Here we adapted a wavelet-based method for measuring phase-locking with respect to the frequency of neural oscillations. This method employs anatomical MRI information combined with MEG data using the minimum norm estimate inverse solution to produce functional connectivity maps from a \"seed\" region to all other locations on the cortical surface at any and all frequencies of interest. We test this method by simulating phase-locked oscillations at various points on the cortical surface, which illustrates a substantial artifact that results from imperfections in the inverse solution. We demonstrate that normalizing resting-state MEG data using phase-locking values computed on empty room data reduces much of the effects of this artifact. We then use this method with eight subjects to reveal intrinsic interhemispheric connectivity in the auditory network in the alpha frequency band in a silent environment. This spectral resting-state functional connectivity imaging method may allow us to better understand the oscillatory dynamics underlying intrinsic functional connectivity in the human brain.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "A. Ghuman",
+          "id": ""
+        },
+        {
+          "name": "Jonathan R. McDaniel",
+          "id": ""
+        },
+        {
+          "name": "Alex Martin",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/21256967",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.42575452320785884,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 91507900,
+      "title": "Inferring the direction of rhythmic neural transmission via inter-regional phase-amplitude coupling (ir-PAC)",
+      "abstract": "Phase-amplitude coupling (PAC) estimates the statistical dependence between the phase of a low-frequency component and the amplitude of a high-frequency component of local field potentials (LFP). To date PAC has been mainly applied to one signal. In this work, we introduce a new application of PAC to two LFPs and suggest that it can be used to infer the direction and strength of rhythmic neural transmission between distinct brain networks. This hypothesis is based on the accumulating evidence that transmembrane currents related to action potentials contribute a broad-band component to LFP in the high-gamma band, and PAC calculated between the amplitude of high-gamma (>60\u2009Hz) in one LFP and the phase of a low-frequency oscillation (e.g., theta) in another would therefore relate the output (spiking) of one area to the input (somatic/dendritic postsynaptic potentials) of the other. We tested the hypothesis on theta-band long range communications between hippocampus and prefrontal cortex (PFC) and theta-band short range communications between dentate gyrus (DG) and the Ammon\u2019s horn (CA1) within the hippocampus. The ground truth was provided by the known anatomical connections predicting hippocampus\u2009\u2192\u2009PFC and DG\u2009\u2192\u2009CA1, i.e., theta transmission is unidirectional in both cases: from hippocampus to PFC and from DG to CA1 along the tri-synaptic pathway within hippocampus. We found that (1) hippocampal high-gamma amplitude was significantly coupled to PFC theta phase, but not vice versa; (2) similarly, DG high-gamma amplitude was significantly coupled to CA1 theta phase, but not vice versa, and (3) the DG high-gamma-CA1 theta PAC was significantly correlated with DG\u2009\u2192\u2009CA1 Granger causality, a well-established analytical measure of directional neural transmission. These results support the hypothesis that inter-regional PAC (ir-PAC) can be used to relate the output of a rhythmic \u201cdriver\u201d network (i.e., high gamma) to the input of a rhythmic \u201creceiver\u201d network (i.e., theta) and thereby establish the direction and strength of rhythmic neural transmission.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Bijurika Nandi",
+          "id": ""
+        },
+        {
+          "name": "P. Swiatek",
+          "id": ""
+        },
+        {
+          "name": "B. Kocsis",
+          "id": ""
+        },
+        {
+          "name": "M. Ding",
+          "id": ""
+        }
+      ],
+      "venue": "Scientific Reports",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41598-019-43272-w",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4207026461034037,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 53106484,
+      "title": "27th Annual Computational Neuroscience Meeting (CNS*2018): Part One",
+      "abstract": "\u00a9 The Author(s) 2018. This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creat iveco mmons .org/licen ses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (http://creat iveco mmons .org/ publi cdoma in/zero/1.0/) applies to the data made available in this article, unless otherwise stated. K1 Probabilistic models of sensorimotor control and decision making Daniel Wolpert, Mortimer B. Zuckerman University of Cambridge, Department of Neuroscience, UK; Columbia University, Mind Brain Behavior Institute, New York, NY, United States Correspondence: Daniel Wolpert (wolpert@eng.cam.ac.uk) BMC Neuroscience 2018, 19(Suppl 2):K1",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "M. Migliore",
+          "id": ""
+        },
+        {
+          "name": "Lida Kanari",
+          "id": ""
+        },
+        {
+          "name": "J. King",
+          "id": ""
+        },
+        {
+          "name": "S. K\u00e1li",
+          "id": ""
+        },
+        {
+          "name": "Henry",
+          "id": ""
+        },
+        {
+          "name": "Markram",
+          "id": ""
+        },
+        {
+          "name": "Armando Romani",
+          "id": ""
+        },
+        {
+          "name": "N. Antille",
+          "id": ""
+        },
+        {
+          "name": "L. L. Bologna",
+          "id": ""
+        },
+        {
+          "name": "J. Budd",
+          "id": ""
+        },
+        {
+          "name": "J. Courcol",
+          "id": ""
+        },
+        {
+          "name": "A. Devresse",
+          "id": ""
+        },
+        {
+          "name": "Andr\u00e1s Ecker",
+          "id": ""
+        },
+        {
+          "name": "Joanne Falck",
+          "id": ""
+        },
+        {
+          "name": "Cyrille Favreau",
+          "id": ""
+        },
+        {
+          "name": "Michael Gevaert",
+          "id": ""
+        },
+        {
+          "name": "Attila",
+          "id": ""
+        },
+        {
+          "name": "Guly\u00e1s",
+          "id": ""
+        },
+        {
+          "name": "Olivier Hagens",
+          "id": ""
+        },
+        {
+          "name": "J. Hernando",
+          "id": ""
+        },
+        {
+          "name": "S\u00edlvia Jim\u00e9nez",
+          "id": ""
+        },
+        {
+          "name": "S. Lange",
+          "id": ""
+        },
+        {
+          "name": "C. Lupascu",
+          "id": ""
+        },
+        {
+          "name": "Rosanna Migliore",
+          "id": ""
+        },
+        {
+          "name": "Maurizio Pezzoli",
+          "id": ""
+        },
+        {
+          "name": "Srikanth",
+          "id": ""
+        },
+        {
+          "name": "Ramaswamy",
+          "id": ""
+        },
+        {
+          "name": "Christian A. R\u00f6ssert",
+          "id": ""
+        },
+        {
+          "name": "S\u00e1ra S\u00e1ray",
+          "id": ""
+        },
+        {
+          "name": "Ying Shi",
+          "id": ""
+        },
+        {
+          "name": "Werner Alfons",
+          "id": ""
+        },
+        {
+          "name": "Hilda Van Geit",
+          "id": ""
+        },
+        {
+          "name": "L. Vanherpe",
+          "id": ""
+        },
+        {
+          "name": "T. Freund",
+          "id": ""
+        },
+        {
+          "name": "A. Mercer",
+          "id": ""
+        },
+        {
+          "name": "Alex",
+          "id": ""
+        },
+        {
+          "name": "M. Thomson",
+          "id": ""
+        },
+        {
+          "name": "Eilif B. Muller",
+          "id": ""
+        }
+      ],
+      "venue": "BMC Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1186/s12868-018-0452-x",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.41217397254875865,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 11725868,
+      "title": "Influence of White and Gray Matter Connections on Endogenous Human Cortical Oscillations",
+      "abstract": "Brain oscillations reflect changes in electrical potentials summated across neuronal populations. Low- and high-frequency rhythms have different modulation patterns. Slower rhythms are spatially broad, while faster rhythms are more local. From this observation, we hypothesized that low- and high-frequency oscillations reflect white- and gray-matter communications, respectively, and synchronization between low-frequency phase with high-frequency amplitude represents a mechanism enabling distributed brain-networks to coordinate local processing. Testing this common understanding, we selectively disrupted white or gray matter connections to human cortex while recording surface field potentials. Counter to our original hypotheses, we found that cortex consists of independent oscillatory-units (IOUs) that maintain their own complex endogenous rhythm structure. IOUs are differentially modulated by white and gray matter connections. White-matter connections maintain topographical anatomic heterogeneity (i.e., separable processing in cortical space) and gray-matter connections segregate cortical synchronization patterns (i.e., separable temporal processing through phase-power coupling). Modulation of distinct oscillatory modules enables the functional diversity necessary for complex processing in the human brain.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "Ammar H. Hawasli",
+          "id": ""
+        },
+        {
+          "name": "DoHyun Kim",
+          "id": ""
+        },
+        {
+          "name": "N. M. Ledbetter",
+          "id": ""
+        },
+        {
+          "name": "S. Dahiya",
+          "id": ""
+        },
+        {
+          "name": "D. Barbour",
+          "id": ""
+        },
+        {
+          "name": "E. Leuthardt",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Human Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/27445767",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4101180090254132,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253351863,
+      "title": "The dissociative role of bursting and non-bursting neural activity in the oscillatory nature of functional brain networks",
+      "abstract": "The oscillatory nature of intrinsic brain networks is largely taken for granted in the systems neuroscience community. However, the hypothesis that brain rhythms\u2014and by extension transient bursting oscillations\u2014underlie functional networks has not been demonstrated per se. Electrophysiological measures of functional connectivity are indeed affected by the power bias, which may lead to artefactual observations of spectrally specific network couplings not genuinely driven by neural oscillations, bursting or not. We investigate this crucial question by introducing a unique combination of a rigorous mathematical analysis of the power bias in frequency-dependent amplitude connectivity with a neurobiologically informed model of cerebral background noise based on hidden Markov modeling of resting-state magnetoencephalography (MEG). We demonstrate that the power bias may be corrected by a suitable renormalization depending nonlinearly on the signal-to-noise ratio, with noise identified as non-bursting oscillations. Applying this correction preserves the spectral content of amplitude connectivity, definitely proving the importance of brain rhythms in intrinsic functional networks. Our demonstration highlights a dichotomy between spontaneous oscillatory bursts underlying network couplings and non-bursting oscillations acting as background noise but whose function remains unsettled. Significance statement Brain rhythms are paramount electrophysiological correlates of human cerebral activity as they coordinate neurons across distinct brain areas and establish neural synchronization. Spontaneous cortical oscillations, and particularly transient \u201cbursts\u201d of oscillations, also appear as the main electrophysiological subtrate of intrinsic functional brain networks. However, we argue that this oscillatory theory of brain networks, despite being widely accepted, should be requestioned due to a critical bias in electrophysiological measures of network connectivity. Here, we combined mathematical and neurobiological modeling techniques with magnetoencephalography recordings to set this theory on firm and rigorous grounds. Key to our analysis are scarcely studied non-bursting cortical oscillations. Although their precise function remains elusive, our results reveal that dissociating bursting and non-bursting oscillations is fundamental to the rigorous interpretation of electrophysiological network connectivity.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "A. Cordier",
+          "id": ""
+        },
+        {
+          "name": "A. Mary",
+          "id": ""
+        },
+        {
+          "name": "Marc Vander Ghinst",
+          "id": ""
+        },
+        {
+          "name": "S. Goldman",
+          "id": ""
+        },
+        {
+          "name": "X. De Ti\u00e8ge",
+          "id": ""
+        },
+        {
+          "name": "V. Wens",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1101/2022.11.02.514923",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3804726748420089,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 3069046,
+      "title": "Improved Estimation and Interpretation of Correlations in Neural Circuits",
+      "abstract": "Ambitious projects aim to record the activity of ever larger and denser neuronal populations in vivo. Correlations in neural activity measured in such recordings can reveal important aspects of neural circuit organization. However, estimating and interpreting large correlation matrices is statistically challenging. Estimation can be improved by regularization, i.e. by imposing a structure on the estimate. The amount of improvement depends on how closely the assumed structure represents dependencies in the data. Therefore, the selection of the most efficient correlation matrix estimator for a given neural circuit must be determined empirically. Importantly, the identity and structure of the most efficient estimator informs about the types of dominant dependencies governing the system. We sought statistically efficient estimators of neural correlation matrices in recordings from large, dense groups of cortical neurons. Using fast 3D random-access laser scanning microscopy of calcium signals, we recorded the activity of nearly every neuron in volumes 200 \u03bcm wide and 100 \u03bcm deep (150\u2013350 cells) in mouse visual cortex. We hypothesized that in these densely sampled recordings, the correlation matrix should be best modeled as the combination of a sparse graph of pairwise partial correlations representing local interactions and a low-rank component representing common fluctuations and external inputs. Indeed, in cross-validation tests, the covariance matrix estimator with this structure consistently outperformed other regularized estimators. The sparse component of the estimate defined a graph of interactions. These interactions reflected the physical distances and orientation tuning properties of cells: The density of positive \u2018excitatory\u2019 interactions decreased rapidly with geometric distances and with differences in orientation preference whereas negative \u2018inhibitory\u2019 interactions were less selective. Because of its superior performance, this \u2018sparse+latent\u2019 estimator likely provides a more physiologically relevant representation of the functional connectivity in densely sampled recordings than the sample correlation matrix.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "Dimitri Yatsenko",
+          "id": ""
+        },
+        {
+          "name": "K. Josic\u0300",
+          "id": ""
+        },
+        {
+          "name": "Alexander S. Ecker",
+          "id": ""
+        },
+        {
+          "name": "E. Froudarakis",
+          "id": ""
+        },
+        {
+          "name": "R. Cotton",
+          "id": ""
+        },
+        {
+          "name": "A. Tolias",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS Comput. Biol.",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/b0c1/05053c7a8cb6ac355b93fe4989852e773545.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.37994767705612564,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 12170093,
+      "title": "Robust disruptions in electroencephalogram cortical oscillations and large-scale functional networks in autism",
+      "abstract": "BackgroundAutism spectrum disorders (ASD) are increasingly prevalent and have a significant impact on the lives of patients and their families. Currently, the diagnosis is determined by clinical judgment and no definitive physiological biomarker for ASD exists. Quantitative biomarkers obtainable from clinical neuroimaging data \u2013 such as the scalp electroencephalogram (EEG) - would provide an important aid to clinicians in the diagnosis of ASD. The interpretation of prior studies in this area has been limited by mixed results and the lack of validation procedures. Here we use retrospective clinical data from a well-characterized population of children with ASD to evaluate the rhythms and coupling patterns present in the EEG to develop and validate an electrophysiological biomarker of ASD.MethodsEEG data were acquired from a population of ASD (n\u2009=\u200927) and control (n\u2009=\u200955) children 4\u20138 years old. Data were divided into training (n\u2009=\u200913 ASD, n\u2009=\u200924 control) and validation (n\u2009=\u200914 ASD, n\u2009=\u200931 control) groups. Evaluation of spectral and functional network properties in the first group of patients motivated three biomarkers that were computed in the second group of age-matched patients for validation.ResultsThree biomarkers of ASD were identified in the first patient group: (1) reduced posterior/anterior power ratio in the alpha frequency range (8\u201314\u00a0Hz), which we label the \u201cpeak alpha ratio\u201d, (2) reduced global density in functional networks, and (3) a reduction in the mean connectivity strength of a subset of functional network edges. Of these three biomarkers, the first and third were validated in a second group of patients. Using the two validated biomarkers, we were able to classify ASD subjects with 83\u00a0% sensitivity and 68\u00a0% specificity in a post-hoc analysis.ConclusionsThis study demonstrates that clinical EEG can provide quantitative biomarkers to assist diagnosis of autism. These results corroborate the general finding that ASD subjects have decreased alpha power gradients and network connectivities compared to control subjects. In addition, this study demonstrates the necessity of using statistical techniques to validate EEG biomarkers identified using exploratory methods.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "Sean Matlis",
+          "id": ""
+        },
+        {
+          "name": "Katica Boric",
+          "id": ""
+        },
+        {
+          "name": "C. Chu",
+          "id": ""
+        },
+        {
+          "name": "M. Kramer",
+          "id": ""
+        }
+      ],
+      "venue": "BMC Neurology",
+      "journal": null,
+      "url": "https://doi.org/10.1186/s12883-015-0355-8",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.37468594808904837,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 209583957,
+      "title": "Using structural connectivity to augment community structure in EEG functional connectivity",
+      "abstract": "Recently, EEG recording techniques (high-density EEG) as well as source analysis have improved markedly. Yet, analyzing whole-cortex EEG signals in source space is not standard, partly because EEG signals suffer from volume conduction, introducing spurious functional connections (statistical dependencies) between nearby sources. Genuine functional connectivity (FC) reflecting functional relationships is impossible to disentangle from spurious FC, impairing the applicability of network neuroscience to EEG. Here, we use information from white matter structural connectivity (SC) to attenuate the impact of volume conduction on EEG-FC. We confirm that FC (power envelope correlations) is predicted by the SC beyond the impact of Euclidean distance. We then smooth the EEG signal in the space spanned by graphs derived from SC. Thereby, FC between nearby, structurally connected brain regions is increased while FC between non-connected regions remains unchanged. We hypothesize that this results in an increase in genuine relative to spurious FC. We analyze changes in FC due to smoothing by assessing the resemblance between EEG- and fMRI-FC, and find that smoothing increases resemblance, both in terms of overall correlation and community structure. This suggests that information from the SC can indeed be used to attenuate the effect of volume conduction on EEG source signals. Author summary In this study, we combine high-density EEG recorded during resting state with white matter connectivity obtained from diffusion MRI and fiber tracking. We leverage the additional information contained in the structural connectome towards augmenting the source level EEG functional connectivity. In particular, it is known - and confirmed in this study - that the activity of brain regions that possess a direct anatomical connection is, on average, more strongly correlated than that of regions that have no such direct link. We use the structural connectome to define a graph and smooth the source reconstructed EEG signal in the space spanned by this graph. We compare the resulting \u201cfiltered\u201d signal correlation matrices to those obtained from fMRI and find that such \u201cgraph filtering\u201d improves the agreement between EEG and fMRI functional connectivity structure. Thus suggests that structural connectivity can be used to attenuate some of the limitations imposed by volume conduction.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "K. Glomb",
+          "id": ""
+        },
+        {
+          "name": "Emeline Mullier",
+          "id": ""
+        },
+        {
+          "name": "M. Carboni",
+          "id": ""
+        },
+        {
+          "name": "M. Rubega",
+          "id": ""
+        },
+        {
+          "name": "G. Iannotti",
+          "id": ""
+        },
+        {
+          "name": "S. Tourbier",
+          "id": ""
+        },
+        {
+          "name": "M. Seeber",
+          "id": ""
+        },
+        {
+          "name": "S. Vulli\u00e9moz",
+          "id": ""
+        },
+        {
+          "name": "P. Hagmann",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1162/netn_a_00147",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.37343924300694814,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 208597927,
+      "title": "Scale-resolved analysis of brain functional connectivity networks with spectral entropy",
+      "abstract": "Functional connectivity is derived from inter-regional correlations in spontaneous fluctuations of brain activity, and can be represented in terms of complete graphs with continuous (real-valued) edges. The structure of functional connectivity networks is strongly affected by signal processing procedures to remove the effects of motion, physiological noise and other sources of experimental error. However, in the absence of an established ground truth, it is difficult to determine the optimal procedure, and no consensus has been reached on the most effective approach to remove nuisance signals without unduly affecting the network intrinsic structural features. Here, we use a novel information-theoretic approach, based on von Neumann entropy, which provides a measure of information encoded in the networks at different scales. We also define a measure of distance between networks, based on information divergence, and optimal null models appropriate for the description of functional connectivity networks, to test for the presence of nontrivial structural patterns that are not the result of simple local constraints. This formalism enables a scale-resolved analysis of the distance between an empirical functional connectivity network and its maximally random counterpart, thus providing a means to assess the effects of noise and image processing on network structure. We apply this novel approach to address a few open questions in the analysis of brain functional connectivity networks. Specifically, we demonstrate a strongly beneficial effect of network sparsification by removal of the weakest links, and the existence of an optimal threshold that maximizes the ability to extract information on large-scale network structures. Additionally, we investigate the effects of different degrees of motion at different scales, and compare the most popular processing pipelines designed to mitigate its deleterious effect on functional connectivity networks.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Carlo Nicolini",
+          "id": ""
+        },
+        {
+          "name": "Giulia Forcellini",
+          "id": ""
+        },
+        {
+          "name": "L. Minati",
+          "id": ""
+        },
+        {
+          "name": "A. Bifone",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/32036020",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3693056891738255,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 13259998,
+      "title": "Functional connectivity estimation over large networks at cellular resolution based on electrophysiological recordings and structural prior",
+      "abstract": "Despite many structural and functional aspects of the brain organization have been extensively studied in neuroscience, we are still far from a clear understanding of the intricate structure-function interactions occurring in the multi-layered brain architecture, where billions of different neurons are involved. Although structure and function can individually convey a large amount of information, only a combined study of these two aspects can probably shade light on how brain circuits develop and operate at the cellular scale. Here, we propose a novel approach for refining functional connectivity estimates within neuronal networks using the structural connectivity as prior. This is done at the mesoscale, dealing with thousands of neurons while reaching, at the microscale, an unprecedented cellular resolution. The High-Density Micro Electrode Array (HD-MEA) technology, combined with fluorescence microscopy, offers the unique opportunity to acquire structural and functional data from large neuronal cultures approaching the granularity of the single cell. In this work, an advanced method based on probabilistic directional features and heat propagation is introduced to estimate the structural connectivity from the fluorescence image while functional connectivity graphs are obtained from the cross-correlation analysis of the spiking activity. Structural and functional information are then integrated by reweighting the functional connectivity graph based on the structural prior. Results show that the resulting functional connectivity estimates are more coherent with the network topology, as compared to standard measures purely based on cross-correlations and spatio-temporal filters. We finally use the obtained results to gain some insights on which features of the functional activity are more relevant to characterize actual neuronal interactions.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "Simona Ullo",
+          "id": ""
+        },
+        {
+          "name": "T. Nieus",
+          "id": ""
+        },
+        {
+          "name": "Diego Sona",
+          "id": ""
+        },
+        {
+          "name": "A. Maccione",
+          "id": ""
+        },
+        {
+          "name": "L. Berdondini",
+          "id": ""
+        },
+        {
+          "name": "Vittorio Murino",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neuroanatomy",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/25477790",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3677460407769232,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 7895201,
+      "title": "Reconstructing Coherent Networks from Electroencephalography and Magnetoencephalography with Reduced Contamination from Volume Conduction or Magnetic Field Spread",
+      "abstract": "Volume conduction (VC) and magnetic field spread (MFS) induce spurious correlations between EEG/MEG sensors, such that the estimation of functional networks from scalp recordings is inaccurate. Imaginary coherency [1] reduces VC/MFS artefacts between sensors by assuming that instantaneous interactions are caused predominantly by VC/MFS and do not contribute to the imaginary part of the cross-spectral densities (CSDs). We propose an adaptation of the dynamic imaging of coherent sources (DICS) [2] - a method for reconstructing the CSDs between sources, and subsequently inferring functional connectivity based on coherences between those sources. Firstly, we reformulate the principle of imaginary coherency by performing an eigenvector decomposition of the imaginary part of the CSD to estimate the power that only contributes to the non-zero phase-lagged (NZPL) interactions. Secondly, we construct an NZPL-optimised spatial filter with two a priori assumptions: (1) that only NZPL interactions exist at the source level and (2) the NZPL CSD at the sensor level is a good approximation of the projected source NZPL CSDs. We compare the performance of the NZPL method to the standard method by reconstructing a coherent network from simulated EEG/MEG recordings. We demonstrate that, as long as there are phase differences between the sources, the NZPL method reliably detects the underlying networks from EEG and MEG. We show that the method is also robust to very small phase lags, noise from phase jitter, and is less sensitive to regularisation parameters. The method is applied to a human dataset to infer parts of a coherent network underpinning face recognition.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "Mark Drakesmith",
+          "id": ""
+        },
+        {
+          "name": "W. el-Deredy",
+          "id": ""
+        },
+        {
+          "name": "S. Welbourne",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS ONE",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/da18/e4158b43a2a6c3edeca62af206b6bcbc8b83.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.36766861422663116,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 189820185,
+      "title": "Tracking dynamic brain networks using high temporal resolution MEG measures of functional connectivity",
+      "abstract": "Fluctuations in functional interactions between brain regions typically occur at the millisecond time scale. Conventional connectivity metrics are not adequately time-resolved to detect such fast fluctuations in functional connectivity. At the same time, attempts to use conventional metrics in a time-resolved manner usually come with the selection of sliding windows of fixed arbitrary length. In the current work, we evaluated the use of high temporal resolution metrics of functional connectivity in conjunction with non-negative tensor factorisation to detect fast fluctuations in connectivity and temporally evolving subnetworks. To this end, we used the phase difference derivative, wavelet coherence, and we also introduced a new metric, the instantaneous amplitude correlation. In order to deal with the inherently noisy nature of magnetoencephalography data and large datasets, we make use of recurrence plots and we used pair-wise orthogonalisation to avoid spurious estimates of functional connectivity due to signal leakage. Firstly, metrics were evaluated in the context of dynamically coupled neural mass models in the presence and absence of delays and also compared to conventional static metrics with fixed sliding windows. Simulations showed that these high temporal resolution metrics outperformed conventional static connectivity metrics. Secondly, the sensitivity of the metrics to fluctuations in connectivity was analysed in post-movement beta rebound magnetoencephalography data, which showed time locked sensorimotor subnetworks that modulated with the post-movement beta rebound. Finally, sensitivity of the metrics was evaluated in resting-state magnetoencephalography, showing similar spatial patterns across metrics, thereby indicating the robustness of the current analysis. The current methods can be applied in cognitive experiments that involve fast modulations in connectivity in relation to cognition. In addition, these methods could also be used as input to temporal graph analysis to further characterise the rapid fluctuation in brain network topology.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "P. Tewarie",
+          "id": ""
+        },
+        {
+          "name": "Lucrezia Liuzzi",
+          "id": ""
+        },
+        {
+          "name": "G. O\u2019Neill",
+          "id": ""
+        },
+        {
+          "name": "A. Quinn",
+          "id": ""
+        },
+        {
+          "name": "A. Griffa",
+          "id": ""
+        },
+        {
+          "name": "M. Woolrich",
+          "id": ""
+        },
+        {
+          "name": "C. Stam",
+          "id": ""
+        },
+        {
+          "name": "A. Hillebrand",
+          "id": ""
+        },
+        {
+          "name": "M. Brookes",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/31207339",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.36588297968898825,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 4334383,
+      "title": "Correlated neuronal discharge rate and its implications for psychophysical performance",
+      "abstract": "SINGLE neurons can signal subtle changes in the sensory environment with surprising fidelity, often matching the perceptual sensitivity of trained psychophysical observers1\u201310. This similarity poses an intriguing puzzle: why is psychophysical sensitivity not greater than that of single neurons? Pooling responses across neurons should average out noise in the activity of single cells, leading to substantially improved psychophysical performance. If, however, noise is correlated among these neurons, the beneficial effects of pooling would be diminished10\u201312. To assess correlation within a pool, the responses of pairs of neurons were recorded simultaneously during repeated stimulus presentations. We report here that the observed covariation in spike count was relatively weak, the correlation coefficient averaging 0.12. A theoretical analysis revealed, however, that weak correlation can limit substantially the signalling capacity of the pool. In addition, theory suggests a relationship between neuronal responses and psychophysical decisions which may prove useful for identifying cell populations underlying specific perceptual capacities.",
+      "year": 1994,
+      "authors": [
+        {
+          "name": "E. Zohary",
+          "id": ""
+        },
+        {
+          "name": "M. Shadlen",
+          "id": ""
+        },
+        {
+          "name": "W. Newsome",
+          "id": ""
+        }
+      ],
+      "venue": "Nature",
+      "journal": null,
+      "url": "https://doi.org/10.1038/370140A0",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3529427292249135,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 4662789,
+      "title": "Intracranial Electrophysiology Reveals Reproducible Intrinsic Functional Connectivity within Human Brain Networks",
+      "abstract": "Evidence for intrinsic functional connectivity (FC) within the human brain is largely from neuroimaging studies of hemodynamic activity. Data are lacking from anatomically precise electrophysiological recordings in the most widely studied nodes of human brain networks. Here we used a combination of fMRI and electrocorticography (ECoG) in five human neurosurgical patients with electrodes in the canonical \u201cdefault\u201d (medial prefrontal and posteromedial cortex), \u201cdorsal attention\u201d (frontal eye fields and superior parietal lobule), and \u201cfrontoparietal control\u201d (inferior parietal lobule and dorsolateral prefrontal cortex) networks. In this unique cohort, simultaneous intracranial recordings within these networks were anatomically matched across different individuals. Within each network and for each individual, we found a positive, and reproducible, spatial correlation for FC measures obtained from resting-state fMRI and separately recorded ECoG in the same brains. This relationship was reliably identified for electrophysiological FC based on slow (<1 Hz) fluctuations of high-frequency broadband (70\u2013170 Hz) power, both during wakeful rest and sleep. A similar FC organization was often recovered when using lower-frequency (1\u201370 Hz) power, but anatomical specificity and consistency were greatest for the high-frequency broadband range. An interfrequency comparison of fluctuations in FC revealed that high and low-frequency ranges often temporally diverged from one another, suggesting that multiple neurophysiological sources may underlie variations in FC. Together, our work offers a generalizable electrophysiological basis for intrinsic FC and its dynamics across individuals, brain networks, and behavioral states. SIGNIFICANCE STATEMENT The study of human brain networks during wakeful \u201crest\u201d, largely with fMRI, is now a major focus in both cognitive and clinical neuroscience. However, little is known about the neurophysiology of these networks and their dynamics. We studied neural activity during wakeful rest and sleep within neurosurgical patients with directly implanted electrodes. We found that network activity patterns showed striking similarities between fMRI and direct recordings in the same brains. With improved resolution of direct recordings, we also found that networks were best characterized with specific activity frequencies and that different frequencies show different profiles of within-network activity over time. Our work clarifies how networks spontaneously organize themselves across individuals, brain networks, and behavioral states.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "A. Kucyi",
+          "id": ""
+        },
+        {
+          "name": "Jessica Schrouff",
+          "id": ""
+        },
+        {
+          "name": "S. Bickel",
+          "id": ""
+        },
+        {
+          "name": "B. Foster",
+          "id": ""
+        },
+        {
+          "name": "J. Shine",
+          "id": ""
+        },
+        {
+          "name": "J. Parvizi",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.0217-18.2018",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.348643060845004,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 9373156,
+      "title": "Correlated Firing in Macaque Visual Area MT: Time Scales and Relationship to Behavior",
+      "abstract": "We studied the simultaneous activity of pairs of neurons recorded with a single electrode in visual cortical area MT while monkeys performed a direction discrimination task. Previously, we reported the strength of interneuronal correlation of spike count on the time scale of the behavioral epoch (2 sec) and noted its potential impact on signal pooling (Zohary et al., 1994). We have now examined correlation at longer and shorter time scales and found that pair-wise cross-correlation was predominantly short term (10\u2013100 msec). Narrow, central peaks in the spike train cross-correlograms were largely responsible for correlated spike counts on the time scale of the behavioral epoch. Longer-term (many seconds to minutes) changes in the responsiveness of single neurons were observed in auto-correlations; however, these slow changes in time were on average uncorrelated between neurons. Knowledge of the limited time scale of correlation allowed the derivation of a more efficient metric for spike count correlation based on spike timing information, and it also revealed a potential relative advantage of larger neuronal pools for shorter integration times. Finally, correlation did not depend on the presence of the visual stimulus or the behavioral choice of the animal. It varied little with stimulus condition but was stronger between neurons with similar direction tuning curves. Taken together, our results strengthen the view that common input, common stimulus selectivity, and common noise are tightly linked in functioning cortical circuits.",
+      "year": 2001,
+      "authors": [
+        {
+          "name": "W. Bair",
+          "id": ""
+        },
+        {
+          "name": "E. Zohary",
+          "id": ""
+        },
+        {
+          "name": "W. Newsome",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.21-05-01676.2001",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3404275235730657,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 24452436,
+      "title": "Untitled",
+      "abstract": null,
+      "year": null,
+      "authors": [],
+      "venue": null,
+      "journal": null,
+      "url": null,
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32288402800490196,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    }
+  ]
+}

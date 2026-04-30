@@ -1,0 +1,906 @@
+query:
+  s3_prefix: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/
+  filters:
+    co_recorded_regions:
+    - VIS (VISp/VISl/VISrl/VISam/VISpm)
+    - PFC (ACA/ORB)
+    table: /units
+  n_sessions: 69
+sessions:
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/664851_2023-11-13.nwb
+  vis_regions:
+  - VISam2/3
+  - VISam4
+  - VISam5
+  pfc_regions:
+  - ACAd5
+  - ACAv2/3
+  - ACAv5
+  - ORBl1
+  - ORBl2/3
+  - ORBl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/664851_2023-11-15.nwb
+  vis_regions:
+  - VISrl2/3
+  pfc_regions:
+  - ACAd6a
+  - ACAv6a
+  - ACAv6b
+  - ORBl5
+  - ORBvl2/3
+  - ORBvl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/664851_2023-11-16.nwb
+  vis_regions:
+  - VISam6a
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv6a
+  - ORBm1
+  - ORBm2/3
+  - ORBm5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/667252_2023-09-27.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd6a
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBl6b
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/668755_2023-08-30.nwb
+  vis_regions:
+  - VISam1
+  - VISam2/3
+  - VISam4
+  - VISam5
+  - VISam6a
+  - VISam6b
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv5
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/668755_2023-08-31.nwb
+  vis_regions:
+  - VISam1
+  - VISam2/3
+  - VISam4
+  - VISam5
+  - VISam6a
+  - VISam6b
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISpm5
+  - VISpm6a
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv5
+  - ORBl1
+  - ORBl2/3
+  - ORBl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/674562_2023-10-02.nwb
+  vis_regions:
+  - VISrl2/3
+  - VISrl4
+  pfc_regions:
+  - ACAd6a
+  - ACAv5
+  - ACAv6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/674562_2023-10-03.nwb
+  vis_regions:
+  - VISrl2/3
+  pfc_regions:
+  - ACAd6a
+  - ACAv5
+  - ACAv6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/674562_2023-10-04.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd2/3
+  - ACAd5
+  - ACAv1
+  - ACAv2/3
+  - ACAv5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/676909_2023-12-11.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISpm2/3
+  - VISpm4
+  - VISpm5
+  - VISpm6a
+  - VISpm6b
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv5
+  - ACAv6a
+  - ORBl2/3
+  - ORBl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/676909_2023-12-12.nwb
+  vis_regions:
+  - VISp1
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISpm1
+  - VISpm2/3
+  - VISpm4
+  - VISpm5
+  - VISpm6a
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv5
+  - ORBl1
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/676909_2023-12-13.nwb
+  vis_regions:
+  - VISp1
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv2/3
+  - ACAv5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/676909_2023-12-14.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAd6b
+  - ACAv2/3
+  - ACAv5
+  - ORBl6a
+  - ORBm2/3
+  - ORBm5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/681532_2023-10-16.nwb
+  vis_regions:
+  - VISl1
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISli5
+  - VISli6a
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv6a
+  - ORBvl2/3
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/681532_2023-10-17.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd6a
+  - ACAv5
+  - ACAv6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/686176_2023-12-04.nwb
+  vis_regions:
+  - VISl5
+  - VISl6a
+  - VISl6b
+  - VISp2/3
+  - VISp4
+  - VISp5
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv1
+  - ACAv2/3
+  - ACAv5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/686176_2023-12-05.nwb
+  vis_regions:
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISl6b
+  - VISp2/3
+  - VISp4
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv2/3
+  - ACAv5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/686740_2023-10-25.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAd6b
+  - ACAv5
+  - ACAv6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/686740_2023-10-26.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd5
+  - ACAv5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/690706_2023-11-27.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd2/3
+  - ORBl2/3
+  - ORBl5
+  - ORBm1
+  - ORBm2/3
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/690706_2023-11-28.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd2/3
+  - ORBl1
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBm1
+  - ORBm2/3
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/690706_2023-11-29.nwb
+  vis_regions:
+  - VISl6a
+  - VISl6b
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd6a
+  - ACAd6b
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/699847_2024-04-16.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISli6b
+  pfc_regions:
+  - ORBl5
+  - ORBl6a
+  - ORBl6b
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/699847_2024-04-17.nwb
+  vis_regions:
+  - VISl2/3
+  - VISli1
+  - VISli2/3
+  - VISli4
+  - VISli5
+  pfc_regions:
+  - ACAd5
+  - ACAv2/3
+  - ACAv5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/699847_2024-04-18.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd5
+  - ACAv1
+  - ACAv2/3
+  - ACAv5
+  - ORBl2/3
+  - ORBl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/703333_2024-04-09.nwb
+  vis_regions:
+  - VISli5
+  - VISpm5
+  - VISpm6a
+  - VISpor5
+  - VISpor6a
+  - VISpor6b
+  pfc_regions:
+  - ACAd2/3
+  - ACAd5
+  - ACAv2/3
+  - ACAv5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/703333_2024-04-10.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd1
+  - ACAd2/3
+  - ACAv1
+  - ACAv2/3
+  - ACAv5
+  - ACAv6a
+  - ORBl2/3
+  - ORBl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/703333_2024-04-11.nwb
+  vis_regions:
+  - VISl2/3
+  - VISli2/3
+  - VISli5
+  - VISpor5
+  - VISpor6a
+  - VISpor6b
+  pfc_regions:
+  - ACAd2/3
+  - ACAd5
+  - ACAv1
+  - ACAv2/3
+  - ACAv5
+  - ORBl5
+  - ORBl6a
+  - ORBvl2/3
+  - ORBvl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/703880_2024-04-17.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv2/3
+  - ACAv5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/703882_2024-04-23.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd5
+  - ACAv2/3
+  - ACAv5
+  - ORBl6a
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/703882_2024-04-24.nwb
+  vis_regions:
+  - VISp4
+  - VISp5
+  - VISrl5
+  - VISrl6a
+  pfc_regions:
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/706401_2024-04-23.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISli6b
+  pfc_regions:
+  - ACAd5
+  - ACAv1
+  - ACAv2/3
+  - ACAv5
+  - ORBm5
+  - ORBm6a
+  - ORBvl1
+  - ORBvl2/3
+  - ORBvl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/708016_2024-04-29.nwb
+  vis_regions:
+  - VISl5
+  - VISl6a
+  - VISli6a
+  - VISli6b
+  pfc_regions:
+  - ORBl6a
+  - ORBl6b
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/708016_2024-04-30.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv5
+  - ORBl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/708016_2024-05-02.nwb
+  vis_regions:
+  - VISam2/3
+  - VISam4
+  - VISam5
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd6a
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBm6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/712815_2024-05-21.nwb
+  vis_regions:
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd2/3
+  - ACAd5
+  - ACAd6a
+  - ACAv6a
+  - ORBl2/3
+  - ORBl5
+  - ORBvl1
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/713655_2024-08-09.nwb
+  vis_regions:
+  - VISl1
+  - VISli1
+  - VISli2/3
+  pfc_regions:
+  - ACAd6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/714748_2024-06-24.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISli6b
+  pfc_regions:
+  - ACAd5
+  - ORBl1
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBm5
+  - ORBm6a
+  - ORBvl2/3
+  - ORBvl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/714748_2024-06-25.nwb
+  vis_regions:
+  - VISp1
+  - VISp2/3
+  - VISp4
+  pfc_regions:
+  - ORBl5
+  - ORBl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/714748_2024-06-27.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd5
+  - ACAd6b
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/715710_2024-07-15.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISl6b
+  - VISli5
+  - VISp1
+  pfc_regions:
+  - ORBl2/3
+  - ORBl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/715710_2024-07-16.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISli6a
+  - VISli6b
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/715710_2024-07-18.nwb
+  vis_regions:
+  - VISpm2/3
+  - VISpm4
+  - VISpm5
+  - VISpm6a
+  - VISpm6b
+  pfc_regions:
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBvl2/3
+  - ORBvl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/715710_2024-07-19.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISli5
+  - VISli6a
+  - VISli6b
+  - VISp1
+  - VISpl6a
+  - VISpl6b
+  pfc_regions:
+  - ORBl1
+  - ORBl2/3
+  - ORBl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/726088_2024-06-17.nwb
+  vis_regions:
+  - VISl2/3
+  - VISli2/3
+  - VISli5
+  - VISli6a
+  pfc_regions:
+  - ACAd2/3
+  - ORBl5
+  - ORBvl2/3
+  - ORBvl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/726088_2024-06-18.nwb
+  vis_regions:
+  - VISli2/3
+  - VISli4
+  - VISli5
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ORBl5
+  - ORBvl2/3
+  - ORBvl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/726088_2024-06-20.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  - VISrl1
+  pfc_regions:
+  - ACAd5
+  - ACAv5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/726088_2024-06-21.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/733780_2024-08-26.nwb
+  vis_regions:
+  - VISli1
+  - VISli2/3
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv6a
+  - ACAv6b
+  - ORBl5
+  - ORBl6a
+  - ORBl6b
+  - ORBm5
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/733780_2024-08-29.nwb
+  vis_regions:
+  - VISl1
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISli5
+  - VISli6a
+  - VISrl2/3
+  - VISrl4
+  pfc_regions:
+  - ORBm6a
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/733780_2024-09-04.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISl6b
+  pfc_regions:
+  - ACAd6a
+  - ORBl1
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBm6a
+  - ORBvl2/3
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/733891_2024-09-16.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl6a
+  - VISp6b
+  - VISpl6a
+  - VISpor6b
+  pfc_regions:
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/733891_2024-09-17.nwb
+  vis_regions:
+  - VISli1
+  - VISli2/3
+  - VISp1
+  - VISp2/3
+  - VISp4
+  - VISp5
+  pfc_regions:
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBvl2/3
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/733891_2024-09-18.nwb
+  vis_regions:
+  - VISli2/3
+  - VISli4
+  - VISli5
+  - VISpor5
+  - VISpor6a
+  - VISpor6b
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/733891_2024-09-19.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISli6b
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  - VISpor6a
+  - VISpor6b
+  pfc_regions:
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/733891_2024-09-20.nwb
+  vis_regions:
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd5
+  - ACAv1
+  - ACAv2/3
+  - ACAv5
+  - ORBm1
+  - ORBm2/3
+  - ORBm5
+  - ORBm6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/737403_2024-09-24.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  pfc_regions:
+  - ACAd1
+  - ACAv2/3
+  - ACAv5
+  - ORBm1
+  - ORBm2/3
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/737403_2024-09-25.nwb
+  vis_regions:
+  - VISli2/3
+  - VISli4
+  - VISli5
+  - VISli6a
+  - VISpm2/3
+  - VISpm4
+  - VISpm5
+  - VISpor6a
+  - VISpor6b
+  pfc_regions:
+  - ORBl5
+  - ORBl6a
+  - ORBm6a
+  - ORBvl2/3
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/737403_2024-09-26.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd5
+  - ORBl5
+  - ORBvl2/3
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/737403_2024-09-27.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ORBl6a
+  - ORBm2/3
+  - ORBm5
+  - ORBvl2/3
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/741137_2024-10-10.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISli5
+  - VISli6a
+  pfc_regions:
+  - ACAd6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/741137_2024-10-11.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd6a
+  - ACAv5
+  - ACAv6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/744279_2025-01-13.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp4
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ACAd6a
+  - ACAv6a
+  - ORBl2/3
+  - ORBl5
+  - ORBl6a
+  - ORBm5
+  - ORBvl2/3
+  - ORBvl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/744279_2025-01-15.nwb
+  vis_regions:
+  - VISp2/3
+  - VISp5
+  - VISp6a
+  - VISp6b
+  pfc_regions:
+  - ORBl2/3
+  - ORBl5
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/746439_2025-01-27.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISl6b
+  pfc_regions:
+  - ORBl6a
+  - ORBl6b
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/746439_2025-01-29.nwb
+  vis_regions:
+  - VISl1
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv6a
+  - ORBl6a
+  - ORBm2/3
+  - ORBm5
+  - ORBvl5
+  - ORBvl6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/746439_2025-01-31.nwb
+  vis_regions:
+  - VISl1
+  - VISl2/3
+  - VISl4
+  - VISl5
+  - VISl6a
+  - VISl6b
+  pfc_regions:
+  - ACAd5
+  - ACAd6a
+  - ACAv6a
+  - ACAv6b
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/759434_2025-02-03.nwb
+  vis_regions:
+  - VISl2/3
+  - VISl4
+  - VISli5
+  - VISli6a
+  - VISli6b
+  pfc_regions:
+  - ACAd6a
+- nwb_path: s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/759434_2025-02-04.nwb
+  vis_regions:
+  - VISl1
+  - VISl2/3
+  - VISli2/3
+  - VISli5
+  - VISli6a
+  pfc_regions:
+  - ACAd6a

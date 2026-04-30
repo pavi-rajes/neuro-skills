@@ -1,0 +1,989 @@
+{
+  "query": "Noise correlations between cortical areas as a substrate for information routing and selective attention",
+  "results": [
+    {
+      "corpusId": 16937159,
+      "title": "Attention Increases Spike Count Correlations between Visual Cortical Areas",
+      "abstract": "Visual attention, which improves perception of attended locations or objects, has long been known to affect many aspects of the responses of neuronal populations in visual cortex. There are two nonmutually exclusive hypotheses concerning the neuronal mechanisms that underlie these perceptual improvements. The first hypothesis, that attention improves the information encoded by a population of neurons in a particular cortical area, has considerable physiological support. The second hypothesis is that attention improves perception by selectively communicating relevant visual information. This idea has been tested primarily by measuring interactions between neurons on very short timescales, which are mathematically nearly independent of neuronal interactions on longer timescales. We tested the hypothesis that attention changes the way visual information is communicated between cortical areas on longer timescales by recording simultaneously from neurons in primary visual cortex (V1) and the middle temporal area (MT) in rhesus monkeys. We used two independent and complementary approaches. Our correlative experiment showed that attention increases the trial-to-trial response variability that is shared between the two areas. In our causal experiment, we electrically microstimulated V1 and found that attention increased the effect of stimulation on MT responses. Together, our results suggest that attention affects both the way visual stimuli are encoded within a cortical area and the extent to which visual information is communicated between areas on behaviorally relevant timescales. SIGNIFICANCE STATEMENT Visual attention dramatically improves the perception of attended stimuli. Attention has long been thought to act by selecting relevant visual information for further processing. It has been hypothesized that this selection is accomplished by increasing communication between neurons that encode attended information in different cortical areas. We recorded simultaneously from neurons in primary visual cortex and the middle temporal area while rhesus monkeys performed an attention task. We found that attention increased shared variability between neurons in the two areas and that attention increased the effect of microstimulation in V1 on the firing rates of MT neurons. Our results provide support for the hypothesis that attention increases communication between neurons in different brain areas on behaviorally relevant timescales.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "D. Ruff",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.0610-16.2016",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9598794636556588,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 9662123,
+      "title": "Attention Improves Transfer of Motion Information between V1 and MT",
+      "abstract": "Selective attention modulates activity within individual visual areas; however, the role of attention in mediating the transfer of information between areas is not well understood. Here, we used fMRI to assess attention-related changes in coupled BOLD activation in two key areas of human visual cortex that are involved in motion processing: V1 and MT. To examine attention-related changes in cross-area coupling, multivoxel patterns in each visual area were decomposed to estimate the trial-by-trial response amplitude in a set of direction-selective \u201cchannels.\u201d In both V1 and MT, BOLD responses increase in direction-selective channels tuned to the attended direction of motion and decrease in channels tuned away from the attended direction. Furthermore, the modulation of cross-area correlations between similarly tuned populations is inversely related to the modulation of their mean responses, an observation that can be explained via a feedforward motion computation in MT and a modulation of local noise correlations in V1. More importantly, these modulations accompany an increase in the cross-area mutual information between direction-selective response patterns in V1 and MT, suggesting that attention improves the transfer of sensory information between cortical areas that cooperate to support perception. Finally, our model suggests that divisive normalization of neural activity in V1 before its integration by MT is critical to cross-area information coupling, both in terms of cross-area correlation as well as cross-area mutual information.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "S. Saproo",
+          "id": ""
+        },
+        {
+          "name": "J. Serences",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:9662123",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9406675247238396,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 15577350,
+      "title": "A model for selective visual attention predicts information routing",
+      "abstract": "A remarkable feature of the brain is its ability to flexibly process information in a context-dependent manner. For example, selective attention allows to focus on relevant information, and to ignore distracting features of a visual scene. Here we develop a model to investigate a putative neural mechanism by which attention might dynamically change the functional configuration of networks in visual cortex. \n \nSince efferents from multiple neurons in an early visual area converge onto the same neuron in a higher area, synaptic input induced by an attended object should be more efficient in driving the post-synaptic neuron than an input induced by a simultaneously presented, but unattended object. In fact, it has been found that the firing rate of a post-synaptic neuron in such a situation is similar to its activity when the unattended stimulus is absent. However, if no attention is directed while two stimuli are present, the firing rate of the post-synaptic neuron is approximately at the mean of the rates at which it would fire if each of two stimuli were presented alone (biased competition [1,2]). Attention is thus assumed to selectively promote information transfer between visual areas. Recent experiments support this idea by showing that V4 local field potentials are correlated with a temporal modulation of the attended stimulus and not with the temporal modulation of a non-attended stimulus in the same receptive field (gating [3]). \n \nSeveral models were proposed to explain the effect of biased competition and information routing [4,5]. However, here we construct a biophysically plausible model that specifically reproduces both experimental results within the same framework. It comprises four populations of recurrently coupled networks of conductance-based spiking neurons with lateral inhibition. Upon activation, these populations engage in oscillatory activity. The first two networks correspond to a lower visual area with non-overlapping receptive fields, which both project to the third and the fourth network corresponding to higher area populations with larger receptive fields. We assume attention to manifest as an additional input to one lower area population. Deployment of attention consequently results in a bias of firing rates between the populations in the lower area. This bias induces a phase relation between the lower and the higher area that is more suitable for information transmission from the attended stimulus. We show that this mechanism is capable to explain both, the biased competition effect of the firing rate, and selective gating of information flow. We thus propose a combination of cortical network topology, neuronal population dynamics, and selective additional input as putative neural underpinnings of attention.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "D. Harnack",
+          "id": ""
+        },
+        {
+          "name": "U. Ernst",
+          "id": ""
+        },
+        {
+          "name": "K. Pawelzik",
+          "id": ""
+        }
+      ],
+      "venue": "BMC Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:15577350",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9079724168971112,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 19685113,
+      "title": "Stimulus Dependence of Correlated Variability across Cortical Areas",
+      "abstract": "The way that correlated trial-to-trial variability between pairs of neurons in the same brain area (termed spike count or noise correlation, rSC) depends on stimulus or task conditions can constrain models of cortical circuits and of the computations performed by networks of neurons (Cohen and Kohn, 2011). In visual cortex, rSC tends not to depend on stimulus properties (Kohn and Smith, 2005; Huang and Lisberger, 2009) but does depend on cognitive factors like visual attention (Cohen and Maunsell, 2009; Mitchell et al., 2009). However, neurons across visual areas respond to any visual stimulus or contribute to any perceptual decision, and the way that information from multiple areas is combined to guide perception is unknown. To gain insight into these issues, we recorded simultaneously from neurons in two areas of visual cortex (primary visual cortex, V1, and the middle temporal area, MT) while rhesus monkeys viewed different visual stimuli in different attention conditions. We found that correlations between neurons in different areas depend on stimulus and attention conditions in very different ways than do correlations within an area. Correlations across, but not within, areas depend on stimulus direction and the presence of a second stimulus, and attention has opposite effects on correlations within and across areas. This observed pattern of cross-area correlations is predicted by a normalization model where MT units sum V1 inputs that are passed through a divisive nonlinearity. Together, our results provide insight into how neurons in different areas interact and constrain models of the neural computations performed across cortical areas. SIGNIFICANCE STATEMENT Correlations in the responses of pairs of neurons within the same cortical area have been a subject of growing interest in systems neuroscience. However, correlated variability between different cortical areas is likely just as important. We recorded simultaneously from neurons in primary visual cortex and the middle temporal area while rhesus monkeys viewed different visual stimuli in different attention conditions. We found that correlations between neurons in different areas depend on stimulus and attention conditions in very different ways than do correlations within an area. The observed pattern of cross-area correlations was predicted by a simple normalization model. Our results provide insight into how neurons in different areas interact and constrain models of the neural computations performed across cortical areas.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "D. Ruff",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.0504-16.2016",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7549794193635856,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 227172951,
+      "title": "Correlated structure of neuronal firing in macaque visual cortex limits information for binocular depth discrimination",
+      "abstract": "Variability in cortical neural activity potentially limits sensory discriminations. Theoretical work shows that information required to discriminate two similar stimuli is limited by the correlation structure of cortical variability. We investigated these information-limiting correlations by recording simultaneously from visual cortical areas V1 and V4 in macaque monkeys, performing a binocular, stereo-depth discrimination task. Within both areas, noise correlations on a rapid temporal scale (20-30ms) were stronger for neuron-pairs with similar selectivity for binocular depth, meaning that these correlations potentially limit information for making the discrimination. Between-area correlations (V1 to V4) were different, being weaker for neuron pairs with similar tuning, and having a slower temporal scale (100+ms). Fluctuations in these information-limiting correlations just prior to the detection event were associated with changes in behavioural accuracy. Although these correlations limit the recovery of information about sensory targets, their impact may be curtailed by integrative processing of signals across multiple brain areas.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Jackson E. T. Smith",
+          "id": ""
+        },
+        {
+          "name": "A. Parker",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:227172951",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7483908150889842,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 3676308,
+      "title": "Attentional modulation of neuronal variability in circuit models of cortex",
+      "abstract": "The circuit mechanisms behind shared neural variability (noise correlation) and its dependence on neural state are poorly understood. Visual attention is well-suited to constrain cortical models of response variability because attention both increases firing rates and their stimulus sensitivity, as well as decreases noise correlations. We provide a novel analysis of population recordings in rhesus primate visual area V4 showing that a single biophysical mechanism may underlie these diverse neural correlates of attention. We explore model cortical networks where top-down mediated increases in excitability, distributed across excitatory and inhibitory targets, capture the key neuronal correlates of attention. Our models predict that top-down signals primarily affect inhibitory neurons, whereas excitatory neurons are more sensitive to stimulus specific bottom-up inputs. Accounting for trial variability in models of state dependent modulation of neuronal activity is a critical step in building a mechanistic theory of neuronal cognition. DOI: http://dx.doi.org/10.7554/eLife.23978.001",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Tatjana Kanashiro",
+          "id": ""
+        },
+        {
+          "name": "G. Ocker",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        },
+        {
+          "name": "B. Doiron",
+          "id": ""
+        }
+      ],
+      "venue": "eLife",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:3676308",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6711813824203202,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 263800317,
+      "title": "Different roles of response covariability and its attentional modulation in the sensory cortex and posterior parietal cortex",
+      "abstract": "Significance It is important to understand mechanisms of information encoding in the brain, for which the covariability of neural responses is highly relevant. Recent neurophysiology studies have revealed that cognitive processes such as attention could improve neural encoding through modulating the covariability in the neuron population. However, it is unclear whether covariability modulation could generally lead to improved information encoding throughout the information processing stream or only in certain stages of neural information processing. Our results show that attention significantly modulated covariability and benefited information encoding in the early visual cortex but not in the posterior parietal cortex, even though stimulus information was encoded in both regions. Covariability modulation is differentially adopted in different cortical regions, depending on the representation property.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Yong Jiang",
+          "id": ""
+        },
+        {
+          "name": "Sheng He",
+          "id": ""
+        },
+        {
+          "name": "Jiedong Zhang",
+          "id": ""
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:263800317",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5420486900290001,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 22897768,
+      "title": "Top-Down Control of Visual Attention by the Prefrontal Cortex. Functional Specialization and Long-Range Interactions",
+      "abstract": "The ability to select information that is relevant to current behavioral goals is the hallmark of voluntary attention and an essential part of our cognition. Attention tasks are a prime example to study at the neuronal level, how task related information can be selectively processed in the brain while irrelevant information is filtered out. Whereas, numerous studies have focused on elucidating the mechanisms of visual attention at the single neuron and population level in the visual cortices, considerably less work has been devoted to deciphering the distinct contribution of higher-order brain areas, which are known to be critical for the employment of attention. Among these areas, the prefrontal cortex (PFC) has long been considered a source of top-down signals that bias selection in early visual areas in favor of the attended features. Here, we review recent experimental data that support the role of PFC in attention. We examine the existing evidence for functional specialization within PFC and we discuss how long-range interactions between PFC subregions and posterior visual areas may be implemented in the brain and contribute to the attentional modulation of different measures of neural activity in visual cortices.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Sofia Paneri",
+          "id": ""
+        },
+        {
+          "name": "G. Gregoriou",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:22897768",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5202808978586358,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 219514514,
+      "title": "Shaping the Cortical Landscape: Functions and Mechanisms of Top-Down Cortical Feedback Pathways",
+      "abstract": "Cortical feedback pathways are proposed to guide cognition and behavior according to context and goal-direction. At the cellular level, cortical feedback pathways target multiple excitatory and inhibitory populations. However, we currently lack frameworks that link how the cellular mechanisms of cortical feedback pathways underlie their cognitive/behavioral functions. To establish this link, we expand on the framework of signal routing, the ability of cortical feedback pathways to proactively modulate how feedforward signals are propagated throughout the cortex. We propose that cortical feedback modulates routing through multiple mechanisms: preparing intended motor representations, setting the trigger conditions for evoking cortical outputs, altering coupling strengths between cortical regions, and suppressing expected sensory representations. In developing this framework, we first define the anatomy of cortical feedback pathways and identify recent advances in studying their functions at high specificity and resolution. Second, we review the diverse functions of cortical feedback pathways throughout the cortical hierarchy and evaluate these functions from the framework of signal routing. Third, we review the conserved cellular targets and circuit impacts of cortical feedback. Fourth, we introduce the concept of the \u201ccortical landscape,\u201d a graphical depiction of the routes through cortex that are favored at a specific moment in time. We propose that the cortical landscape, analogous to energy landscapes in physics and chemistry, can capture important features of signal routing including coupling strength, trigger conditions, and preparatory states. By resolving the cortical landscape, we may be able to quantify how the cellular processes of cortical feedback ultimately shape cognition and behavior.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Edward Zagha",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Systems Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:219514514",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5141466733062856,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 245839962,
+      "title": "Cortical state dynamics and selective attention define the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in the neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity but also change dynamically with cognitive states such as attention. Yet, the network mechanisms defining the population structure of correlations remain unknown. We measured correlations within columns in the visual cortex. We show that the magnitude of correlations, their attentional modulation, and dependence on lateral distance are explained by columnar On-Off dynamics, which are synchronous activity fluctuations reflecting cortical state. We developed a network model in which the On-Off dynamics propagate across nearby columns generating spatial correlations with the extent controlled by attentional inputs. This mechanism, unlike previous proposals, predicts spatially non-uniform changes in correlations during attention. We confirm this prediction in our columnar recordings by showing that in superficial layers the largest changes in correlations occur at intermediate lateral distances. Our results reveal how spatially structured patterns of correlated variability emerge through interactions of cortical state dynamics, anatomical connectivity, and attention. Noise correlations in the neocortex change dynamically with cognitive states. Here the authors show how heterogeneous spatial patterns of noise correlations emerge through interactions of cortical On-Off dynamics, connectivity, and attention.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:245839962",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4976140531231086,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256674891,
+      "title": "Cortical state dynamics and selective attention define the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in the neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity but also change dynamically with cognitive states such as attention. Yet, the network mechanisms defining the population structure of correlations remain unknown. We measured correlations within columns in the visual cortex. We show that the magnitude of correlations, their attentional modulation, and dependence on lateral distance are explained by columnar On-Off dynamics, which are synchronous activity fluctuations reflecting cortical state. We developed a network model in which the On-Off dynamics propagate across nearby columns generating spatial correlations with the extent controlled by attentional inputs. This mechanism, unlike previous proposals, predicts spatially non-uniform changes in correlations during attention. We confirm this prediction in our columnar recordings by showing that in superficial layers the largest changes in correlations occur at intermediate lateral distances. Our results reveal how spatially structured patterns of correlated variability emerge through interactions of cortical state dynamics, anatomical connectivity, and attention. Noise correlations in the neocortex change dynamically with cognitive states. Here the authors show how heterogeneous spatial patterns of noise correlations emerge through interactions of cortical On-Off dynamics, connectivity, and attention.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:256674891",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4910907041605714,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 221510558,
+      "title": "Influence of On-Off dynamics and selective attention on the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity and change dynamically with cognitive states, such as attention. Yet, how anatomical connectivity and cognitive states define the population structure of correlations is not known. We measured correlations in single cortical columns and found that the magnitude of correlations, their attentional modulation and dependence on lateral distance are predicted by On-Off dynamics, synchronous fluctuations in population activity across cortical layers. We developed a network model, in which spatial connectivity correlates the On-Off dynamics across nearby columns. We show that attentional inputs modulate the spatial extent of On-Off dynamics, resulting in spatially non-uniform changes in correlations. We confirm this prediction in our columnar recordings by showing that attentional modulation of correlations depends on lateral distance. Our results reveal how heterogeneous spatial patterns of correlations arise from the connectivity and network dynamics during attention.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:221510558",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.48677292591304794,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 8456067,
+      "title": "Attention improves performance primarily by reducing interneuronal correlations",
+      "abstract": "Visual attention can improve behavioral performance by allowing observers to focus on the important information in a complex scene. Attention also typically increases the firing rates of cortical sensory neurons. Rate increases improve the signal-to-noise ratio of individual neurons, and this improvement has been assumed to underlie attention-related improvements in behavior. We recorded dozens of neurons simultaneously in visual area V4 and found that changes in single neurons accounted for only a small fraction of the improvement in the sensitivity of the population. Instead, over 80% of the attentional improvement in the population signal was caused by decreases in the correlations between the trial-to-trial fluctuations in the responses of pairs of neurons. These results suggest that the representation of sensory information in populations of neurons and the way attention affects the sensitivity of the population may only be understood by considering the interactions between neurons.",
+      "year": 2009,
+      "authors": [
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        },
+        {
+          "name": "J. Maunsell",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.2439",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.48563439729242547,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1969436,
+      "title": "Spatial attention decorrelates intrinsic activity fluctuations in macaque area V4.",
+      "abstract": "Attention typically amplifies neuronal responses evoked by task-relevant stimuli while attenuating responses to task-irrelevant distracters. In this context, visual distracters constitute an external source of noise that is diminished to improve attended signal quality. Activity that is internal to the cortex itself, stimulus-independent ongoing correlated fluctuations in firing, might also act as task-irrelevant noise. To examine this, we recorded from area V4 of macaques performing an attention-demanding task. The firing of neurons to identically repeated stimuli was highly variable. Much of this variability originates from ongoing low-frequency (<5 Hz) fluctuations in rate correlated across the neuronal population. When attention is directed to a stimulus inside a neuron's receptive field, these correlated fluctuations in rate are reduced. This attention-dependent reduction of ongoing cortical activity improves the signal-to-noise ratio of pooled neural signals substantially more than attention-dependent increases in firing rate.",
+      "year": 2009,
+      "authors": [
+        {
+          "name": "Jude F. Mitchell",
+          "id": ""
+        },
+        {
+          "name": "Kristy A. Sundberg",
+          "id": ""
+        },
+        {
+          "name": "J. Reynolds",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/19778515",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.48186651424955945,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 6984668,
+      "title": "Corticothalamic Synaptic Noise as a Mechanism for Selective Attention in Thalamic Neurons",
+      "abstract": "A reason why the thalamus is more than a passive gateway for sensory signals is that two-third of the synapses of thalamocortical neurons are directly or indirectly related to the activity of corticothalamic axons. While the responses of thalamocortical neurons evoked by sensory stimuli are well characterized, with ON- and OFF-center receptive field structures, the prevalence of synaptic noise resulting from neocortical feedback in intracellularly recorded thalamocortical neurons in vivo has attracted little attention. However, in vitro and modeling experiments point to its critical role for the integration of sensory signals. Here we combine our recent findings in a unified framework suggesting the hypothesis that corticothalamic synaptic activity is adapted to modulate the transfer efficiency of thalamocortical neurons during selective attention at three different levels: First, on ionic channels by interacting with intrinsic membrane properties, second at the neuron level by impacting on the input-output gain, and third even more effectively at the cell assembly level by boosting the information transfer of sensory features encoded in thalamic subnetworks. This top-down population control is achieved by tuning the correlations in subthreshold membrane potential fluctuations and is adapted to modulate the transfer of sensory features encoded by assemblies of thalamocortical relay neurons. We thus propose that cortically-controlled (de-)correlation of subthreshold noise is an efficient and swift dynamic mechanism for selective attention in the thalamus.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "S\u00e9bastien B\u00e9huret",
+          "id": ""
+        },
+        {
+          "name": "C. Deleuze",
+          "id": ""
+        },
+        {
+          "name": "T. Bal",
+          "id": ""
+        }
+      ],
+      "venue": "Front. Neural Circuits",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:6984668",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.47214950647356063,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16939263,
+      "title": "Cortical state and attention",
+      "abstract": "The brain continuously adapts its processing machinery to behavioural demands. To achieve this, it rapidly modulates the operating mode of cortical circuits, controlling the way that information is transformed and routed. This article will focus on two experimental approaches by which the control of cortical information processing has been investigated: the study of state-dependent cortical processing in rodents and attention in the primate visual system. Both processes involve a modulation of low-frequency activity fluctuations and spiking correlation, and are mediated by common receptor systems. We suggest that selective attention involves processes that are similar to state change, and that operate at a local columnar level to enhance the representation of otherwise non-salient features while suppressing internally generated activity patterns.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "K. Harris",
+          "id": ""
+        },
+        {
+          "name": "A. Thiele",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Reviews Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nrn3084",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.45963990456250536,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 231885183,
+      "title": "Neuronal modulation in the mouse superior colliculus during covert visual selective attention",
+      "abstract": "Covert visual attention is accomplished by a cascade of mechanisms distributed across multiple brain regions. Visual cortex is associated with enhanced representations of relevant stimulus features, whereas the contributions of subcortical circuits are less well understood but have been associated with selection of relevant spatial locations and suppression of distracting stimuli. As a step toward understanding these subcortical circuits, here we identified how neuronal activity in the intermediate layers of the superior colliculus (SC) of head-fixed mice is modulated during covert visual attention. We found that spatial cues modulated both firing rate and spike-count correlations. Crucially, the cue-related modulation in firing rate was due to enhancement of activity at the cued spatial location rather than suppression at the uncued location, indicating that SC neurons in our task were modulated by an excitatory or disinhibitory circuit mechanism focused on the relevant location, rather than broad inhibition of irrelevant locations. This modulation improved the neuronal discriminability of visual-change-evoked activity, but only when assessed for neuronal activity between the contralateral and ipsilateral SC. Together, our findings indicate that neurons in the mouse SC can contribute to covert visual selective attention by biasing processing in favor of locations expected to contain task-relevant information.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Lupeng Wang",
+          "id": ""
+        },
+        {
+          "name": "James P. Herman",
+          "id": ""
+        },
+        {
+          "name": "R. Krauzlis",
+          "id": ""
+        }
+      ],
+      "venue": "Scientific Reports",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:231885183",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4514591407738028,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 245133586,
+      "title": "Cognitive experience alters cortical involvement in navigation decisions",
+      "abstract": "The neural correlates of decision-making have been investigated extensively, and recent work aims to identify under what conditions cortex is actually necessary for making accurate decisions. We discovered that mice with distinct cognitive experiences, beyond sensory and motor learning, use different cortical areas and neural activity patterns to solve the same task, revealing past learning as a critical determinant of whether cortex is necessary for decision-making. We used optogenetics and calcium imaging to study the necessity and neural activity of multiple cortical areas in mice with different training histories. Posterior parietal cortex and retrosplenial cortex were mostly dispensable for accurate decision-making in mice performing a simple navigation-based decision task. In contrast, these areas were essential for the same simple task when mice were previously trained on complex tasks with delay periods or association switches. Multi-area calcium imaging showed that, in mice with complex-task experience, single-neuron activity had higher selectivity and neuron-neuron correlations were weaker, leading to codes with higher task information. Therefore, past experience sets the landscape for how future tasks are solved by the brain and is a key factor in determining whether cortical areas have a causal role in decision-making.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Charlotte Arlt",
+          "id": ""
+        },
+        {
+          "name": "Roberto Barroso-Luque",
+          "id": ""
+        },
+        {
+          "name": "S. Kira",
+          "id": ""
+        },
+        {
+          "name": "Carissa A Bruno",
+          "id": ""
+        },
+        {
+          "name": "Ningjing Xia",
+          "id": ""
+        },
+        {
+          "name": "Selmaan N. Chettih",
+          "id": ""
+        },
+        {
+          "name": "Sofia Soares",
+          "id": ""
+        },
+        {
+          "name": "Noah L. Pettit",
+          "id": ""
+        },
+        {
+          "name": "C. Harvey",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:245133586",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.443599629918744,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 18770071,
+      "title": "Task Engagement Selectively Modulates Neural Correlations in Primary Auditory Cortex",
+      "abstract": "Noise correlations (rnoise) between neurons can affect a neural population's discrimination capacity, even without changes in mean firing rates of neurons. rnoise, the degree to which the response variability of a pair of neurons is correlated, has been shown to change with attention with most reports showing a reduction in rnoise. However, the effect of reducing rnoise on sensory discrimination depends on many factors, including the tuning similarity, or tuning correlation (rtuning), between the pair. Theoretically, reducing rnoise should enhance sensory discrimination when the pair exhibits similar tuning, but should impair discrimination when tuning is dissimilar. We recorded from pairs of neurons in primary auditory cortex (A1) under two conditions: while rhesus macaque monkeys (Macaca mulatta) actively performed a threshold amplitude modulation (AM) detection task and while they sat passively awake. We report that, for pairs with similar AM tuning, average rnoise in A1 decreases when the animal performs the AM detection task compared with when sitting passively. For pairs with dissimilar tuning, the average rnoise did not significantly change between conditions. This suggests that attention-related modulation can target selective subcircuits to decorrelate noise. These results demonstrate that engagement in an auditory task enhances population coding in primary auditory cortex by selectively reducing deleterious rnoise and leaving beneficial rnoise intact.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "J. Downer",
+          "id": ""
+        },
+        {
+          "name": "Mamiko Niwa",
+          "id": ""
+        },
+        {
+          "name": "M. Sutter",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:18770071",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.44281190938537307,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 101729,
+      "title": "Disambiguating the role of noise correlations when decoding neural populations together",
+      "abstract": "One of the most controversial problems in neural decoding is quantifying the information loss caused by ignoring noise correlations during optimal brain computations. For more than a decade, the measure here called $ \\Delta I^{DL} $ has been believed exact. However, we have recently shown that it can exceed the information loss $ \\Delta I^{B} $ caused by optimal decoders constructed ignoring noise correlations. Unfortunately, the different information notions underlying $ \\Delta I^{DL} $ and $ \\Delta I^{B} $, and the putative rigorous information-theoretical derivation of $ \\Delta I^{DL} $, both render unclear whether those findings indicate either flaws in $ \\Delta I^{DL} $ or major departures from traditional relations between information and decoding. Here we resolve this paradox and prove that, under certain conditions, observing $ \\Delta I^{DL} {>}\\Delta I^{B} $ implies that $ \\Delta I^{DL} $ is flawed. Motivated by this analysis, we test both measures using neural populations that transmit independent information. Our results show that $ \\Delta I^{DL} $ may deem noise correlations more important when decoding the populations together than when decoding them in parallel, whereas the opposite may occur for $ \\Delta I^{B} $. We trace these phenomena back, for $ \\Delta I^{B} $, to the choice of tie-breaking rules, and for $ \\Delta I^{DL} $, to unforeseen limitations within its information-theoretical foundations. Our study contributes with better estimates that potentially improve theoretical and experimental inferences currently drawn from $ \\Delta I^{DL} $ without noticing that it may constitute an upper bound. On the practical side, our results promote the design of optimal decoding algorithms and neuroprosthetics without recording noise correlations, thereby saving experimental and computational resources.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "H. G. Eyherabide",
+          "id": ""
+        }
+      ],
+      "venue": "arXiv.org",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:101729",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43968283540785313,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 249956880,
+      "title": "Cognitive experience alters cortical involvement in goal-directed navigation",
+      "abstract": "Neural activity in the mammalian cortex has been studied extensively during decision tasks, and recent work aims to identify under what conditions cortex is actually necessary for these tasks. We discovered that mice with distinct cognitive experiences, beyond sensory and motor learning, use different cortical areas and neural activity patterns to solve the same navigation decision task, revealing past learning as a critical determinant of whether cortex is necessary for goal-directed navigation. We used optogenetics and calcium imaging to study the necessity and neural activity of multiple cortical areas in mice with different training histories. Posterior parietal cortex and retrosplenial cortex were mostly dispensable for accurate performance of a simple navigation task. In contrast, these areas were essential for the same simple task when mice were previously trained on complex tasks with delay periods or association switches. Multiarea calcium imaging showed that, in mice with complex-task experience, single-neuron activity had higher selectivity and neuron\u2013neuron correlations were weaker, leading to codes with higher task information. Therefore, past experience is a key factor in determining whether cortical areas have a causal role in goal-directed navigation.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Charlotte Arlt",
+          "id": ""
+        },
+        {
+          "name": "Roberto Barroso-Luque",
+          "id": ""
+        },
+        {
+          "name": "S. Kira",
+          "id": ""
+        },
+        {
+          "name": "Carissa A Bruno",
+          "id": ""
+        },
+        {
+          "name": "Ningjing Xia",
+          "id": ""
+        },
+        {
+          "name": "Selmaan N. Chettih",
+          "id": ""
+        },
+        {
+          "name": "Sofia Soares",
+          "id": ""
+        },
+        {
+          "name": "Noah L. Pettit",
+          "id": ""
+        },
+        {
+          "name": "C. Harvey",
+          "id": ""
+        }
+      ],
+      "venue": "eLife",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:249956880",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43623314585607564,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 13646327,
+      "title": "Variability and Correlated Noise in the Discharge of Neurons in Motor and Parietal Areas of the Primate Cortex",
+      "abstract": "We analyzed the magnitude and interneuronal correlation of the variability in the activity of single neurons that were recorded simultaneously using a multielectrode array in the primary motor cortex and parietal areas 2/5 in rhesus monkeys. The animals were trained to move their arms in one of eight directions as instructed by a visual target. The relationship between variability (SD) and mean of the discharge rate was described by a power function with a similar exponent (\u223c0.57), regardless of the cortical area or the behavioral condition. We examined whether the deviation from mean activity between target onset and the end of the movement was correlated on a trial-by-trial basis with variability in activity during the hold period before target onset. In both cortical areas, for about a quarter of the neurons, the neuronal noise of these two periods was positively correlated, whereas significant negative correlations were seldom observed. Overall, neurons with higher signal correlation (i.e., similar directional pattern) showed higher noise correlation in both cortical areas. On the other hand, when the data were divided according to the distance between the electrode tips from which the neurons were recorded, a consistent relationship between the signal and noise correlations was found only for pairs of neurons recorded through the same electrode. These results suggest that nearby neurons with similar directional tuning carry primarily redundant messages, whereas neurons in separate cortical columns perform more independent processing.",
+      "year": 1998,
+      "authors": [
+        {
+          "name": "Daeyeol Lee",
+          "id": ""
+        },
+        {
+          "name": "N. Port",
+          "id": ""
+        },
+        {
+          "name": "W. Kruse",
+          "id": ""
+        },
+        {
+          "name": "A. Georgopoulos",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.18-03-01161.1998",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43141479329083854,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 810063,
+      "title": "Attention can increase or decrease spike count correlations between pairs of neurons depending on their role in a task",
+      "abstract": "Visual attention enhances the responses of visual neurons that encode the attended location. Several recent studies have shown that attention also decreases correlations between fluctuations in the responses of pairs of neurons (termed spike count correlation or rSC). These results are consistent with two hypotheses. First, attention-related changes in rate and rSC might be linked (perhaps through a common mechanism), with attention always decreasing rSC. Second, attention might either increase or decrease rSC, possibly depending on the role of the neurons in the behavioral task. We recorded simultaneously from dozens of neurons in area V4 while monkeys performed a discrimination task. We found strong evidence in favor of the second hypothesis, showing that attention can flexibly increase or decrease correlations depending on whether the neurons provide evidence for the same or opposite choices. These results place important constraints on models of the neuronal mechanisms underlying cognitive factors.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "D. Ruff",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.3835",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.42600166822299446,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 4386768,
+      "title": "Attention Enhances Synaptic Efficacy and Signal-to-Noise in Neural Circuits",
+      "abstract": "Attention is a critical component of perception. However, the mechanisms by which attention modulates neuronal communication to guide behaviour are poorly understood. To elucidate the synaptic mechanisms of attention, we developed a sensitive assay of attentional modulation of neuronal communication. In alert monkeys performing a visual spatial attention task, we probed thalamocortical communication by electrically stimulating neurons in the lateral geniculate nucleus of the thalamus while simultaneously recording shock-evoked responses from monosynaptically connected neurons in primary visual cortex. We found that attention enhances neuronal communication by increasing the efficacy of presynaptic input in driving postsynaptic responses, by increasing synchronous responses among ensembles of postsynaptic neurons receiving independent input, and by decreasing redundant signals between postsynaptic neurons receiving common input. The results demonstrate that attention finely tunes neuronal communication at the synaptic level by selectively altering synaptic weights, enabling enhanced detection of salient events in the noisy sensory environment.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "F. Briggs",
+          "id": ""
+        },
+        {
+          "name": "F. Briggs",
+          "id": ""
+        },
+        {
+          "name": "G. Mangun",
+          "id": ""
+        },
+        {
+          "name": "W. Usrey",
+          "id": ""
+        }
+      ],
+      "venue": "Nature",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:4386768",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4178486844449608,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 12143985,
+      "title": "Noise Correlations Have Little Influence on the Coding of Selective Attention in Area V1",
+      "abstract": "Neurons in the visual primary cortex (area V1) do not only code simple features but also whether image elements are attended or not. These attentional signals are weaker than the feature-selective responses, and their reliability may therefore be limited by the noisiness of neuronal responses. Here we show that it is possible to decode the locus of attention on a single trial from the activity of a small population of neurons in area V1. Previous studies suggested that correlations between the activities of neurons that are part of a population limit the information gain, but here we report that the impact of these noise correlations depends on the relative position of the neurons' receptive fields. Correlations reduce the benefit of pooling neuronal responses evoked by the same object but actually enhance the advantage of pooling responses evoked by different objects. These opposing effects cancelled each other at the population level, so that the net effect of the noise correlations was negligible and attention could be decoded reliably. Our results suggest that noise correlations are caused by large-scale fluctuations in cortical excitability, which can be removed by a comparison of the response strengths evoked by different objects.",
+      "year": 2008,
+      "authors": [
+        {
+          "name": "Jasper Poort",
+          "id": ""
+        },
+        {
+          "name": "P. Roelfsema",
+          "id": ""
+        }
+      ],
+      "venue": "Cerebral Cortex",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/70d9/17965c03a2e9288e4ffdc038cac8c6cb2206.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.38898494727840255,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 245148723,
+      "title": "Coordinated multiplexing of information about separate objects in visual cortex",
+      "abstract": "Sensory receptive fields are large enough that they can contain more than one perceptible stimulus. How, then, can the brain encode information about each of the stimuli that may be present at a given moment? We recently showed that when more than one stimulus is present, single neurons can fluctuate between coding one vs. the other(s) across some time period, suggesting a form of neural multiplexing of different stimuli (Caruso et al., 2018). Here we investigate (a) whether such coding fluctuations occur in early visual cortical areas; (b) how coding fluctuations are coordinated across the neural population; and (c) how coordinated coding fluctuations depend on the parsing of stimuli into separate vs. fused objects. We found coding fluctuations do occur in macaque V1 but only when the two stimuli form separate objects. Such separate objects evoked a novel pattern of V1 spike count (\u201cnoise\u201d) correlations involving distinct distributions of positive and negative values. This bimodal correlation pattern was most pronounced among pairs of neurons showing the strongest evidence for coding fluctuations or multiplexing. Whether a given pair of neurons exhibited positive or negative correlations depended on whether the two neurons both responded better to the same object or had different object preferences. Distinct distributions of spike count correlations based on stimulus preferences were also seen in V4 for separate objects but not when two stimuli fused to form one object. These findings suggest multiple objects evoke different response dynamics than those evoked by single stimuli, lending support to the multiplexing hypothesis and suggesting a means by which information about multiple objects can be preserved despite the apparent coarseness of sensory coding. Significance Statement How the brain separates information about multiple objects despite overlap in the neurons responsive to each item is not well understood. Here we show that some neurons in V1 exhibit coding fluctuations in response to two objects, and that these coding fluctuations are coordinated at the population level in ways that are not observed for single objects. Broadly similar results were obtained in V4. These response dynamics lend support to the hypothesis that information about individual objects may be multiplexed across the neural population, preserving information about each item despite the coarseness of sensory coding.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "N. Jun",
+          "id": ""
+        },
+        {
+          "name": "D. Ruff",
+          "id": ""
+        },
+        {
+          "name": "Lily E. Kramer",
+          "id": ""
+        },
+        {
+          "name": "Brittany Bowes",
+          "id": ""
+        },
+        {
+          "name": "S. Tokdar",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        },
+        {
+          "name": "J. Groh",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:245148723",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.38490022823001757,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 4506763,
+      "title": "Laminar Organization of Attentional Modulation in Macaque Visual Area V4.",
+      "abstract": "Attention is critical to perception, serving to select behaviorally relevant information for privileged processing. To understand the neural mechanisms of attention, we must discern how attentional modulation varies by cell type and across cortical layers. Here, we test whether attention acts non-selectively across cortical layers or whether it engages the laminar circuit in specific and selective ways. We find layer- and cell-class-specific differences in several different forms of attentional modulation in area V4. Broad-spiking neurons in the superficial layers exhibit attention-mediated increases in firing rate and decreases in variability. Spike count correlations are highest in the input layer and attention serves to reduce these correlations. Superficial and input layer neurons exhibit attention-dependent decreases in low-frequency (<10\u00a0Hz) coherence, but deep layer neurons exhibit increases in coherence in the beta and gamma frequency ranges. Our study provides a template for attention-mediated laminar information processing that might be applicable across sensory modalities.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Anirvan S. Nandy",
+          "id": ""
+        },
+        {
+          "name": "J. Nassi",
+          "id": ""
+        },
+        {
+          "name": "J. Reynolds",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/27989456",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3525129683715725,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 5410731,
+      "title": "The Functional Architecture of Noise Correlation in fMRI Responses from Human Visual Cortex",
+      "abstract": "When an identical stimulus is presented repeatedly, the activity of sensory cortical neurons varies from trial to trial, dubbed \u2018neuronal noise\u2019. Recent electrophysiological and imaging studies reported that the \u2018noise\u2019 is not just a random and independent deviation from signal and reflects correlated activity among local cortical sites. Here we investigated the structure of correlated \u2018noises\u2019 in early human visual areas by monitoring moment-to-moment fluctuations in fMRI responses to visual stimuli. By defining receptive fields and stimulus preferences of individual voxels, we could reveal a reliable functional architecture of noise correlation: noise correlation was high in pairs of voxels whose stimulus preferences are similar and whose receptive fields are close to each other. The analysis of residual correlation confirmed that this functionally defined structure of noise correlation could not be explained by trivial correlations due to anatomical proximity. The spectral analysis of time series revealed that the stimulus-preference-dependent correlation was maximal at a low (<0.035Hz) band of temporal frequency whereas the receptive field-dependent correlation was maximal at a medium (0.035\u223c0.082Hz) band. Furthermore, the functional structure of noise correlation was held true for voxel pairs within and between different visual areas, regardless of the presence or types of visual stimulation.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "Jungwon Ryu",
+          "id": ""
+        },
+        {
+          "name": "Youngheun Jo",
+          "id": ""
+        },
+        {
+          "name": "Sang-Hun Lee",
+          "id": ""
+        }
+      ],
+      "venue": "i-Perception",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:5410731",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33594824031488785,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 7297677,
+      "title": "Temporal Correlation Mechanisms and Their Role in Feature Selection: A Single-Unit Study in Primate Somatosensory Cortex",
+      "abstract": "How neurons pay attention Top-down selective attention mediates feature selection by reducing the noise correlations in neural populations and enhancing the synchronized activity across subpopulations that encode the relevant features of sensory stimuli.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "M. Gomez-Ramirez",
+          "id": ""
+        },
+        {
+          "name": "Natalie K. Trzcinski",
+          "id": ""
+        },
+        {
+          "name": "Stefan Mihalas",
+          "id": ""
+        },
+        {
+          "name": "E. Niebur",
+          "id": ""
+        },
+        {
+          "name": "S. Hsiao",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS Biology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:7297677",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3262103103825446,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    }
+  ]
+}

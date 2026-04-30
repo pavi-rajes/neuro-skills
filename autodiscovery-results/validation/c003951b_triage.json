@@ -1,0 +1,589 @@
+{
+  "run_id": "c003951b",
+  "triage_date": "2026-04-28",
+  "total_experiments": 70,
+  "passing": [
+    {
+      "experiment_id": "node_2_2",
+      "id_in_run": 3,
+      "mechanistic_score": 4,
+      "novelty_tier": 3,
+      "hypothesis": "On False Alarm errors, the prefrontal cortex (PFC) generates an error state deviation that temporally precedes deviation in motor cortex (MOs), leading to a transient increase in PFC-to-MOs directed coupling on the subsequent trial. This supports the Gain Modulation framework where frontal error signals dynamically adjust motor excitability.",
+      "finding": "Neither the divergence latency of PFC vs MOs trajectories on FA trials (mean 34.0 vs 22.0 ms, p=0.477) nor post-FA PFC-MOs Granger Causality vs post-CR (0.904 vs 0.696, p=0.478) reached significance; the error signal cascade hypothesis is not supported.",
+      "surprise": -0.44637586626175585,
+      "prior": 0.7083333333333334,
+      "posterior": 0.421875
+    },
+    {
+      "experiment_id": "node_2_6",
+      "id_in_run": 7,
+      "mechanistic_score": 4,
+      "novelty_tier": 3,
+      "hypothesis": "The strength of the context representation in the PFC on trial N linearly predicts the neural discriminability of sensory stimuli in the relevant sensory cortex on trial N+1, supporting the Gain Modulation framework where frontal areas set the sensory gain for upcoming trials.",
+      "finding": "Linear Mixed-Effects model across 892 trial pairs from 5 subjects finds PFC trial-N context confidence does not predict VIS trial-N+1 sensory discriminability (slope=-0.003, p=0.695); trial-by-trial PFC\u2192VIS gain gating is not supported.",
+      "surprise": -0.6898536114954409,
+      "prior": 0.7083333333333334,
+      "posterior": 0.265625
+    },
+    {
+      "experiment_id": "node_3_4",
+      "id_in_run": 13,
+      "mechanistic_score": 3,
+      "novelty_tier": 3,
+      "hypothesis": "Attention lapses are corrected via targeted top-down frontal signals. On Miss errors during visual blocks, Granger Causality from the prefrontal cortex (PFC) to the visual cortex (VIS) increases significantly during the pre-stimulus period of the immediately subsequent trial to restore attentional gain, supporting the Gain Modulation framework.",
+      "finding": "Granger Causality (PFC\u2192VIS) on the trial following a Miss error is not significantly higher than after a Hit across 5 subjects (p=0.165); top-down attentional restoration via GC is not supported.",
+      "surprise": -0.6898536114954409,
+      "prior": 0.7083333333333334,
+      "posterior": 0.265625
+    },
+    {
+      "experiment_id": "node_3_14",
+      "id_in_run": 23,
+      "mechanistic_score": 4,
+      "novelty_tier": 3,
+      "hypothesis": "Context-dependent Gain Modulation vs. Subspace Alignment in Sensory-Motor Routing: In subjects with simultaneous sensory (VIS or AUD) and secondary motor (MOs) recordings, the communication subspace (measured via Reduced-Rank Regression) between sensory cortex and MOs remains geometrically fixed across contexts. Instead of rotating, the magnitude of sensory population activity projected into this subspace is significantly amplified (Gain Modulation framework) when the sensory modality is the currently rewarded context compared to when it is unrewarded.",
+      "finding": "Projection magnitude of VIS stimulus activity into a fixed VIS-MOs communication subspace does not differ between rewarded and unrewarded contexts across 4 subjects (t=-0.727, p=0.520); gain modulation of a fixed subspace is not the mechanism.",
+      "surprise": -0.6411580624487039,
+      "prior": 0.7083333333333334,
+      "posterior": 0.296875
+    },
+    {
+      "experiment_id": "node_4_1",
+      "id_in_run": 26,
+      "mechanistic_score": 2,
+      "novelty_tier": 3,
+      "hypothesis": "Multi-region network state transitions pass through a high-dimensional transient state before settling into a new context attractor, supporting the Attractor Dynamics framework. The effective dimensionality of the joint VIS-AUD-MOs pre-stimulus state peaks during the early trials of a block switch.",
+      "finding": "VIS+AUD+MOs joint population Participation Ratio does not differ between early transition (mean PR=3.35) and late steady-state (PR=3.32) trials across 5 subjects (t=0.387, p=0.719); no high-dimensional transient during context switches in sensorimotor regions.",
+      "surprise": -0.5437669643552299,
+      "prior": 0.7083333333333334,
+      "posterior": 0.359375
+    },
+    {
+      "experiment_id": "node_4_3",
+      "id_in_run": 29,
+      "mechanistic_score": 4,
+      "novelty_tier": 3,
+      "hypothesis": "Visual signals are routed to the PFC continuously for state-monitoring regardless of context, while routing to MOs is strictly context-gated, supporting the Communication Subspaces framework of independent and target-specific routing geometries.",
+      "finding": "Context Modulation Metric (Visual R\u00b2\u2212Auditory R\u00b2) is equally low for VIS-to-MOs (0.013) and VIS-to-PFC (0.011) pathways across 5 subjects (t=0.124, p=0.907); VIS routing to motor cortex is not strictly context-gated relative to PFC.",
+      "surprise": -0.49507141530849286,
+      "prior": 0.7083333333333334,
+      "posterior": 0.390625
+    },
+    {
+      "experiment_id": "node_4_11",
+      "id_in_run": 39,
+      "mechanistic_score": 3,
+      "novelty_tier": 2,
+      "hypothesis": "The multi-region network transitions between distinct attention contexts by passing through a high-dimensional transient state. Specifically, the effective dimensionality (Participation Ratio) of the joint VIS-AUD-PFC-MOs population activity during the pre-stimulus window will be significantly higher on early transition trials (trials 1-5 post-switch) than on steady-state trials (last 20 trials), supporting an Attractor Dynamics framework where the network energy landscape flattens before settling into a new low-dimensional basin.",
+      "finding": "Joint VIS+AUD+PFC+MOs Participation Ratio is significantly LOWER during early transition trials (mean 13.50) than steady-state trials (mean 25.65) across 5 subjects (t=-5.21, p=0.0065), directly contradicting the Attractor Dynamics high-dimensional transient prediction.",
+      "surprise": -0.6898536114954409,
+      "prior": 0.7083333333333334,
+      "posterior": 0.265625
+    },
+    {
+      "experiment_id": "node_4_17",
+      "id_in_run": 48,
+      "mechanistic_score": 3,
+      "novelty_tier": 3,
+      "hypothesis": "Top-down signals directly scale bottom-up representations: the magnitude of trial-by-trial preparatory activity along the Anterior Cingulate Cortex (ACA) 'context axis' positively predicts the absolute amplitude of the stimulus-evoked population vector in the relevant sensory cortex (VIS during visual blocks). This supports the Gain Modulation framework of dynamic routing.",
+      "finding": "ACA pre-stimulus context-axis activity is not correlated with VIS stimulus-evoked population vector amplitude in any of 5 subjects (r range: -0.09 to +0.03); ACA-to-VIS top-down gain control does not operate trial-by-trial.",
+      "surprise": -0.6898536114954409,
+      "prior": 0.7083333333333334,
+      "posterior": 0.265625
+    },
+    {
+      "experiment_id": "node_4_18",
+      "id_in_run": 49,
+      "mechanistic_score": 4,
+      "novelty_tier": 2,
+      "hypothesis": "Following a behavioral error, the prefrontal cortex engages a distinct error-correction communication subspace with sensory cortices on the subsequent trial. Specifically, the Frontal->Sensory communication subspace identified on Post-Error trials is structurally orthogonal to the subspace identified on Post-Correct trials. This supports the Communication Subspaces framework.",
+      "finding": "Post-Error and Post-Correct Frontal-Sensory communication subspaces are not significantly orthogonal relative to a shuffled null distribution across 5 subjects (p=0.199); error correction does not engage a structurally distinct communication geometry.",
+      "surprise": -0.6898536114954409,
+      "prior": 0.7083333333333334,
+      "posterior": 0.265625
+    },
+    {
+      "experiment_id": "node_4_20",
+      "id_in_run": 51,
+      "mechanistic_score": 3,
+      "novelty_tier": 3,
+      "hypothesis": "Following a False Alarm error, the anterior cingulate cortex (ACA) generates a post-response error signal that positively correlates with a subsequent trial-by-trial increase in the pre-stimulus Fano factor (gain modulation) of primary sensory cortices (VIS/AUD), supporting the Gain Modulation framework for top-down error correction.",
+      "finding": "ACA post-FA error signal magnitude is not positively correlated with subsequent-trial sensory Fano factor across 4 subjects (one-sided p=0.894; FA correlations are in fact more negative than CR correlations); ACA error signaling does not predict top-down gain adjustment.",
+      "surprise": -0.3652166178505275,
+      "prior": 0.375,
+      "posterior": 0.140625
+    },
+    {
+      "experiment_id": "node_4_22",
+      "id_in_run": 54,
+      "mechanistic_score": 2,
+      "novelty_tier": 3,
+      "hypothesis": "False Alarms trigger a rapid, arousal-driven network reset that heightens baseline cross-regional noise correlations between PFC and VIS on the subsequent trial, supporting a Gain Modulation framework where error signals broadly scale cortical excitability.",
+      "finding": "Pre-stimulus PFC-VIS noise correlations on trials following False Alarms vs Correct Rejects are not significantly different across 5 subjects (t=0.782, p=0.450); FA errors do not trigger a broad cortical arousal-driven network reset.",
+      "surprise": -0.5437669643552299,
+      "prior": 0.7083333333333334,
+      "posterior": 0.359375
+    },
+    {
+      "experiment_id": "node_4_31",
+      "id_in_run": 65,
+      "mechanistic_score": 4,
+      "novelty_tier": 2,
+      "hypothesis": "Motor suppression is implemented via orthogonal Communication Subspaces: when a mouse successfully withholds a lick to a distractor stimulus (Correct Reject), the population activity projection from PFC to MOs resides in a subspace orthogonal to the active 'Go' subspace observed during Hit trials.",
+      "finding": "CR trial variance in the PFC-MOs 'Go' subspace is not significantly lower than null baseline across 4 subjects (t=2.003, p=0.139); in 3/4 subjects it is nominally HIGHER, arguing against motor suppression via orthogonal communication routing.",
+      "surprise": -0.49507141530849286,
+      "prior": 0.7083333333333334,
+      "posterior": 0.390625
+    }
+  ],
+  "flagged": [
+    {
+      "experiment_id": "node_2_0",
+      "id_in_run": 1,
+      "mechanistic_score": 4,
+      "caveats": [
+        "F: Subject 713655 only 7 PFC units (suspicious low count)",
+        "G: t=0.000, p=1.000 exactly suggests possible computational artifact in rank comparison"
+      ],
+      "hypothesis": "The communication subspace between PFC and motor cortex (MOs) dynamically expands in dimensionality to route motor execution signals exclusively on GO trials, supporting the Communication Subspaces framework."
+    },
+    {
+      "experiment_id": "node_2_4",
+      "id_in_run": 5,
+      "mechanistic_score": 3,
+      "caveats": [
+        "E: Substantially redundant with node_4_11 (same hypothesis, similar design, consistent direction); node_4_11 is more significant (p=0.0065 vs p=0.018)"
+      ],
+      "hypothesis": "The joint multi-region network (VIS-AUD-PFC-MOs) passes through a high-dimensional transient state during block transitions before settling into a low-dimensional steady state, supporting the Attractor Dynamics framework of context switching."
+    },
+    {
+      "experiment_id": "node_3_0",
+      "id_in_run": 9,
+      "mechanistic_score": 2,
+      "caveats": [
+        "C: Paired t-test run across 30 blocks from 5 subjects (pseudo-replication); inferential unit should be subjects. Null result (p=0.744) is nonetheless robust."
+      ],
+      "hypothesis": "Task stabilization corresponds to falling into lower-dimensional energy basins, supporting Attractor Dynamics. The joint population dimensionality of the frontal network (ACA, PFC, ORB) is significantly higher during the context discovery phase (first 15 trials of a block) than during the steady-state phase (last 15 trials of a block)."
+    },
+    {
+      "experiment_id": "node_3_1",
+      "id_in_run": 10,
+      "mechanistic_score": 3,
+      "caveats": [
+        "E: Substantially redundant with node_4_27 which tests same claim (VIS-MOs alignment during visual vs auditory blocks) with a cleaner method and significant result"
+      ],
+      "hypothesis": "Sensory cortex routes information to motor cortex via context-dependent subspace alignment, supporting the Communication Subspaces framework. The variance in MOs population activity explained by VIS activity projected through a shared VIS-MOs communication subspace is significantly higher during Visual-attend blocks than Auditory-attend blocks."
+    },
+    {
+      "experiment_id": "node_3_2",
+      "id_in_run": 11,
+      "mechanistic_score": 4,
+      "caveats": [
+        "G: Two comparisons (FA dist to Hit in comm space, FA dist to CR in comm space) without Bonferroni correction; primary result p=0.0517 (borderline, N=4)"
+      ],
+      "hypothesis": "False Alarm errors are driven by aberrant projection of non-target sensory information into the prefrontal-motor (PFC-MOs) communication subspace rather than isolated sensory misrepresentation, supporting the Communication Subspaces framework of dynamic routing failures."
+    },
+    {
+      "experiment_id": "node_3_3",
+      "id_in_run": 12,
+      "mechanistic_score": 3,
+      "caveats": [
+        "E: Substantially redundant with node_4_27 (both test VIS alignment with VIS-MOs subspace across contexts); node_4_27 supersedes with cleaner PLS method and p=0.0097"
+      ],
+      "hypothesis": "Context-dependent routing of sensory information to motor outputs occurs via communication subspace alignment: The stimulus-evoked population activity in primary visual cortex (VIS) aligns more strongly with the VIS-to-MOs (secondary motor cortex) communication subspace during Visual blocks than during Auditory blocks. This supports the Communication Subspaces framework."
+    },
+    {
+      "experiment_id": "node_3_6",
+      "id_in_run": 15,
+      "mechanistic_score": 4,
+      "caveats": [
+        "B: N=3 subjects (underpowered); effect is dramatic (smaller principal angle during Visual blocks, p=0.032) but requires replication at N\u22654"
+      ],
+      "hypothesis": "Visual cortex routes information through dynamically reconfiguring communication subspaces depending on task context. The principal angle between the VIS->MOs communication subspace and the VIS->PFC communication subspace is significantly smaller during Visual blocks than Auditory blocks, reflecting synchronized broadcast of task-relevant visual information."
+    },
+    {
+      "experiment_id": "node_3_9",
+      "id_in_run": 18,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects",
+        "E: Partially redundant with node_3_6 (both measure principal angle between VIS\u2192MOs and VIS\u2192PFC subspaces); node_3_6 supersedes with context-dependent analysis"
+      ],
+      "hypothesis": "The visual cortex routes information to different downstream targets (action execution vs state monitoring) through orthogonal communication subspaces. The VIS-to-MOs and VIS-to-PFC subspaces are highly orthogonal, supporting the Communication Subspaces framework of independent parallel routing."
+    },
+    {
+      "experiment_id": "node_3_10",
+      "id_in_run": 19,
+      "mechanistic_score": 2,
+      "caveats": [
+        "C: Paired t-test across 25 blocks from 5 subjects (pseudo-replication; blocks within subjects are not independent). Null result (p=0.700) is robust regardless."
+      ],
+      "hypothesis": "Brain-wide state space dimensionality transiently expands during context transitions: the participation ratio of the global neural population (all recorded regions combined) is significantly higher during the first 10 trials after an unsignaled block switch compared to steady-state trials, reflecting a high-dimensional search before settling into a new low-dimensional attractor state."
+    },
+    {
+      "experiment_id": "node_3_11",
+      "id_in_run": 20,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects (CA1 coverage requirement)",
+        "C: Rolling-window correlations analyzed per-subject only (no cross-subject aggregation test)"
+      ],
+      "hypothesis": "Hippocampal State Dictates Cortical Subspace Dimensionality (Communication Subspaces): The effective dimensionality of the joint cortical representation dynamically expands during the block transition phase to enable flexible routing, and this expansion is causally preceded or predicted by the strength of CA1-cortical theta-band (4-8 Hz) coupling, suggesting the hippocampus coordinates the unlocking of rigid cortical attractors."
+    },
+    {
+      "experiment_id": "node_3_15",
+      "id_in_run": 24,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects (CA1+PFC+VIS requirement); per-subject correlations shown, no cross-subject test"
+      ],
+      "hypothesis": "Hippocampal CA1 orchestrates the alignment of the PFC-to-VIS communication subspace during unsignaled block transitions; higher CA1 theta-band synchrony during the inter-trial interval predicts faster cross-cortical subspace alignment, supporting a Communication Subspaces framework."
+    },
+    {
+      "experiment_id": "node_4_4",
+      "id_in_run": 30,
+      "mechanistic_score": 3,
+      "caveats": [
+        "Insufficient output to verify N subjects or confirm cross-subject test structure; null result (p=0.243) is clear but N cannot be independently verified"
+      ],
+      "hypothesis": "Arousal states dynamically gate top-down communication without altering intrinsic sensory representation geometry. High arousal (measured via pupil area) significantly increases the amplitude of PFC signals projected into the PFC-to-VIS communication subspace, while the principal angles of the VIS subspace itself remain unchanged between high and low arousal states, supporting a Gain Modulation routing mechanism."
+    },
+    {
+      "experiment_id": "node_3_17",
+      "id_in_run": 31,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects (ACA+CA1 simultaneous requirement: 664851, 742903, 759434)"
+      ],
+      "hypothesis": "Context rule updates are triggered by cortical error detection feeding back to the hippocampus. On False Alarm trials, directed functional coupling from ACA to CA1 increases significantly during the reward-feedback window compared to Correct Reject trials, supporting an Attractor Dynamics context-updating mechanism."
+    },
+    {
+      "experiment_id": "node_4_5",
+      "id_in_run": 32,
+      "mechanistic_score": 3,
+      "caveats": [
+        "C: No formal cross-subject aggregation test; per-subject correlations reported only. All 5 subjects show near-zero r (range -0.23 to +0.23), conclusion is robust."
+      ],
+      "hypothesis": "Error signals generated in the Anterior Cingulate Area (ACA) dynamically down-regulate sensory processing in the Visual Cortex (VIS) via Gain Modulation; specifically, higher ACA error response magnitude on False Alarm trials predicts a suppression of VIS stimulus-evoked gain on the subsequent trial."
+    },
+    {
+      "experiment_id": "node_4_6",
+      "id_in_run": 33,
+      "mechanistic_score": 4,
+      "caveats": [
+        "G: p=0.0628 (just above 0.05, N=5); effect is consistent across all 5 subjects (PFC inflection 1.8 trials vs VIS 8.4 trials, ratio 4.7\u00d7); underpowered at N=5"
+      ],
+      "hypothesis": "During context rule block switches, the Prefrontal Cortex (PFC) updates its internal representation of the new context earlier than the Visual Cortex (VIS), supporting the Attractor Dynamics framework where top-down prefrontal state transitions drive downstream sensory reconfiguration."
+    },
+    {
+      "experiment_id": "node_4_8",
+      "id_in_run": 35,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects (CA1+VIS+MOs simultaneous requirement)"
+      ],
+      "hypothesis": "Hippocampal inter-trial interval (ITI) synchronous activity coordinates the rotation of cortical communication subspaces, predicting that the magnitude of CA1 population burst events during the ITI positively correlates with the shift in VIS-to-MOs projection weights toward the new context's optimal subspace on the subsequent trial."
+    },
+    {
+      "experiment_id": "node_4_9",
+      "id_in_run": 37,
+      "mechanistic_score": 3,
+      "caveats": [
+        "Insufficient code_output to verify N subjects; likely N=3 (CA1+VIS+PFC requirement); no cross-subject p-value reported"
+      ],
+      "hypothesis": "The trial-by-trial stability of the hippocampal (CA1) context representation during the inter-trial interval predicts the efficacy of visual-to-prefrontal (VIS-PFC) sensory routing on the subsequent trial, supporting the Communication Subspaces framework where CA1 coordinates cortical routing schemes."
+    },
+    {
+      "experiment_id": "node_4_10",
+      "id_in_run": 38,
+      "mechanistic_score": 3,
+      "caveats": [
+        "F: Subject 759434 has only 5 VIS units; Subject 713655 has only 7 PFC units; these subjects contribute low-quality subspace estimates"
+      ],
+      "hypothesis": "The optimal dimensionality (rank) of the communication subspace between sensory cortex (VIS) and prefrontal cortex (PFC) is significantly higher during block transitions than during steady-state periods, supporting the Communication Subspaces framework where routing channels widen to sample alternative networks before collapsing into a strict rule mapping."
+    },
+    {
+      "experiment_id": "node_3_19",
+      "id_in_run": 40,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects (CA1+PFC+MOs requirement: 664851, 742903, 759434); null result (no significant CA1 PR vs PFC-MOs R\u00b2 correlation)"
+      ],
+      "hypothesis": "During block transitions, the destabilization of the hippocampal (CA1) context attractor coincides with a temporary uncoupling of prefrontal (PFC) to motor (MOs) communication, supporting the Attractor Dynamics framework where transitions require passing through a disorganized network state before a new mapping is established."
+    },
+    {
+      "experiment_id": "node_3_20",
+      "id_in_run": 42,
+      "mechanistic_score": 2,
+      "caveats": [
+        "G: Near-90\u00b0 angles (86-87\u00b0) in high-dimensional spaces are expected by chance; no null distribution from axis shuffling was computed to establish significance of the observed angles"
+      ],
+      "hypothesis": "The prefrontal cortex disentangles task rules from sensory inputs into orthogonal subspaces, whereas sensory cortices entangle them. In PFC, the coding axis separating Stimulus Modality is nearly orthogonal to the axis separating Block Context, whereas in VIS and AUD, these axes are highly aligned."
+    },
+    {
+      "experiment_id": "node_4_15",
+      "id_in_run": 46,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects (CA1+PFC simultaneous requirement: 664851, 742903, 759434); no cross-subject p-value reported"
+      ],
+      "hypothesis": "Under the Communication Subspaces framework, the error correction pathway involves increased routing of state-update signals from the Hippocampus (CA1) to Prefrontal Cortex (PFC) specifically on trials immediately following a context error."
+    },
+    {
+      "experiment_id": "node_4_19",
+      "id_in_run": 50,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects with simultaneous CA1+PFC; Sobel mediation test reported per-subject only, no cross-subject aggregation"
+      ],
+      "hypothesis": "Hippocampal pre-stimulus state governs the variance of cortical motor preparation (Attractor Dynamics landscape). The trial-by-trial confidence of hippocampal (CA1) context decoding negatively correlates with the reaction time (RT) on Hit trials, and this behavioral acceleration is statistically mediated by the projection amplitude of prefrontal (PFC) activity along its Go-response axis."
+    },
+    {
+      "experiment_id": "node_3_22",
+      "id_in_run": 52,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects with valid ORB+MOs decoding latencies; Wilcoxon p=0.5 (null); both ORB and MOs show latency=0.000s at response onset"
+      ],
+      "hypothesis": "Error detection signals propagate top-down from evaluative to executive regions: the neural signal discriminating a False Alarm (error) from a Hit (reward) emerges at a significantly earlier latency in the Orbitofrontal Cortex (ORB) than in the secondary Motor cortex (MOs), supporting ORB's role as the primary error-monitoring node."
+    },
+    {
+      "experiment_id": "node_4_23",
+      "id_in_run": 55,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects with simultaneous CA1+PFC+VIS; no cross-subject p-value reported for correlation between CA1 confidence and VIS-PFC alignment"
+      ],
+      "hypothesis": "The precision of Hippocampal (CA1) context encoding causally determines the fidelity of Prefrontal-Visual (PFC-VIS) communication: trial-to-trial variance in CA1 context decoding confidence is strongly correlated with the alignment strength between VIS and PFC populations on that trial."
+    },
+    {
+      "experiment_id": "node_4_26",
+      "id_in_run": 59,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects with sufficient CA1+PFC units (664851, 742903, 759434); canonical correlation trend is consistent across subjects but p=0.142 (null, underpowered)"
+      ],
+      "hypothesis": "The functional coupling strength between the hippocampus (CA1) and the prefrontal cortex (PFC) increases specifically during context block transitions compared to steady-state performance. This supports the Communication Subspaces framework, indicating increased CA1-PFC communication bandwidth is required to reconfigure cortical task rules."
+    },
+    {
+      "experiment_id": "node_4_27",
+      "id_in_run": 60,
+      "mechanistic_score": 3,
+      "caveats": [
+        "D: VIS-MOs communication subspace defined exclusively from visual-attend block data; within-context alignment estimated on the same data without cross-validation, creating upward bias in the visual block alignment estimate",
+        "F: Subject 759434 has only 5 VIS units; PLS captures 100% variance trivially \u2014 this subject contributes no meaningful data (effective N=4)"
+      ],
+      "hypothesis": "The alignment between visual cortex (VIS) population activity and the VIS-to-motor (MOs) communication subspace is significantly greater during visual-attend blocks compared to auditory-attend blocks, supporting the Communication Subspaces framework (routing via selective subspace alignment)."
+    },
+    {
+      "experiment_id": "node_4_29",
+      "id_in_run": 62,
+      "mechanistic_score": 3,
+      "caveats": [
+        "G: p=0.0992 (borderline, N=5 underpowered); mean out-of-context R\u00b2 drop of 0.162 is in the expected direction but not significant; cross-context specificity is partial, not categorical"
+      ],
+      "hypothesis": "Sensory information is routed to prefrontal cortex (PFC) through context-specific orthogonal subspaces. A Reduced-Rank Regression (RRR) model trained to predict PFC activity from VIS activity during Visual-rewarded blocks will show a significant drop in cross-validated R^2 when applied to VIS-to-PFC activity during Auditory-rewarded blocks, supporting the Communication Subspaces framework."
+    },
+    {
+      "experiment_id": "node_4_30",
+      "id_in_run": 63,
+      "mechanistic_score": 2,
+      "caveats": [
+        "E: Substantially redundant with node_4_11 (same population, same metric, same hypothesis); node_4_11 is more significant (p=0.0065 vs p=0.258). node_4_11 supersedes."
+      ],
+      "hypothesis": "The effective dimensionality of the joint multi-region population activity (VIS, AUD, PFC, MOs) is significantly higher during the first 10 trials following a block switch compared to the last 10 trials of a block, supporting the Attractor Dynamics framework where the system traverses a high-dimensional transient state before settling into a new low-dimensional context attractor."
+    },
+    {
+      "experiment_id": "node_3_24",
+      "id_in_run": 64,
+      "mechanistic_score": 4,
+      "caveats": [
+        "B: N=3 subjects with sufficient CA1+PFC units; p=0.024 with N=3 is borderline (df=2); CA1 leads PFC by mean 2.80 trials but requires replication at N\u22654"
+      ],
+      "hypothesis": "Context transitions are driven by a temporal sequence where the hippocampus (CA1) updates its representation before the prefrontal cortex (PFC). During the first 15 trials after an unsignaled block switch, the trial-by-trial context decoding trajectory in CA1 precedes the update in PFC, measurable via a positive lag in their cross-correlation."
+    },
+    {
+      "experiment_id": "node_4_33",
+      "id_in_run": 69,
+      "mechanistic_score": 3,
+      "caveats": [
+        "B: N=3 subjects with sufficient CA1+PFC+VIS simultaneous recordings; no cross-subject p-value clearly reported"
+      ],
+      "hypothesis": "Bursts of hippocampal (CA1) population activity during the inter-trial interval (ITI) coordinate prefrontal-sensory communication by transiently aligning the PFC-to-VIS communication subspace with its task-evoked geometry, supporting the Communication Subspaces framework for memory-guided routing."
+    },
+    {
+      "experiment_id": "node_3_26",
+      "id_in_run": 70,
+      "mechanistic_score": 3,
+      "caveats": [
+        "E: Substantially redundant with node_3_14 and node_4_27 (all test amplitude of VIS\u2192MOs projected signal by context)",
+        "D: RRR communication subspace definition context not specified; if defined across all contexts, mild bias; if defined per-context, circular"
+      ],
+      "hypothesis": "The magnitude of the stimulus-evoked population trajectory in VIS projected through the VIS-to-MOs communication subspace is amplified for identical visual stimuli during Visual-rewarded blocks compared to Auditory-rewarded blocks, supporting the Gain Modulation framework of dynamic routing."
+    }
+  ],
+  "failed": [
+    {
+      "experiment_id": "node_2_1",
+      "id_in_run": 2,
+      "reason": "B: N=0 (no subjects had simultaneous VIS+AUD+PFC recordings)",
+      "evidence": "none of the subjects had simultaneous recordings of high-quality units from all three required regions (VIS, AUD, PFC)"
+    },
+    {
+      "experiment_id": "node_2_3",
+      "id_in_run": 4,
+      "reason": "B: N=0 (no subjects had simultaneous ACA+PFC+VIS recordings)",
+      "evidence": "outputted that there was 'No sufficient data to perform CCA and ANOVA'"
+    },
+    {
+      "experiment_id": "node_2_5",
+      "id_in_run": 6,
+      "reason": "B: N=1 (only subject 664851 had CA1+VIS+AUD)",
+      "evidence": "Only one subject (Subject 664851) had units in all three regions (CA1: 95, VIS: 87, AUD: 264)"
+    },
+    {
+      "experiment_id": "node_2_7",
+      "id_in_run": 8,
+      "reason": "B: N=1 (only subject 664851 contributed transition data for CA1+PFC)",
+      "evidence": "Sample scores for Subject 664851, Transition to Block 1 \u2014 only this subject shown; N=1 pattern confirmed in analysis/review"
+    },
+    {
+      "experiment_id": "node_3_5",
+      "id_in_run": 14,
+      "reason": "B: N=2 (only two subjects met VIS+AUD+MOs criteria)",
+      "evidence": "The experiment successfully executed and analyzed data for two subjects that met the criteria"
+    },
+    {
+      "experiment_id": "node_3_7",
+      "id_in_run": 16,
+      "reason": "B: N=2 (only 2 subjects had simultaneous AUD+MOs recordings)",
+      "evidence": "Out of the 5 subjects, 2 subjects (664851 and 713655) had recordings in both AUD and MOs"
+    },
+    {
+      "experiment_id": "node_3_8",
+      "id_in_run": 17,
+      "reason": "B: N=2 (only 2 subjects had VIS+AUD+MOs)",
+      "evidence": "only 2 out of the 5 subjects were viable for the paired analysis. Despite the extremely small sample size (N=2)"
+    },
+    {
+      "experiment_id": "node_3_12",
+      "id_in_run": 21,
+      "reason": "B: N=1 (only subject 742903 had sufficient stationary trials)",
+      "evidence": "Only one out of the five subjects (Subject 742903) had the minimum required number of stationary trials"
+    },
+    {
+      "experiment_id": "node_3_13",
+      "id_in_run": 22,
+      "reason": "B: N=2 (only 2 subjects had MOs+VIS for GC)",
+      "evidence": "no statistical significance (p = 1.0) due to the limited number of subjects (n = 2)"
+    },
+    {
+      "experiment_id": "node_3_16",
+      "id_in_run": 28,
+      "reason": "C: Pseudo-replication (t-test across 25 block switches, not 5 subjects; df=24 for 5-subject dataset)",
+      "evidence": "paired t-test: t = 16.75, p = 9.64e-15 \u2014 implausibly large df for N=5; 25 blocks from 5 subjects are not independent observations"
+    },
+    {
+      "experiment_id": "node_4_0",
+      "id_in_run": 25,
+      "reason": "B: N=2 (only 2 subjects had VIS+AUD+MOs simultaneously)",
+      "evidence": "leaving two valid subjects (664851 and 713655)"
+    },
+    {
+      "experiment_id": "node_4_2",
+      "id_in_run": 27,
+      "reason": "B: N=1 (only 1 subject had VIS+AUD+ORB or VIS+AUD+PFC)",
+      "evidence": "only a single subject... had sufficient data; three out of the five subjects lacked high-quality units across all required regions"
+    },
+    {
+      "experiment_id": "node_4_7",
+      "id_in_run": 34,
+      "reason": "B: N=2 (only 2 subjects had valid ACA+VIS divergence times)",
+      "evidence": "only two subjects exhibited valid divergence times for both ACA and VIS regions"
+    },
+    {
+      "experiment_id": "node_3_18",
+      "id_in_run": 36,
+      "reason": "B: N=2 (only 2 subjects had simultaneous VIS+AUD recordings)",
+      "evidence": "Data from two valid subjects (664851, 713655) with sufficient units in both regions were analyzed"
+    },
+    {
+      "experiment_id": "node_4_12",
+      "id_in_run": 41,
+      "reason": "B: N=2 (only 2 subjects had enough Miss trials in visual blocks)",
+      "evidence": "subjects 664851 and 668755 were skipped because they had only 1 Miss trial each...leaving only two subjects (713655 and 742903)"
+    },
+    {
+      "experiment_id": "node_3_21",
+      "id_in_run": 43,
+      "reason": "B: N=1 (only subject 664851 had sufficient CA1+VIS units)",
+      "evidence": "only a single subject ('664851') had the required minimum of 15 simultaneous high-quality units in both the hippocampus (CA1) and the visual cortex (VIS)"
+    },
+    {
+      "experiment_id": "node_4_13",
+      "id_in_run": 44,
+      "reason": "B: N=2 (only 2 subjects had simultaneous VIS+AUD)",
+      "evidence": "2 subjects with simultaneous recordings in these regions"
+    },
+    {
+      "experiment_id": "node_4_14",
+      "id_in_run": 45,
+      "reason": "B: N=1 (only subject 742903 had both stationary and running trials meeting threshold)",
+      "evidence": "Only one subject (Subject 742903) had sufficient data"
+    },
+    {
+      "experiment_id": "node_4_16",
+      "id_in_run": 47,
+      "reason": "B: N=1 (only subject 742903 had both ORB+PFC units with sufficient data)",
+      "evidence": "only a single subject (742903) had a sufficient number of valid units in both ORB and PFC"
+    },
+    {
+      "experiment_id": "node_4_21",
+      "id_in_run": 53,
+      "reason": "B: N=2 (only 2 subjects had simultaneous VIS+AUD recordings)",
+      "evidence": "only 2 out of the 5 subjects (664851 and 713655) had simultaneous high-quality recordings in both VIS and AUD regions"
+    },
+    {
+      "experiment_id": "node_4_24",
+      "id_in_run": 56,
+      "reason": "B: N=0 (no divergence latencies found in any subject)",
+      "evidence": "Not enough valid latencies found across subjects for statistics (no divergence met the threshold)"
+    },
+    {
+      "experiment_id": "node_4_25",
+      "id_in_run": 57,
+      "reason": "B: N=1 (only 1 subject had \u22655 Post-Miss trials)",
+      "evidence": "four out of five subjects had fewer than 5 Post-Miss trials... Only one subject [viable]"
+    },
+    {
+      "experiment_id": "node_3_23",
+      "id_in_run": 58,
+      "reason": "B: N=2 for AUD-MOs pathway (key comparison requires both pathways)",
+      "evidence": "Pathway: AUD->MOs (N=2 subjects), Pathway: VIS->MOs (N=5 subjects) \u2014 the primary test of orthogonality between AUD-MOs and VIS-MOs requires N\u22654 for AUD-MOs"
+    },
+    {
+      "experiment_id": "node_4_28",
+      "id_in_run": 61,
+      "reason": "B: N=2 (only 2 subjects had sufficient VIS+PFC units)",
+      "evidence": "Valid data was found for two subjects (742903 and 713655)"
+    },
+    {
+      "experiment_id": "node_2_8",
+      "id_in_run": 66,
+      "reason": "B: N=2 (only 2 subjects had sufficient ACA+CA1 units for trajectory analysis)",
+      "evidence": "Across the two subjects with sufficient data in both regions"
+    },
+    {
+      "experiment_id": "node_3_25",
+      "id_in_run": 67,
+      "reason": "B: N=2 (only 2 subjects had simultaneous VIS+AUD recordings: 664851, 713655)",
+      "evidence": "Subject 742903: Not enough VIS/AUD units \u2014 only 2 subjects have both VIS and AUD simultaneously"
+    },
+    {
+      "experiment_id": "node_4_32",
+      "id_in_run": 68,
+      "reason": "B: N=2 (only subjects 664851 and 713655 had simultaneous VIS+AUD for the key cross-pathway comparison)",
+      "evidence": "Pearson correlations between pupil size and coupling metrics calculated for two valid subjects (664851 and 713655)"
+    }
+  ]
+}

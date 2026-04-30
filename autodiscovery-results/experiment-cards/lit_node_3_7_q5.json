@@ -1,0 +1,1649 @@
+{
+  "query": "Context-dependent changes in inter-areal noise correlations reflect communication subspace restructuring rather than gain modulation",
+  "results": [
+    {
+      "corpusId": 285103249,
+      "title": "State-Dependent Dissociation of Shared Input and Directed Information Flow in the Visual Cortex",
+      "abstract": "Understanding how brain state and sensory input shape inter-laminar communication is essential for interpreting cortical population dynamics. Using laminar recordings in macaque V1, we apply reduced-rank regression to quantify low-dimensional predictive subspaces linking Input and Superficial layers. We find that both visual stimulation and internal state (eyes open vs. closed) modulate the structure and efficacy of these subspaces, but through distinct mechanisms. Visual input induces a directional, feedforward pattern from input to superficial layers, while wakefulness-related modulation enhances coordination more symmetrically. Delay analysis and network simulations confirm that structured, layer-specific inputs produce directional prediction, whereas global fluctuations yield undirected co-activation. Importantly, differential structure across layers predicts the emergence of communication asymmetry. These findings dissociate communication from shared modulation, providing a principled framework for interpreting inter-population correlations. Our results generalize to broader cortical circuits, offering insights into when population coupling reflects genuine information flow versus global state dynamics.",
+      "year": 2026,
+      "authors": [
+        {
+          "name": "Yuxuan Xue",
+          "id": ""
+        },
+        {
+          "name": "Mitchell P. Morton",
+          "id": ""
+        },
+        {
+          "name": "AS Nandy",
+          "id": ""
+        },
+        {
+          "name": "Monika P. Jadi",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:285103249",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9738315363412924,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 233175441,
+      "title": "Attention improves information flow between neuronal populations without changing the communication subspace",
+      "abstract": "Visual attention allows observers to flexibly use or ignore visual information, suggesting that information can be flexibly routed between visual cortex and neurons involved in decision-making. We investigated the neural substrate of flexible information routing by analyzing the activity of populations of visual neurons in the medial temporal area (MT) and oculomotor neurons in the superior colliculus (SC) while rhesus monkeys switched spatial attention. We demonstrated that attention increases the efficacy of visuomotor communication: trial-to-trial variability of the population of SC neurons was better predicted by the activity of MT neurons (and vice versa) when attention was directed toward their joint receptive fields. Surprisingly, this improvement in prediction was not explained or accompanied by changes in the dimensionality of the shared subspace or in local or shared pairwise noise correlations. These results suggest a mechanism by which visual attention can affect perceptual decision-making without altering local neuronal representations.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "R. Srinath",
+          "id": ""
+        },
+        {
+          "name": "D. Ruff",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/34699782",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9580854049342883,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 231938964,
+      "title": "Feedforward and feedback interactions between visual cortical areas use different population activity patterns",
+      "abstract": "Brain function relies on the coordination of activity across multiple, recurrently connected brain areas. For instance, sensory information encoded in early sensory areas is relayed to, and further processed by, higher cortical areas and then fed back. However, the way in which feedforward and feedback signaling interact with one another is incompletely understood. Here we investigate this question by leveraging simultaneous neuronal population recordings in early and midlevel visual areas (V1\u2013V2 and V1\u2013V4). Using a dimensionality reduction approach, we find that population interactions are feedforward-dominated shortly after stimulus onset and feedback-dominated during spontaneous activity. The population activity patterns most correlated across areas were distinct during feedforward- and feedback-dominated periods. These results suggest that feedforward and feedback signaling rely on separate \u201cchannels\u201d, which allows feedback signals to not directly affect activity that is fed forward. How cortical areas interact via feedforward and feedback signaling remains unclear. Here, the authors recorded from V1 and V2/V4 in macaque visual cortex and found that feedforward and feedback interactions vary with stimulus drive and involve different neuronal population activity patterns.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Jo\u00e3o Dias Semedo",
+          "id": ""
+        },
+        {
+          "name": "Anna Jasper",
+          "id": ""
+        },
+        {
+          "name": "A. Zandvakili",
+          "id": ""
+        },
+        {
+          "name": "A. Aschner",
+          "id": ""
+        },
+        {
+          "name": "C. Machens",
+          "id": ""
+        },
+        {
+          "name": "A. Kohn",
+          "id": ""
+        },
+        {
+          "name": "Byron M. Yu",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1101/2021.02.08.430346",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9123331270155314,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 8456067,
+      "title": "Attention improves performance primarily by reducing interneuronal correlations",
+      "abstract": "Visual attention can improve behavioral performance by allowing observers to focus on the important information in a complex scene. Attention also typically increases the firing rates of cortical sensory neurons. Rate increases improve the signal-to-noise ratio of individual neurons, and this improvement has been assumed to underlie attention-related improvements in behavior. We recorded dozens of neurons simultaneously in visual area V4 and found that changes in single neurons accounted for only a small fraction of the improvement in the sensitivity of the population. Instead, over 80% of the attentional improvement in the population signal was caused by decreases in the correlations between the trial-to-trial fluctuations in the responses of pairs of neurons. These results suggest that the representation of sensory information in populations of neurons and the way attention affects the sensitivity of the population may only be understood by considering the interactions between neurons.",
+      "year": 2009,
+      "authors": [
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        },
+        {
+          "name": "J. Maunsell",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.2439",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9089114626150724,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 267750945,
+      "title": "Structure of activity in multiregion recurrent neural networks",
+      "abstract": "Neural circuits are composed of multiple regions, each with rich dynamics and engaging in communication with other regions. The combination of local, within-region dynamics and global, network-level dynamics is thought to provide computational flexibility. However, the nature of such multiregion dynamics and the underlying synaptic connectivity patterns remain poorly understood. Here, we study the dynamics of recurrent neural networks with multiple interconnected regions. Within each region, neurons have a combination of random and structured recurrent connections. Motivated by experimental evidence of communication subspaces between cortical areas, these networks have low-rank connectivity between regions, enabling selective routing of activity. These networks exhibit two interacting forms of dynamics: high-dimensional fluctuations within regions and low-dimensional signal transmission between regions. To characterize this interaction, we develop a dynamical mean-field theory to analyze such networks in the limit where each region contains infinitely many neurons, with cross-region currents as key order parameters. Regions can act as both generators and transmitters of activity, roles that we show are in conflict. Specifically, taming the complexity of activity within a region is necessary for it to route signals to and from other regions. Unlike previous models of routing in neural circuits, which suppressed the activities of neuronal groups to control signal flow, routing in our model is achieved by exciting different high-dimensional activity patterns through a combination of connectivity structure and nonlinear recurrent dynamics. This theory provides insight into the interpretation of both multiregion neural data and trained neural networks.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "David G. Clark",
+          "id": ""
+        },
+        {
+          "name": "Manuel Beir\u00e1n",
+          "id": ""
+        }
+      ],
+      "venue": "arXiv.org",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:267750945",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9057920988157734,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273961329,
+      "title": "Measuring Stimulus Information Transfer Between Neural Populations through the Communication Subspace",
+      "abstract": "Sensory processing arises from the communication between neural populations across multiple brain areas. While the widespread presence of neural response variability shared throughout a neural population limits the amount of stimulus-related information those populations can accurately represent, how this variability affects the interareal communication of sensory information is unknown. We propose a mathematical framework to understand the impact of neural population response variability on sensory information transmission. We combine linear Fisher information, a metric connecting stimulus representation and variability, with the framework of communication subspaces, which suggests that functional mappings between cortical populations are low-dimensional relative to the space of population activity patterns. From this, we partition Fisher information depending on the alignment between the population covariance and the mean tuning direction projected onto the communication subspace or its orthogonal complement. We provide mathematical and numerical analyses of our proposed decomposition of Fisher information and examine theoretical scenarios that demonstrate how to leverage communication subspaces for flexible routing and gating of stimulus information. This work will provide researchers investigating interareal communication with a theoretical lens through which to understand sensory information transmission and guide experimental design.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Oren Weiss",
+          "id": ""
+        },
+        {
+          "name": "Ruben Coen-Cagli",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:273961329",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.905572473145646,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16937159,
+      "title": "Attention Increases Spike Count Correlations between Visual Cortical Areas",
+      "abstract": "Visual attention, which improves perception of attended locations or objects, has long been known to affect many aspects of the responses of neuronal populations in visual cortex. There are two nonmutually exclusive hypotheses concerning the neuronal mechanisms that underlie these perceptual improvements. The first hypothesis, that attention improves the information encoded by a population of neurons in a particular cortical area, has considerable physiological support. The second hypothesis is that attention improves perception by selectively communicating relevant visual information. This idea has been tested primarily by measuring interactions between neurons on very short timescales, which are mathematically nearly independent of neuronal interactions on longer timescales. We tested the hypothesis that attention changes the way visual information is communicated between cortical areas on longer timescales by recording simultaneously from neurons in primary visual cortex (V1) and the middle temporal area (MT) in rhesus monkeys. We used two independent and complementary approaches. Our correlative experiment showed that attention increases the trial-to-trial response variability that is shared between the two areas. In our causal experiment, we electrically microstimulated V1 and found that attention increased the effect of stimulation on MT responses. Together, our results suggest that attention affects both the way visual stimuli are encoded within a cortical area and the extent to which visual information is communicated between areas on behaviorally relevant timescales. SIGNIFICANCE STATEMENT Visual attention dramatically improves the perception of attended stimuli. Attention has long been thought to act by selecting relevant visual information for further processing. It has been hypothesized that this selection is accomplished by increasing communication between neurons that encode attended information in different cortical areas. We recorded simultaneously from neurons in primary visual cortex and the middle temporal area while rhesus monkeys performed an attention task. We found that attention increased shared variability between neurons in the two areas and that attention increased the effect of microstimulation in V1 on the firing rates of MT neurons. Our results provide support for the hypothesis that attention increases communication between neurons in different brain areas on behaviorally relevant timescales.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "D. Ruff",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.0610-16.2016",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9000618233399836,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 283897103,
+      "title": "Reduced rank regression for neural communication: a tutorial for neuroscientists",
+      "abstract": "Reduced rank regression (RRR) is a statistical method for finding a low-dimensional linear mapping between a set of high-dimensional inputs and outputs. In recent years, RRR has found numerous applications in neuroscience, in particular for identifying\"communication subspaces\"governing the interactions between brain regions. This tutorial article seeks to provide an introduction to RRR and its mathematical foundations, with a particular emphasis on neural communication. We discuss RRR's relationship to alternate dimensionality reduction techniques such as singular value decomposition (SVD), principal components analysis (PCA), principal components regression (PCR), and canonical correlation analysis (CCA). We also derive important extensions to RRR, including ridge regularization and non-spherical noise. Finally, we introduce new metrics for quantifying communication strength as well as the alignment between communication axes and the principal modes of neural activity. By the end of this article, readers should have a clear understanding of RRR and the practical considerations involved in applying it to their own data.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "Bichan Wu",
+          "id": ""
+        },
+        {
+          "name": "Jonathan W. Pillow",
+          "id": ""
+        }
+      ],
+      "venue": null,
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:283897103",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8989154249571235,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 221510558,
+      "title": "Influence of On-Off dynamics and selective attention on the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity and change dynamically with cognitive states, such as attention. Yet, how anatomical connectivity and cognitive states define the population structure of correlations is not known. We measured correlations in single cortical columns and found that the magnitude of correlations, their attentional modulation and dependence on lateral distance are predicted by On-Off dynamics, synchronous fluctuations in population activity across cortical layers. We developed a network model, in which spatial connectivity correlates the On-Off dynamics across nearby columns. We show that attentional inputs modulate the spatial extent of On-Off dynamics, resulting in spatially non-uniform changes in correlations. We confirm this prediction in our columnar recordings by showing that attentional modulation of correlations depends on lateral distance. Our results reveal how heterogeneous spatial patterns of correlations arise from the connectivity and network dynamics during attention.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:221510558",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.898655163977768,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 249873155,
+      "title": "Sensory input to cortex encoded on low-dimensional periphery-correlated subspaces",
+      "abstract": "As information about the world is conveyed from the sensory periphery to central neural circuits, it mixes with complex ongoing cortical activity. How do neural populations keep track of sensory signals, separating them from noisy ongoing activity? Here we show that sensory signals are encoded more reliably in certain low-dimensional subspaces. These coding subspaces are defined by correlations between neural activity in primary sensory cortex and upstream sensory brain regions; the most correlated dimensions were best for decoding. We analytically show that these correlation-based coding subspaces improve, reaching optimal limits (without an ideal observer) as noise correlations between cortex and upstream regions are reduced. We show that this principle generalizes across diverse sensory stimuli in the olfactory system and the visual system of awake mice. Our results demonstrate an algorithm the cortex may use to multiplex different functions, processing sensory input in low dimensional subspaces separate from other ongoing functions. Significance statement Traditionally, primary sensory cortex was thought to have one job \u2013 processing sensory signals. As technical advances allow more holistic measurements of the brain and body in action, it has become clear that primary sensory cortex is involved with many other aspects of brain function, not just dealing with sensory input. How can a single neural circuit juggle multiple jobs simultaneously? Here we use numerical, analytical, and experimental methods to demonstrate an algorithm the brain may use to solve this problem by separating different jobs into different subspaces defined by correlations between primary sensory cortex and the brain regions that source the sensory input signals.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Andrea K. Barreiro",
+          "id": ""
+        },
+        {
+          "name": "Antonio J. Fontenele",
+          "id": ""
+        },
+        {
+          "name": "C. Ly",
+          "id": ""
+        },
+        {
+          "name": "Prashant C. Raju",
+          "id": ""
+        },
+        {
+          "name": "S. H. Gautam",
+          "id": ""
+        },
+        {
+          "name": "Woodrow L. Shew",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:249873155",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.898187929662221,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 267940232,
+      "title": "Spatial context non-uniformly modulates inter-laminar communication in the primary visual cortex",
+      "abstract": "Our visual experience is a result of the concerted activity of neuronal ensembles in the sensory hierarchy. Yet how the spatial organization of objects influences neural activity in this hierarchy remains poorly understood. We investigate how the inter-laminar interactions in the primary visual cortex (V1) are affected by visual stimuli in isolation or with flanking stimuli at various spatial configurations that are known to cause non-uniform degradation of perception. By employing dimensionality reduction approaches to simultaneous layer-specific population recordings, we establish that cortical layers interact through a structurally stable communication subspace. Spatial configuration of contextual stimuli differentially modulates inter-laminar communication efficacy, the balance between feedforward and feedback signaling, and contextual signaling in the superficial layers. Remarkably, these modulations mirror the spatially non-uniform aspects of perceptual degradation. Our results suggest a model of retinotopically non-uniform cortical connectivity in the output layers of V1 that influences communication in the sensory hierarchy.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Xize Xu",
+          "id": ""
+        },
+        {
+          "name": "Mitchell P. Morton",
+          "id": ""
+        },
+        {
+          "name": "Nyomi V. Hudson",
+          "id": ""
+        },
+        {
+          "name": "Anirvan S. Nandy",
+          "id": ""
+        },
+        {
+          "name": "Monika P. Jadi",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:267940232",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8954567708941923,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 221510391,
+      "title": "Selective effects of arousal on population coding of natural sounds in primary auditory cortex",
+      "abstract": "In addition to encoding sound stimulus features, activity in primary auditory cortex (A1) is modulated by non-sensory behavioral state variables, including arousal. Here, we investigated how arousal, measured by pupil size, influences stimulus discriminability in A1. To do this, we recorded from populations of A1 neurons in awake animals while presenting a diverse set of natural sound stimuli. In contrast to previous work, the large stimulus set allowed us to investigate effects of arousal across a wide range of sensory response space. Arousal consistently increased evoked response magnitude and reduced pairwise noise correlations. On average, these changes improved the accuracy of the neural code. However, effects varied across stimuli; neural coding was most improved for areas of the sensory space where noise correlations interfered with the sensory discrimination axis. We also found that first-order modulation of evoked responses and second-order modulation of correlated variability acted on distinct neural populations and timescales, suggesting that arousal interacts with multiple circuits underlying activity in A1.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Charles R. Heller",
+          "id": ""
+        },
+        {
+          "name": "Zachary P. Schwartz",
+          "id": ""
+        },
+        {
+          "name": "D. Saderi",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:221510391",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8926053463490927,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 9662123,
+      "title": "Attention Improves Transfer of Motion Information between V1 and MT",
+      "abstract": "Selective attention modulates activity within individual visual areas; however, the role of attention in mediating the transfer of information between areas is not well understood. Here, we used fMRI to assess attention-related changes in coupled BOLD activation in two key areas of human visual cortex that are involved in motion processing: V1 and MT. To examine attention-related changes in cross-area coupling, multivoxel patterns in each visual area were decomposed to estimate the trial-by-trial response amplitude in a set of direction-selective \u201cchannels.\u201d In both V1 and MT, BOLD responses increase in direction-selective channels tuned to the attended direction of motion and decrease in channels tuned away from the attended direction. Furthermore, the modulation of cross-area correlations between similarly tuned populations is inversely related to the modulation of their mean responses, an observation that can be explained via a feedforward motion computation in MT and a modulation of local noise correlations in V1. More importantly, these modulations accompany an increase in the cross-area mutual information between direction-selective response patterns in V1 and MT, suggesting that attention improves the transfer of sensory information between cortical areas that cooperate to support perception. Finally, our model suggests that divisive normalization of neural activity in V1 before its integration by MT is critical to cross-area information coupling, both in terms of cross-area correlation as well as cross-area mutual information.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "S. Saproo",
+          "id": ""
+        },
+        {
+          "name": "J. Serences",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:9662123",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8916179209041745,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 264128707,
+      "title": "Shifts in attention drive context-dependent subspace encoding in anterior cingulate cortex during decision making",
+      "abstract": "Attention is a cognitive faculty that selects part of a larger set of percepts, driven by cues such as stimulus saliency, internal goals or priors. The enhancement of the attended representation and inhibition of distractors have been proposed as potential neural mechanisms driving this selection process. Yet, how attention operates when the cue has to be internally constructed from conflicting stimuli, decision rules, and reward contingencies, is less understood. Here we recorded from populations of neurons in the anterior cingulate cortex (ACC), an area implicated in ongoing error monitoring and correction during decision conflicts, in a challenging attention-shifting task. In this task, mice had to attend to the rewarded modality when presented identical auditory and visual stimuli in two contexts without direct external cues. In the ACC, the irrelevant stimulus continuously became less decodable than the relevant stimulus as the trial progressed to the decision point. This contrasted strongly with our previous findings in V1 where both relevant and irrelevant stimuli were equally decodable throughout the trial. Using analytical tools and a recurrent neural network (RNN) model, we found that the linearly independent representation of stimulus modalities in ACC was well suited to context-gated suppression of a stimulus modality. We demonstrated that the feedback structure of lateral connections in the RNN consisted of excitatory interactions between cell ensembles representing the same modality and mutual inhibition between cell ensembles representing distinct stimulus modalities. Using this RNN model showing signatures of context-gated suppression, we predicted that the level of contextual modulation of individual neurons should be correlated with their relative responsiveness to the two stimulus modalities used in the task. We verified this prediction in recordings from ACC neurons but not from recordings from V1 neurons. Therefore, ACC effectively operates on low-dimensional neuronal subspaces to combine stimulus related information with internal cues to drive actions under conflict.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "M. Hajnal",
+          "id": ""
+        },
+        {
+          "name": "Duy T. Tran",
+          "id": ""
+        },
+        {
+          "name": "Zsombor Szab\u00f3",
+          "id": ""
+        },
+        {
+          "name": "Andrea Albert",
+          "id": ""
+        },
+        {
+          "name": "K. Safaryan",
+          "id": ""
+        },
+        {
+          "name": "Michael C. Einstein",
+          "id": ""
+        },
+        {
+          "name": "Mauricio Vallejo Martelo",
+          "id": ""
+        },
+        {
+          "name": "Pierre-Olivier Polack",
+          "id": ""
+        },
+        {
+          "name": "P. Golshani",
+          "id": ""
+        },
+        {
+          "name": "Gerg\u0151 Orb\u00e1n",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:264128707",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8913111339330576,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 252684978,
+      "title": "From correlation to communication: Disentangling hidden factors from functional connectivity changes",
+      "abstract": "While correlations in the BOLD fMRI signal are widely used to capture functional connectivity (FC) and its changes across contexts, its interpretation is often ambiguous. The entanglement of multiple factors including local coupling of two neighbors and non-local inputs from the rest of the network (affecting one or both regions) limits the scope of the conclusions that can be drawn from correlation measures alone. Here we present a method of estimating the contribution of non-local network input to FC changes across different contexts. To disentangle the effect of task-induced coupling change from the network input change, we propose a new metric, \u201ccommunication change\u201d, utilizing BOLD signal correlation and variance. With a combination of simulation and empirical analysis, we demonstrate that 1) input from the rest of the network accounts for a moderate but significant amount of task-induced FC change; 2) the proposed \u201ccommunication change\u201d is a promising candidate for tracking the local coupling in task context-induced change. Additionally, when compared to FC change across three different tasks, communication change can better discriminate specific task types. Taken together, this novel index of local coupling may have many applications in improving our understanding of local and widespread interactions across large-scale functional networks.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yuhua Yu",
+          "id": ""
+        },
+        {
+          "name": "C. Gratton",
+          "id": ""
+        },
+        {
+          "name": "Derek M. Smith",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:252684978",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.889838284754739,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273501209,
+      "title": "Spatial context non-uniformly modulates inter-laminar information flow in the primary visual cortex.",
+      "abstract": "Our visual experience is a result of the concerted activity of neuronal ensembles in the sensory hierarchy. Yet, how the spatial organization of objects influences this activity remains poorly understood. We investigate how inter-laminar information flow within the primary visual cortex (V1) is affected by visual stimuli in isolation or with flankers at spatial configurations that are known to cause non-uniform degradation of perception. By employing dimensionality reduction approaches to simultaneous, layer-specific population recordings, we establish that information propagation between cortical layers occurs along a structurally stable communication subspace. The spatial configuration of contextual stimuli differentially modulates inter-laminar communication efficacy, the balance of feedforward and effective feedback signaling, and contextual signaling in the superficial layers. Remarkably, these modulations mirror the spatially non-uniform aspects of perceptual degradation. Our results suggest a model of retinotopically non-uniform cortical connectivity in the output layers of V1 that influences information flow in the sensory hierarchy.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Xize Xu",
+          "id": ""
+        },
+        {
+          "name": "Mitchell P. Morton",
+          "id": ""
+        },
+        {
+          "name": "Sachira Denagamage",
+          "id": ""
+        },
+        {
+          "name": "Nyomi V. Hudson",
+          "id": ""
+        },
+        {
+          "name": "Anirvan S. Nandy",
+          "id": ""
+        },
+        {
+          "name": "Monika P. Jadi",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/39442514",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3621005963327012,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 72332962,
+      "title": "Cortical Areas Interact through a Communication Subspace.",
+      "abstract": "Most brain functions involve interactions among multiple, distinct areas or nuclei. For instance, visual processing in primates requires the appropriate relaying of signals across many distinct cortical areas. Yet our understanding of how populations of neurons in interconnected brain areas communicate is in its infancy. Here we investigate how trial-to-trial fluctuations of population responses in primary visual cortex (V1) are related to simultaneously recorded population responses in area V2. Using dimensionality reduction methods, we find that V1-V2 interactions occur through a communication subspace: V2 fluctuations are related to a small subset of V1 population activity patterns, distinct from the largest fluctuations shared among neurons within V1. In\u00a0contrast, interactions between subpopulations within V1 are less selective. We propose that the communication subspace may be a general, population-level mechanism by which activity can be selectively routed across brain areas.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Jo\u00e3o Dias Semedo",
+          "id": ""
+        },
+        {
+          "name": "A. Zandvakili",
+          "id": ""
+        },
+        {
+          "name": "C. Machens",
+          "id": ""
+        },
+        {
+          "name": "Byron M. Yu",
+          "id": ""
+        },
+        {
+          "name": "A. Kohn",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/30770252",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3574326921241056,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 5617431,
+      "title": "Context-dependent changes in functional circuitry in visual area MT.",
+      "abstract": "Animals can flexibly change their behavior in response to a particular sensory stimulus; the mapping between sensory and motor representations in the brain must therefore be flexible as well. Changes in the correlated firing of pairs of neurons may provide a metric of changes in functional circuitry during behavior. We studied dynamic changes in functional circuitry by analyzing the noise correlations of simultaneously recorded MT neurons in two behavioral contexts: one that promotes cooperative interactions between the two neurons and another that promotes competitive interactions. We found that identical visual stimuli give rise to differences in noise correlation in the two contexts, suggesting that MT neurons receive inputs of central origin whose strength changes with the task structure. The data are consistent with a mixed feature-based attentional strategy model in which the animal sometimes alternates attention between opposite directions of motion and sometimes attends to the two directions simultaneously.",
+      "year": 2008,
+      "authors": [
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        },
+        {
+          "name": "W. Newsome",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/18940596",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.35325299332450155,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 245839962,
+      "title": "Cortical state dynamics and selective attention define the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in the neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity but also change dynamically with cognitive states such as attention. Yet, the network mechanisms defining the population structure of correlations remain unknown. We measured correlations within columns in the visual cortex. We show that the magnitude of correlations, their attentional modulation, and dependence on lateral distance are explained by columnar On-Off dynamics, which are synchronous activity fluctuations reflecting cortical state. We developed a network model in which the On-Off dynamics propagate across nearby columns generating spatial correlations with the extent controlled by attentional inputs. This mechanism, unlike previous proposals, predicts spatially non-uniform changes in correlations during attention. We confirm this prediction in our columnar recordings by showing that in superficial layers the largest changes in correlations occur at intermediate lateral distances. Our results reveal how spatially structured patterns of correlated variability emerge through interactions of cortical state dynamics, anatomical connectivity, and attention. Noise correlations in the neocortex change dynamically with cognitive states. Here the authors show how heterogeneous spatial patterns of noise correlations emerge through interactions of cortical On-Off dynamics, connectivity, and attention.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:245839962",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3488670976415916,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 56476027,
+      "title": "Circuit Models of Low-Dimensional Shared Variability in Cortical Networks.",
+      "abstract": "Trial-to-trial variability is a reflection of the circuitry and cellular physiology that make up a neuronal network. A pervasive yet puzzling feature of cortical circuits is that despite their complex wiring, population-wide shared spiking variability is low dimensional. Previous model cortical networks cannot explain this global variability, and rather assume it is from external sources. We show that if the spatial and temporal scales of inhibitory coupling match known physiology, networks of model spiking neurons internally generate low-dimensional shared variability that captures population activity recorded in\u00a0vivo. Shifting spatial attention into the receptive field of visual neurons has been shown to differentially modulate shared variability within and between brain areas. A top-down modulation of inhibitory neurons in our network provides a parsimonious mechanism for this attentional modulation. Our work provides a critical link between observed cortical circuit structure and realistic shared neuronal variability and its modulation.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Chengcheng Huang",
+          "id": ""
+        },
+        {
+          "name": "D. Ruff",
+          "id": ""
+        },
+        {
+          "name": "Ryan Pyle",
+          "id": ""
+        },
+        {
+          "name": "R. Rosenbaum",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        },
+        {
+          "name": "B. Doiron",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/30581012",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3428735306364317,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256674891,
+      "title": "Cortical state dynamics and selective attention define the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in the neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity but also change dynamically with cognitive states such as attention. Yet, the network mechanisms defining the population structure of correlations remain unknown. We measured correlations within columns in the visual cortex. We show that the magnitude of correlations, their attentional modulation, and dependence on lateral distance are explained by columnar On-Off dynamics, which are synchronous activity fluctuations reflecting cortical state. We developed a network model in which the On-Off dynamics propagate across nearby columns generating spatial correlations with the extent controlled by attentional inputs. This mechanism, unlike previous proposals, predicts spatially non-uniform changes in correlations during attention. We confirm this prediction in our columnar recordings by showing that in superficial layers the largest changes in correlations occur at intermediate lateral distances. Our results reveal how spatially structured patterns of correlated variability emerge through interactions of cortical state dynamics, anatomical connectivity, and attention. Noise correlations in the neocortex change dynamically with cognitive states. Here the authors show how heterogeneous spatial patterns of noise correlations emerge through interactions of cortical On-Off dynamics, connectivity, and attention.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:256674891",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33686223372159485,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 4506763,
+      "title": "Laminar Organization of Attentional Modulation in Macaque Visual Area V4.",
+      "abstract": "Attention is critical to perception, serving to select behaviorally relevant information for privileged processing. To understand the neural mechanisms of attention, we must discern how attentional modulation varies by cell type and across cortical layers. Here, we test whether attention acts non-selectively across cortical layers or whether it engages the laminar circuit in specific and selective ways. We find layer- and cell-class-specific differences in several different forms of attentional modulation in area V4. Broad-spiking neurons in the superficial layers exhibit attention-mediated increases in firing rate and decreases in variability. Spike count correlations are highest in the input layer and attention serves to reduce these correlations. Superficial and input layer neurons exhibit attention-dependent decreases in low-frequency (<10\u00a0Hz) coherence, but deep layer neurons exhibit increases in coherence in the beta and gamma frequency ranges. Our study provides a template for attention-mediated laminar information processing that might be applicable across sensory modalities.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Anirvan S. Nandy",
+          "id": ""
+        },
+        {
+          "name": "J. Nassi",
+          "id": ""
+        },
+        {
+          "name": "J. Reynolds",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/27989456",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3365242290458467,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 281086858,
+      "title": "Hippocampal\u2013Prefrontal Communication Subspaces Align with Behavioral and Network Patterns in a Spatial Memory Task",
+      "abstract": "Rhythmic network states have been theorized to facilitate communication between brain regions, but how these oscillations influence communication subspaces, i.e., the low-dimensional neural activity patterns that mediate interregional communication, and in turn how subspaces impact behavior remain unclear. Using a spatial memory task in rats (male Long\u2013Evans rats), we simultaneously recorded ensembles from hippocampal CA1 and the prefrontal cortex (PFC) to address this question. We found that task behaviors best aligned with low-dimensional, shared subspaces between these regions rather than local activity in either region. Critically, both network oscillations and speed modulated the structure and performance of this communication subspace. To understand the communication space, we visualized shared CA1\u2013PFC communication geometry using manifold techniques and found ring-like structures. We hypothesize that these shared activity manifolds are utilized to mediate the task behavior. These findings suggest that memory-guided behaviors are driven by shared CA1\u2013PFC interactions that are dynamically modulated by oscillatory states, offering a novel perspective on the interplay between rhythms and behaviorally relevant neural communication.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "Ryan A. Young",
+          "id": ""
+        },
+        {
+          "name": "Justin D. Shin",
+          "id": ""
+        },
+        {
+          "name": "Ziyi Guo",
+          "id": ""
+        },
+        {
+          "name": "Shantanu P. Jadhav",
+          "id": ""
+        }
+      ],
+      "venue": "eNeuro",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:281086858",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33358934458132006,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16939263,
+      "title": "Cortical state and attention",
+      "abstract": "The brain continuously adapts its processing machinery to behavioural demands. To achieve this, it rapidly modulates the operating mode of cortical circuits, controlling the way that information is transformed and routed. This article will focus on two experimental approaches by which the control of cortical information processing has been investigated: the study of state-dependent cortical processing in rodents and attention in the primate visual system. Both processes involve a modulation of low-frequency activity fluctuations and spiking correlation, and are mediated by common receptor systems. We suggest that selective attention involves processes that are similar to state change, and that operate at a local columnar level to enhance the representation of otherwise non-salient features while suppressing internally generated activity patterns.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "K. Harris",
+          "id": ""
+        },
+        {
+          "name": "A. Thiele",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Reviews Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nrn3084",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3333143376606402,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1969436,
+      "title": "Spatial attention decorrelates intrinsic activity fluctuations in macaque area V4.",
+      "abstract": "Attention typically amplifies neuronal responses evoked by task-relevant stimuli while attenuating responses to task-irrelevant distracters. In this context, visual distracters constitute an external source of noise that is diminished to improve attended signal quality. Activity that is internal to the cortex itself, stimulus-independent ongoing correlated fluctuations in firing, might also act as task-irrelevant noise. To examine this, we recorded from area V4 of macaques performing an attention-demanding task. The firing of neurons to identically repeated stimuli was highly variable. Much of this variability originates from ongoing low-frequency (<5 Hz) fluctuations in rate correlated across the neuronal population. When attention is directed to a stimulus inside a neuron's receptive field, these correlated fluctuations in rate are reduced. This attention-dependent reduction of ongoing cortical activity improves the signal-to-noise ratio of pooled neural signals substantially more than attention-dependent increases in firing rate.",
+      "year": 2009,
+      "authors": [
+        {
+          "name": "Jude F. Mitchell",
+          "id": ""
+        },
+        {
+          "name": "Kristy A. Sundberg",
+          "id": ""
+        },
+        {
+          "name": "J. Reynolds",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/19778515",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33325366509140714,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 2541507,
+      "title": "Arousal and locomotion make distinct contributions to cortical activity patterns and visual encoding",
+      "abstract": "Spontaneous and sensory-evoked cortical activity is highly state-dependent, yet relatively little is known about transitions between distinct waking states. Patterns of activity in mouse V1 differ dramatically between quiescence and locomotion, but this difference could be explained by either motor feedback or a change in arousal levels. We recorded single cells and local field potentials from area V1 in mice head-fixed on a running wheel and monitored pupil diameter to assay arousal. Using naturally occurring and induced state transitions, we dissociated arousal and locomotion effects in V1. Arousal suppressed spontaneous firing and strongly altered the temporal patterning of population activity. Moreover, heightened arousal increased the signal-to-noise ratio of visual responses and reduced noise correlations. In contrast, increased firing in anticipation of and during movement was attributable to locomotion effects. Our findings suggest complementary roles of arousal and locomotion in promoting functional flexibility in cortical circuits. Abbreviations LFP Local Field Potential V1 primary visual cortex PD pupil diameter FS fast spiking RS regular spiking FR firing rate L-on locomotion onset L-off locomotion offset L locomotion LE early locomotion LL late locomotion Q quiescence QE early quiescence QM middle quiescence QL late quiescence SNR signal-to-noise ratio ITI Inter-trial-interval LV local coefficient of variation ISI inter-spike-interval s.e.m. standard error of the mean SD standard deviation ID Isolation Distance",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "M. Vinck",
+          "id": ""
+        },
+        {
+          "name": "R. Batista-Brito",
+          "id": ""
+        },
+        {
+          "name": "U. Knoblich",
+          "id": ""
+        },
+        {
+          "name": "Jessica A. Cardin",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/25892300",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33219455431416056,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 6275292,
+      "title": "A mechanism for cognitive dynamics: neuronal communication through neuronal coherence.",
+      "abstract": "At any one moment, many neuronal groups in our brain are active. Microelectrode recordings have characterized the activation of single neurons and fMRI has unveiled brain-wide activation patterns. Now it is time to understand how the many active neuronal groups interact with each other and how their communication is flexibly modulated to bring about our cognitive dynamics. I hypothesize that neuronal communication is mechanistically subserved by neuronal coherence. Activated neuronal groups oscillate and thereby undergo rhythmic excitability fluctuations that produce temporal windows for communication. Only coherently oscillating neuronal groups can interact effectively, because their communication windows for input and for output are open at the same times. Thus, a flexible pattern of coherence defines a flexible communication structure, which subserves our cognitive flexibility.",
+      "year": 2005,
+      "authors": [
+        {
+          "name": "P. Fries",
+          "id": ""
+        }
+      ],
+      "venue": "Trends in Cognitive Sciences",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/16150631",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.331396862029164,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 259844976,
+      "title": "Brain-state mediated modulation of inter-laminar dependencies in visual cortex",
+      "abstract": "Spatial attention is a quintessential example of adaptive information processing in the brain and is critical for recognizing behaviorally relevant objects in a cluttered environment. Object recognition is mediated by neural encoding along the ventral visual hierarchy. How the deployment of spatial attention aids these hierarchical computations is unclear. Prior studies point to two distinct mechanisms: an improvement in the efficacy of information directed from one encoding stage to another1\u20135, and/or a suppression of shared information within encoding stages6,7. To test these proposals, it is crucial to estimate the attentional modulation of unique information flow across and shared information within the encoding stages of the visual hierarchy. We investigated this in the multi-stage laminar network of visual area V4, an area strongly modulated by attention8\u201310. Using network-based dependency estimation from multivariate data, we quantified the modulation of inter-layer information flow during a change detection task and found that deployment of attention indeed strengthened unique dependencies between the input and superficial layers. Using the partial information decomposition framework11,12, we estimated the modulation of shared dependencies and found that they are reduced specifically in the putative excitatory subpopulations within a layer. Surprisingly, we found a strengthening of unique dependencies within the laminar populations, a finding not previously predicted. Crucially, these modulation patterns were also observed during successful behavioral outcomes (hits) that are thought to be mediated by endogenous brain state fluctuations13\u201315, and not by experimentally imposed attentive states. Finally, phases of endogenous fluctuations that were optimal for \u2018hits\u2019 were associated with reduced neural excitability. A reduction in neural excitability, potentially mediated by diminished shared inputs, suggests a novel mechanism for enhancing unique information transmission during optimal states. By decomposing the modulation of multivariate information, and combined with prior theoretical work16, our results suggest common computations of optimal sensory states that are attained by either task demands or endogenous fluctuations.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Anirban Das",
+          "id": ""
+        },
+        {
+          "name": "Alec G. Sheffield",
+          "id": ""
+        },
+        {
+          "name": "Anirvan S. Nandy",
+          "id": ""
+        },
+        {
+          "name": "Monika P. Jadi",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/36945492",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33137415954547383,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 262840469,
+      "title": "Orthogonality of sensory and contextual categorical dynamics embedded in a continuum of responses from the second somatosensory cortex",
+      "abstract": "How does the brain simultaneously process signals that bring complementary information, like raw sensory signals and their transformed counterparts, without any disruptive interference? Contemporary research underscores the brain\u2019 ss adeptness in using decorrelated responses to reduce such interference. Both neurophysiological findings and artificial neural networks (ANNs) support the notion of orthogonal representation for signal differentiation and parallel processing. Yet, where, and how raw sensory signals are transformed into more abstract representations remains unclear. Using a temporal pattern discrimination task (TPDT) in trained monkeys, we revealed that the second somatosensory cortex (S2) efficiently segregates faithful and transformed neural responses into orthogonal subspaces. Importantly, S2 population encoding for transformed signals, but not for faithful ones, disappeared during a non-demanding version of the task, which suggests that signal transformation and their decoding from downstream areas are only active on-demand. A mechanistic computation model points to gain modulation as a possible biological mechanism for the observed context-dependent computation. Furthermore, individual neural activities that underlie the orthogonal population representations exhibited a continuum of responses, with no well-determined clusters. These findings advocate that the brain, while employing a continuum of heterogeneous neural responses, splits population signals into orthogonal subspaces in a context-dependent fashion to enhance robustness, performance, and improve coding efficiency. SIGNIFICANCE STATEMENT An important function of the brain is turning sensation into perception. Yet, how this function is implemented remains unknown. Current research, insights from artificial neural networks, highlights using of orthogonal representations as an effective means to transform sensory signals into perceptual signals while separating and simultaneously processing the two information streams. Neuronal recordings in S2 while trained monkeys performed the TPDT, revealed that this function is implemented at the population level. While S2 encodes sensory information independently of context, the encoding of categorical information, like task parameters, is only performed when the task demands it. Such distinct and flexible organization, enriched by a spectrum of neural activities, reflects the brain\u2019s efficiency, resilience, and overall purpose for solving cognitive tasks.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Lucas Bayones",
+          "id": ""
+        },
+        {
+          "name": "A. Zainos",
+          "id": ""
+        },
+        {
+          "name": "Manuel \u00c1lvarez",
+          "id": ""
+        },
+        {
+          "name": "R. Romo",
+          "id": ""
+        },
+        {
+          "name": "Alessio Franci",
+          "id": ""
+        },
+        {
+          "name": "Rom\u00e1n Rossi-Pool",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:262840469",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3306479233147644,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 264517878,
+      "title": "Early selection of task-relevant features through population gating",
+      "abstract": "Brains can gracefully weed out irrelevant stimuli to guide behavior. This feat is believed to rely on a progressive selection of task-relevant stimuli across the cortical hierarchy, but the specific across-area interactions enabling stimulus selection are still unclear. Here, we propose that population gating, occurring within primary auditory cortex (A1) but controlled by top-down inputs from prelimbic region of medial prefrontal cortex (mPFC), can support across-area stimulus selection. Examining single-unit activity recorded while rats performed an auditory context-dependent task, we found that A1 encoded relevant and irrelevant stimuli along a common dimension of its neural space. Yet, the relevant stimulus encoding was enhanced along an extra dimension. In turn, mPFC encoded only the stimulus relevant to the ongoing context. To identify candidate mechanisms for stimulus selection within A1, we reverse-engineered low-rank RNNs trained on a similar task. Our analyses predicted that two context-modulated neural populations gated their preferred stimulus in opposite contexts, which we confirmed in further analyses of A1. Finally, we show in a two-region RNN how population gating within A1 could be controlled by top-down inputs from PFC, enabling flexible across-area communication despite fixed inter-areal connectivity.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Joao Barbosa",
+          "id": ""
+        },
+        {
+          "name": "R\u00e9mi Proville",
+          "id": ""
+        },
+        {
+          "name": "Chris C. Rodgers",
+          "id": ""
+        },
+        {
+          "name": "M. R. DeWeese",
+          "id": ""
+        },
+        {
+          "name": "S. Ostojic",
+          "id": ""
+        },
+        {
+          "name": "Yves Boubenec",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/37884507",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33016046594171655,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256829879,
+      "title": "Multiplexed Subspaces Route Neural Activity Across Brain-wide Networks",
+      "abstract": "Cognition is flexible. Behaviors can change on a moment-by-moment basis. Such flexibility is thought to rely on the brain\u2019s ability to route information through different networks of brain regions in order to support different cognitive computations. However, the mechanisms that determine which network of brain regions is engaged are unknown. To address this, we combined cortex-wide calcium imaging with high-density electrophysiological recordings in eight cortical and subcortical regions of mice. Different dimensions within the population activity of each brain region were functionally connected with different cortex-wide \u2018subspace networks\u2019 of regions. These subspace networks were multiplexed, allowing a brain region to simultaneously interact with multiple independent, yet overlapping, networks. Alignment of neural activity within a region to a specific subspace network dimension predicted how neural activity propagated between regions. Thus, changing the geometry of the neural representation within a brain region could be a mechanism to selectively engage different brain-wide networks to support cognitive flexibility.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Camden J. MacDowell",
+          "id": ""
+        },
+        {
+          "name": "Alexandra Libby",
+          "id": ""
+        },
+        {
+          "name": "Caroline I. Jahn",
+          "id": ""
+        },
+        {
+          "name": "S. Tafazoli",
+          "id": ""
+        },
+        {
+          "name": "T. J. Buschman",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/36798411",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32914706346530287,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 235650121,
+      "title": "Complementary roles of dimensionality and population structure in neural computations",
+      "abstract": "Neural computations are currently investigated using two competing approaches: sorting neurons into functional classes, or examining the low-dimensional dynamics of collective activity. Whether and how these two aspects interact to shape computations is currently unclear. Using a novel approach to extract computational mechanisms from networks trained with machine-learning tools on neuroscience tasks, here we show that the dimensionality of the dynamics and cell-class structure play fundamentally complementary roles. While various tasks can be implemented by increasing the dimensionality in networks consisting of a single global population, flexible input-output mappings instead required networks to be organized into several sub-populations. Our analyses revealed that the subpopulation structure enabled flexible computations through a mechanism based on gain-controlled modulations that flexibly shape the dynamical landscape of collective dynamics. Our results lead to task-specific predictions for the structure of neural selectivity and inactivation experiments.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "A. Dubreuil",
+          "id": ""
+        },
+        {
+          "name": "A. Valente",
+          "id": ""
+        },
+        {
+          "name": "Manuel Beir\u00e1n",
+          "id": ""
+        },
+        {
+          "name": "F. Mastrogiuseppe",
+          "id": ""
+        },
+        {
+          "name": "S. Ostojic",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:235650121",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32474759068426917,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 272397985,
+      "title": "How does the brain compute with probabilities?",
+      "abstract": "This perspective piece is the result of a Generative Adversarial Collaboration (GAC) tackling the question `How does neural activity represent probability distributions?'. We have addressed three major obstacles to progress on answering this question: first, we provide a unified language for defining competing hypotheses. Second, we explain the fundamentals of three prominent proposals for probabilistic computations -- Probabilistic Population Codes (PPCs), Distributed Distributional Codes (DDCs), and Neural Sampling Codes (NSCs) -- and describe similarities and differences in that common language. Third, we review key empirical data previously taken as evidence for at least one of these proposal, and describe how it may or may not be explainable by alternative proposals. Finally, we describe some key challenges in resolving the debate, and propose potential directions to address them through a combination of theory and experiments.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Ralf M Haefner",
+          "id": ""
+        },
+        {
+          "name": "J. Beck",
+          "id": ""
+        },
+        {
+          "name": "C. Savin",
+          "id": ""
+        },
+        {
+          "name": "M. Salmasi",
+          "id": ""
+        },
+        {
+          "name": "X. Pitkow",
+          "id": ""
+        }
+      ],
+      "venue": "arXiv.org",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:272397985",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3241633071285144,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 259317872,
+      "title": "Task-specific invariant representation in auditory cortex",
+      "abstract": "Categorical sensory representations are critical for many behaviors, including speech perception. In the auditory system, categorical information is thought to arise hierarchically, becoming increasingly prominent in higher order cortical regions. The neural mechanisms that support this robust and flexible computation remain poorly understood. Here, we studied sound representations in primary and non-primary auditory cortex while animals engaged in a challenging sound discrimination task. Population-level decoding of simultaneously recorded single neurons revealed that task engagement caused categorical sound representations to emerge in non-primary auditory cortex. In primary auditory cortex, task engagement caused a general enhancement of sound decoding that was not specific to task-relevant categories. These findings are consistent with mixed selectivity models of neural disentanglement, in which early sensory regions build an overcomplete representation of the world and allow neurons in downstream brain regions to flexibly and selectively read out behaviorally relevant, categorical information.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Charles R. Heller",
+          "id": ""
+        },
+        {
+          "name": "Gregory R. Hamersky",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:259317872",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3227462499936912,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 280687978,
+      "title": "Global and local origins of trial-to-trial spike count variability in visual cortex",
+      "abstract": "Sensory neuron spiking responses vary across repeated presentations of the same stimuli, but whether this trial-to-trial variability represents noise versus unidentified signals remains unresolved. Some of the variability can be attributed to correlations between neural activity and arousal, locomotion, and other overt movements. We hypothesized that correlations with global activity factors, i.e., patterns of neural activity observable in other brain regions, may explain additional variability in spike count responses of visual cortical neurons. To test this, we used Neuropixels 2.0 probes to record neural activity in mouse primary visual cortex (V1) while subjects passively viewed images. We recorded videos of behavior alongside neural activity from other brain regions, either spiking activity of neural populations in anterior cingulate area (ACA) or widefield calcium signals from across the dorsal cortex. We then used a model based on reduced rank regression to partition the explainable variability of visual cortical responses by source. Some of the trial-to-trial variability in V1 spike counts was attributable to locally shared patterns of activity uncorrelated with either behavior or global activity patterns. Locally shared activity patterns explained trial-to-trial variability that was in excess of Poisson spike generation. Of the parts of variability attributable to non-local sources, global cortical activity predicted significantly more V1 spike count variability than behavioral factors. Additionally, behavioral factors explained little variability uniquely and comprised a geometric subspace of the globally predictable V1 activity. Finally, optogenetically perturbing ACA directly impacted V1 activity, and ACA activity patterns predicted V1 spike count variability even on trials without overt behaviors. Our data indicate that globally shared factors from other cortical areas contribute substantially to shared spike count variability in V1, with only a minority of shared variability confined to local V1 circuits.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "Anna J. Li",
+          "id": ""
+        },
+        {
+          "name": "Ziyu Lu",
+          "id": ""
+        },
+        {
+          "name": "A. Ladd",
+          "id": ""
+        },
+        {
+          "name": "Pascha Matveev",
+          "id": ""
+        },
+        {
+          "name": "Eric Shea-Brown",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:280687978",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32212309007799433,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253387204,
+      "title": "Hippocampal convergence during anticipatory midbrain activation promotes subsequent memory formation",
+      "abstract": "The hippocampus has been a focus of memory research since H.M\u2019s surgery abolished his ability to form new memories, yet its mechanistic role in memory remains debated. Here, we identify a candidate memory mechanism: an anticipatory hippocampal \u201cconvergence state\u201d, observed while awaiting valuable information, and which predicts subsequent learning. During fMRI, participants viewed trivia questions eliciting high or low curiosity, followed seconds later by its answer. We reasoned that encoding success requires a confluence of conditions, so that hippocampal states more conducive to memory formation should converge in state space. To operationalize convergence of neural states, we quantified the typicality of multivoxel patterns in the medial temporal lobes during anticipation and encoding of trivia answers. We found that the typicality of anticipatory hippocampal patterns increased during high curiosity. Crucially, anticipatory hippocampal pattern typicality increased with dopaminergic midbrain activation and uniquely accounted for the association between midbrain activation and subsequent recall. We propose that hippocampal convergence states may complete a cascade from motivation and midbrain activation to memory enhancement, and may be a general predictor of memory formation. Motivational states play a key role in memory formation. Here, the authors show that curiosity engages reward circuitry to promote a hippocampal state conducive to the formation of new memories.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Jia-Hou Poh",
+          "id": ""
+        },
+        {
+          "name": "Mai-Anh T. Vu",
+          "id": ""
+        },
+        {
+          "name": "Jessica K. Stanek",
+          "id": ""
+        },
+        {
+          "name": "Abigail Hsiung",
+          "id": ""
+        },
+        {
+          "name": "T. Egner",
+          "id": ""
+        },
+        {
+          "name": "R. Adcock",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:253387204",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32207315460050756,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253968032,
+      "title": "The impact of functional correlations on task information coding",
+      "abstract": "State-dependent neural correlations can be understood from a neural coding framework. Noise correlations \u2013 trial-to-trial or moment-to-moment co-variability \u2013 can be interpreted only if the underlying signal correlation \u2013 similarity of task selectivity between pairs of neural units \u2013 is known. Despite many investigations in local spiking circuits, it remains unclear how this coding framework applies to large-scale brain networks. Here we investigated relationships between large-scale noise correlations and signal correlations in a multi-task human fMRI dataset. We found that task-state noise correlation changes (e.g., functional connectivity) did not typically change in the same direction as their underlying signal correlation (e.g., tuning similarity of two regions). This suggests that 1) trial-by-trial variability typically decreases between similarly tuned regions, and 2) stimulus-driven activity does not linearly superimpose atop the network\u2019s background activity. Crucially, noise correlations that changed in the opposite direction as their signal correlation (i.e., anti-aligned correlations) improved information coding of these brain regions. In contrast, noise correlations that changed in the same direction (aligned noise correlations) as their signal correlation did not. Interestingly, these aligned noise correlations were primarily correlation increases, suggesting that most functional correlation increases across fMRI networks actually degrade information coding. These findings illustrate that state-dependent noise correlations shape information coding of functional brain networks, with interpretation of correlation changes requiring knowledge of underlying signal correlations.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Takuya Ito",
+          "id": ""
+        },
+        {
+          "name": "J. Murray",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:253968032",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32179989414169224,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 226970609,
+      "title": "Dynamic patterns of correlated activity in the prefrontal cortex encode information about social behavior",
+      "abstract": "New technologies have made it possible to measure activity from many neurons simultaneously. Nevertheless, most studies still analyze the activity of simultaneously recorded neurons one-at-a-time, then group together neurons which increase their activity during similar behaviors into an \u2018ensemble.\u2019 This notion of an ensemble ignores the ability of neurons to act collectively, and encode and transmit information in ways that are not reflected by their individual activity levels. We used microendoscopic GCaMP imaging to measure prefrontal activity while mice were either alone or engaged in social interaction. We developed new approaches, using neural network classifiers and surrogate (shuffled) datasets, to characterize how neurons synergistically transmit information about social behavior. Surrogate datasets which preserve behaviorally-specific patterns of coactivity (correlations) outperform those which preserve behaviorally-driven changes in activity levels but not correlated activity. This shows that prefrontal neurons act collectively to transmit information about socialization, because social behavior elicits increases in correlated activity that are not explained simply by the activity levels of the underlying neurons. Notably, this ability of correlated activity to enhance the information transmitted by neuronal ensembles is lost in mice lacking the autism-associated gene Shank3. These results show that synergy is an important concept for the coding of social behavior which can be disrupted in disease states, reveal a specific mechanism underlying this synergy (social behavior increases correlated activity within specific ensembles), and outlines methods for studying how neurons within an ensemble can work together to encode information.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Nicholas A. Frost",
+          "id": ""
+        },
+        {
+          "name": "A. Haggart",
+          "id": ""
+        },
+        {
+          "name": "V. Sohal",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:226970609",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32142744144125346,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 252110963,
+      "title": "A probabilistic framework for task-aligned intra- and inter-area neural manifold estimation",
+      "abstract": "Latent manifolds provide a compact characterization of neural population activity and of shared co-variability across brain areas. Nonetheless, existing statistical tools for extracting neural manifolds face limitations in terms of interpretability of latents with respect to task variables, and can be hard to apply to datasets with no trial repeats. Here we propose a novel probabilistic framework that allows for interpretable partitioning of population variability within and across areas in the context of naturalistic behavior. Our approach for task aligned manifold estimation (TAME-GP) extends a probabilistic variant of demixed PCA by (1) explicitly partitioning variability into private and shared sources, (2) using a Poisson noise model, and (3) introducing temporal smoothing of latent trajectories in the form of a Gaussian Process prior. This TAME-GP graphical model allows for robust estimation of task-relevant variability in local population responses, and of shared co-variability between brain areas. We demonstrate the efficiency of our estimator on within model and biologically motivated simulated data. We also apply it to neural recordings in a closed-loop virtual navigation task in monkeys, demonstrating the capacity of TAME-GP to capture meaningful intra- and inter-area neural variability with single trial resolution.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "E. Balzani",
+          "id": ""
+        },
+        {
+          "name": "Jean-Paul Noel",
+          "id": ""
+        },
+        {
+          "name": "Pedro Herrero-Vidal",
+          "id": ""
+        },
+        {
+          "name": "D. Angelaki",
+          "id": ""
+        },
+        {
+          "name": "Cristina Savin",
+          "id": ""
+        }
+      ],
+      "venue": "International Conference on Learning Representations",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:252110963",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32126984336075576,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 259950278,
+      "title": "The information bottleneck as a principle underlying multi-area cortical representations during decision-making",
+      "abstract": "Decision-making emerges from distributed computations across multiple brain areas, but it is unclear why the brain distributes the computation. In deep learning, artificial neural networks use multiple areas (or layers) and form optimal representations of task inputs. These optimal representations are sufficient to perform the task well, but minimal so they are invariant to other irrelevant variables. We recorded single neurons and multiunits in dorsolateral prefrontal cortex (DLPFC) and dorsal premotor cortex (PMd) in monkeys during a perceptual decision-making task. We found that while DLPFC represents task-related inputs required to compute the choice, the downstream PMd contains a minimal sufficient, or optimal, representation of the choice. To identify a mechanism for how cortex may form these optimal representations, we trained a multi-area recurrent neural network (RNN) to perform the task. Remarkably, DLPFC and PMd resembling representations emerged in the early and late areas of the multi-area RNN, respectively. The DLPFC-resembling area partially orthogonalized choice information and task inputs and this choice information was preferentially propagated to downstream areas through selective alignment with inter-area connections, while remaining task information was not. Our results suggest that cortex uses multi-area computation to form minimal sufficient representations by preferential propagation of relevant information between areas. Significance The brain uses multiple areas for cognition, decision-making, and action, but it is unclear why cortical activity differs by brain area. Machine learning and information theory suggests that one benefit of multiple areas is that it provides an \u201cinformation bottleneck\u201d that compresses inputs into an optimal representation that is minimal and sufficient to solve the task. Combining experimental recordings from behaving animals and computational simulations, we show that later brain areas have a tendency to form such minimal sufficient representations of task inputs through preferential propagation of task-relevant information present in earlier areas. Our results thus provide insight into one possible reason why the brain uses multiple brain areas for supporting decision-making and action.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Michael Kleinman",
+          "id": ""
+        },
+        {
+          "name": "Tian-Yi Wang",
+          "id": ""
+        },
+        {
+          "name": "Derek Xiao",
+          "id": ""
+        },
+        {
+          "name": "Ebrahim Feghhi",
+          "id": ""
+        },
+        {
+          "name": "Kenji Lee",
+          "id": ""
+        },
+        {
+          "name": "Nicole Carr",
+          "id": ""
+        },
+        {
+          "name": "Yuke Li",
+          "id": ""
+        },
+        {
+          "name": "Nima Hadidi",
+          "id": ""
+        },
+        {
+          "name": "Chandramouli Chandrasekaran",
+          "id": ""
+        },
+        {
+          "name": "J. Kao",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:259950278",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3212676605381347,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 248798405,
+      "title": "Subspace orthogonalization as a mechanism for binding values to space",
+      "abstract": "When choosing between options, we must solve an important binding problem. The values of the options must be associated with information about the action needed to select them. We hypothesize that the brain solves this binding problem through use of distinct population subspaces. To test this hypothesis, we examined the responses of single neurons in five reward-sensitive regions in rhesus macaques performing a risky choice task. In all areas, neurons encoded the value of the offers presented on both the left and the right side of the display in semi-orthogonal subspaces, which served to bind the values of the two offers to their positions in space. Supporting the idea that this orthogonalization is functionally meaningful, we observed a session-to-session covariation between choice behavior and the orthogonalization of the two value subspaces: trials with less orthogonalized subspaces were associated with greater likelihood of choosing the less valued option. Further inspection revealed that these semi-orthogonal subspaces arose from a combination of linear and nonlinear mixed selectivity in the neural population. We show this combination of selectivity balances reliable binding with an ability to generalize value across different spatial locations. These results support the hypothesis that semi-orthogonal subspaces support reliable binding, which is essential to flexible behavior in the face of multiple options.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "W. Johnston",
+          "id": ""
+        },
+        {
+          "name": "Justin M. Fine",
+          "id": ""
+        },
+        {
+          "name": "S. B. Yoo",
+          "id": ""
+        },
+        {
+          "name": "R. B. Ebitz",
+          "id": ""
+        },
+        {
+          "name": "B. Hayden",
+          "id": ""
+        }
+      ],
+      "venue": "arXiv.org",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:248798405",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32049866625225454,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16767286,
+      "title": "Global Cognitive Factors Modulate Correlated Response Variability between V4 Neurons",
+      "abstract": "Recent studies have shown that cognitive factors such as spatial and feature-based attention, learning, and task-switching can change the extent to which the trial-to-trial variability in the responses of neurons in sensory cortex is shared between pairs of neurons (for review, see Cohen and Kohn, 2011). Global cognitive factors related to concentration, motivation, effort, arousal, or alertness also affect performance on perceptual tasks and the responses of individual neurons in many cortical areas (Spitzer et al., 1988; Spitzer and Richmond, 1991; Motter, 1993; Bichot et al., 2001; Hasegawa et al., 2004; Boudreau et al., 2006; Niwa et al., 2012). The question of how global cognitive factors affect correlated response variability is important because these factors likely vary both across and within all psychophysical and physiological studies. Furthermore, global cognitive factors might provide a convenient platform for studying the neuronal mechanisms underlying how cognitive factors affect correlated variability because they can be manipulated easily without training complex perceptual tasks. We recorded simultaneously from groups of neurons in visual area V4 while rhesus monkeys performed a contrast discrimination task whose difficulty changed in blocks of trials. We found that correlated variability decreased when the task was more difficult, even when the visual stimuli were far outside the receptive fields of the recorded neurons. Our results suggest that studying global cognitive factors might provide a general framework for studying how cognitive factors affect the responses of neurons throughout sensory cortex.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "D. Ruff",
+          "id": ""
+        },
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.2750-14.2014",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3157587243534739,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 57757053,
+      "title": "Understanding Sensory Information Processing Through Simultaneous Multi-area Population Recordings",
+      "abstract": "The goal of sensory neuroscience is to understand how the brain creates its myriad of representations of the world, and uses these representations to produce perception and behavior. Circuits of neurons in spatially segregated regions of brain tissue have distinct functional specializations, and these regions are connected to form a functional processing hierarchy. Advances in technology for recording neuronal activity from multiple sites in multiple cortical areas mean that we are now able to collect data that reflects how information is transformed within and between connected members of this hierarchy. This advance is an important step in understanding the brain because, after the sensory organs have transduced a physical signal, every processing stage takes the activity of other neurons as its input, not measurements of the physical world. However, as we explore the potential of studying how populations of neurons in multiple areas respond in concert, we must also expand both the analytical tools that we use to make sense of these data and the scope of the theories that we attempt to define. In this article, we present an overview of some of the most promising analytical approaches for making inferences from population recordings in multiple brain areas, such as dimensionality reduction and measuring changes in correlated variability, and examine how they may be used to address longstanding questions in sensory neuroscience.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "E. Zavitz",
+          "id": ""
+        },
+        {
+          "name": "N. Price",
+          "id": ""
+        }
+      ],
+      "venue": "Front. Neural Circuits",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:57757053",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3116635017878379,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 56480907,
+      "title": "Concurrent influence of top-down and bottom-up inputs on correlated activity of Macaque extrastriate neurons",
+      "abstract": "Correlations between neurons can profoundly impact the information encoding capacity of a neural population. We studied how maintenance of visuospatial information affects correlated activity in visual areas by recording the activity of neurons in visual area MT of rhesus macaques during a spatial working memory task. Correlations between MT neurons depended upon the spatial overlap between neurons\u2019 receptive fields. These correlations were influenced by the content of working memory, but the effect of a top-down memory signal differed in the presence or absence of bottom-up visual input. Neurons representing the same area of space showed increased correlations when remembering a location in their receptive fields in the absence of visual input, but decreased correlations in the presence of a visual stimulus. This set of results reveals the correlating nature of top-down signals influencing visual areas and uncovers how such a correlating signal, in interaction with bottom-up information, could enhance sensory representations. Changes in correlated activity of neurons are believed to influence their information coding capacity. Here, the authors show how top-down and bottom-up inputs and their interaction differentially alter the correlated activity of neurons in extrastriate cortex",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Yaser Merrikhi",
+          "id": ""
+        },
+        {
+          "name": "Kelsey L. Clark",
+          "id": ""
+        },
+        {
+          "name": "B. Noudoost",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:56480907",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3105623336590273,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 155935447,
+      "title": "Flexible and accurate decoding of neural populations through stochastic comodulation",
+      "abstract": "Sensory-guided behavior requires reliable encoding of information (from stimuli to neural responses) and flexible decoding (from neural responses to behavior). In typical decision tasks, a small subset of cells within a large population encode task-relevant stimulus information and need to be identified by later processing stages for relevant information to be transmitted. A statistically optimal decoder (e.g., maximum likelihood) can utilize task-relevant cells for any given task configuration, but relies on complete knowledge of the relationship between the task and the stimulus-response and noise properties of the encoding population. The brain could learn an optimal decoder for a task through supervised learning (i.e., regression), but this typically requires many training trials, and thus lacks the flexibility of humans or animals, that can rapidly adjust to changes in task parameters or structure. Here, we propose a novel decoding solution based on functionally targeted stochastic modulation. Population recordings during different discrimination tasks have revealed that a substantial portion of trial-to-trial variability in cell responses can be explained by stochastic modulatory signals that are shared, and that seem to preferentially target task-informative neurons (Rabinowitz et al., 2015). The variability introduced by these modulators corrupts the encoded stimulus signal, but we propose that it also serves as a label for the informative neurons, allowing the decoder to solve the identification problem. We show in simulations of a modulated Poisson spiking model that a linear decoder with readout weights proportional to the estimated neuron-specific strength of modulation achieves performance close to an optimal decoder.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Caroline Haimerl",
+          "id": ""
+        },
+        {
+          "name": "Cristina Savin",
+          "id": ""
+        },
+        {
+          "name": "Eero P. Simoncelli",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:155935447",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.31040948853310646,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    }
+  ]
+}

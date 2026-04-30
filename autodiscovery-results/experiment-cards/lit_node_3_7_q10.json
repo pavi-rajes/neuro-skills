@@ -1,0 +1,2245 @@
+{
+  "query": "Dynamic changes in noise correlations across cortical areas during task switching and cognitive flexibility 2022 2023 2024",
+  "results": [
+    {
+      "corpusId": 249956880,
+      "title": "Cognitive experience alters cortical involvement in goal-directed navigation",
+      "abstract": "Neural activity in the mammalian cortex has been studied extensively during decision tasks, and recent work aims to identify under what conditions cortex is actually necessary for these tasks. We discovered that mice with distinct cognitive experiences, beyond sensory and motor learning, use different cortical areas and neural activity patterns to solve the same navigation decision task, revealing past learning as a critical determinant of whether cortex is necessary for goal-directed navigation. We used optogenetics and calcium imaging to study the necessity and neural activity of multiple cortical areas in mice with different training histories. Posterior parietal cortex and retrosplenial cortex were mostly dispensable for accurate performance of a simple navigation task. In contrast, these areas were essential for the same simple task when mice were previously trained on complex tasks with delay periods or association switches. Multiarea calcium imaging showed that, in mice with complex-task experience, single-neuron activity had higher selectivity and neuron\u2013neuron correlations were weaker, leading to codes with higher task information. Therefore, past experience is a key factor in determining whether cortical areas have a causal role in goal-directed navigation.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Charlotte Arlt",
+          "id": ""
+        },
+        {
+          "name": "Roberto Barroso-Luque",
+          "id": ""
+        },
+        {
+          "name": "S. Kira",
+          "id": ""
+        },
+        {
+          "name": "Carissa A Bruno",
+          "id": ""
+        },
+        {
+          "name": "Ningjing Xia",
+          "id": ""
+        },
+        {
+          "name": "Selmaan N. Chettih",
+          "id": ""
+        },
+        {
+          "name": "Sofia Soares",
+          "id": ""
+        },
+        {
+          "name": "Noah L. Pettit",
+          "id": ""
+        },
+        {
+          "name": "C. Harvey",
+          "id": ""
+        }
+      ],
+      "venue": "eLife",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:249956880",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9603269233679826,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 252684755,
+      "title": "Flexible Sensory-Motor Mapping Rules Manifest in Correlated Variability of Stimulus and Action Codes Across the Brain",
+      "abstract": "Humans and non-human primates can flexibly switch between different arbitrary mappings from sensation to action to solve a cognitive task. It has remained unknown how the brain implements such flexible sensory-motor mapping rules. Here, we uncovered a dynamic reconfiguration of task-specific correlated variability between sensory and motor brain regions. Human participants switched between two rules for reporting visual orientation judgments during fMRI recordings. Rule switches were either signaled explicitly or inferred by the participants from ambiguous cues. We used behavioral modeling to reconstruct the time course of their belief about the active rule. In both contexts, the patterns of correlations between ongoing fluctuations in stimulus- and action-selective activity across visual and action-related brain regions tracked participants\u2019 belief about the active rule. The rule-specific correlation patterns broke down around the time of behavioral errors. We conclude that internal beliefs about task state are instantiated in brain-wide, selective patterns of correlated variability.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "R. L. van den Brink",
+          "id": ""
+        },
+        {
+          "name": "K. Hagena",
+          "id": ""
+        },
+        {
+          "name": "N. Wilming",
+          "id": ""
+        },
+        {
+          "name": "P. R. Murphy",
+          "id": ""
+        },
+        {
+          "name": "C. B\u00fcchel",
+          "id": ""
+        },
+        {
+          "name": "T. H. Donner",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:252684755",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9570842234383571,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 270095543,
+      "title": "Parietal cortex is causally required for state-dependent decisions",
+      "abstract": "During perceptual decision-making tasks, behavioral performance and its neural correlates vary with changes in internal states such as arousal, motivation, and strategy. It is not yet clear whether these state fluctuations differently impact the distributed neural processes that underlie task performance, from sensory processing to control of motor outputs. The posterior parietal cortex (PPC) is an association-level cortical region implicated in sensorimotor transformations, but evidence of its causal requirement in decision-making tasks has been contradictory. We trained mice to perform a navigation-based sound localization task and asked how natural fluctuations in behavioral state related to neural processing in association areas during decision-making. Behavioral performance in expert-level mice was not static but instead transitioned between periods of near-perfect performance and biased, less accurate performance. Using a hidden Markov model, we could reliably define these as distinct strategies that included a high-performance state where mice used relevant stimulus information to inform choices, and two biased states where mice weighted stimulus information less strongly. Optogenetic inactivation of PPC decreased task performance accuracy, and the model captured the resulting change in behavioral strategy as a reduction in the weighting of the auditory cues and an increase in behavioral bias, in predicting mice\u2019s decisions. Two-photon calcium imaging revealed that performance states strongly influenced population activity patterns in PPC, but not primary auditory cortex (AC). Surprisingly, activity of individual PPC neurons was better explained by external inputs and behavioral variables during biased behavioral performance, while shared variability across neurons in PPC was strongest in the high-performance state. Together, these findings suggest that neural activity in parietal cortex is causally required for decisions and is linked to behavioral performance states.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Akhil C. Bandi",
+          "id": ""
+        },
+        {
+          "name": "J. Mccann",
+          "id": ""
+        },
+        {
+          "name": "R. Carpenter",
+          "id": ""
+        },
+        {
+          "name": "Mason J. Lower",
+          "id": ""
+        },
+        {
+          "name": "Jordyn N. Long",
+          "id": ""
+        },
+        {
+          "name": "C. Runyan",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:270095543",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7592383256571897,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 261342576,
+      "title": "Mesoscale functional architecture in medial posterior parietal cortex",
+      "abstract": "The posterior parietal cortex (PPC) in mice has various functions including multisensory integration1\u20133, vision-guided behaviors4\u20136, working memory7\u201313, and posture control14,15. However, an integrated understanding of these functions and their cortical localizations in and around the PPC and higher visual areas (HVAs) has not been completely elucidated. Here we simultaneously imaged the activity of thousands of neurons within a 3 x 3 mm2 field-of-view, including eight cortical areas around the PPC, during behavior with a two-photon mesoscope16. Mice performed both a vision-guided task and a choice history-dependent task, and the imaging results revealed distinct, localized, behavior-related functions of two medial PPC areas. Neurons in the anteromedial (AM) HVA responded to both vision and choice information, and thus AM is a locus of association between these channels. By contrast, the anterior (A) HVA stores choice history with sequential dynamics and represents posture. Mesoscale correlation analysis on the intertrial variability of neuronal activity demonstrated that neurons in AM exhibited diverse, area-dependent interactions, while neurons in area A shared fluctuations with the primary somatosensory area. Pairwise interareal interactions among neurons were precisely predicted by the anatomical input correlations, with the exception of some global interactions. Thus, the medial PPC has two distinct modules, areas AM and A, with each having distinctive modes of cortical communication. These medial PPC modules can serve separate higher-order functions: area AM for multisensory and cognitive integration with locally processed signals and area A for transmission of information including posture, movement, and working memory.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "R. Hira",
+          "id": ""
+        },
+        {
+          "name": "L. B. Townsend",
+          "id": ""
+        },
+        {
+          "name": "Ikuko T Smith",
+          "id": ""
+        },
+        {
+          "name": "Che-Hang Yu",
+          "id": ""
+        },
+        {
+          "name": "Jeffrey N. Stirman",
+          "id": ""
+        },
+        {
+          "name": "Yiyi Yu",
+          "id": ""
+        },
+        {
+          "name": "Spencer LaVere Smith",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:261342576",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7452933205793334,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 257695247,
+      "title": "Weak evidence for neural correlates of task-switching in macaque V1",
+      "abstract": "A central goal of systems neuroscience is to understand how populations of sensory neurons encode and relay information to the rest of the brain. Three key quantities of interest are (i) how mean neural activity depends on the stimulus (sensitivity), (ii) how neural activity (co)varies around the mean (noise correlations), and (iii) how predictive these variations are of the subject's behavior (choice probability). Previous empirical work suggests that both choice probability and noise correlations are affected by task training, with decision-related information fed back to sensory areas and aligned to neural sensitivity on a task-by-task basis. We used Utah arrays to record activity from populations of V1 neurons from two macaque monkeys who were trained to switch between two coarse orientation-discrimination tasks. Surprisingly, we find no evidence for significant trial-by-trial changes in noise covariance between tasks, nor do we find a consistent relationship between neural sensitivity and choice probability, despite recording from well-tuned task-sensitive neurons, many of which were histologically confirmed to be in supragranular V1, and despite behavioral evidence that the monkeys switched their strategy between tasks. Thus our data at best provide weak support for the hypothesis that trial-by-trial task-switching induces changes to noise correlations and choice probabilities in V1. However, our data agrees with a recent finding of a single \"choice axis\" across tasks. It also raises the intriguing possibility that choice-related signals in early sensory areas are less indicative of task learning per se, and instead reflect perceptual learning that occurs in highly over-trained subjects.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "R. D. Lange",
+          "id": ""
+        },
+        {
+          "name": "C. Gomez-Laberge",
+          "id": ""
+        },
+        {
+          "name": "V. Berezovskii",
+          "id": ""
+        },
+        {
+          "name": "A. Pletenev",
+          "id": ""
+        },
+        {
+          "name": "A. Sherdil",
+          "id": ""
+        },
+        {
+          "name": "Till S. Hartmann",
+          "id": ""
+        },
+        {
+          "name": "Ralf M. Haefner",
+          "id": ""
+        },
+        {
+          "name": "R. Born",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neurophysiology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:257695247",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6954872698694321,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 258943602,
+      "title": "Cortex-wide neural dynamics predict behavioral states and provide a neural basis for resting-state dynamic functional connectivity",
+      "abstract": "SUMMARY Although resting-state functional magnetic resonance imaging (fMRI) studies have observed dynamically changing brain-wide networks of correlated activity, fMRI\u2019s dependence on hemodynamic signals makes results challenging to interpret. Meanwhile, emerging techniques for real-time recording of large populations of neurons have revealed compelling fluctuations in neuronal activity across the brain that are obscured by traditional trial averaging. To reconcile these observations, we use wide-field optical mapping to simultaneously record pan-cortical neuronal and hemodynamic activity in awake, spontaneously behaving mice. Some components of observed neuronal activity clearly represent sensory and motor function. However, particularly during quiet rest, strongly fluctuating patterns of activity across diverse brain regions contribute greatly to interregional correlations. Dynamic changes in these correlations coincide with changes in arousal state. Simultaneously acquired hemodynamics depict similar brain-state-dependent correlation shifts. These results support a neural basis for dynamic resting-state fMRI, while highlighting the importance of brain-wide neuronal fluctuations in the study of brain state.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Somayeh Shahsavarani",
+          "id": ""
+        },
+        {
+          "name": "David N. Thibodeaux",
+          "id": ""
+        },
+        {
+          "name": "Weihao Xu",
+          "id": ""
+        },
+        {
+          "name": "Sharon H. Kim",
+          "id": ""
+        },
+        {
+          "name": "Fatema Lodgher",
+          "id": ""
+        },
+        {
+          "name": "Chinwendu Nwokeabia",
+          "id": ""
+        },
+        {
+          "name": "Morgan K. Cambareri",
+          "id": ""
+        },
+        {
+          "name": "Alexis J. Yagielski",
+          "id": ""
+        },
+        {
+          "name": "Hanzhi T. Zhao",
+          "id": ""
+        },
+        {
+          "name": "D. Handwerker",
+          "id": ""
+        },
+        {
+          "name": "J. Gonzalez-Castillo",
+          "id": ""
+        },
+        {
+          "name": "P. Bandettini",
+          "id": ""
+        },
+        {
+          "name": "Elizabeth M. C. Hillman",
+          "id": ""
+        }
+      ],
+      "venue": "Cell Reports",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:258943602",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6871443332229773,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 263800317,
+      "title": "Different roles of response covariability and its attentional modulation in the sensory cortex and posterior parietal cortex",
+      "abstract": "Significance It is important to understand mechanisms of information encoding in the brain, for which the covariability of neural responses is highly relevant. Recent neurophysiology studies have revealed that cognitive processes such as attention could improve neural encoding through modulating the covariability in the neuron population. However, it is unclear whether covariability modulation could generally lead to improved information encoding throughout the information processing stream or only in certain stages of neural information processing. Our results show that attention significantly modulated covariability and benefited information encoding in the early visual cortex but not in the posterior parietal cortex, even though stimulus information was encoded in both regions. Covariability modulation is differentially adopted in different cortical regions, depending on the representation property.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Yong Jiang",
+          "id": ""
+        },
+        {
+          "name": "Sheng He",
+          "id": ""
+        },
+        {
+          "name": "Jiedong Zhang",
+          "id": ""
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:263800317",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6810505664552805,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253221662,
+      "title": "Local networks from different parts of the human cerebral cortex generate and share the same population dynamic",
+      "abstract": "Abstract A major goal of neuroscience is to reveal mechanisms supporting collaborative actions of neurons in local and larger-scale networks. However, no clear overall principle of operation has emerged despite decades-long experimental efforts. Here, we used an unbiased method to extract and identify the dynamics of local postsynaptic network states contained in the cortical field potential. Field potentials were recorded by depth electrodes targeting a wide selection of cortical regions during spontaneous activities, and sensory, motor, and cognitive experimental tasks. Despite different architectures and different activities, all local cortical networks generated the same type of dynamic confined to one region only of state space. Surprisingly, within this region, state trajectories expanded and contracted continuously during all brain activities and generated a single expansion followed by a contraction in a single trial. This behavior deviates from known attractors and attractor networks. The state-space contractions of particular subsets of brain regions cross-correlated during perceptive, motor, and cognitive tasks. Our results imply that the cortex does not need to change its dynamic to shift between different activities, making task-switching inherent in the dynamic of collective cortical operations. Our results provide a mathematically described general explanation of local and larger scale cortical dynamic.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Alex Willumsen",
+          "id": ""
+        },
+        {
+          "name": "J. Midtgaard",
+          "id": ""
+        },
+        {
+          "name": "B. Jespersen",
+          "id": ""
+        },
+        {
+          "name": "C. K. Hansen",
+          "id": ""
+        },
+        {
+          "name": "S. N. Lam",
+          "id": ""
+        },
+        {
+          "name": "S. Hansen",
+          "id": ""
+        },
+        {
+          "name": "R. Kupers",
+          "id": ""
+        },
+        {
+          "name": "M. Fabricius",
+          "id": ""
+        },
+        {
+          "name": "Minna Litman",
+          "id": ""
+        },
+        {
+          "name": "L. Pinborg",
+          "id": ""
+        },
+        {
+          "name": "J. D. Tasc\u00f3n-Vidarte",
+          "id": ""
+        },
+        {
+          "name": "A. Sabers",
+          "id": ""
+        },
+        {
+          "name": "P. Roland",
+          "id": ""
+        }
+      ],
+      "venue": "Cerebral Cortex Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:253221662",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.675835915129445,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 248151399,
+      "title": "A distributed and efficient population code of mixed selectivity neurons for flexible navigation decisions",
+      "abstract": "Animals flexibly and rapidly adapt navigation routes to the environment and context. Here, the authors find that the flexibility in navigation decisions arises from cells distributed in posterior cortex, each of which mixes sensory and memory information. Decision-making requires flexibility to rapidly switch one\u2019s actions in response to sensory stimuli depending on information stored in memory. We identified cortical areas and neural activity patterns underlying this flexibility during virtual navigation, where mice switched navigation toward or away from a visual cue depending on its match to a remembered cue. Optogenetics screening identified V1, posterior parietal cortex (PPC), and retrosplenial cortex (RSC) as necessary for accurate decisions. Calcium imaging revealed neurons that can mediate rapid navigation switches by encoding a mixture of a current and remembered visual cue. These mixed selectivity neurons emerged through task learning and predicted the mouse\u2019s choices by forming efficient population codes before correct, but not incorrect, choices. They were distributed across posterior cortex, even V1, and were densest in RSC and sparsest in PPC. We propose flexibility in navigation decisions arises from neurons that mix visual and memory information within a visual-parietal-retrosplenial network.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "S. Kira",
+          "id": ""
+        },
+        {
+          "name": "Houman Safaai",
+          "id": ""
+        },
+        {
+          "name": "Ari S. Morcos",
+          "id": ""
+        },
+        {
+          "name": "S. Panzeri",
+          "id": ""
+        },
+        {
+          "name": "C. Harvey",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:248151399",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6704662442941027,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 259317872,
+      "title": "Task-specific invariant representation in auditory cortex",
+      "abstract": "Categorical sensory representations are critical for many behaviors, including speech perception. In the auditory system, categorical information is thought to arise hierarchically, becoming increasingly prominent in higher order cortical regions. The neural mechanisms that support this robust and flexible computation remain poorly understood. Here, we studied sound representations in primary and non-primary auditory cortex while animals engaged in a challenging sound discrimination task. Population-level decoding of simultaneously recorded single neurons revealed that task engagement caused categorical sound representations to emerge in non-primary auditory cortex. In primary auditory cortex, task engagement caused a general enhancement of sound decoding that was not specific to task-relevant categories. These findings are consistent with mixed selectivity models of neural disentanglement, in which early sensory regions build an overcomplete representation of the world and allow neurons in downstream brain regions to flexibly and selectively read out behaviorally relevant, categorical information.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Charles R. Heller",
+          "id": ""
+        },
+        {
+          "name": "Gregory R. Hamersky",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:259317872",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6056915470737098,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253968032,
+      "title": "The impact of functional correlations on task information coding",
+      "abstract": "State-dependent neural correlations can be understood from a neural coding framework. Noise correlations \u2013 trial-to-trial or moment-to-moment co-variability \u2013 can be interpreted only if the underlying signal correlation \u2013 similarity of task selectivity between pairs of neural units \u2013 is known. Despite many investigations in local spiking circuits, it remains unclear how this coding framework applies to large-scale brain networks. Here we investigated relationships between large-scale noise correlations and signal correlations in a multi-task human fMRI dataset. We found that task-state noise correlation changes (e.g., functional connectivity) did not typically change in the same direction as their underlying signal correlation (e.g., tuning similarity of two regions). This suggests that 1) trial-by-trial variability typically decreases between similarly tuned regions, and 2) stimulus-driven activity does not linearly superimpose atop the network\u2019s background activity. Crucially, noise correlations that changed in the opposite direction as their signal correlation (i.e., anti-aligned correlations) improved information coding of these brain regions. In contrast, noise correlations that changed in the same direction (aligned noise correlations) as their signal correlation did not. Interestingly, these aligned noise correlations were primarily correlation increases, suggesting that most functional correlation increases across fMRI networks actually degrade information coding. These findings illustrate that state-dependent noise correlations shape information coding of functional brain networks, with interpretation of correlation changes requiring knowledge of underlying signal correlations.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Takuya Ito",
+          "id": ""
+        },
+        {
+          "name": "J. Murray",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:253968032",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5664895923564542,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 245839962,
+      "title": "Cortical state dynamics and selective attention define the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in the neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity but also change dynamically with cognitive states such as attention. Yet, the network mechanisms defining the population structure of correlations remain unknown. We measured correlations within columns in the visual cortex. We show that the magnitude of correlations, their attentional modulation, and dependence on lateral distance are explained by columnar On-Off dynamics, which are synchronous activity fluctuations reflecting cortical state. We developed a network model in which the On-Off dynamics propagate across nearby columns generating spatial correlations with the extent controlled by attentional inputs. This mechanism, unlike previous proposals, predicts spatially non-uniform changes in correlations during attention. We confirm this prediction in our columnar recordings by showing that in superficial layers the largest changes in correlations occur at intermediate lateral distances. Our results reveal how spatially structured patterns of correlated variability emerge through interactions of cortical state dynamics, anatomical connectivity, and attention. Noise correlations in the neocortex change dynamically with cognitive states. Here the authors show how heterogeneous spatial patterns of noise correlations emerge through interactions of cortical On-Off dynamics, connectivity, and attention.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:245839962",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5610923791003678,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256674891,
+      "title": "Cortical state dynamics and selective attention define the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in the neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity but also change dynamically with cognitive states such as attention. Yet, the network mechanisms defining the population structure of correlations remain unknown. We measured correlations within columns in the visual cortex. We show that the magnitude of correlations, their attentional modulation, and dependence on lateral distance are explained by columnar On-Off dynamics, which are synchronous activity fluctuations reflecting cortical state. We developed a network model in which the On-Off dynamics propagate across nearby columns generating spatial correlations with the extent controlled by attentional inputs. This mechanism, unlike previous proposals, predicts spatially non-uniform changes in correlations during attention. We confirm this prediction in our columnar recordings by showing that in superficial layers the largest changes in correlations occur at intermediate lateral distances. Our results reveal how spatially structured patterns of correlated variability emerge through interactions of cortical state dynamics, anatomical connectivity, and attention. Noise correlations in the neocortex change dynamically with cognitive states. Here the authors show how heterogeneous spatial patterns of noise correlations emerge through interactions of cortical On-Off dynamics, connectivity, and attention.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:256674891",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5541460256555621,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 269458943,
+      "title": "Cognitive flexibility across the lifespan: developmental differences in the neural basis of sustained and transient control processes during task switching",
+      "abstract": "The ability to flexibly switch between task sets increases early and decreases late in life. This lifespan pattern differs between mixing costs, denoting performance decrements during task switching compared with single tasking, and switch costs, denoting performance decrements on trials after the task has switched relative to trials where the task repeats. Generally, mixing costs reach their lifespan minimum later and increase again earlier than switch costs. We propose that lifespan changes in cognitive flexibility are associated with neural processes implementing sustained and transient control processes that underlie mixing and switch costs, respectively. To better understand the lifespan development of sustained and transient control processes, future research needs to delineate longitudinal changes in functional connectivity patterns and task-set representations",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Sina A. Schwarze",
+          "id": ""
+        },
+        {
+          "name": "Y. Fandakova",
+          "id": ""
+        },
+        {
+          "name": "U. Lindenberger",
+          "id": ""
+        }
+      ],
+      "venue": "Current Opinion in Behavioral Sciences",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:269458943",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5519909855006667,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 274471415,
+      "title": "The cognitive critical brain: Modulation of criticality in perception-related cortical regions",
+      "abstract": "The constantly evolving world necessitates a brain that can swiftly adapt and respond to rapid changes. The brain, conceptualized as a system performing cognitive functions through collective neural activity, has been shown to maintain a resting state characterized by near-critical neural dynamics, positioning it to effectively respond to external stimuli. However, how near-criticality is dynamically modulated during task performance remains insufficiently understood. In this study, we utilized the prototypical Ising Hamiltonian model to investigate the modulation of near-criticality in neural activity at the cortical subsystem level during perceptual tasks. Specifically, we simulated 2D-Ising models in silico using structural MRI data and empirically estimated the system's state in vivo using functional MRI data. We first replicated previous findings that the resting state is typically near-critical as captured by the Ising model. Importantly, we observed heterogeneous changes in criticality across cortical subsystems during a naturalistic movie-watching task, with visual and auditory regions fine-tuned closer to criticality. A more fine-grained analysis of the ventral temporal cortex during an object recognition task further revealed that only regions selectively responsive to a specific object category were tuned closer to criticality when processing that object category. In conclusion, our study provides empirical evidence from the domain of perception supporting the cognitive critical brain hypothesis that modulating the criticality of subsystems within the brain's hierarchical and modular organization may be a fundamental mechanism for achieving diverse cognitive functions.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Xingyu Liu",
+          "id": ""
+        },
+        {
+          "name": "Xiaotian Fei",
+          "id": ""
+        },
+        {
+          "name": "Jia Liu",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:274471415",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5489430754542828,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273658395,
+      "title": "Mapping common and distinct brain correlates among cognitive flexibility tasks: concordant evidence from meta-analyses",
+      "abstract": "Cognitive flexibility allows individuals to switch between different tasks, strategies, or ideas; an ability that is important for everyday life. The Wisconsin card sorting test (WCST) and task switching paradigm (TSP) are popular measures of cognitive flexibility. Although both tasks require switching, the TSP requires participants to memorize switching rules and retrieve them when they view a cue (rule-retrieval), whereas the classic WCST requires participants to discover the switching rule via trial-and-error (rule-discovery). Many functional magnetic resonance imaging studies have examined brain responses to these tasks. Extant meta-analyses show concordance in activation in a widespread set of areas including frontal, parietal, and cingulate cortices. Critically, past meta-analyses have not specifically examined brain correlates associated with rule derivation (i.e., rule-discovery vs. rule-retrieval) in cognitive flexibility tasks. We examine for the first time common and distinct concordance in brain responses to rule-discovery (i.e., WCST) and rule-retrieval (i.e., TSP), as well as TSP subtypes using quantitative meta-analyses. We analyzed data from 69 eligible articles with a total of 1617 young-adult participants. Conjunction results show concordance in common fronto-parietal areas predominantly in the left hemisphere. Contrast analyses show that rule-discovery required increased involvement in multiple cortical and subcortical regions such as frontopolar (Brodmann Area 10), parietal, insular cortex, thalamus and caudate nucleus predominantly in the right hemisphere. No significant differences in concordance were observed among the three, task switching paradigm sub-types. We propose a neuroanatomical model of cognitive flexibility and discuss theoretical and practical applications.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Zhanna Chuikova",
+          "id": ""
+        },
+        {
+          "name": "Andrei Filatov",
+          "id": ""
+        },
+        {
+          "name": "A. Faber",
+          "id": ""
+        },
+        {
+          "name": "M. Arsalidou",
+          "id": ""
+        }
+      ],
+      "venue": "Brain Imaging and Behavior",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:273658395",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5481096651985045,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256679220,
+      "title": "Prefrontal cortical plasticity during learning of cognitive tasks",
+      "abstract": "Training in working memory tasks is associated with lasting changes in prefrontal cortical activity. To assess the neural activity changes induced by training, we recorded single units, multi-unit activity (MUA) and local field potentials (LFP) with chronic electrode arrays implanted in the prefrontal cortex of two monkeys, throughout the period they were trained to perform cognitive tasks. Mastering different task phases was associated with distinct changes in neural activity, which included recruitment of larger numbers of neurons, increases or decreases of their firing rate, changes in the correlation structure between neurons, and redistribution of power across LFP frequency bands. In every training phase, changes induced by the actively learned task were also observed in a control task, which remained the same across the training period. Our results reveal how learning to perform cognitive tasks induces plasticity of prefrontal cortical activity, and how activity changes may generalize between tasks. It remains unclear whether improvements in one cognitive task transfer to other tasks. Here, the authors show that changes in prefrontal neuronal activation, firing rate, and local field potentials induced during active learning of a working memory task are also evident in a control task.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Hua Tang",
+          "id": ""
+        },
+        {
+          "name": "M. R. Riley",
+          "id": ""
+        },
+        {
+          "name": "Balbir Singh",
+          "id": ""
+        },
+        {
+          "name": "Xue-Lian Qi",
+          "id": ""
+        },
+        {
+          "name": "D. Blake",
+          "id": ""
+        },
+        {
+          "name": "C. Constantinidis",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:256679220",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5476843116633168,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 267779077,
+      "title": "Wide-field imaging in behaving mice as a tool to study cognitive function",
+      "abstract": "Abstract. Cognitive functions are mediated through coordinated and dynamic neuronal responses that involve many different areas across the brain. Therefore, it is of high interest to simultaneously record neuronal activity from as many brain areas as possible while the subject performs a cognitive behavioral task. One of the emerging tools to achieve a mesoscopic field of view is wide-field imaging of cortex-wide dynamics in mice. Wide-field imaging is cost-effective, user-friendly, and enables obtaining cortex-wide signals from mice performing complex and demanding cognitive tasks. Importantly, wide-field imaging offers an unbiased cortex-wide observation that sheds light on overlooked cortical regions and highlights parallel processing circuits. Recent wide-field imaging studies have shown that multi-area cortex-wide patterns, rather than just a single area, are involved in encoding cognitive functions. The optical properties of wide-field imaging enable imaging of different brain signals, such as layer-specific, inhibitory subtypes, or neuromodulation signals. Here, I review the main advantages of wide-field imaging in mice, review the recent literature, and discuss future directions of the field. It is expected that wide-field imaging in behaving mice will continue to gain popularity and aid in understanding the mesoscale dynamics underlying cognitive function.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Ariel Gilad",
+          "id": ""
+        }
+      ],
+      "venue": "Neurophotonics",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:267779077",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5308793699697022,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 267900488,
+      "title": "A doubly stochastic renewal framework for partitioning spiking variability",
+      "abstract": "The firing rate is a prevalent concept used to describe neural computations, but estimating dynamically changing firing rates from irregular spikes is challenging. An inhomogeneous Poisson process, the standard model for partitioning firing rate and spiking irregularity, cannot account for diverse spike statistics observed across neurons. We introduce a doubly stochastic renewal point process, a flexible mathematical framework for partitioning spiking variability, which captures the broad spectrum of spiking irregularity from periodic to super-Poisson. We validate our partitioning framework using intracellular voltage recordings and develop a method for estimating spiking irregularity from data. We find that the spiking irregularity of cortical neurons decreases from sensory to association areas and is nearly constant for each neuron under many conditions but can also change across task epochs. A spiking network model shows that spiking irregularity depends on connectivity and can change with external input. These results help improve the precision of estimating firing rates on single trials and constrain mechanistic models of neural circuits.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Cina Aghamohammadi",
+          "id": ""
+        },
+        {
+          "name": "C. Chandrasekaran",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:267900488",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5190362039502753,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 266086605,
+      "title": "Dynamics of brainstem arousal systems and pupil size predict cortical interactions for flexible decision-making",
+      "abstract": "Most perceptual decisions entail a flexible mapping from sensory input to motor output. Flexible input-output mapping is reflected in correlated variability within the cortical network involved in perceptual decisions. Here, we tested the idea that brainstem arousal systems are involved in flexible input-output mapping and changes in cortical correlated variability. We combined brainstem fMRI, pupillometry, and time-resolved assessment of the intrinsic correlations between cortical population codes for stimulus and action. Human participants reported the orientation of visual stimuli by button presses, while the required stimulus-response mapping rule could undergo hidden and unpredictable changes. Rule switches evoked brainstem and pupil responses as well as changes in computational model-inferred, latent variables. These variables governed participants\u2019 rule-switching behavior and pupil responses. Brainstem activity and pupil dilation preceded increases in the strength of correlations between cortical stimulus and action codes. Brainstem arousal systems may promote the reorganization of sensorimotor cortical pathways for flexible decisions.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "R. L. van den Brink",
+          "id": ""
+        },
+        {
+          "name": "K. Hagena",
+          "id": ""
+        },
+        {
+          "name": "N. Wilming",
+          "id": ""
+        },
+        {
+          "name": "P. R. Murphy",
+          "id": ""
+        },
+        {
+          "name": "J. Calder-Travis",
+          "id": ""
+        },
+        {
+          "name": "J. Finsterbusch",
+          "id": ""
+        },
+        {
+          "name": "C. B\u00fcchel",
+          "id": ""
+        },
+        {
+          "name": "T. H. Donner",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:266086605",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5154127589090064,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 271571801,
+      "title": "Cognitive sequences in obsessive-compulsive disorder are supported by frontal cortex ramping activity",
+      "abstract": "Completing sequences is a routine part of daily life. Many are abstract, defined by a rule governing the order rather than the identity of individual steps (e.g., getting dressed). In obsessive-compulsive disorder (OCD), excessive ritualistic behaviors suggest a disruption in abstract sequence completion. Executing abstract sequences requires at least two levels in a hierarchy of cognitive control: abstract sequential control (tracking steps) and task switching (shifting between tasks). While task switching has been studied in OCD, little is known in a sequential context. Understanding both hierarchical control types is key to uncovering how abstract sequences with nested task switches are processed in OCD. Previous studies showed that the rostrolateral prefrontal cortex (RLPFC) supports abstract sequence monitoring in healthy individuals with an increase in activity across each sequence, a dynamic known as \u201cramping\u201d. Ramping outside the RLPFC is potentially indicative of other sequence-related processes such as progress towards a goal and increasing working memory load. Therefore, we hypothesized that abstract sequential control deficits would correspond to altered ramping dynamics in RLPFC and other cortical regions. Second, we predicted task switching deficits in OCD, coupled with altered activity in cortical regions canonically implicated in task level control. We found partial support for both hypotheses. Abstract sequential control did not show behavioral differences in OCD but did show increased overall ramping in the anterior cingulate cortex (ACC) and superior frontal sulcus (SFS) and ramping differences in additional, novel cortical regions according to abstract sequence complexity. In contrast, behavioral differences were observed for task switching in OCD without neural differences between the groups. Together, these results suggest a group of areas support sequential control differentially in OCD than in healthy controls, despite behavioral similarity, and that this observation is likely not the result of neural deficits in task switching. These findings thus provide insight into OCD during complex behaviors more similar to daily life where sequence and task level control are intertwined and may inform future potential treatment.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Hannah Doyle",
+          "id": ""
+        },
+        {
+          "name": "Nicole C. McLaughlin",
+          "id": ""
+        },
+        {
+          "name": "Sarah L. Garnaat",
+          "id": ""
+        },
+        {
+          "name": "Theresa M. Desrochers",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:271571801",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5125696868571897,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 255049536,
+      "title": "Efficient coding theory of dynamic attentional modulation",
+      "abstract": "Activity of sensory neurons is driven not only by external stimuli but also by feedback signals from higher brain areas. Attention is one particularly important internal signal whose presumed role is to modulate sensory representations such that they only encode information currently relevant to the organism at minimal cost. This hypothesis has, however, not yet been expressed in a normative computational framework. Here, by building on normative principles of probabilistic inference and efficient coding, we developed a model of dynamic population coding in the visual cortex. By continuously adapting the sensory code to changing demands of the perceptual observer, an attention-like modulation emerges. This modulation can dramatically reduce the amount of neural activity without deteriorating the accuracy of task-specific inferences. Our results suggest that a range of seemingly disparate cortical phenomena such as intrinsic gain modulation, attention-related tuning modulation, and response variability could be manifestations of the same underlying principles, which combine efficient sensory coding with optimal probabilistic inference in dynamic environments.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "W. M\u0142ynarski",
+          "id": ""
+        },
+        {
+          "name": "G. Tka\u010dik",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS Biology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:255049536",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5122823195164363,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 261916862,
+      "title": "Developmental Neuroimaging of Cognitive Flexibility: Update and Future Directions",
+      "abstract": "Cognitive flexibility, or the ability to mentally switch between tasks according to changing environmental demands, supports optimal life outcomes, making it an important executive function to study across development. Here we review the literature examining the development of cognitive flexibility, with an emphasis on studies using task-based functional magnetic resonance imaging (fMRI). The neuroimaging literature suggests that key brain regions important for cognitive flexibility include the inferior frontal junction and regions within the midcingulo-insular network, including the insular and dorsal anterior cingulate cortices. We further discuss challenges surrounding studying cognitive flexibility during neurodevelopment, including inconsistent terminology, the diversity of fMRI task paradigms, difficulties with isolating cognitive flexibility from other executive functions, and accounting for developmental changes in cognitive strategy. Future directions include assessing how developmental changes in brain network dynamics enable cognitive flexibility and examining potential modulators of cognitive flexibility including physical activity and bilingualism. Expected final online publication date for the Annual Review of Developmental Psychology, Volume 5 is December 2023. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Lauren B. Kupis",
+          "id": ""
+        },
+        {
+          "name": "Lucina Q. Uddin",
+          "id": ""
+        }
+      ],
+      "venue": "Annual Review of Developmental Psychology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:261916862",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5102703942382506,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 272463231,
+      "title": "Optimal level of human intracranial theta activity for behavioral switching in the subthalamo-medio-prefrontal circuit",
+      "abstract": "The ability to switch between rules associating stimuli and responses depend on a circuit including the dorsomedial prefrontal cortex (dmPFC) and the subthalamic nucleus (STN). However, the precise neural implementations of switching remain unclear. To address this issue, we recorded local field potentials from the STN and from the dmPFC of neuropsychiatric patients during behavioral switching. Drift-diffusion modeling revealed that switching is associated with a shift in the starting point of evidence accumulation. Theta activity increases in dmPFC and STN during successful switch trials, while temporally delayed and excessive levels of theta lead to premature switch errors. This seemingly opposing impact of increased theta in successful and unsuccessful switching is explained by a negative correlation between theta activity and the starting point. Together, these results shed a new light on the neural mechanisms underlying the rapid reconfiguration of stimulus-response associations, revealing a Goldilocks\u2019 effect of theta activity on switching behavior. Direct electrophysiological recordings in the human prefronto-subthalamic circuit show that behavioral switching requires an optimal level of theta activity to be successful, which is well accounted for by a negative modulation of a drift-diffusion model starting point.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Ma\u00ebva Laquitaine",
+          "id": ""
+        },
+        {
+          "name": "M. Polosan",
+          "id": ""
+        },
+        {
+          "name": "Philippe Kahane",
+          "id": ""
+        },
+        {
+          "name": "S. Chabard\u00e8s",
+          "id": ""
+        },
+        {
+          "name": "J\u00e9r\u00f4me Yelnik",
+          "id": ""
+        },
+        {
+          "name": "Sara Fernandez-Vidal",
+          "id": ""
+        },
+        {
+          "name": "P. Domenech",
+          "id": ""
+        },
+        {
+          "name": "J. Bastin",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:272463231",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5080615296666053,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273589198,
+      "title": "Hierarchical emergence of opponent coding in auditory belt cortex",
+      "abstract": "We recorded from neurons in primary auditory cortex (A1) and middle-lateral belt area (ML) while rhesus macaques either discriminated amplitude-modulated noise (AM) from unmodulated noise or passively heard the same stimuli. We used several post-hoc pooling models to investigate the ability of auditory cortex to leverage population coding for AM detection. We find that pooled-response AM detection is better in the active condition than the passive condition, and better using rate-based coding than synchrony-based coding. Neurons can be segregated into two classes based on whether they increase (INC) or decrease (DEC) their firing rate in response to increasing modulation depth. In these samples, A1 had relatively fewer DEC neurons (26%) than ML (45%). When responses were pooled without segregating these classes, AM detection using rate-based coding was much better in A1 than in ML, but when pooling only INC neurons, AM detection in ML approached that found in A1. Pooling only DEC neurons resulted in impaired AM detection in both areas. To investigate the role of DEC neurons, we devised two pooling methods that opposed DEC and INC neurons \u2013 a direct subtractive method and a two-pool push-pull opponent method. Only the push-pull opponent method resulted in superior AM detection relative to indiscriminate pooling. In the active condition, the opponent method was superior to pooling only INC neurons during the late portion of the response in ML. These results suggest that the increasing prevalence of the DEC response type in ML can be leveraged by appropriate methods to improve AM detection.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Jeffrey S Johnson",
+          "id": ""
+        },
+        {
+          "name": "Mamiko Niwa",
+          "id": ""
+        },
+        {
+          "name": "K. O'Connor",
+          "id": ""
+        },
+        {
+          "name": "Brian J. Malone",
+          "id": ""
+        },
+        {
+          "name": "M. Sutter",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:273589198",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5069262471890064,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 250361695,
+      "title": "Task-specific subnetworks extend from prefrontal cortex to striatum.",
+      "abstract": "Functional magnetic resonance imaging (fMRI) studies on the dynamic representation of task content focus preferentially on the cerebral cortex. However, neurophysiological studies report coding of task-relevant features also by neurons in the striatum, suggesting basal ganglia involvement in cognitive decision-making. Here we use fMRI data to show that also in humans the striatum is an integrated part of the cognitive brain network. Twelve participants performed 3 cognitive tasks in the scanner, i.e., the Eriksen flanker task, a 2-back matching spatial working memory task, and a response scheme switching task. First, we use region of interest-based multivariate pattern classification to demonstrate that each task reliably induces a unique activity pattern in the striatum and in the lateral prefrontal cortex. We show that the three tasks can also be distinguished in putamen, caudate nucleus and ventral striatum alone. We additionally establish that the contribution of striatum to cognition is not sensitive to habituation or learning. Secondly, we use voxel-to-voxel functional connectivity to establish that voxels in the lateral prefrontal cortex and in the striatum that prefer the same task show significantly stronger functional coupling than voxel pairs in these remote structures that prefer different tasks. These results suggest that striatal neurons form subnetworks with cognition-related regions of the prefrontal cortex. These remote neuron populations are interconnected via functional couplings that exceed the time of execution of the specific tasks.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "P. Stiers",
+          "id": ""
+        },
+        {
+          "name": "A. Goulas",
+          "id": ""
+        }
+      ],
+      "venue": "Cortex; a journal devoted to the study of the nervous system and behavior",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:250361695",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5060762860515885,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 269500394,
+      "title": "Gray matter matters: Cognitive stability and flexibility in schizophrenia spectrum disorder.",
+      "abstract": "Cognitive dysfunction constitutes a core characteristic of schizophrenia spectrum disorders (SZ). Specifically, deficits in updating generative models (i.e., cognitive flexibility) and shielding against distractions (i.e., cognitive stability) are considered critical contributors to cognitive impairment in these patients. Here, we examined the structural integrity of frontostriatal networks and their associations with reduced cognitive stability and flexibility in SZ patients. In a sample of 21 patients diagnosed with SZ and 22 healthy controls, we measured gray matter volume (GMV) using structural MRI. Further, cognitive stability and flexibility were assessed using a switch-drift paradigm, quantifying the successful ignoring of distracters and detection of rule switches. Compared to controls, patients showed significantly smaller GMV in the whole brain and three predefined regions of interest: the medial prefrontal cortex (mPFC), inferior frontal gyrus (IFG), and caudate nucleus (CN). Notably, GMV in these areas positively correlated with correct rule-switch detection but not with ignoring rule-compatible drifts. Further, the volumetric differences between SZ patients and controls were statistically explainable by considering the behavioral performance in the switch-drift task. Our results indicate that morphological abnormalities in frontostriatal networks are associated with deficient flexibility in SZ patients and highlight the necessity of minimizing neurodevelopmental and progressive brain atrophy in this population.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Florentine Herkstr\u00f6ter",
+          "id": ""
+        },
+        {
+          "name": "Anoushiravan Zahedi",
+          "id": ""
+        },
+        {
+          "name": "Isabel Standke",
+          "id": ""
+        },
+        {
+          "name": "U. Dannlowski",
+          "id": ""
+        },
+        {
+          "name": "R. Lencer",
+          "id": ""
+        },
+        {
+          "name": "R. Schubotz",
+          "id": ""
+        },
+        {
+          "name": "Ima Trempler",
+          "id": ""
+        }
+      ],
+      "venue": "Psychophysiology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:269500394",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5040180601793334,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253395517,
+      "title": "Neural Mechanisms that Make Perceptual Decisions Flexible.",
+      "abstract": "Neural mechanisms of perceptual decision making have been extensively studied in experimental settings that mimic stable environments with repeating stimuli, fixed rules, and payoffs. In contrast, we live in an ever-changing environment and have varying goals and behavioral demands. To accommodate variability, our brain flexibly adjusts decision-making processes depending on context. Here, we review a growing body of research that explores the neural mechanisms underlying this flexibility. We highlight diverse forms of context dependency in decision making implemented through a variety of neural computations. Context-dependent neural activity is observed in a distributed network of brain structures, including posterior parietal, sensory, motor, and subcortical regions, as well as the prefrontal areas classically implicated in cognitive control. We propose that investigating the distributed network underlying flexible decisions is key to advancing our understanding and discuss a path forward for experimental and theoretical investigations. Expected final online publication date for the Annual Review of Physiology, Volume 85 is February 2023. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Gouki Okazawa",
+          "id": ""
+        },
+        {
+          "name": "Roozbeh Kiani",
+          "id": ""
+        }
+      ],
+      "venue": "Annual Review of Physiology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:253395517",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4982375232695519,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 260856623,
+      "title": "Gamma-Aminobutyric Acid and Glutamate Concentrations in the Striatum and Anterior Cingulate Cortex Not Found to Be Associated with Cognitive Flexibility",
+      "abstract": "Behavioral flexibility and goal-directed behavior heavily depend on fronto-striatal networks. Within these circuits, gamma-aminobutyric acid (GABA) and glutamate play an important role in (motor) response inhibition, but it has remained largely unclear whether they are also relevant for cognitive inhibition. We hence investigated the functional role of these transmitters for cognitive inhibition during cognitive flexibility. Healthy young adults performed two paradigms assessing different aspects of cognitive flexibility. Magnetic resonance spectroscopy (MRS) was used to quantify GABA+ and total glutamate/glutamine (Glx) levels in the striatum and anterior cingulate cortex (ACC) referenced to N-acetylaspartate (NAA). We observed typical task switching and backward inhibition effects, but striatal and ACC concentrations of GABA+/NAA and Glx/NAA were not associated with cognitive flexibility in a functionally relevant manner. The assumption of null effects was underpinned by Bayesian testing. These findings suggest that behavioral and cognitive inhibition are functionally distinct faculties, that depend on (at least partly) different brain structures and neurotransmitter systems. While previous studies consistently demonstrated that motor response inhibition is modulated by ACC and striatal GABA levels, our results suggest that the functionally distinct cognitive inhibition required for successful switching is not, or at least to a much lesser degree, modulated by these factors.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "A. Stock",
+          "id": ""
+        },
+        {
+          "name": "Annett Werner",
+          "id": ""
+        },
+        {
+          "name": "Paul Kuntke",
+          "id": ""
+        },
+        {
+          "name": "Miriam-Sophie Petasch",
+          "id": ""
+        },
+        {
+          "name": "Wiebke Bensmann",
+          "id": ""
+        },
+        {
+          "name": "Nicolas Zink",
+          "id": ""
+        },
+        {
+          "name": "A. H. Koyun",
+          "id": ""
+        },
+        {
+          "name": "B. Quednow",
+          "id": ""
+        },
+        {
+          "name": "C. Beste",
+          "id": ""
+        }
+      ],
+      "venue": "Brain Science",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:260856623",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.49766603474946064,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 266552548,
+      "title": "Task-Switch Related Reductions in Neural Distinctiveness in Children and Adults: Commonalities and Differences",
+      "abstract": "Goal-directed behavior requires the ability to flexibly switch between task sets with changing environmental demands. Switching between tasks generally comes at the cost of slower and less accurate responses. Compared with adults, children often show greater switch costs, presumably reflecting the protracted development of the ability to flexibly update task-set representations. To test whether the distinctiveness of neural task-set representations is more strongly affected by a task switch in children compared with adults, we examined multivoxel patterns of fMRI activation in 88 children (8\u201311\u2005years, 49 girls, 39 boys) and 52 adults (20\u201330\u2005years, 27 women, 25 men) during a task-switching paradigm. Using multivariate pattern analysis (MVPA), we investigated whether task-set representations were less distinct on switch than on repeat trials across frontoparietal, cingulo-opercular, and temporo-occipital regions. Children and adults showed lower accuracy and longer response times on switch than on repeat trials. Switch costs were similar across groups. Decoding accuracy was lower on switch than repeat trials, suggesting that switching reduces the distinctiveness of task-set representations. Reliable age differences in switch-related reductions of decoding accuracy were absent. More nuanced analyses using probability measures indicated that the distinctiveness of task sets was more affected by switch demand in children than in adults in a subset of frontal, cingulate, and temporal regions. These results point to a remarkable degree of maturity of neural representations of task-relevant information in late childhood along with more subtle region-specific age differences in the effects of task switching on rule representation.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Sina A. Schwarze",
+          "id": ""
+        },
+        {
+          "name": "Sara Bonati",
+          "id": ""
+        },
+        {
+          "name": "R. M. Cichy",
+          "id": ""
+        },
+        {
+          "name": "U. Lindenberger",
+          "id": ""
+        },
+        {
+          "name": "S. Bunge",
+          "id": ""
+        },
+        {
+          "name": "Y. Fandakova",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:266552548",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4953932416338885,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273373978,
+      "title": "Aperiodic neural activity reflects metacontrol in task-switching",
+      "abstract": "\u201cMetacontrol\u201d refers to the ability to find the right balance between more persistent and more flexible cognitive control styles, depending on task demands. Recent research on tasks involving response conflict regulation indicates a consistent link between aperiodic EEG activity and task conditions that demand a more or less persistent control style. In this study, we explored whether this connection between metacontrol and aperiodic activity also applies to cognitive flexibility. We examined EEG and behavioral data from two separate samples engaged in a task-switching paradigm, allowing for an internal replication of our findings. Both studies revealed that aperiodic activity significantly decreased during task switching compared to task repetition. Our results support the predictions of metacontrol theory but contradict those of traditional control theories which would have predicted the opposite pattern of results. We propose that aperiodic activity observed in EEG signals serves as a valid indicator of dynamic neuroplasticity in metacontrol, suggesting that truly adaptive metacontrol does not necessarily bias processing towards persistence in response to every control challenge, but chooses between persistence and flexibility biases depending on the nature of the challenge.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Jimin Yan",
+          "id": ""
+        },
+        {
+          "name": "Shijing Yu",
+          "id": ""
+        },
+        {
+          "name": "M. M\u00fcckschel",
+          "id": ""
+        },
+        {
+          "name": "L. Colzato",
+          "id": ""
+        },
+        {
+          "name": "Bernhard Hommel",
+          "id": ""
+        },
+        {
+          "name": "Christian Beste",
+          "id": ""
+        }
+      ],
+      "venue": "Scientific Reports",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:273373978",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4779735337802832,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 267321122,
+      "title": "Reduced Proactive and Reactive Cognitive Flexibility in Older Adults Underlies Performance Costs During Dual-Task Walking: A Mobile Brain/Body Imaging (MoBI) Study",
+      "abstract": "Age-related reductions in cognitive flexibility may limit modulation of control processes during systematic increases to cognitive-motor demands, exacerbating dual-task costs. In this study, behavioral and neurophysiologic changes to proactive and reactive control during progressive cognitive-motor demands were compared across older and younger adults to explore the basis for age-differences in cognitive-motor interference (CMI). 19 younger (19 - 29 years old, mean age = 22.84 +/- 2.75 years, 6 male, 13 female) and 18 older (60 - 77 years old, mean age = 67.89 +/- 4.60 years, 9 male, 9 female) healthy adults completed cued task-switching while alternating between sitting and walking on a treadmill. Gait kinematics, task performance measures, and brain activity were recorded using electroencephalography (EEG) based Mobile Brain/Body Imaging (MoBI). Response accuracy on easier trial types improved in younger, but not older adults when they walked while performing the cognitive task. As difficulty increased, walking provoked accuracy costs in older, but not younger adults. Both groups registered faster responses and reduced gait variability during dual-task walking. Older adults exhibited lower amplitude modulations of proactive and reactive neural activity as cognitive-motor demands systematically increased, which may reflect reduced flexibility for progressive preparatory and reactive adjustments over behavioral control.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "David P. Richardson",
+          "id": ""
+        },
+        {
+          "name": "John J. Foxe",
+          "id": ""
+        },
+        {
+          "name": "E. Freedman",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:267321122",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.46558306517933334,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 247519776,
+      "title": "Dynamic changes in brain lateralization correlate with human cognitive performance",
+      "abstract": "Hemispheric lateralization constitutes a core architectural principle of human brain organization underlying cognition, often argued to represent a stable, trait-like feature. However, emerging evidence underlines the inherently dynamic nature of brain networks, in which time-resolved alterations in functional lateralization remain uncharted. Integrating dynamic network approaches with the concept of hemispheric laterality, we map the spatiotemporal architecture of whole-brain lateralization in a large sample of high-quality resting-state fMRI data (N = 991, Human Connectome Project). We reveal distinct laterality dynamics across lower-order sensorimotor systems and higher-order associative networks. Specifically, we expose 2 aspects of the laterality dynamics: laterality fluctuations (LF), defined as the standard deviation of laterality time series, and laterality reversal (LR), referring to the number of zero crossings in laterality time series. These 2 measures are associated with moderate and extreme changes in laterality over time, respectively. While LF depict positive association with language function and cognitive flexibility, LR shows a negative association with the same cognitive abilities. These opposing interactions indicate a dynamic balance between intra and interhemispheric communication, i.e., segregation and integration of information across hemispheres. Furthermore, in their time-resolved laterality index, the default mode and language networks correlate negatively with visual/sensorimotor and attention networks, which are linked to better cognitive abilities. Finally, the laterality dynamics are associated with functional connectivity changes of higher-order brain networks and correlate with regional metabolism and structural connectivity. Our results provide insights into the adaptive nature of the lateralized brain and new perspectives for future studies of human cognition, genetics, and brain disorders.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Xinran Wu",
+          "id": ""
+        },
+        {
+          "name": "Xiangzhen Kong",
+          "id": ""
+        },
+        {
+          "name": "D. Vatansever",
+          "id": ""
+        },
+        {
+          "name": "Zhaowen Liu",
+          "id": ""
+        },
+        {
+          "name": "Kai Zhang",
+          "id": ""
+        },
+        {
+          "name": "B. Sahakian",
+          "id": ""
+        },
+        {
+          "name": "T. Robbins",
+          "id": ""
+        },
+        {
+          "name": "Jianfeng Feng",
+          "id": ""
+        },
+        {
+          "name": "P. Thompson",
+          "id": ""
+        },
+        {
+          "name": "J. Zhang",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS Biology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:247519776",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.46139188390816427,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253249393,
+      "title": "Resting-state BOLD signal variability is associated with individual differences in metacontrol",
+      "abstract": "Numerous studies demonstrate that moment-to-moment neural variability is behaviorally relevant and beneficial for tasks and behaviors requiring cognitive flexibility. However, it remains unclear whether the positive effect of neural variability also holds for cognitive persistence. Moreover, different brain variability measures have been used in previous studies, yet comparisons between them are lacking. In the current study, we examined the association between resting-state BOLD signal variability and two metacontrol policies (i.e., persistence vs. flexibility). Brain variability was estimated from resting-state fMRI (rsfMRI) data using two different approaches (i.e., Standard Deviation (SD), and Mean Square Successive Difference (MSSD)) and metacontrol biases were assessed by three metacontrol-sensitive tasks. Results showed that brain variability measured by SD and MSSD was highly positively related. Critically, higher variability measured by MSSD in the attention network, parietal and frontal network, frontal and ACC network, parietal and motor network, and higher variability measured by SD in the parietal and motor network, parietal and frontal network were associated with reduced persistence (or greater flexibility) of metacontrol (i.e., larger Stroop effect or worse RAT performance). These results show that the beneficial effect of brain signal variability on cognitive control depends on the metacontrol states involved. Our study highlights the importance of temporal variability of rsfMRI activity in understanding the neural underpinnings of cognitive control.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Chenyan Zhang",
+          "id": ""
+        },
+        {
+          "name": "C. Beste",
+          "id": ""
+        },
+        {
+          "name": "Luisa Prochazkova",
+          "id": ""
+        },
+        {
+          "name": "Kangcheng Wang",
+          "id": ""
+        },
+        {
+          "name": "Sebastian P. H. Speer",
+          "id": ""
+        },
+        {
+          "name": "A. Smidts",
+          "id": ""
+        },
+        {
+          "name": "M. Boksem",
+          "id": ""
+        },
+        {
+          "name": "B. Hommel",
+          "id": ""
+        }
+      ],
+      "venue": "Scientific Reports",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41598-022-21703-5",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4590071432838751,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 249544739,
+      "title": "The modulatory effect of adaptive task-switching training on resting-state neural network dynamics in younger and older adults",
+      "abstract": "With increasing life expectancy and active aging, it becomes crucial to investigate methods which could compensate for generally detected cognitive aging processes. A promising candidate is adaptive cognitive training, during which task difficulty is adjusted to the participants\u2019 performance level to enhance the training and potential transfer effects. Measuring intrinsic brain activity is suitable for detecting possible distributed training-effects since resting-state dynamics are linked to the brain\u2019s functional flexibility and the effectiveness of different cognitive processes. Therefore, we investigated if adaptive task-switching training could modulate resting-state neural dynamics in younger (18\u201325 years) and older (60\u201375 years) adults (79 people altogether). We examined spectral power density on resting-state EEG data for measuring oscillatory activity, and multiscale entropy for detecting intrinsic neural complexity. Decreased coarse timescale entropy and lower frequency band power as well as increased fine timescale entropy and higher frequency band power revealed a shift from more global to local information processing with aging before training. However, cognitive training modulated these age-group differences, as coarse timescale entropy and lower frequency band power increased from pre- to post-training in the old-training group. Overall, our results suggest that cognitive training can modulate neural dynamics even when measured outside of the trained task.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "B. Nagy",
+          "id": ""
+        },
+        {
+          "name": "A. Protzner",
+          "id": ""
+        },
+        {
+          "name": "G. van der Wijk",
+          "id": ""
+        },
+        {
+          "name": "Hongye Wang",
+          "id": ""
+        },
+        {
+          "name": "F. Cortese",
+          "id": ""
+        },
+        {
+          "name": "I. Czigler",
+          "id": ""
+        },
+        {
+          "name": "Z. Ga\u00e1l",
+          "id": ""
+        }
+      ],
+      "venue": "Scientific Reports",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:249544739",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.45713021401279486,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 254874059,
+      "title": "Cognitive flexibility in post-traumatic stress disorder: Sustained interference associated with altered modulation of cortical oscillatory activity during task-switching",
+      "abstract": "Highlights \u2022 Sustained interference is observed on a test of cognitive flexibility in PTSD.\u2022 Higher theta band activity in DLPFC reflects greater cognitive control need in PTSD.\u2022 Low suppression of beta band activity impairs cognitive flexibility in PTSD.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "M. Popescu",
+          "id": ""
+        },
+        {
+          "name": "E. Popescu",
+          "id": ""
+        },
+        {
+          "name": "T. DeGraba",
+          "id": ""
+        },
+        {
+          "name": "J. D. Hughes",
+          "id": ""
+        }
+      ],
+      "venue": "NeuroImage: Clinical",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:254874059",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.44856823336351254,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 259014164,
+      "title": "Irritability Moderates the Association between Cognitive Flexibility Task Performance and Related Prefrontal Cortex Activation in Young Children",
+      "abstract": "The association between cognitive flexibility and related neural functioning has been inconsistent. This is particularly true in young children, where previous studies have found heterogenous results linking behavior and neural function, raising the possibility of unexplored moderators. The current study explored the moderating role of dimensional irritability in the association between cognitive flexibility task performance and prefrontal activation in young children. A total of 106 3- to 7-year-old children were recruited to complete a custom-designed, child-adapted, cognitive flexibility task, and 98 of them were included in the data analysis. The children\u2019s dorsolateral prefrontal cortex activation was monitored using functional near-infrared spectroscopy, and their levels of irritability were reported by parents using the MAP-DB Temper Loss subscale. Results indicated that the mean reaction time of the cognitive flexibility task was negatively correlated with concurrent prefrontal activation. No evidence was found for the association between task accuracy and prefrontal activation. Moreover, irritability moderated the association between the mean reaction time and prefrontal activation. Children high in irritability exhibited a stronger negative association between the mean reaction time and related prefrontal activation than children low in irritability. The moderating model suggested a novel affective\u2013cognitive interaction to investigate the associations between cognitive task performance and their neural underpinnings.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Yanwei Li",
+          "id": ""
+        },
+        {
+          "name": "Adam S. Grabell",
+          "id": ""
+        },
+        {
+          "name": "S. Perlman",
+          "id": ""
+        }
+      ],
+      "venue": "Brain Science",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:259014164",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4472074630563751,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253756651,
+      "title": "Investigating the shift between externally and internally oriented cognition: a novel task-switching paradigm",
+      "abstract": "Abstract Despite our constant need to flexibly balance internal and external information, research on cognitive flexibility has focused solely on shifts between externally oriented tasks. In contrast, switches across internally oriented processes (and self-referential cognition specifically) and between internal and external domains have never been investigated. Here, we report a novel task-switching paradigm developed to explore the behavioural signatures associated with cognitive flexibility when self-referential processes, as well as more traditional external processes, are involved. Two hundred healthy volunteers completed an online task. In each trial, participants performed one of four possible tasks on written words, as instructed by a pre-stimulus cue. These included two externally and two internally oriented tasks: assessing whether the third letter was a consonant or the penultimate letter was a vowel versus assessing whether the adjective applied to their personality or if it described a bodily sensation they were currently experiencing. In total, 40% of trials involved switches to another task, and these were equally distributed across within-external, within-internal, internal-to-external and external-to-internal switches. We found higher response times for switches compared to repetitions both in the external and internal domains, thus demonstrating the presence of switch costs in self-referential tasks for the first time. We also found higher response times for between-domain switches compared to switches within each domain. We propose that these effects originate from the goal-directed engagement of different domain-specific cognitive systems that flexibly communicate and share domain-general control features.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Sara Calzolari",
+          "id": ""
+        },
+        {
+          "name": "S. Boneva",
+          "id": ""
+        },
+        {
+          "name": "D. Fern\u00e1ndez-Espejo",
+          "id": ""
+        }
+      ],
+      "venue": "Neuroscience of Consciousness",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:253756651",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43597383307075954,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 266116501,
+      "title": "The relationship between music training and cognitive flexibility: an ERP study",
+      "abstract": "Background Music training involves several cognitive functions in the brain, particularly executive function. Numerous studies have proven a link between the two. Cognitive flexibility is an important component of executive function, however, there has been little study investigating the association between music training and cognitive flexibility. Method Music training (N = 22) and the control groups (N = 26) were included in the present study. A tone-related oddball task was used to investigate the tone-related inhibition and the switch task was to investigate cognitive flexibility. During the switch task, EEG data were collected. Results The behavioral results of the oddball task showed that the individuals in the music training group had a shorter reaction time and higher accuracy in both the between-tone and within-tone categories compared to the controls. The behavioral results of the switch task showed similar results, with the music training group exhibiting better reaction time and accuracy performance than the controls. ERP results showed that the music training group had smaller P3 amplitudes and greater N2 and N450 amplitudes than the control group. Discussion The findings further supported the link between music training and enhanced cognitive function.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Jiayi Hao",
+          "id": ""
+        },
+        {
+          "name": "Yuhuan Zhong",
+          "id": ""
+        },
+        {
+          "name": "Yazhi Pang",
+          "id": ""
+        },
+        {
+          "name": "Yuanluo Jing",
+          "id": ""
+        },
+        {
+          "name": "Yong Liu",
+          "id": ""
+        },
+        {
+          "name": "Hong Li",
+          "id": ""
+        },
+        {
+          "name": "Jianbo Li",
+          "id": ""
+        },
+        {
+          "name": "Maoping Zheng",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Psychology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:266116501",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43412802084299384,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253709604,
+      "title": "Investigating cognitive flexibility deficit in schizophrenia using task-based whole-brain functional connectivity",
+      "abstract": "Background Cognitive flexibility is a core cognitive control function supported by the brain networks of the whole-brain. Schizophrenic patients show deficits in cognitive flexibility in conditions such as task-switching. A large number of neuroimaging studies have revealed abnormalities in local brain activations associated with deficits in cognitive flexibility in schizophrenia, but the relationship between impaired cognitive flexibility and the whole-brain functional connectivity (FC) pattern is unclear. Method We investigated the task-based functional connectivity of the whole-brain in patients with schizophrenia and healthy controls during task-switching. Multivariate pattern analysis (MVPA) was utilized to investigate whether the FC pattern can be used as a feature to discriminate schizophrenia patients from healthy controls. Graph theory analysis was further used to quantify the degrees of integration and segregation in the whole-brain networks to interpret the different reconfiguration patterns of brain networks in schizophrenia patients and healthy controls. Results The results showed that the FC pattern classified schizophrenia patients and healthy controls with significant accuracy. Moreover, the altered whole-brain functional connectivity pattern was driven by a lower degree of network integration and segregation in schizophrenia, indicating that both global and local information transfers at the entire-network level were less efficient in schizophrenia patients than in healthy controls during task-switching processing. Conclusion These results investigated the group differences in FC profiles during task-switching and not only elucidated that FC patterns are changed in schizophrenic patients, suggesting that task-based FC could be used as a potential neuromarker to discriminate schizophrenia patients from healthy controls in cognitive flexibility but also provide increased insight into the brain network organization that may contribute to impaired cognitive flexibility.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yanqing Wang",
+          "id": ""
+        },
+        {
+          "name": "Xueping Hu",
+          "id": ""
+        },
+        {
+          "name": "Yilu Li",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Psychiatry",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:253709604",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43313832821139,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 267394888,
+      "title": "Dissociable components of attention exhibit distinct neuronal signatures in primate visual cortex",
+      "abstract": "Attention can be deployed in multiple forms and facilitates behavior by influencing perceptual sensitivity and choice bias. Attention is also associated with a myriad of changes in sensory neural activity. Yet, the relationship between the behavioral components of attention and the accompanying changes in neural activity remains largely unresolved. We examined this relationship by quantifying sensitivity and bias in monkeys performing a task that dissociated eye movement responses from the focus of covert attention. Unexpectedly, bias, not sensitivity, increased at the focus of covert attention, whereas sensitivity increased at the location of planned eye movements. Furthermore, neuronal activity within visual area V4 varied robustly with bias, but not sensitivity, at the focus of covert attention. In contrast, correlated variability between neuronal pairs was lowest at the location of planned eye movements, and varied with sensitivity, but not bias. Thus, dissociable behavioral components of attention exhibit distinct neuronal signatures within the visual cortex.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Adithya Narayan Chandrasekaran",
+          "id": ""
+        },
+        {
+          "name": "Ayesha Vermani",
+          "id": ""
+        },
+        {
+          "name": "Priyanka Gupta",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "D. Sridharan",
+          "id": ""
+        }
+      ],
+      "venue": "Science Advances",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:267394888",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43261275275354827,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 257886525,
+      "title": "Task Switching: On the Relation of Cognitive Flexibility with Cognitive Capacity",
+      "abstract": "The task-switching paradigm is deemed a measure of cognitive flexibility. Previous research has demonstrated that individual differences in task-switch costs are moderately inversely related to cognitive ability. However, current theories emphasize multiple component processes of task switching, such as task-set preparation and task-set inertia. The relations of task-switching processes with cognitive ability were investigated in the current study. Participants completed a task-switching paradigm with geometric forms and a visuospatial working memory capacity (WMC) task. The task-switch effect was decomposed with the diffusion model. Effects of task-switching and response congruency were estimated as latent differences using structural equation modeling. Their magnitudes and relations with visuospatial WMC were investigated. Effects in the means of parameter estimates replicated previous findings, namely increased non-decision time in task-switch trials. Further, task switches and response incongruency had independent effects on drift rates, reflecting their differential effects on task readiness. Findings obtained with the figural tasks employed in this study revealed that WMC was inversely related to the task-switch effect in non-decision time. Relations with drift rates were inconsistent. Finally, WMC was moderately inversely related to response caution. These findings suggest that more able participants either needed less time for task-set preparation or that they invested less time for task-set preparation.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "F. Schmitz",
+          "id": ""
+        },
+        {
+          "name": "Raimund J. Kr\u00e4mer",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Intelligence",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:257886525",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4321216199938199,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 257581584,
+      "title": "Aperiodic neural activity reflects metacontrol.",
+      "abstract": "Higher-level cognitive functions are mediated via complex oscillatory activity patterns and its analysis is dominating cognitive neuroscience research. However, besides oscillatory (period) activity, also aperiodic activity constitutes neural dynamics, but its relevance for higher-level cognitive functions is only beginning to be understood. The present study examined whether the broadband EEG aperiodic activity reflects principles of metacontrol. Metacontrol conceptualizes whether it is more useful to engage in more flexible processing of incoming information or to shield cognitive processes from incoming information (persistence-heavy processing). We examined EEG and behavioral data from a sample of n\u2009=\u2009191 healthy participants performing a Simon Go/NoGo task that can be assumed to induce different metacontrol states (persistence-biased vs. flexibility-biased). Aperiodic activity was estimated using the FOOOF toolbox in the EEG power spectrum. There was a higher aperiodic exponent and offset in NoGo trials compared with Go trials, in incongruent (Go) trials compared with congruent (Go) trials. Thus, aperiodic activity increases during persistence-heavy processing, but decreases during flexibility-heavy processing. These findings link aperiodic features of the EEG signal and concepts describing the dynamics of how cognitive control modes are applied. Therefore, the study substantially extends the importance of aperiodic activity in understanding cognitive functions.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Chenyan Zhang",
+          "id": ""
+        },
+        {
+          "name": "A. Stock",
+          "id": ""
+        },
+        {
+          "name": "M. M\u00fcckschel",
+          "id": ""
+        },
+        {
+          "name": "B. Hommel",
+          "id": ""
+        },
+        {
+          "name": "C. Beste",
+          "id": ""
+        }
+      ],
+      "venue": "Cerebral Cortex",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/36928696",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.43118911480415056,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 267365702,
+      "title": "The Primate Cortical LFP Exhibits Multiple Spectral and Temporal Gradients and Widespread Task-Dependence During Visual Short-Term Memory",
+      "abstract": "Although cognitive functions are hypothesized to be mediated by synchronous neuronal interactions in multiple frequency bands among widely distributed cortical areas, we still lack a basic understanding of the distribution and task dependence of oscillatory activity across the cortical map. Here, we ask how the spectral and temporal properties of the local field potential (LFP) vary across the primate cerebral cortex, and how they are modulated during visual short-term memory. We measured the LFP from 55 cortical areas in two macaque monkeys while they performed a visual delayed match to sample task. Analysis of peak frequencies in the LFP power spectra reveals multiple discrete frequency bands between 3-80 Hz that differ between the two monkeys. The LFP power in each band, as well as the Sample Entropy, a measure of signal complexity, display distinct spatial gradients across the cortex, some of which correlate with reported spine counts in layer 3 pyramidal neurons. Cortical areas can be robustly decoded using a small number of spectral and temporal parameters, and significant task dependent increases and decreases in spectral power occur in all cortical areas. These findings reveal pronounced, widespread and spatially organized gradients in the spectral and temporal activity of cortical areas. Task-dependent changes in cortical activity are globally distributed, even for a simple cognitive task.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Steven J. Hoffman",
+          "id": ""
+        },
+        {
+          "name": "Nicholas M. Dotson",
+          "id": ""
+        },
+        {
+          "name": "Vinicius Lima",
+          "id": ""
+        },
+        {
+          "name": "Charles M. Gray",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:267365702",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4293390541292818,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 257104544,
+      "title": "Learning-induced reorganization of neuronal subnetworks in the primary sensory cortex",
+      "abstract": "Perceptual learning alters the representation of sensory input in primary sensory cortex. Alterations in neuronal tuning, correlation structure and population activity across many subcortical and cortical areas have been observed in previous studies. However, relationships between these different neural correlates - and to what extent they are relevant to specific perceptual tasks - are still unclear. In this study, we recorded activity of the layer 2/3 neuronal populations in the whisker primary somatosensory cortex (wS1) using in vivo two-photon calcium imaging as mice were trained to perform a self-initiated, whisker vibration frequency discrimination task. Individual wS1 neurons displayed learning-induced broadening of frequency sensitivity within task-related categories only during task performance, reflecting both learning-and context-dependent enhancement of category selectivity. Learning increased both signal and noise correlations within pairs of neurons that prefer the same stimulus category (\u2018within-pool\u2019), whereas learning decreased neuronal correlations between neuron pairs that prefer different categories (\u2018across-pool\u2019). Increased noise correlations in trained animals resulted in less accurate decoding of stimulus categories from population activity but did not affect decoding of the animal\u2019s decision to respond to stimuli. Importantly, within-pool noise correlations were elevated on trials in which animals generated the learned behavioral response. We demonstrate that learning drives formation of task-relevant \u2018like-to-like\u2019 layer 2/3 subnetworks in the primary sensory cortex that may facilitate execution of learned behavioral responses. Significance Statement We found that cortical plasticity during perceptual learning alters both neuronal tuning and the structure of pairwise correlations such that they become increasingly aligned to task-related categories, indicating the formation of \u2018like-to-like\u2019 subnetworks in layer 2/3 of sensory cortex. Category-specific increases in signal and noise correlations were induced by learning and only observed during active task performance, which points to top-down feedback as a driver of task-related subnetworks.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Yexin Yang",
+          "id": ""
+        },
+        {
+          "name": "Hao Shen",
+          "id": ""
+        },
+        {
+          "name": "S. E. Kwon",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:257104544",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.42534968410819174,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 282310858,
+      "title": "Convergent neural dynamical systems for task control in artificial networks and human brains",
+      "abstract": "The ability to switch between tasks is a core component of human intelligence, yet a mechanistic understanding of this capacity has remained elusive. Long-standing debates over how task switching is influenced by preparation for upcoming tasks or interference from previous tasks have been difficult to resolve without quantitative neural predictions. We advance this debate by using state-space modeling to directly compare the latent task dynamics in task-optimized recurrent neural networks and human electroencephalographic recordings. Over the inter-trial interval, both networks and brains converged into a neutral task state, a novel control strategy that reconciles the role of preparation and interference in task switching. These findings provide a quantitative account of cognitive flexibility and a promising paradigm for bridging artificial and biological neural networks.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Harrison Ritz",
+          "id": ""
+        },
+        {
+          "name": "Aditi Jha",
+          "id": ""
+        },
+        {
+          "name": "N. D. Daw",
+          "id": ""
+        },
+        {
+          "name": "Jonathan D. Cohen",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:282310858",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4241280152947031,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 267411514,
+      "title": "Biologically plausible models of cognitive flexibility: merging recurrent neural networks with full-brain dynamics",
+      "abstract": "Cognitive flexibility, a cornerstone of human cognition, enables us to adapt to shifting environmental demands. This brain function has been widely explored using computational modeling, although oftentimes these models focus on the operational dimension of cognitive flexibility and do not retain a sufficient level of neurobiological detail to lead to electrophysiological or neuroimaging insights. In this review, we explore recent advances and future directions on neurobiologically plausible computational models of cognitive flexibility. We first cover progress in recurrent neural network models trained to perform flexible cognitive tasks, followed by a discussion on how whole-brain or large-scale brain network models have approached the distributed nature of flexible cognitive functions. Ultimately, we propose here a hybrid framework in which both modeling philosophies converge, advocating for a balanced approach that merges computational power with realistic spatiotemporal dynamics of brain activity, and explore early examples in this direction.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Maya van Holk",
+          "id": ""
+        },
+        {
+          "name": "Jorge F. Mej\u00edas",
+          "id": ""
+        }
+      ],
+      "venue": "Current Opinion in Behavioral Sciences",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:267411514",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.42397381324295874,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 269717492,
+      "title": "Differential representation of sensory information and behavioral choice across layers of the mouse auditory cortex.",
+      "abstract": "The activity of neurons in sensory areas sometimes covaries with upcoming choices in decision-making tasks. However, the prevalence, causal origin, and functional role of choice-related activity remain controversial. Understanding the circuit-logic of decision signals in sensory areas will require understanding their laminar specificity, but simultaneous recordings of neural activity across the cortical layers in forced-choice discrimination tasks have not yet been performed. Here, we describe neural activity from such recordings in the auditory cortex of mice during a frequency discrimination task with delayed report, which, as we show, requires the auditory cortex. Stimulus-related information was widely distributed across layers but disappeared very quickly after stimulus offset. Choice selectivity emerged toward the end of the delay period-suggesting a top-down origin-but only in the deep layers. Early stimulus-selective and late choice-selective deep neural ensembles were correlated, suggesting that the choice-selective signal fed back to the auditory cortex is not just action specific but develops as a consequence of the sensory-motor contingency imposed by the task.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Raphael Steinfeld",
+          "id": ""
+        },
+        {
+          "name": "Andr\u00e9 Tac\u00e3o-Monteiro",
+          "id": ""
+        },
+        {
+          "name": "A. Renart",
+          "id": ""
+        }
+      ],
+      "venue": "Current Biology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:269717492",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.42357768450214595,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 268778146,
+      "title": "Frontal P300 asymmetry and congruence judgment: Retroactive switching is impaired during school day mornings in female adolescents",
+      "abstract": "Investigating frontal EEG asymmetry as a possible biomarker of cognitive control abilities is especially important in ecological contexts such as school and work. We used a novel approach combining judgment performance and hemispheric frontal event-related potential (ERP) P300 asymmetry (fP3As) to evaluate aspects of cognitive control (i.e., repetition and switching) in adolescent females over a two-week ordinary school period. While undergoing electroencephalographic recording, students performed a word-colour \u201cStroop-like\u201d congruence judgment task during morning and afternoon sessions, on Mondays and Wednesdays. Proportion of incongruence and congruence trials was 75% and 25%, respectively. ERP analysis revealed larger \u201cnovelty\u201d right hemispheric fP3As amplitude for infrequent congruence but equivalent or significantly smaller than left hemispheric fP3As amplitude for frequent incongruence. RTs increased with extent of right fP3As shift. Behaviorally, repeat trial pairs (i.e., congruent followed by congruent, incongruent followed by incongruent) generally did not differ by time or day and were associated with near-ceiling accuracy. In contrast, switch trial pairs (i.e., congruent followed by incongruent, incongruent followed by congruent) in the afternoon were slower and associated with lower accuracy at the expected 75% criterion rate (i.e., judging incongruence by default), dropping significantly below 75% in the mornings. Crucially, compared to afternoon, morning fP3As patterns did not change adaptively with switch trial pairs. Although retroactive switching during congruence judgment was affected at all testing times, we conclude it was most impaired in the mornings of both early and mid school weeks, supporting misalignment between adolescent circadian cycle and school start time. We discuss some implications for optimal learning of adolescents at school.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Gabriel Byczynski",
+          "id": ""
+        },
+        {
+          "name": "A. D\u2019Angiulli",
+          "id": ""
+        }
+      ],
+      "venue": "Current Research in Neurobiology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:268778146",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4211858436171898,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 269993530,
+      "title": "Perceptual Learning of Fine Contrast Discrimination Under Non-roving, Roving-Without-Flanker, and Roving-with-Flanker Conditions and its Relation to Neuronal Activity in Macaque V1",
+      "abstract": "Perceptual learning refers to an improvement in perceptual abilities with training. Neural signatures of visual perceptual learning have been demonstrated mostly in mid- and high-level cortical areas, while changes in early sensory cortex were often more limited. We recorded continuously from multiple neuronal clusters in area V1 while macaque monkeys learned a fine contrast categorization task. Monkeys performed the contrast discrimination task initially when a constant-contrast sample stimulus was followed by a test stimulus of variable contrast, whereby they had to indicate whether the test was of lower or higher contrast than the sample. This was followed by sessions where we employed stimulus roving; i.e. the contrast of the sample stimulus varied from trial to trial. Finally, we trained animals, under \u2018stimulus roving-with-flanker\u2019 conditions, where the test stimuli to be discriminated were flanked by \u2018flanking stimuli\u2019. Perceptual discrimination abilities improved under non-roving conditions and under roving-with-flanker conditions as training progressed. Neuronal discrimination abilities improved with training mostly under non-roving conditions, but the effect was modest and limited to the most difficult contrast. Choice probabilities, quantifying how well neural activity is correlated with choice, equally increased with training during non-roving, but not during either of the roving conditions (with and without flankers). Noise correlations changed with training in both monkeys, but the changes were not consistent between monkeys. In one monkey, noise correlations decreased with training for non-roving and both roving conditions. In the other monkey, noise correlations changed for some conditions, but lacked a systematic pattern. Thus, while perceptual learning occurred under non-roving and roving-with-flanker conditions, the changes in neural activity in V1 were overall modest and were essentially absent under the different roving conditions.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "A. Thiele",
+          "id": ""
+        },
+        {
+          "name": "Xing Chen",
+          "id": ""
+        },
+        {
+          "name": "Mehdi Sanayei",
+          "id": ""
+        },
+        {
+          "name": "D. Chicharro",
+          "id": ""
+        },
+        {
+          "name": "Claudia Distler",
+          "id": ""
+        },
+        {
+          "name": "S. Panzeri",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Cognitive Enhancement",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:269993530",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4204670934547031,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 247631696,
+      "title": "Discovering dynamical models of human behavior",
+      "abstract": "Response time (RT) data collected from cognitive tasks are a cornerstone of psychology and neuroscience research, yet existing models of these data either make strong assumptions about the data generating process or are limited to modeling single trials. We introduce task-DyVA, a deep learning framework in which expressive dynamical systems are trained to reproduce sequences of RTs observed in data from individual human subjects. Models fitted to a large task-switching dataset captured subject-specific behavioral differences with high temporal precision, including task-switching costs. Through perturbation experiments and analyses of the models\u2019 latent dynamics, we find support for a rational account of switch costs in terms of a stability-flexibility tradeoff. Thus, our framework can be used to discover interpretable cognitive theories that explain how the brain dynamically gives rise to behavior.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Paul I. Jaffe",
+          "id": ""
+        },
+        {
+          "name": "R. Poldrack",
+          "id": ""
+        },
+        {
+          "name": "R. J. Schafer",
+          "id": ""
+        },
+        {
+          "name": "Patrick G. Bissett",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:247631696",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.41964656152944485,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 260808940,
+      "title": "Potential cognitive and neural benefits of a computerised cognitive training programme based on Structure Learning in healthy adults: study protocol for a randomised controlled trial",
+      "abstract": "Background Cognitive flexibility refers to the capacity to shift between conceptual representations particularly in response to changes in instruction and feedback. It enables individuals to swiftly adapt to changes in their environment and has significant implications for learning. The present study focuses on investigating changes in cognitive flexibility following an intervention programme\u2014Structure Learning training. Methods Participants are pseudo-randomised to either the Training or Control group, while matched on age, sex, intelligence and cognitive flexibility performance. In the Training group, participants undergo around 2\u00a0weeks of training (at least 13 sessions) on Structure Learning. In the Control group, participants do not have to undergo any training and are never exposed to the Structure Learning task. The effects of Structure Learning training are investigated at both the behavioural and neural level. We measured covariates that can influence an individual\u2019s training performance before the training phase and outcome measures that can potentially show training benefits after the training phase. At the behavioural level, we investigated outcomes in both cognitive and social aspects with a primary focus on executive functions. At the neural level, we employed a multimodality approach and investigated potential changes to functional connectivity patterns, neurometabolite concentration in the frontal brain regions, and brain microstructure and myelination. Discussion We reported the development of a novel training programme based on Structure Learning that aims to hone a general learning ability to potentially achieve extensive transfer benefits across various cognitive constructs. Potential transfer benefits can be exhibited through better performance in outcome measures between Training and Control participants, and positive associations between training performance and outcomes after the training in Training participants. Moreover, we attempt to substantiate behavioural findings with evidence of neural changes across different imaging modalities by the Structure Learning training. Trial registration National Institutes of Health U.S. National Library of Medicine ClinicalTrials.gov NCT05611788. Registered on 7 November 2022. Protocol version: 11 May 2023.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Chia-Lun Liu",
+          "id": ""
+        },
+        {
+          "name": "Xiaoqin Cheng",
+          "id": ""
+        },
+        {
+          "name": "B. L. Choo",
+          "id": ""
+        },
+        {
+          "name": "Min-Jeong Hong",
+          "id": ""
+        },
+        {
+          "name": "Jia Li Teo",
+          "id": ""
+        },
+        {
+          "name": "Weiying Koo",
+          "id": ""
+        },
+        {
+          "name": "Jiao Tan",
+          "id": ""
+        },
+        {
+          "name": "Marisha Barth Ubrani",
+          "id": ""
+        },
+        {
+          "name": "J. Suckling",
+          "id": ""
+        },
+        {
+          "name": "B. Guly\u00e1s",
+          "id": ""
+        },
+        {
+          "name": "V. Leong",
+          "id": ""
+        },
+        {
+          "name": "Z. Kourtzi",
+          "id": ""
+        },
+        {
+          "name": "B. Sahakian",
+          "id": ""
+        },
+        {
+          "name": "T. Robbins",
+          "id": ""
+        },
+        {
+          "name": "Annabel Chen",
+          "id": ""
+        }
+      ],
+      "venue": "Trials",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:260808940",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.41649190480819176,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 259140180,
+      "title": "Consequences of scarcity: the impact of perceived scarcity on executive functioning and its neural basis",
+      "abstract": "Introduction Previous studies have found a causal relationship between scarcity and the adverse impact it has on executive functioning. However, few studies have directly examined perceived scarcity, and cognitive flexibility (the third component of executive functions) has rarely been included. Methods Using a 2 (group: scarcity group vs. control group) \u00d7 2 (trial type: repeat trial vs. switch trial) mixed design, this study directly explored perceived scarcity\u2019s impact on cognitive flexibility and revealed its neural basis in the switching tasks. Seventy college students participated in this study through open recruitment in China. A priming task was used to induce perceived scarcity, thus exploring the impact of perceived scarcity on participants\u2019 performance in switching tasks and enabling the analysis of the neural activity of the brain, combined with electroencephalograph (EEG) technology. Results In terms of behavioral outcomes, perceived scarcity led to poorer performance and a greater switching cost of reaction time in the switching tasks. Regarding neural activity, perceived scarcity led to an increase in the amplitude of P3 differential wave (repeat trials minus switch trials) in the parietal cortex during the target-locked epochs in the switching tasks. Discussion Perceived scarcity can lead to changes in the neural activity of the brain regions related to executive functioning, resulting in a temporary decrease in cognitive flexibility. It may lead to individuals unable to adapt well to the changing environment, unable to quickly devote themselves to new tasks, and reduce work and learning efficiency in daily life.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Long Huang",
+          "id": ""
+        },
+        {
+          "name": "Xiaojuan Li",
+          "id": ""
+        },
+        {
+          "name": "Fu-ming Xu",
+          "id": ""
+        },
+        {
+          "name": "Fuhong Li",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:259140180",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.41546971521252524,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 252845269,
+      "title": "Adaptive processing and perceptual learning in visual cortical areas V1 and V4",
+      "abstract": "Significance Neurons in the primary visual cortex (V1) and in V4 can adapt their responses to better fit the perceptual demands required for executing a given task. Notably, the same neurons can select which stimulus attributes they represent, rather than having a fixed selectivity for specific stimulus characteristics. This broadens the role of top-down influences from attention to scene segmentation, expectation, and perceptual task. While both areas show task-dependent responses, V1 represents detailed stimulus characteristics and V4 filters the input from V1 to directly represent the information required for the task. During learning, neurons increase modulation by task-relevant information and suppress influences of task-irrelevant stimuli. These changes shift progressively from V4 to V1, reflecting a process of systems consolidation.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Guadalupe Astorga",
+          "id": ""
+        },
+        {
+          "name": "Minggui Chen",
+          "id": ""
+        },
+        {
+          "name": "Yin Yan",
+          "id": ""
+        },
+        {
+          "name": "T. S. Altavini",
+          "id": ""
+        },
+        {
+          "name": "Caroline S. Jiang",
+          "id": ""
+        },
+        {
+          "name": "Wu Li",
+          "id": ""
+        },
+        {
+          "name": "C. Gilbert",
+          "id": ""
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:252845269",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.415187659845595,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 252716837,
+      "title": "Subpopulation Codes Permit Information Modulation Across Cortical States",
+      "abstract": "Cortical state is modulated by myriad cognitive and physiological mechanisms. Yet it is still unclear how changes in cortical state relate to changes in neuronal processing. Previous studies have reported state dependent changes in response gain or population-wide shared variability, motivated by the fact that both are important determinants of the performance of any population code. However, if the state-conditioned cortical regime is well-captured by a linear input-output response (as is often the case), then the linear Fisher information (FI) about a stimulus available to a decoder is invariant to state changes. In this study we show that by contrast, when one restricts a decoder to a subset of a cortical population, information within the subpopulation can increase through a modulation of cortical state. A clear example of such a subpopulation code is one in which decoders only receive projections from excitatory cells in a recurrent excitatory/inhibitory (E/I) network. We demonstrate the counterintuitive fact that when decoding only from E cells, it is exclusively the I cell response gain and connectivity which govern how information changes. Additionally, we propose a parametrically simplified approach to studying the effect of state change on subpopulation codes. Our results reveal the importance of inhibitory circuitry in modulating information flow in recurrent cortical networks, and establish a framework in which to develop deeper mechanistic insight into the impact of cortical state changes on information processing in these circuits.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Matthew P. Getz",
+          "id": ""
+        },
+        {
+          "name": "Chengcheng Huang",
+          "id": ""
+        },
+        {
+          "name": "B. Doiron",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:252716837",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4058397361812615,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    }
+  ]
+}

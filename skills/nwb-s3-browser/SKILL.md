@@ -110,23 +110,41 @@ Everything in this step reads NWB file contents over S3. Always try the fastest 
 
 ### Speed tiers
 
-| Tier | Data source | Speed | Use for |
-|------|-------------|-------|---------|
-| **Fast** | `epochs`, `session` | Seconds–low minutes | Epoch filtering, session metadata, experiment description |
-| **Medium** | `electrodes`, `trials` | Minutes | Region presence, trial conditions |
-| **Slow** | `units` | Minutes–tens of minutes | Unit counts, quality filtering, firing rates, co-recording |
+Speed depends on **which columns** are read, not just which table.
 
-⚠️ **Before running Medium or Slow queries across many sessions on S3, warn the user about expected time.**
+| Tier | Query type | Speed (217 files) | Examples |
+|------|------------|-------------------|---------|
+| **Fast** | `/epochs`, `/session`, `/trials` metadata | ~seconds | Epoch tags, trial conditions, session description |
+| **Fast** | `/units` — projection-only (`location`, `default_qc`, scalar metrics) | ~20 seconds | Region presence, co-recording, unit counts |
+| **Slow** | `/units` — array columns (`spike_times`, `waveform_mean`) | Minutes–tens of minutes | Spike train analysis, waveform features |
+
+⚠️ **Only warn the user before queries that load array columns** (`spike_times`, `waveform_mean`, `obs_intervals`). Metadata-only scans are fast even across hundreds of files.
+
+Always use `raise_on_missing=False` — not all sessions have every table (e.g. in the Dynamic Routing dataset, 77/217 sessions have no `/units` because spike sorting hasn't been run).
 
 ### Setup
 
 ```python
+import boto3
+from botocore import UNSIGNED
+from botocore.config import Config
 import lazynwb
+import lazynwb.file_io as fio  # requires lazynwb >= 0.2.90
 import polars as pl
-from upath import UPath
 
-nwb_paths = list(UPath("s3://bucket/prefix/").glob("**/*.nwb"))
+# Required for public S3 buckets — must be set before any scan_nwb call.
+# Pass string paths (not UPath objects); UPath bypasses this config.
+fio.config.anon = True
+
+s3 = boto3.client('s3', config=Config(signature_version=UNSIGNED))
+paginator = s3.get_paginator('list_objects_v2')
+pages = paginator.paginate(Bucket='bucket-name', Prefix='path/to/prefix/')
+objs = [obj for page in pages for obj in page.get('Contents', []) if obj['Key'].endswith('.nwb')]
+nwb_paths = [f"s3://bucket-name/{o['Key']}" for o in objs]
 ```
+
+> **Note:** Always use `boto3` to list files and build string paths. Do **not** use
+> `UPath(...).glob()` — UPath objects bypass `fio.config.anon` and cause silent auth failures.
 
 ### Region name normalization
 
@@ -164,7 +182,7 @@ Common tables: `units`, `electrodes`, `trials`, `intervals/*`, `session`
 ### 3.2 Session metadata (Fast)
 
 ```python
-lf_session = lazynwb.scan_nwb(nwb_paths, "session")
+lf_session = lazynwb.scan_nwb(nwb_paths, "/session", raise_on_missing=False)
 print(lf_session.schema)
 print(lf_session.collect())
 ```
@@ -179,13 +197,13 @@ Epochs (`/intervals/epochs`) is a lightweight session-level table — one row pe
 
 ```python
 # First: check what the epochs table looks like on one file
-lf_epochs = lazynwb.scan_nwb(nwb_paths[:1], "epochs")
+lf_epochs = lazynwb.scan_nwb(nwb_paths[:1], "/epochs")
 print(lf_epochs.schema)
 print(lf_epochs.limit(5).collect())
 
 # Then: find sessions with a specific epoch tag
 # (adjust column name and filter based on actual schema)
-lf_epochs = lazynwb.scan_nwb(nwb_paths, "epochs")
+lf_epochs = lazynwb.scan_nwb(nwb_paths, "/epochs", raise_on_missing=False)
 sessions_with_epoch = (
     lf_epochs
     .filter(pl.col("tags").str.contains("optotagging"))
@@ -205,24 +223,10 @@ print(f"{len(sessions_with_epoch)} sessions with optotagging epoch")
 **Triggers:** "which sessions have VISp", "find recordings with hippocampus", "sessions that include auditory cortex"
 
 ```python
-# Option A: electrodes table (faster — no quality filtering)
-lf_elec = lazynwb.scan_nwb(nwb_paths, "electrodes")
-sessions_with_region = (
-    lf_elec
-    .select("_nwb_path", "location")
-    .unique()
-    .filter(pl.col("location").str.starts_with("VISp"))
-    .select("_nwb_path")
-    .unique()
-    .collect()
-)
-
-# Option B: units table (slower — reflects actual sorted units)
-lf_units = lazynwb.scan_nwb(nwb_paths, "units")
+# Use /units (leading slash required). lazynwb applies predicate + projection pushdown.
+lf_units = lazynwb.scan_nwb(nwb_paths, "/units", raise_on_missing=False)
 sessions_with_region = (
     lf_units
-    .select("_nwb_path", "location")
-    .unique()
     .filter(pl.col("location").str.starts_with("VISp"))
     .select("_nwb_path")
     .unique()
@@ -241,7 +245,7 @@ Sessions where region A AND region B are both recorded.
 ```python
 target_regions = ["VISp", "CA1"]
 
-lf = lazynwb.scan_nwb(nwb_paths, "units")
+lf = lazynwb.scan_nwb(nwb_paths, "/units", raise_on_missing=False)
 regions_per_session = (
     lf
     .select("_nwb_path", "location")
@@ -274,11 +278,11 @@ print(f"{len(matching_sessions)} sessions with both {' and '.join(target_regions
 
 ```python
 # First: check trial schema on one file
-lf_trials = lazynwb.scan_nwb(nwb_paths[:1], "trials")
+lf_trials = lazynwb.scan_nwb(nwb_paths[:1], "/trials")
 print(lf_trials.schema)
 
 # Then: filter by task variable (adjust column names based on schema)
-lf_trials = lazynwb.scan_nwb(nwb_paths, "trials")
+lf_trials = lazynwb.scan_nwb(nwb_paths, "/trials", raise_on_missing=False)
 sessions_with_condition = (
     lf_trials
     .filter(pl.col("stimulus_type") == "auditory")
@@ -299,7 +303,7 @@ print(f"{len(sessions_with_condition)} sessions with auditory trials")
 min_units = 50
 target_region = "VISp"
 
-lf = lazynwb.scan_nwb(nwb_paths, "units")
+lf = lazynwb.scan_nwb(nwb_paths, "/units", raise_on_missing=False)
 high_yield = (
     lf
     .filter(
@@ -323,7 +327,7 @@ print(high_yield)
 **Triggers:** "find units with high firing rates in motor cortex", "sessions with presence_ratio > 0.95"
 
 ```python
-lf = lazynwb.scan_nwb(nwb_paths, "units")
+lf = lazynwb.scan_nwb(nwb_paths, "/units", raise_on_missing=False)
 matching_units = (
     lf
     .filter(
@@ -351,7 +355,7 @@ print(per_session)
 ### 3.9 Region summary across dataset (Slow)
 
 ```python
-lf = lazynwb.scan_nwb(nwb_paths, "units")
+lf = lazynwb.scan_nwb(nwb_paths, "/units", raise_on_missing=False)
 region_summary = (
     lf
     .filter(pl.col("default_qc") == True)
@@ -362,6 +366,61 @@ region_summary = (
 )
 print(region_summary)
 ```
+
+---
+
+## Saving results to YAML
+
+When the user asks to save the session list, or when the results will be consumed
+by another skill (e.g. paper-analysis), write a YAML file so the paths and metadata
+can be reloaded without re-running the query.
+
+**Ask the user for a filename, or default to `sessions_{description}.yaml`.**
+
+```python
+import yaml
+from pathlib import Path
+
+# result_df is whatever Polars DataFrame came out of the query
+# (must have _nwb_path; include any other useful columns)
+records = result_df.to_dicts()
+
+output = {
+    "query": {
+        "s3_prefix": "s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/",
+        "filters": {                     # fill in what was actually applied
+            "region": "VISp",
+            "min_good_units": 50,
+            "default_qc": True,
+        },
+        "n_sessions": len(records),
+    },
+    "sessions": [
+        {
+            "nwb_path": r["_nwb_path"],
+            **{k: v for k, v in r.items() if k != "_nwb_path"},
+        }
+        for r in records
+    ],
+}
+
+out_path = Path("sessions_visp_50units.yaml")   # adjust name
+out_path.write_text(yaml.dump(output, sort_keys=False, allow_unicode=True))
+print(f"Saved {len(records)} sessions → {out_path}")
+```
+
+**Loading back:**
+
+```python
+import yaml
+from pathlib import Path
+
+data = yaml.safe_load(Path("sessions_visp_50units.yaml").read_text())
+nwb_paths = [s["nwb_path"] for s in data["sessions"]]
+```
+
+The `query` block is metadata only — it documents what filter produced this list.
+Only include keys that were actually applied; omit anything that wasn't filtered on.
 
 ---
 
@@ -385,7 +444,7 @@ print(region_summary)
 - No `.apply()` — use expressions
 - `.collect()` materializes a LazyFrame
 
-**Warn before slow queries:** Unit-level scans across many large sessions on S3 can take minutes. Tell the user before running.
+**Warn before slow queries:** Only queries loading array columns (`spike_times`, `waveform_mean`) are slow. Metadata-only `/units` scans (location, quality metrics) run in ~20 seconds across 200+ files.
 
 ---
 
@@ -395,6 +454,7 @@ When the S3 path is `s3://aind-scratch-data/dynamic-routing/cache/nwb/`:
 
 **Known dataset size (v0.0.273):** 217 sessions, ~1.16 TB, 66 subjects, Aug 2023 – Oct 2025.
 Most subjects have 4 consecutive daily sessions. File sizes range from ~4 MB to ~16 GB.
+**140/217 sessions have a `/units` table** (spike-sorted); 77 do not — concentrated in newer subjects (2024+). Always use `raise_on_missing=False`.
 
 **Task:** Mice respond to multimodal stimuli (visual gratings, auditory tones).
 Context block determines which modality is rewarded. Context switches within session.

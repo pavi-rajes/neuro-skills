@@ -1,0 +1,2448 @@
+{
+  "query": "How does gain modulation of sensory cortex activity depend on behavioral context in auditory tasks?",
+  "results": [
+    {
+      "corpusId": 4093623,
+      "title": "Parallel processing by cortical inhibition enables context-dependent behavior",
+      "abstract": "Physical features of sensory stimuli are fixed, but sensory perception is context dependent. The precise mechanisms that govern contextual modulation remain unknown. Here, we trained mice to switch between two contexts: passively listening to pure tones and performing a recognition task for the same stimuli. Two-photon imaging showed that many excitatory neurons in auditory cortex were suppressed during behavior, while some cells became more active. Whole-cell recordings showed that excitatory inputs were affected only modestly by context, but inhibition was more sensitive, with PV+, SOM+, and VIP+ interneurons balancing inhibition and disinhibition within the network. Cholinergic modulation was involved in context switching, with cholinergic axons increasing activity during behavior and directly depolarizing inhibitory cells. Network modeling captured these findings, but only when modulation coincidently drove all three interneuron subtypes, ruling out either inhibition or disinhibition alone as sole mechanism for active engagement. Parallel processing of cholinergic modulation by cortical interneurons therefore enables context-dependent behavior.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "Kishore V. Kuchibhotla",
+          "id": ""
+        },
+        {
+          "name": "Jonathan V. Gill",
+          "id": ""
+        },
+        {
+          "name": "Grace W. Lindsay",
+          "id": ""
+        },
+        {
+          "name": "Eleni S. Papadoyannis",
+          "id": ""
+        },
+        {
+          "name": "Rachel E. Field",
+          "id": ""
+        },
+        {
+          "name": "Tom Hindmarsh Sten",
+          "id": ""
+        },
+        {
+          "name": "K. Miller",
+          "id": ""
+        },
+        {
+          "name": "R. Froemke",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.4436",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9748722365786192,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 271908381,
+      "title": "Task-related activity in auditory cortex enhances sound representation",
+      "abstract": "In auditory-guided tasks, sound presentations often occupy a small fraction of the total task time. We studied here neuronal dynamics that spanned trial duration. Many neurons had large, slow, firing rate modulations, which were not driven by sounds, were larger than the sound evoked responses, and were locked to specific time points during the task, similar to responses of hippocampal time-sensitive neurons. Concurrently, responses to sounds differed between active behavior and passive listening conditions: in the active sessions, the on-going activity just before sound presentations was higher and the responses to target stimuli were weaker but more informative about the task-relevant sounds. We show that the slow firing rate modulations caused the increased on-going activity. Using a model, we demonstrate that higher on-going activity led to more synaptic depression of the cortico-cortical synapses, reducing the tendency to produce population spikes and resulting in weaker but more informative responses.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Ana Polterovich",
+          "id": ""
+        },
+        {
+          "name": "Maciej M. Jankowski",
+          "id": ""
+        },
+        {
+          "name": "J. Niediek",
+          "id": ""
+        },
+        {
+          "name": "Alex Kazakov",
+          "id": ""
+        },
+        {
+          "name": "Israel Nelken",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:271908381",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9725684861173272,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 259317872,
+      "title": "Task-specific invariant representation in auditory cortex",
+      "abstract": "Categorical sensory representations are critical for many behaviors, including speech perception. In the auditory system, categorical information is thought to arise hierarchically, becoming increasingly prominent in higher order cortical regions. The neural mechanisms that support this robust and flexible computation remain poorly understood. Here, we studied sound representations in primary and non-primary auditory cortex while animals engaged in a challenging sound discrimination task. Population-level decoding of simultaneously recorded single neurons revealed that task engagement caused categorical sound representations to emerge in non-primary auditory cortex. In primary auditory cortex, task engagement caused a general enhancement of sound decoding that was not specific to task-relevant categories. These findings are consistent with mixed selectivity models of neural disentanglement, in which early sensory regions build an overcomplete representation of the world and allow neurons in downstream brain regions to flexibly and selectively read out behaviorally relevant, categorical information.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Charles R. Heller",
+          "id": ""
+        },
+        {
+          "name": "Gregory R. Hamersky",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:259317872",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9717662571202003,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 18261846,
+      "title": "Rapid task-related plasticity of spectrotemporal receptive fields in primary auditory cortex",
+      "abstract": "We investigated the hypothesis that task performance can rapidly and adaptively reshape cortical receptive field properties in accord with specific task demands and salient sensory cues. We recorded neuronal responses in the primary auditory cortex of behaving ferrets that were trained to detect a target tone of any frequency. Cortical plasticity was quantified by measuring focal changes in each cell's spectrotemporal response field (STRF) in a series of passive and active behavioral conditions. STRF measurements were made simultaneously with task performance, providing multiple snapshots of the dynamic STRF during ongoing behavior. Attending to a specific target frequency during the detection task consistently induced localized facilitative changes in STRF shape, which were swift in onset. Such modulatory changes may enhance overall cortical responsiveness to the target tone and increase the likelihood of 'capturing' the attended target during the detection task. Some receptive field changes persisted for hours after the task was over and hence may contribute to long-term sensory memory.",
+      "year": 2003,
+      "authors": [
+        {
+          "name": "J. Fritz",
+          "id": ""
+        },
+        {
+          "name": "S. Shamma",
+          "id": ""
+        },
+        {
+          "name": "Mounya Elhilali",
+          "id": ""
+        },
+        {
+          "name": "D. Klein",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn1141",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9714509065948065,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 305286,
+      "title": "Dynamics of auditory cortical activity during behavioural engagement and auditory perception",
+      "abstract": "Behavioural engagement can enhance sensory perception. However, the neuronal mechanisms by which behavioural states affect stimulus perception remain poorly understood. Here we record from single units in auditory cortex of rats performing a self-initiated go/no-go auditory task. Self-initiation transforms cortical tuning curves and bidirectionally modulates stimulus-evoked activity patterns and improves auditory detection and recognition. Trial self-initiation decreases the rate of spontaneous activity in the majority of recorded cells. Optogenetic disruption of cortical activity before and during tone presentation shows that these changes in evoked and spontaneous activity are important for sound perception. Thus, behavioural engagement can prepare cortical circuits for sensory processing by dynamically changing sound representation and by controlling the pattern of spontaneous activity. Sensory perception is enhanced with behavioural engagement. Here the authors show that when rats initiate stimulus delivery in an auditory recognition task, activity of auditory cortex neurons is modulated and optogenetic disruption of this activity affects performance.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Ioana Carcea",
+          "id": ""
+        },
+        {
+          "name": "Michele N. Insanally",
+          "id": ""
+        },
+        {
+          "name": "R. Froemke",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://doi.org/10.1038/ncomms14412",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9712071840393284,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1535657,
+      "title": "Task difficulty and performance induce diverse adaptive patterns in gain and shape of primary auditory cortical receptive fields.",
+      "abstract": "Attention is essential for navigating complex acoustic scenes, when the listener seeks to extract a foreground source while suppressing background acoustic clutter. This study explored the neural correlates of this perceptual ability by measuring rapid changes of spectrotemporal receptive fields (STRFs) in primary auditory cortex during detection of a target tone embedded in noise. Compared with responses in the passive state, STRF gain decreased during task performance in most cells. By contrast, STRF shape changes were excitatory and specific, and were strongest in cells with best frequencies near the target tone. The net effect of these adaptations was to accentuate the representation of the target tone relative to the noise by enhancing responses of near-target cells to the tone during high-signal-to-noise ratio (SNR) tasks while suppressing responses of far-from-target cells to the masking noise in low-SNR tasks. These adaptive STRF changes were largest in high-performance sessions, confirming a close correlation with behavior.",
+      "year": 2009,
+      "authors": [
+        {
+          "name": "Serin Atiani",
+          "id": ""
+        },
+        {
+          "name": "Mounya Elhilali",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        },
+        {
+          "name": "J. Fritz",
+          "id": ""
+        },
+        {
+          "name": "S. Shamma",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/19217382",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9661417277240493,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 263741835,
+      "title": "Stable sound decoding despite modulated sound representation in the auditory cortex",
+      "abstract": "The activity of neurons in the auditory cortex is driven by both sounds and non-sensory context. To investigate the neuronal correlates of non-sensory context, we trained head-fixed mice to perform a two-alternative choice auditory task in which either reward or stimulus expectation (prior) was manipulated in blocks. Using two-photon calcium imaging to record populations of single neurons in auditory cortex, we found that both stimulus and reward expectation modulated the activity of these neurons. A linear decoder trained on this population activity could decode stimuli as well or better than predicted by the animal\u2019s performance. Interestingly, the optimal decoder was stable even in the face of variable sensory representations. Neither the context nor the mouse\u2019s choice could be reliably decoded from the recorded neural activity. Our findings suggest that in spite of modulation of auditory cortical activity by task priors, auditory cortex does not represent sufficient information about these priors to exploit them optimally and that decisions in this task require that rapidly changing sensory information be combined with more slowly varying task information extracted and represented in brain regions other than auditory cortex.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Akihiro Funamizu",
+          "id": ""
+        },
+        {
+          "name": "Fred Marbach",
+          "id": ""
+        },
+        {
+          "name": "A. Zador",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:263741835",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9596583957735765,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 34117493,
+      "title": "Modulation of auditory cortex unit activity during the performance of a conditioned response.",
+      "abstract": "Abstract Single-unit activity in primary auditory cortex was studied in unanesthetized, paralyzed cats during the performance of a classical conditioning task. The conditioned stimulus was a 0.5-s white noise (WN) burst paired with tail shock delivered 4.5 s later. Cats habituated to WN without shock served as controls. Overlayed on these tasks was a continuous background of 1 s , behaviorally irrelevant, 100-ms duration tone bursts set to the best frequency and optimal intensity for the particular unit being studied. Spontaneous activity and tone responses following WN were compared with the respective activity preceding WN. The spontaneous or evoked activity of 75% of the cells recorded in the trained animals changed significantly after WN, whereas the activity of 28% of the cells recorded in habituated animals changed. Augmentation and suppression of both spontaneous and evoked activity were found. These results have implications for the encoding of acoustic stimuli in terms of the modulation of lemniscal sensory system activity.",
+      "year": 1978,
+      "authors": [
+        {
+          "name": "L. Kitzes",
+          "id": ""
+        },
+        {
+          "name": "G. R. Farley",
+          "id": ""
+        },
+        {
+          "name": "A. Starr",
+          "id": ""
+        }
+      ],
+      "venue": "Experimental Neurology",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/750217",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9584445921927044,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 280975224,
+      "title": "Dynamic representation of sound locations during task engagement in marmoset auditory cortex",
+      "abstract": "In auditory cortex, neural responses to stimuli inside receptive fields (RFs) can be further facilitated by behavioral demands, such as attending to a spatial location. It is less clear how off-RF stimuli modulate neural responses and contribute to behavioral tasks. Our recent study revealed a particular form of location-specific facilitation evoked by repeated stimulation from an off-RF location, suggesting behavioral modulation of spatial RFs. To further explore this question, we trained marmosets to attend to sound locations that were either inside or outside the RFs of auditory cortical neurons. The majority of neurons showed increased firing rates at target locations inside their RFs. Interestingly, this increase also occurred outside the RFs, sometimes exceeding the responses at the RF center during passive listening. These task-related off-RF facilitation were much more common in the caudal area than in the rostral area and the primary auditory cortex. A normalization model reproduced the off-RF facilitation using widespread suppression. The model\u2019s prediction was confirmed by experimental observations of widespread reductions in firing rate and hyperpolarized membrane potentials for off-RF stimuli. These results suggest that behavioral task demands recruit a broader range of neurons than those that are responsive to a target sound in the passive state.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "Chenggang Chen",
+          "id": ""
+        },
+        {
+          "name": "Evan D Remington",
+          "id": ""
+        },
+        {
+          "name": "Xiaoqin Wang",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:280975224",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9573440172356309,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 204968244,
+      "title": "Rhythmic Temporal Expectation Boosts Neural Activity by Increasing Neural Gain",
+      "abstract": "Temporal orienting improves sensory processing, akin to other top\u2013down biases. However, it is unknown whether these improvements reflect increased neural gain to any stimuli presented at expected time points, or specific tuning to task-relevant stimulus aspects. Furthermore, while other top\u2013down biases are selective, the extent of trade-offs across time is less well characterized. Temporal orienting improves sensory processing, akin to other top\u2013down biases. However, it is unknown whether these improvements reflect increased neural gain to any stimuli presented at expected time points, or specific tuning to task-relevant stimulus aspects. Furthermore, while other top\u2013down biases are selective, the extent of trade-offs across time is less well characterized. Here, we tested whether gain and/or tuning of auditory frequency processing in humans is modulated by rhythmic temporal expectations, and whether these modulations are specific to time points relevant for task performance. Healthy participants (N = 23) of either sex performed an auditory discrimination task while their brain activity was measured using magnetoencephalography/electroencephalography (M/EEG). Acoustic stimulation consisted of sequences of brief distractors interspersed with targets, presented in a rhythmic or jittered way. Target rhythmicity not only improved behavioral discrimination accuracy and M/EEG-based decoding of targets, but also of irrelevant distractors preceding these targets. To explain this finding in terms of increased sensitivity and/or sharpened tuning to auditory frequency, we estimated tuning curves based on M/EEG decoding results, with separate parameters describing gain and sharpness. The effect of rhythmic expectation on distractor decoding was linked to gain increase only, suggesting increased neural sensitivity to any stimuli presented at relevant time points. SIGNIFICANCE STATEMENT Being able to predict when an event may happen can improve perception and action related to this event, likely due to the alignment of neural activity to the temporal structure of stimulus streams. However, it is unclear whether rhythmic increases in neural sensitivity are specific to task-relevant targets, and whether they competitively impair stimulus processing at unexpected time points. By combining magnetoencephalography and encephalographic recordings, neural decoding of auditory stimulus features, and modeling, we found that rhythmic expectation improved neural decoding of both relevant targets and irrelevant distractors presented and expected time points, but did not competitively impair stimulus processing at unexpected time points. Using a quantitative model, these results were linked to nonspecific neural gain increases due to rhythmic expectation.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "R. Auksztulewicz",
+          "id": ""
+        },
+        {
+          "name": "N. Myers",
+          "id": ""
+        },
+        {
+          "name": "Jan W. H. Schnupp",
+          "id": ""
+        },
+        {
+          "name": "A. Nobre",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:204968244",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9546680690291514,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 8836019,
+      "title": "Quantifying attentional modulation of auditory-evoked cortical responses from single-trial electroencephalography",
+      "abstract": "Selective auditory attention is essential for human listeners to be able to communicate in multi-source environments. Selective attention is known to modulate the neural representation of the auditory scene, boosting the representation of a target sound relative to the background, but the strength of this modulation, and the mechanisms contributing to it, are not well understood. Here, listeners performed a behavioral experiment demanding sustained, focused spatial auditory attention while we measured cortical responses using electroencephalography (EEG). We presented three concurrent melodic streams; listeners were asked to attend and analyze the melodic contour of one of the streams, randomly selected from trial to trial. In a control task, listeners heard the same sound mixtures, but performed the contour judgment task on a series of visual arrows, ignoring all auditory streams. We found that the cortical responses could be fit as weighted sum of event-related potentials evoked by the stimulus onsets in the competing streams. The weighting to a given stream was roughly 10 dB higher when it was attended compared to when another auditory stream was attended; during the visual task, the auditory gains were intermediate. We then used a template-matching classification scheme to classify single-trial EEG results. We found that in all subjects, we could determine which stream the subject was attending significantly better than by chance. By directly quantifying the effect of selective attention on auditory cortical responses, these results reveal that focused auditory attention both suppresses the response to an unattended stream and enhances the response to an attended stream. The single-trial classification results add to the growing body of literature suggesting that auditory attentional modulation is sufficiently robust that it could be used as a control mechanism in brain\u2013computer interfaces (BCIs).",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "I. Choi",
+          "id": ""
+        },
+        {
+          "name": "S. Rajaram",
+          "id": ""
+        },
+        {
+          "name": "Lenny A. Varghese",
+          "id": ""
+        },
+        {
+          "name": "B. Shinn-Cunningham",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Human Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:8836019",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9544713657807594,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 17890952,
+      "title": "Dopamine-Modulated Recurrent Corticoefferent Feedback in Primary Sensory Cortex Promotes Detection of Behaviorally Relevant Stimuli",
+      "abstract": "Dopaminergic neurotransmission in primary auditory cortex (AI) has been shown to be involved in learning and memory functions. Moreover, dopaminergic projections and D1/D5 receptor distributions display a layer-dependent organization, suggesting specific functions in the cortical circuitry. However, the circuit effects of dopaminergic neurotransmission in sensory cortex and their possible roles in perception, learning, and memory are largely unknown. Here, we investigated layer-specific circuit effects of dopaminergic neuromodulation using current source density (CSD) analysis in AI of Mongolian gerbils. Pharmacological stimulation of D1/D5 receptors increased auditory-evoked synaptic currents in infragranular layers, prolonging local thalamocortical input via positive feedback between infragranular output and granular input. Subsequently, dopamine promoted sustained cortical activation by prolonged recruitment of long-range corticocortical networks. A detailed circuit analysis combining layer-specific intracortical microstimulation (ICMS), CSD analysis, and pharmacological cortical silencing revealed that cross-laminar feedback enhanced by dopamine relied on a positive, fast-acting recurrent corticoefferent loop, most likely relayed via local thalamic circuits. Behavioral signal detection analysis further showed that activation of corticoefferent output by infragranular ICMS, which mimicked auditory activation under dopaminergic influence, was most effective in eliciting a behaviorally detectable signal. Our results show that D1/D5-mediated dopaminergic modulation in sensory cortex regulates positive recurrent corticoefferent feedback, which enhances states of high, persistent activity in sensory cortex evoked by behaviorally relevant stimuli. In boosting horizontal network interactions, this potentially promotes the readout of task-related information from cortical synapses and improves behavioral stimulus detection.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "M. F. Happel",
+          "id": ""
+        },
+        {
+          "name": "M. Deliano",
+          "id": ""
+        },
+        {
+          "name": "J. Handschuh",
+          "id": ""
+        },
+        {
+          "name": "F. Ohl",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:17890952",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9473986930818339,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256908093,
+      "title": "Engaging in a tone-detection task differentially modulates neural activity in the auditory cortex, amygdala, and striatum",
+      "abstract": "The relationship between attention and sensory coding is an area of active investigation. Previous studies have revealed that an animal\u2019s behavioral state can play a crucial role in shaping the characteristics of neural responses in the auditory cortex (AC). However, behavioral modulation of auditory response in brain areas outside the AC is not well studied. In this study, we used the same experimental paradigm to examine the effects of attention on neural activity in multiple brain regions including the primary auditory cortex (A1), posterior auditory field (PAF), amygdala (AMY), and striatum (STR). Single-unit spike activity was recorded while cats were actively performing a tone-detection task or passively listening to the same tones. We found that tone-evoked neural responses in A1 were not significantly affected by task-engagement; however, those in PAF and AMY were enhanced, and those in STR were suppressed. The enhanced effect was associated with an improvement of accuracy of tone detection, which was estimated from the spike activity. Additionally, the firing rates of A1 and PAF neurons decreased upon motor response (licking) during the detection task. Our results suggest that attention may have different effects on auditory responsive brain areas depending on their physiological functions.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Renjia Zhong",
+          "id": ""
+        },
+        {
+          "name": "Lanlan Ma",
+          "id": ""
+        },
+        {
+          "name": "Ling Qin",
+          "id": ""
+        }
+      ],
+      "venue": "Scientific Reports",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:256908093",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9405633367265116,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 17061787,
+      "title": "Positive and negative reinforcement activate human auditory cortex",
+      "abstract": "Prior studies suggest that reward modulates neural activity in sensory cortices, but less is known about punishment. We used functional magnetic resonance imaging and an auditory discrimination task, where participants had to judge the duration of frequency modulated tones. In one session correct performance resulted in financial gains at the end of the trial, in a second session incorrect performance resulted in financial loss. Incorrect performance in the rewarded as well as correct performance in the punishment condition resulted in a neutral outcome. The size of gains and losses was either low or high (10 or 50 Euro cent) depending on the direction of frequency modulation. We analyzed neural activity at the end of the trial, during reinforcement, and found increased neural activity in auditory cortex when gaining a financial reward as compared to gaining no reward and when avoiding financial loss as compared to receiving a financial loss. This was independent on the size of gains and losses. A similar pattern of neural activity for both gaining a reward and avoiding a loss was also seen in right middle temporal gyrus, bilateral insula and pre-supplemental motor area, here however neural activity was lower after correct responses compared to incorrect responses. To summarize, this study shows that the activation of sensory cortices, as previously shown for gaining a reward is also seen during avoiding a loss.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "T. Weis",
+          "id": ""
+        },
+        {
+          "name": "S. Puschmann",
+          "id": ""
+        },
+        {
+          "name": "A. Brechmann",
+          "id": ""
+        },
+        {
+          "name": "C. Thiel",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Human Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:17061787",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9399195279383488,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 15198585,
+      "title": "Two-Stage Processing of Sounds Explains Behavioral Performance Variations due to Changes in Stimulus Contrast and Selective Attention: An MEG Study",
+      "abstract": "Selectively attending to task-relevant sounds whilst ignoring background noise is one of the most amazing feats performed by the human brain. Here, we studied the underlying neural mechanisms by recording magnetoencephalographic (MEG) responses of 14 healthy human subjects while they performed a near-threshold auditory discrimination task vs. a visual control task of similar difficulty. The auditory stimuli consisted of notch-filtered continuous noise masker sounds, and of 1020-Hz target tones occasionally () replacing 1000-Hz standard tones of 300-ms duration that were embedded at the center of the notches, the widths of which were parametrically varied. As a control for masker effects, tone-evoked responses were additionally recorded without masker sound. Selective attention to tones significantly increased the amplitude of the onset M100 response at 100 ms to the standard tones during presence of the masker sounds especially with notches narrower than the critical band. Further, attention modulated sustained response most clearly at 300\u2013400 ms time range from sound onset, with narrower notches than in case of the M100, thus selectively reducing the masker-induced suppression of the tone-evoked response. Our results show evidence of a multiple-stage filtering mechanism of sensory input in the human auditory cortex: 1) one at early (100 ms) latencies bilaterally in posterior parts of the secondary auditory areas, and 2) adaptive filtering of attended sounds from task-irrelevant background masker at longer latency (300 ms) in more medial auditory cortical regions, predominantly in the left hemisphere, enhancing processing of near-threshold sounds.",
+      "year": 2012,
+      "authors": [
+        {
+          "name": "J. Kauram\u00e4ki",
+          "id": ""
+        },
+        {
+          "name": "I. J\u00e4\u00e4skel\u00e4inen",
+          "id": ""
+        },
+        {
+          "name": "J. H\u00e4nninen",
+          "id": ""
+        },
+        {
+          "name": "Toni Auranen",
+          "id": ""
+        },
+        {
+          "name": "A. Nummenmaa",
+          "id": ""
+        },
+        {
+          "name": "J. Lampinen",
+          "id": ""
+        },
+        {
+          "name": "M. Sams",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS ONE",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:15198585",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.93179946719163,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 2701009,
+      "title": "Laminar-specific Scaling Down of Balanced Excitation and Inhibition in Auditory Cortex by Active Behavioral States",
+      "abstract": "Cortical sensory processing is modulated by behavioral and cognitive states. How the modulation is achieved through impacting synaptic circuits remains largely unknown. In awake mouse auditory cortex, we reported that sensory-evoked spike responses of layer 2/3 (L2/3) excitatory cells were scaled down with preserved sensory tuning when animals transitioned from quiescence to active behaviors, while L4 and thalamic responses were unchanged. Whole-cell voltage-clamp recordings further revealed that tone-evoked synaptic excitation and inhibition exhibited a robust functional balance. Changes of behavioral state caused scaling down of excitation and inhibition at an approximately equal level in L2/3 cells, but no synaptic changes in L4 cells. This laminar-specific gain control could be attributed to an enhancement of L1\u2013mediated inhibitory tone, with L2/3 parvalbumin inhibitory neurons suppressed as well. Thus, L2/3 circuits can adjust the salience of output in accordance with momentary behavioral demands while maintaining the sensitivity and quality of sensory processing.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "Mu Zhou",
+          "id": ""
+        },
+        {
+          "name": "F. Liang",
+          "id": ""
+        },
+        {
+          "name": "X. Xiong",
+          "id": ""
+        },
+        {
+          "name": "Lu Li",
+          "id": ""
+        },
+        {
+          "name": "Hai-fu Li",
+          "id": ""
+        },
+        {
+          "name": "Zhong-ju Xiao",
+          "id": ""
+        },
+        {
+          "name": "H. Tao",
+          "id": ""
+        },
+        {
+          "name": "Li I. Zhang",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:2701009",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7775158544838422,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 17855221,
+      "title": "Emergent selectivity for task-relevant stimuli in higher-order auditory cortex.",
+      "abstract": "A variety of attention-related effects have been demonstrated in primary auditory cortex (A1). However, an understanding of the functional role of higher auditory cortical areas in guiding attention to acoustic stimuli has been elusive. We recorded from neurons in two tonotopic cortical belt areas in the dorsal posterior ectosylvian gyrus (dPEG) of ferrets trained on a simple auditory discrimination task. Neurons in dPEG showed similar basic auditory tuning properties to A1, but during behavior we observed marked differences between these areas. In the belt areas, changes in neuronal firing rate and response dynamics greatly enhanced responses to target stimuli relative to distractors, allowing for greater attentional selection during active listening. Consistent with existing anatomical evidence, the pattern of sensory tuning and behavioral modulation in auditory belt cortex links the spectrotemporal representation of the whole acoustic scene in A1 to a more abstracted representation of task-relevant stimuli observed in frontal cortex.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "Serin Atiani",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        },
+        {
+          "name": "Diego Elgueda",
+          "id": ""
+        },
+        {
+          "name": "Michael J. Locastro",
+          "id": ""
+        },
+        {
+          "name": "S. Radtke-Schuller",
+          "id": ""
+        },
+        {
+          "name": "S. Shamma",
+          "id": ""
+        },
+        {
+          "name": "J. Fritz",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/24742467",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7769802074656929,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1587606,
+      "title": "Auditory Cortex Spatial Sensitivity Sharpens During Task Performance",
+      "abstract": "Activity in the primary auditory cortex (A1) is essential for normal sound localization behavior, but previous studies of the spatial sensitivity of neurons in A1 have found broad spatial tuning. We tested the hypothesis that spatial tuning sharpens when an animal engages in an auditory task. Cats performed a task that required evaluation of the locations of sounds and one that required active listening, but in which sound location was irrelevant. Some 26\u201344% of the units recorded in A1 showed substantially sharpened spatial tuning during the behavioral tasks as compared with idle conditions, with the greatest sharpening occurring during the location-relevant task. Spatial sharpening occurred on a scale of tens of seconds and could be replicated multiple times in \u223c1.5-h test sessions. Sharpening resulted primarily from increased suppression of responses to sounds at least-preferred locations. That and an observed increase in latencies suggest an important role of inhibitory mechanisms.",
+      "year": 2010,
+      "authors": [
+        {
+          "name": "Chen-Chung Lee",
+          "id": ""
+        },
+        {
+          "name": "J. C. Middlebrooks",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.2713",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7721052242668018,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 18795895,
+      "title": "A Circuit for Motor Cortical Modulation of Auditory Cortical Activity",
+      "abstract": "Normal hearing depends on the ability to distinguish self-generated sounds from other sounds, and this ability is thought to involve neural circuits that convey copies of motor command signals to various levels of the auditory system. Although such interactions at the cortical level are believed to facilitate auditory comprehension during movements and drive auditory hallucinations in pathological states, the synaptic organization and function of circuitry linking the motor and auditory cortices remain unclear. Here we describe experiments in the mouse that characterize circuitry well suited to transmit motor-related signals to the auditory cortex. Using retrograde viral tracing, we established that neurons in superficial and deep layers of the medial agranular motor cortex (M2) project directly to the auditory cortex and that the axons of some of these deep-layer cells also target brainstem motor regions. Using in vitro whole-cell physiology, optogenetics, and pharmacology, we determined that M2 axons make excitatory synapses in the auditory cortex but exert a primarily suppressive effect on auditory cortical neuron activity mediated in part by feedforward inhibition involving parvalbumin-positive interneurons. Using in vivo intracellular physiology, optogenetics, and sound playback, we also found that directly activating M2 axon terminals in the auditory cortex suppresses spontaneous and stimulus-evoked synaptic activity in auditory cortical neurons and that this effect depends on the relative timing of motor cortical activity and auditory stimulation. These experiments delineate the structural and functional properties of a corticocortical circuit that could enable movement-related suppression of auditory cortical activity.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "Anders Nelson",
+          "id": ""
+        },
+        {
+          "name": "D. Schneider",
+          "id": ""
+        },
+        {
+          "name": "Jun Takatoh",
+          "id": ""
+        },
+        {
+          "name": "Katsuyasu Sakurai",
+          "id": ""
+        },
+        {
+          "name": "Fan Wang",
+          "id": ""
+        },
+        {
+          "name": "R. Mooney",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:18795895",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7704868325877586,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 28680953,
+      "title": "The Cumulative Effects of Predictability on Synaptic Gain in the Auditory Processing Stream",
+      "abstract": "Stimulus predictability can lead to substantial modulations of brain activity, such as shifts in sustained magnetic field amplitude, measured with magnetoencephalography (MEG). Here, we provide a mechanistic explanation of these effects using MEG data acquired from healthy human volunteers (N = 13, 7 female). In a source-level analysis of induced responses, we established the effects of orthogonal predictability manipulations of rapid tone-pip sequences (namely, sequence regularity and alphabet size) along the auditory processing stream. In auditory cortex, regular sequences with smaller alphabets induced greater gamma activity. Furthermore, sequence regularity shifted induced activity in frontal regions toward higher frequencies. To model these effects in terms of the underlying neurophysiology, we used dynamic causal modeling for cross-spectral density and estimated slow fluctuations in neural (postsynaptic) gain. Using the model-based parameters, we accurately explain the sensor-level sustained field amplitude, demonstrating that slow changes in synaptic efficacy, combined with sustained sensory input, can result in profound and sustained effects on neural responses to predictable sensory streams. SIGNIFICANCE STATEMENT Brain activity can be strongly modulated by the predictability of stimuli it is currently processing. An example of such a modulation is a shift in sustained magnetic field amplitude, measured with magnetoencephalography. Here, we provide a mechanistic explanation of these effects. First, we establish the oscillatory neural correlates of independent predictability manipulations in hierarchically distinct areas of the auditory processing stream. Next, we use a biophysically realistic computational model to explain these effects in terms of the underlying neurophysiology. Finally, using the model-based parameters describing neural gain modulation, we can explain the previously unexplained effects observed at the sensor level. This demonstrates that slow modulations of synaptic gain can result in profound and sustained effects on neural activity.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "R. Auksztulewicz",
+          "id": ""
+        },
+        {
+          "name": "Nicolas Barascud",
+          "id": ""
+        },
+        {
+          "name": "G. Cooray",
+          "id": ""
+        },
+        {
+          "name": "A. Nobre",
+          "id": ""
+        },
+        {
+          "name": "M. Chait",
+          "id": ""
+        },
+        {
+          "name": "Karl J. Friston",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:28680953",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7701767435435118,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 212841178,
+      "title": "Task rule and choice are reflected by layer-specific processing in rodent auditory cortical microcircuits",
+      "abstract": "The primary auditory cortex (A1) is an essential, integrative node that encodes the behavioral relevance of acoustic stimuli, predictions, and auditory-guided decision-making. However, the realization of this integration with respect to the cortical microcircuitry is not well understood. Here, we characterize layer-specific, spatiotemporal synaptic population activity with chronic, laminar current source density analysis in Mongolian gerbils (Meriones unguiculatus) trained in an auditory decision-making Go/NoGo shuttle-box task. We demonstrate that not only sensory but also task- and choice-related information is represented in the mesoscopic neuronal population code of A1. Based on generalized linear-mixed effect models we found a layer-specific and multiplexed representation of the task rule, action selection, and the animal\u2019s behavioral options as accumulating evidence in preparation of correct choices. The findings expand our understanding of how individual layers contribute to the integrative circuit in the sensory cortex in order to code task-relevant information and guide sensory-based decision-making. Marina M. Zempeltzi et al. show that task- and choice-related information is encoded by layer-specific population activity in the primary auditory cortex of Mongolian gerbils trained in an auditory decision-making task. These findings highlight the integrative nature of sensory circuits and the contribution of specific layers in guiding sensory-based decision-making.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Marina M. Zempeltzi",
+          "id": ""
+        },
+        {
+          "name": "M. Kisse",
+          "id": ""
+        },
+        {
+          "name": "Michael G. K. Brunk",
+          "id": ""
+        },
+        {
+          "name": "Claudia Glemser",
+          "id": ""
+        },
+        {
+          "name": "S\u00fcmeyra Aksit",
+          "id": ""
+        },
+        {
+          "name": "K. E. Deane",
+          "id": ""
+        },
+        {
+          "name": "Shivam Maurya",
+          "id": ""
+        },
+        {
+          "name": "Lina Schneider",
+          "id": ""
+        },
+        {
+          "name": "F. Ohl",
+          "id": ""
+        },
+        {
+          "name": "M. Deliano",
+          "id": ""
+        },
+        {
+          "name": "M. F. Happel",
+          "id": ""
+        }
+      ],
+      "venue": "Communications Biology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:212841178",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.767789106733608,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 155513436,
+      "title": "Cortical ensemble activity discriminates auditory attentional states",
+      "abstract": "Selective attention modulates sensory cortical activity. It remains unclear how auditory cortical activity represents stimuli that differ behaviorally. We designed a cross-modality task in which mice made decisions to obtain rewards based on attended visual or auditory stimuli. We recorded auditory cortical activity in behaving mice attending to, ignoring, or passively hearing auditory stimuli. Engaging in the task bidirectionally modulates neuronal responses to the auditory stimuli in both the attended and ignored conditions compared to passive hearing. Neuronal ensemble activity in response to stimuli under attended, ignored and passive conditions are readily distinguishable. Furthermore, ensemble activity under attended and ignored conditions are in closer states compared to passive condition, and they share a component of attentional modulation which drives them to the same direction in the population activity space. Our findings suggest that the ignored condition is very different from the passive condition, and the auditory cortical sensory processing under ignored, attended and passive conditions are modulated differently.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Pan-tong Yao",
+          "id": ""
+        },
+        {
+          "name": "Jia Shen",
+          "id": ""
+        },
+        {
+          "name": "Liang Chen",
+          "id": ""
+        },
+        {
+          "name": "S. Ge",
+          "id": ""
+        },
+        {
+          "name": "Q. Xiong",
+          "id": ""
+        }
+      ],
+      "venue": "Molecular Brain",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:155513436",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7671351663089279,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 194837,
+      "title": "Task reward structure shapes rapid receptive field plasticity in auditory cortex",
+      "abstract": "As sensory stimuli and behavioral demands change, the attentive brain quickly identifies task-relevant stimuli and associates them with appropriate motor responses. The effects of attention on sensory processing vary across task paradigms, suggesting that the brain may use multiple strategies and mechanisms to highlight attended stimuli and link them to motor action. To better understand factors that contribute to these variable effects, we studied sensory representations in primary auditory cortex (A1) during two instrumental tasks that shared the same auditory discrimination but required different behavioral responses, either approach or avoidance. In the approach task, ferrets were rewarded for licking a spout when they heard a target tone amid a sequence of reference noise sounds. In the avoidance task, they were punished unless they inhibited licking to the target. To explore how these changes in task reward structure influenced attention-driven rapid plasticity in A1, we measured changes in sensory neural responses during behavior. Responses to the target changed selectively during both tasks but did so with opposite sign. Despite the differences in sign, both effects were consistent with a general neural coding strategy that maximizes discriminability between sound classes. The dependence of the direction of plasticity on task suggests that representations in A1 change not only to sharpen representations of task-relevant stimuli but also to amplify responses to stimuli that signal aversive outcomes and lead to behavioral inhibition. Thus, top-down control of sensory processing can be shaped by task reward structure in addition to the required sensory discrimination.",
+      "year": 2012,
+      "authors": [
+        {
+          "name": "S. David",
+          "id": ""
+        },
+        {
+          "name": "J. Fritz",
+          "id": ""
+        },
+        {
+          "name": "S. Shamma",
+          "id": ""
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+      "journal": null,
+      "url": "https://doi.org/10.1073/pnas.1117717109",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7664279952356589,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 220515907,
+      "title": "Task-induced modulations of neuronal activity along the auditory pathway",
+      "abstract": "Sensory processing varies depending on behavioral context. Here, we asked how task-engagement modulates neurons in the auditory system. We trained mice in a simple tone-detection task, and compared their neuronal activity during passive hearing and active listening. Electrophysiological extracellular recordings in the inferior colliculus, medial geniculate body, primary auditory cortex and anterior auditory field revealed widespread modulations across all regions and cortical layers, and in both putative regular and fast-spiking cortical neurons. Clustering analysis unveiled ten distinct modulation patterns that could either enhance or suppress neuronal activity. Task-engagement changed the tone-onset response in most neurons. Such modulations first emerged in subcortical areas, ruling out cortical feedback from primary auditory areas as the only mechanism underlying subcortical modulations. Half the neurons additionally displayed late modulations associated with licking, arousal or reward. Our results reveal the presence of functionally distinct subclasses of neurons, differentially sensitive to specific task-related variables but anatomically distributed along the auditory pathway.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Gioia De Franceschi",
+          "id": ""
+        },
+        {
+          "name": "T. R. Barkat",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:220515907",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7659660432957391,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 49532283,
+      "title": "Go/No-Go task engagement enhances population representation of target stimuli in primary auditory cortex",
+      "abstract": "Primary sensory cortices are classically considered to extract and represent stimulus features, while association and higher-order areas are thought to carry information about stimulus meaning. Here we show that this information can in fact be found in the neuronal population code of the primary auditory cortex (A1). A1 activity was recorded in awake ferrets while they either passively listened or actively discriminated stimuli in a range of Go/No-Go paradigms, with different sounds and reinforcements. Population-level dimensionality reduction techniques reveal that task engagement induces a shift in stimulus encoding from a sensory to a behaviorally driven representation that specifically enhances the target stimulus in all paradigms. This shift partly relies on task-engagement-induced changes in spontaneous activity. Altogether, we show that A1 population activity bears strong similarities to frontal cortex responses. These findings indicate that primary sensory cortices implement a crucial change in the structure of population activity to extract task-relevant information during behavior. Sensory areas are thought to process stimulus information while higher-order processing occurs in association cortices. Here the authors report that during task engagement population activity in ferret primary auditory cortex shifts away from encoding stimulus features toward detection of the behaviourally relevant targets.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "S. Bagur",
+          "id": ""
+        },
+        {
+          "name": "Martin Averseng",
+          "id": ""
+        },
+        {
+          "name": "Diego Elgueda",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        },
+        {
+          "name": "J. Fritz",
+          "id": ""
+        },
+        {
+          "name": "Pingbo Yin",
+          "id": ""
+        },
+        {
+          "name": "S. Shamma",
+          "id": ""
+        },
+        {
+          "name": "Yves Boubenec",
+          "id": ""
+        },
+        {
+          "name": "S. Ostojic",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41467-018-04839-9",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7657827903038334,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 237003190,
+      "title": "Dynamics of cortical contrast adaptation predict perception of signals in noise",
+      "abstract": "Neurons throughout the sensory pathway adapt their responses depending on the statistical structure of the sensory environment. Contrast gain control is a form of adaptation in the auditory cortex, but it is unclear whether the dynamics of gain control reflect efficient adaptation, and whether they shape behavioral perception. Here, we trained mice to detect a target presented in background noise shortly after a change in the contrast of the background. The observed changes in cortical gain and behavioral detection followed the dynamics of a normative model of efficient contrast gain control; specifically, target detection and sensitivity improved slowly in low contrast, but degraded rapidly in high contrast. Auditory cortex was required for this task, and cortical responses were not only similarly affected by contrast but predicted variability in behavioral performance. Combined, our results demonstrate that dynamic gain adaptation supports efficient coding in auditory cortex and predicts the perception of sounds in noise.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "C. Angeloni",
+          "id": ""
+        },
+        {
+          "name": "W. M\u0142ynarski",
+          "id": ""
+        },
+        {
+          "name": "Eugenio Piasini",
+          "id": ""
+        },
+        {
+          "name": "A. M. Williams",
+          "id": ""
+        },
+        {
+          "name": "Katherine C. Wood",
+          "id": ""
+        },
+        {
+          "name": "Linda Garami",
+          "id": ""
+        },
+        {
+          "name": "A. Hermundstad",
+          "id": ""
+        },
+        {
+          "name": "M. Geffen",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:237003190",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7655859560132355,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16330800,
+      "title": "Auditory Thalamus and Auditory Cortex Are Equally Modulated by Context during Flexible Categorization of Sounds",
+      "abstract": "In a dynamic world, animals must adapt rapidly to changes in the meaning of environmental cues. Such changes can influence the neural representation of sensory stimuli. Previous studies have shown that associating a stimulus with a reward or punishment can modulate neural activity in the auditory cortex (AC) and its thalamic input, the medial geniculate body (MGB). However, it is not known whether changes in stimulus\u2013action associations alone can also modulate neural responses in these areas. We designed a categorization task for rats in which the boundary that separated low- from high-frequency sounds varied several times within a behavioral session, thus allowing us to manipulate the action associated with some sounds without changing the associated reward. We developed a computational model that accounted for the rats' performance and compared predictions from this model with sound-evoked responses from single neurons in AC and MGB in animals performing this task. We found that the responses of 15% of AC neurons and 16% of MGB neurons were modulated by changes in stimulus\u2013action association and that the magnitude of the modulation was comparable between the two brain areas. Our results suggest that the AC and thalamus play only a limited role in mediating changes in associations between acoustic stimuli and behavioral responses.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "Santiago Jaramillo",
+          "id": ""
+        },
+        {
+          "name": "Katharine Borges",
+          "id": ""
+        },
+        {
+          "name": "A. Zador",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.4888-13.2014",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.765179689702307,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273980632,
+      "title": "Experience-driven development of decision-related representations in the auditory cortex",
+      "abstract": "Associating sensory stimuli with behavioral significance induces substantial changes in stimulus representations. Recent studies suggest that primary sensory cortices not only adjust representations of task-relevant stimuli, but actively participate in encoding features of the decision-making process. We sought to determine whether this trait is innate in sensory cortices or if choice representation develops with time and experience. To trace choice representation development, we perform chronic two-photon calcium imaging in the primary auditory cortex of head-fixed mice while they gain experience in a tone detection task with a delayed decision window. Our results reveal a progressive increase in choice-dependent activity within a specific subpopulation of neurons, aligning with growing task familiarity and adapting to changing task rules. Furthermore, task experience correlates with heightened synchronized activity in these populations and the ability to differentiate between different types of behavioral decisions. Notably, the activity of this subpopulation accurately decodes the same action at different task phases. Our findings establish a dynamic restructuring of population activity in the auditory cortex to encode features of the decision-making process that develop over time and refines with experience. Tracking the activity in the auditory cortex as mice gain experience in a tone detection task with a delayed decision window reveals dynamic restructuring of population activity. This reorganization encodes decision-making features that evolve over time and become more refined with task experience. Task experience progressively increases choice-dependent activity, primarily in non-sensory cells of the auditory cortex, reflecting growing task familiarity. Motor signals representing behavioral choices in the auditory cortex are gated by their relevance to the auditory task during performance. Task experience progressively increases choice-dependent activity, primarily in non-sensory cells of the auditory cortex, reflecting growing task familiarity. Motor signals representing behavioral choices in the auditory cortex are gated by their relevance to the auditory task during performance. Tracking the activity in the auditory cortex as mice gain experience in a tone detection task with a delayed decision window reveals dynamic restructuring of population activity. This reorganization encodes decision-making features that evolve over time and become more refined with task experience.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Itay Kazanovich",
+          "id": ""
+        },
+        {
+          "name": "Shir Itzhak",
+          "id": ""
+        },
+        {
+          "name": "Jennifer Resnik",
+          "id": ""
+        }
+      ],
+      "venue": "EMBO Reports",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:273980632",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.764817079306271,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 216028240,
+      "title": "Representation of Auditory Task Components and of Their Relationships in Primate Auditory Cortex",
+      "abstract": "The current study aimed to resolve some of the inconsistencies in the literature on which mental processes affect auditory cortical activity. To this end, we studied auditory cortical firing in four monkeys with different experience while they were involved in six conditions with different arrangements of the task components sound, motor action, and water reward. Firing rates changed most strongly when a sound-only condition was compared to a condition in which sound was paired with water. Additional smaller changes occurred in more complex conditions in which the monkeys received water for motor actions before or after sounds. Our findings suggest that auditory cortex is most strongly modulated by the subjects\u2019 level of arousal, thus by a psychological concept related to motor activity triggered by reinforcers and to readiness for operant behavior. Our findings also suggest that auditory cortex is involved in associative and emotional functions, but not in agency and cognitive effort.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "S. Knyazeva",
+          "id": ""
+        },
+        {
+          "name": "Elena Selezneva",
+          "id": ""
+        },
+        {
+          "name": "A. Gorkin",
+          "id": ""
+        },
+        {
+          "name": "F. Ohl",
+          "id": ""
+        },
+        {
+          "name": "M. Brosch",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:216028240",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7647636822341051,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 297841,
+      "title": "Differences between Primary Auditory Cortex and Auditory Belt Related to Encoding and Choice for AM Sounds",
+      "abstract": "We recorded from middle\u2013lateral (ML) and primary (A1) auditory cortex while macaques discriminated amplitude-modulated (AM) noise from unmodulated noise. Compared with A1, ML had a higher proportion of neurons that encoded increasing AM depth by decreasing their firing rates (\u201cdecreasing\u201d neurons), particularly with responses that were not synchronized to the modulation. Choice probability (CP) analysis revealed that A1 and ML activity were different during the first half of the test stimulus. In A1, significant CP began before the test stimulus, remained relatively constant (or increased slightly) during the stimulus, and increased greatly within 200 ms of lever release. Neurons in ML behaved similarly, except that significant CP disappeared during the first half of the stimulus and reappeared during the second half and prerelease periods. CP differences between A1 and ML depend on neural response type. In ML (but not A1), when activity was lower during the first half of the stimulus in nonsynchronized, decreasing neurons, the monkey was more likely to report AM. Neurons that both increased firing rate with increasing modulation depth (\u201cincreasing\u201d neurons) and synchronized their responses to AM had similar choice-related activity dynamics in ML and A1. These results suggest that, when ascending the auditory system, there is a transformation in coding AM from primarily synchronized increasing responses in A1 to nonsynchronized and dual (increasing/decreasing) coding in ML. This sensory transformation is accompanied by changes in the timing of activity related to choice, suggesting functional differences between A1 and ML related to attention and/or behavior.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "Mamiko Niwa",
+          "id": ""
+        },
+        {
+          "name": "Jeffrey S. Johnson",
+          "id": ""
+        },
+        {
+          "name": "K. O'Connor",
+          "id": ""
+        },
+        {
+          "name": "M. Sutter",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.2672-12.2013",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7639832474085512,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 248750502,
+      "title": "Auditory Cortex Neurons Show Task-Related and Learning-Dependent Selectivity toward Sensory Input and Reward during the Learning Process of an Associative Memory Task",
+      "abstract": "Abstract The activity of primary auditory cortex (A1) neurons is modulated not only by sensory inputs but also by other task-related variables in associative learning. However, it is unclear how A1 neural activity changes dynamically in response to these variables during the learning process of associative memory tasks. Therefore, we developed an associative memory task using auditory stimuli in rats. In this task, rats were required to associate tone frequencies (high and low) with a choice of ports (right or left) to obtain a reward. The activity of A1 neurons in the rats during the learning process of the task was recorded. A1 neurons increased their firing rates either when the rats were presented with a high or low tone (frequency-selective cells) before they chose either the left or right port (choice-direction cells), or when they received a reward after choosing either the left or right port (reward-direction cells). Furthermore, the proportion of frequency-selective cells and reward-direction cells increased with task acquisition and reached the maximum level in the last stage of learning. These results suggest that A1 neurons have task- and learning-dependent selectivity toward sensory input and reward when auditory tones and behavioral responses are gradually associated during task training. This selective activity of A1 neurons may facilitate the formation of associations, leading to the consolidation of associative memory.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "S. Takamiya",
+          "id": ""
+        },
+        {
+          "name": "Kazuki Shiotani",
+          "id": ""
+        },
+        {
+          "name": "Tomoya Ohnuki",
+          "id": ""
+        },
+        {
+          "name": "Y. Osako",
+          "id": ""
+        },
+        {
+          "name": "Yuta Tanisumi",
+          "id": ""
+        },
+        {
+          "name": "Shoko Yuki",
+          "id": ""
+        },
+        {
+          "name": "Hiroyuki Manabe",
+          "id": ""
+        },
+        {
+          "name": "Junya Hirokawa",
+          "id": ""
+        },
+        {
+          "name": "Y. Sakurai",
+          "id": ""
+        }
+      ],
+      "venue": "eNeuro",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:248750502",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7637899392630554,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 219946748,
+      "title": "Dissociation of task engagement and arousal effects in auditory cortex and midbrain",
+      "abstract": "Both generalized arousal and engagement in a specific task influence sensory neural processing. To isolate effects of these state variables in the auditory system, we recorded single-unit activity from primary auditory cortex (A1) and inferior colliculus (IC) of ferrets during a tone detection task, while monitoring arousal via changes in pupil size. We used a generalized linear model to assess the influence of task engagement and pupil size on sound-evoked activity. In both areas, these two variables affected independent neural populations. Pupil size effects were more prominent in IC, while pupil and task engagement effects were equally likely in A1. Task engagement was correlated with larger pupil; thus, some apparent effects of task engagement should in fact be attributed to fluctuations in pupil size. These results indicate a hierarchy of auditory processing, where generalized arousal enhances activity in midbrain, and effects specific to task engagement become more prominent in cortex.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "D. Saderi",
+          "id": ""
+        },
+        {
+          "name": "Zachary P. Schwartz",
+          "id": ""
+        },
+        {
+          "name": "Charles R. Heller",
+          "id": ""
+        },
+        {
+          "name": "Jacob R. Pennington",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:219946748",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7632724987436788,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 24933593,
+      "title": "Behavioral semantics of learning and crossmodal processing in auditory cortex: the semantic processor concept.",
+      "abstract": "Two phenomena of auditory cortex activity have recently attracted attention, namely that the primary field can show different types of learning-related changes of sound representation and that during learning even this early auditory cortex is under strong multimodal influence. Based on neuronal recordings in animal auditory cortex during instrumental tasks, in this review we put forward the hypothesis that these two phenomena serve to derive the task-specific meaning of sounds by associative learning. To understand the implications of this tenet, it is helpful to realize how a behavioral meaning is usually derived for novel environmental sounds. For this purpose, associations with other sensory, e.g. visual, information are mandatory to develop a connection between a sound and its behaviorally relevant cause and/or the context of sound occurrence. This makes it plausible that in instrumental tasks various non-auditory sensory and procedural contingencies of sound generation become co-represented by neuronal firing in auditory cortex. Information related to reward or to avoidance of discomfort during task learning, that is essentially non-auditory, is also co-represented. The reinforcement influence points to the dopaminergic internal reward system, the local role of which for memory consolidation in auditory cortex is well-established. Thus, during a trial of task performance, the neuronal responses to the sounds are embedded in a sequence of representations of such non-auditory information. The embedded auditory responses show task-related modulations of auditory responses falling into types that correspond to three basic logical classifications that may be performed with a perceptual item, i.e. from simple detection to discrimination, and categorization. This hierarchy of classifications determine the semantic \"same-different\" relationships among sounds. Different cognitive classifications appear to be a consequence of learning task and lead to a recruitment of different excitatory and inhibitory mechanisms and to distinct spatiotemporal metrics of map activation to represent a sound. The described non-auditory firing and modulations of auditory responses suggest that auditory cortex, by collecting all necessary information, functions as a \"semantic processor\" deducing the task-specific meaning of sounds by learning.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "H. Scheich",
+          "id": ""
+        },
+        {
+          "name": "A. Brechmann",
+          "id": ""
+        },
+        {
+          "name": "M. Brosch",
+          "id": ""
+        },
+        {
+          "name": "E. Budinger",
+          "id": ""
+        },
+        {
+          "name": "F. Ohl",
+          "id": ""
+        },
+        {
+          "name": "Elena Selezneva",
+          "id": ""
+        },
+        {
+          "name": "H. Stark",
+          "id": ""
+        },
+        {
+          "name": "W. Tischmeyer",
+          "id": ""
+        },
+        {
+          "name": "W. Wetzel",
+          "id": ""
+        }
+      ],
+      "venue": "Hearing Research",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/20971178",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7627711353892965,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 18770071,
+      "title": "Task Engagement Selectively Modulates Neural Correlations in Primary Auditory Cortex",
+      "abstract": "Noise correlations (rnoise) between neurons can affect a neural population's discrimination capacity, even without changes in mean firing rates of neurons. rnoise, the degree to which the response variability of a pair of neurons is correlated, has been shown to change with attention with most reports showing a reduction in rnoise. However, the effect of reducing rnoise on sensory discrimination depends on many factors, including the tuning similarity, or tuning correlation (rtuning), between the pair. Theoretically, reducing rnoise should enhance sensory discrimination when the pair exhibits similar tuning, but should impair discrimination when tuning is dissimilar. We recorded from pairs of neurons in primary auditory cortex (A1) under two conditions: while rhesus macaque monkeys (Macaca mulatta) actively performed a threshold amplitude modulation (AM) detection task and while they sat passively awake. We report that, for pairs with similar AM tuning, average rnoise in A1 decreases when the animal performs the AM detection task compared with when sitting passively. For pairs with dissimilar tuning, the average rnoise did not significantly change between conditions. This suggests that attention-related modulation can target selective subcircuits to decorrelate noise. These results demonstrate that engagement in an auditory task enhances population coding in primary auditory cortex by selectively reducing deleterious rnoise and leaving beneficial rnoise intact.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "J. Downer",
+          "id": ""
+        },
+        {
+          "name": "Mamiko Niwa",
+          "id": ""
+        },
+        {
+          "name": "M. Sutter",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:18770071",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7623921835747989,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253382690,
+      "title": "Selective attention sharpens population receptive fields in human auditory cortex",
+      "abstract": "Abstract Selective attention enables the preferential processing of relevant stimulus aspects. Invasive animal studies have shown that attending a sound feature rapidly modifies neuronal tuning throughout the auditory cortex. Human neuroimaging studies have reported enhanced auditory cortical responses with selective attention. To date, it remains unclear how the results obtained with functional magnetic resonance imaging (fMRI) in humans relate to the electrophysiological findings in animal models. Here we aim to narrow the gap between animal and human research by combining a selective attention task similar in design to those used in animal electrophysiology with high spatial resolution ultra-high field fMRI at 7 Tesla. Specifically, human participants perform a detection task, whereas the probability of target occurrence varies with sound frequency. Contrary to previous fMRI studies, we show that selective attention resulted in population receptive field sharpening, and consequently reduced responses, at the attended sound frequencies. The difference between our results to those of previous fMRI studies supports the notion that the influence of selective attention on auditory cortex is diverse and may depend on context, stimulus, and task.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "A. Lage-Castellanos",
+          "id": ""
+        },
+        {
+          "name": "Federico De Martino",
+          "id": ""
+        },
+        {
+          "name": "G. Ghose",
+          "id": ""
+        },
+        {
+          "name": "O. Gulban",
+          "id": ""
+        },
+        {
+          "name": "M. Moerel",
+          "id": ""
+        }
+      ],
+      "venue": "Cerebral Cortex",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:253382690",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7611758970892225,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 13295636,
+      "title": "Task-Dependent Activations of Human Auditory Cortex during Pitch Discrimination and Pitch Memory Tasks",
+      "abstract": "The functional organization of auditory cortex (AC) is still poorly understood. Previous studies suggest segregation of auditory processing streams for spatial and nonspatial information located in the posterior and anterior AC, respectively (Rauschecker and Tian, 2000; Arnott et al., 2004; Lomber and Malhotra, 2008). Furthermore, previous studies have shown that active listening tasks strongly modulate AC activations (Petkov et al., 2004; Fritz et al., 2005; Polley et al., 2006). However, the task dependence of AC activations has not been systematically investigated. In the present study, we applied high-resolution functional magnetic resonance imaging of the AC and adjacent areas to compare activations during pitch discrimination and n-back pitch memory tasks that were varied parametrically in difficulty. We found that anterior AC activations were increased during discrimination but not during memory tasks, while activations in the inferior parietal lobule posterior to the AC were enhanced during memory tasks but not during discrimination. We also found that wide areas of the anterior AC and anterior insula were strongly deactivated during the pitch memory tasks. While these results are consistent with the proposition that the anterior and posterior AC belong to functionally separate auditory processing streams, our results show that this division is present also between tasks using spatially invariant sounds. Together, our results indicate that activations of human AC are strongly dependent on the characteristics of the behavioral task.",
+      "year": 2009,
+      "authors": [
+        {
+          "name": "T. Rinne",
+          "id": ""
+        },
+        {
+          "name": "Sonja Koistinen",
+          "id": ""
+        },
+        {
+          "name": "O. Salonen",
+          "id": ""
+        },
+        {
+          "name": "K. Alho",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:13295636",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7603682554487304,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 252081865,
+      "title": "More than the end: OFF response plasticity as a mnemonic signature of a sound\u2019s behavioral salience",
+      "abstract": "In studying how neural populations in sensory cortex code dynamically varying stimuli to guide behavior, the role of spiking after stimuli have ended has been underappreciated. This is despite growing evidence that such activity can be tuned, experience-and context-dependent and necessary for sensory decisions that play out on a slower timescale. Here we review recent studies, focusing on the auditory modality, demonstrating that this so-called OFF activity can have a more complex temporal structure than the purely phasic firing that has often been interpreted as just marking the end of stimuli. While diverse and still incompletely understood mechanisms are likely involved in generating phasic and tonic OFF firing, more studies point to the continuing post-stimulus activity serving a short-term, stimulus-specific mnemonic function that is enhanced when the stimuli are particularly salient. We summarize these results with a conceptual model highlighting how more neurons within the auditory cortical population fire for longer duration after a sound\u2019s termination during an active behavior and can continue to do so even while passively listening to behaviorally salient stimuli. Overall, these studies increasingly suggest that tonic auditory cortical OFF activity holds an echoic memory of specific, salient sounds to guide behavioral decisions.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Dakshitha B. Anandakumar",
+          "id": ""
+        },
+        {
+          "name": "Robert C. Liu",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Computational Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:252081865",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7596674982452161,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 52993164,
+      "title": "Recent advances in understanding the auditory cortex",
+      "abstract": "Our ability to make sense of the auditory world results from neural processing that begins in the ear, goes through multiple subcortical areas, and continues in the cortex. The specific contribution of the auditory cortex to this chain of processing is far from understood. Although many of the properties of neurons in the auditory cortex resemble those of subcortical neurons, they show somewhat more complex selectivity for sound features, which is likely to be important for the analysis of natural sounds, such as speech, in real-life listening conditions. Furthermore, recent work has shown that auditory cortical processing is highly context-dependent, integrates auditory inputs with other sensory and motor signals, depends on experience, and is shaped by cognitive demands, such as attention. Thus, in addition to being the locus for more complex sound selectivity, the auditory cortex is increasingly understood to be an integral part of the network of brain regions responsible for prediction, auditory perceptual decision-making, and learning. In this review, we focus on three key areas that are contributing to this understanding: the sound features that are preferentially represented by cortical neurons, the spatial organization of those preferences, and the cognitive roles of the auditory cortex.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "A. King",
+          "id": ""
+        },
+        {
+          "name": "Sundeep Teki",
+          "id": ""
+        },
+        {
+          "name": "B. Willmore",
+          "id": ""
+        }
+      ],
+      "venue": "F1000Research",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:52993164",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7596072404650652,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 3276841,
+      "title": "Roles of Prefrontal Cortex and Mediodorsal Thalamus in Task Engagement and Behavioral Flexibility",
+      "abstract": "Behavioral tasks involving auditory cues activate inhibitory neurons within auditory cortex, leading to a reduction in the amplitude of auditory evoked response potentials (ERPs). One hypothesis is that this process, termed \u201ctask engagement,\u201d may enable context-dependent behaviors. Here we set out to determine (1) whether the medial prefrontal cortex (mPFC) plays a role in task engagement and (2) how task engagement relates to the context-dependent processing of auditory cues in male and female mice performing a decision-making task that can be guided by either auditory or visual cues. We found that, in addition to auditory ERP suppression, task engagement is associated with increased mPFC activity and an increase in theta band (4\u20137 Hz) synchronization between the mPFC and auditory cortex. Optogenetically inhibiting the mPFC eliminates the task engagement-induced auditory ERP suppression, while also preventing mice from switching between auditory and visual cue-based rules. However, mPFC inhibition, which eliminates task engagement-induced auditory ERP suppression, did not prevent mice from making decisions based on auditory cues. Furthermore, a more specific manipulation, selective disruption of mPFC outputs to the mediodorsal (MD) thalamus, is sufficient to prevent switching between auditory and visual rules but does not affect auditory ERPs. Based on these findings, we conclude that (1) the mPFC contributes to both task engagement and behavioral flexibility; (2) mPFC-MD projections are important for behavioral flexibility but not task engagement; and (3) task engagement, evidenced by the suppression of cortical responses to sensory input, is not required for sensory cue-guided decision making. SIGNIFICANCE STATEMENT When rodents perform choice-selection tasks based on sensory cues, neural responses to these cues are modulated compared with task-free conditions. Here we demonstrate that this phenomenon depends on the prefrontal cortex and thus represents a form of \u201ctop-down\u201d regulation. However, we also show that this phenomenon is not critical for task performance, as rodents can make decisions based on specific sensory cues even when the task-dependent modulation of responses to those cues is abolished. Furthermore, disrupting one specific set of prefrontal outputs impairs rule switching but not the task-dependent modulation of sensory responses. These results show that the prefrontal cortex comprises multiple circuits that mediate dissociable functions related to behavioral flexibility and sensory processing.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Tobias F. Marton",
+          "id": ""
+        },
+        {
+          "name": "Helia Seifikar",
+          "id": ""
+        },
+        {
+          "name": "Francisco J Luongo",
+          "id": ""
+        },
+        {
+          "name": "Anthony T. Lee",
+          "id": ""
+        },
+        {
+          "name": "V. Sohal",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:3276841",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.759133786644008,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16183270,
+      "title": "Pre-Attentive, Context-Specific Representation of Fear Memory in the Auditory Cortex of Rat",
+      "abstract": "Neural representation in the auditory cortex is rapidly modulated by both top-down attention and bottom-up stimulus properties, in order to improve perception in a given context. Learning-induced, pre-attentive, map plasticity has been also studied in the anesthetized cortex; however, little attention has been paid to rapid, context-dependent modulation. We hypothesize that context-specific learning leads to pre-attentively modulated, multiplex representation in the auditory cortex. Here, we investigate map plasticity in the auditory cortices of anesthetized rats conditioned in a context-dependent manner, such that a conditioned stimulus (CS) of a 20-kHz tone and an unconditioned stimulus (US) of a mild electrical shock were associated only under a noisy auditory context, but not in silence. After the conditioning, although no distinct plasticity was found in the tonotopic map, tone-evoked responses were more noise-resistive than pre-conditioning. Yet, the conditioned group showed a reduced spread of activation to each tone with noise, but not with silence, associated with a sharpening of frequency tuning. The encoding accuracy index of neurons showed that conditioning deteriorated the accuracy of tone-frequency representations in noisy condition at off-CS regions, but not at CS regions, suggesting that arbitrary tones around the frequency of the CS were more likely perceived as the CS in a specific context, where CS was associated with US. These results together demonstrate that learning-induced plasticity in the auditory cortex occurs in a context-dependent manner.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "A. Funamizu",
+          "id": ""
+        },
+        {
+          "name": "R. Kanzaki",
+          "id": ""
+        },
+        {
+          "name": "Hirokazu Takahashi",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS ONE",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:16183270",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.75793765639739,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16477250,
+      "title": "Differential Dynamic Plasticity of A1 Receptive Fields during Multiple Spectral Tasks",
+      "abstract": "Auditory experience leads to myriad changes in processing in the central auditory system. We recently described task-related plasticity characterized by rapid modulation of spectro-temporal receptive fields (STRFs) in ferret primary auditory cortex (A1) during tone detection. We conjectured that each acoustic task may have its own \u201csignature\u201d STRF changes, dependent on the salient cues that the animal must attend to perform the task. To discover whether other acoustic tasks could elicit changes in STRF shape, we recorded from A1 in ferrets also trained on a frequency discrimination task. Overall, we found a distinct pattern of STRF change, characterized by an expected selective enhancement at target tone frequency but also by an equally selective depression at reference tone frequency. When single-tone detection and frequency discrimination tasks were performed sequentially, neurons responded differentially to identical tones, reflecting distinct predictive values of stimuli in the two behavioral contexts. All results were observed in multiunit as well as single-unit recordings. Our findings provide additional evidence for the presence of adaptive neuronal responses in A1 that can swiftly change to reflect both sensory content and the changing behavioral meaning of incoming acoustic stimuli.",
+      "year": 2005,
+      "authors": [
+        {
+          "name": "J. Fritz",
+          "id": ""
+        },
+        {
+          "name": "Mounya Elhilali",
+          "id": ""
+        },
+        {
+          "name": "S. Shamma",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:16477250",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7567698263001987,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 20080823,
+      "title": "Auditory processing in the human cortex: An intracranial electrophysiology perspective",
+      "abstract": "Direct electrophysiological recordings in epilepsy patients offer an opportunity to study human auditory cortical processing with unprecedented spatiotemporal resolution. This review highlights recent intracranial studies of human auditory cortex and focuses on its basic response properties as well as modulation of cortical activity during the performance of active behavioral tasks.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "K. Nourski",
+          "id": ""
+        }
+      ],
+      "venue": "Laryngoscope Investigative Otolaryngology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:20080823",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7555237018391053,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 23858093,
+      "title": "Learning\u2010dependent plasticity in human auditory cortex during appetitive operant conditioning",
+      "abstract": "Animal experiments provide evidence that learning to associate an auditory stimulus with a reward causes representational changes in auditory cortex. However, most studies did not investigate the temporal formation of learning\u2010dependent plasticity during the task but rather compared auditory cortex receptive fields before and after conditioning. We here present a functional magnetic resonance imaging study on learning\u2010related plasticity in the human auditory cortex during operant appetitive conditioning. Participants had to learn to associate a specific category of frequency\u2010modulated tones with a reward. Only participants who learned this association developed learning\u2010dependent plasticity in left auditory cortex over the course of the experiment. No differential responses to reward predicting and nonreward predicting tones were found in auditory cortex in nonlearners. In addition, learners showed similar learning\u2010induced differential responses to reward\u2010predicting and nonreward\u2010predicting tones in the ventral tegmental area and the nucleus accumbens, two core regions of the dopaminergic neurotransmitter system. This may indicate a dopaminergic influence on the formation of learning\u2010dependent plasticity in auditory cortex, as it has been suggested by previous animal studies. Hum Brain Mapp 34:2841\u20132851, 2013. \u00a9 2012 Wiley Periodicals, Inc.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "S. Puschmann",
+          "id": ""
+        },
+        {
+          "name": "A. Brechmann",
+          "id": ""
+        },
+        {
+          "name": "C. Thiel",
+          "id": ""
+        }
+      ],
+      "venue": "Human Brain Mapping",
+      "journal": null,
+      "url": "https://doi.org/10.1002/hbm.22107",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7549173406941538,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 25172810,
+      "title": "Task-Modulated Cortical Representations of Natural Sound Source Categories",
+      "abstract": "In everyday sound environments, we recognize sound sources and events by attending to relevant aspects of an acoustic input. Evidence about the cortical mechanisms involved in extracting relevant category information from natural sounds is, however, limited to speech. Here, we used functional MRI to measure cortical response patterns while human listeners categorized real-world sounds created by objects of different solid materials (glass, metal, wood) manipulated by different sound-producing actions (striking, rattling, dropping). In different sessions, subjects had to identify either material or action categories in the same sound stimuli. The sound-producing action and the material of the sound source could be decoded from multivoxel activity patterns in auditory cortex, including Heschl's gyrus and planum temporale. Importantly, decoding success depended on task relevance and category discriminability. Action categories were more accurately decoded in auditory cortex when subjects identified action information. Conversely, the material of the same sound sources was decoded with higher accuracy in the inferior frontal cortex during material identification. Representational similarity analyses indicated that both early and higher-order auditory cortex selectively enhanced spectrotemporal features relevant to the target category. Together, the results indicate a cortical selection mechanism that favors task-relevant information in the processing of nonvocal sound categories.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "J. Hjortkj\u00e6r",
+          "id": ""
+        },
+        {
+          "name": "T. Kassuba",
+          "id": ""
+        },
+        {
+          "name": "Kristoffer H. Madsen",
+          "id": ""
+        },
+        {
+          "name": "Martin Skov",
+          "id": ""
+        },
+        {
+          "name": "H. Siebner",
+          "id": ""
+        }
+      ],
+      "venue": "Cerebral Cortex",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:25172810",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7538836971485249,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 10567868,
+      "title": "Differential activation of human core, non-core and auditory-related cortex during speech categorization tasks as revealed by intracranial recordings",
+      "abstract": "Speech perception requires that sounds be transformed into speech-related objects with lexical and semantic meaning. It is unclear at what level in the auditory pathways this transformation emerges. Primary auditory cortex has been implicated in both representation of acoustic sound attributes and sound objects. While non-primary auditory cortex located on the posterolateral superior temporal gyrus (PLST) is clearly involved in acoustic-to-phonetic pre-lexical representations, it is unclear what role this region plays in auditory object formation. Additional data support the importance of prefrontal cortex in the formation of auditory objects, while other data would implicate this region in auditory object selection. To help clarify the respective roles of auditory and auditory-related cortex in the formation and selection of auditory objects, we examined high gamma activity simultaneously recorded directly from Heschl's gyrus (HG), PLST and prefrontal cortex, while subjects performed auditory semantic detection tasks. Subjects were patients undergoing evaluation for treatment of medically intractable epilepsy. We found that activity in posteromedial HG and early activity on PLST was robust to sound stimuli regardless of their context, and minimally modulated by tasks. Later activity on PLST could be strongly modulated by semantic context, but not by behavioral performance. Activity within prefrontal cortex also was related to semantic context, and did co-vary with behavior. We propose that activity in posteromedial HG and early activity on PLST primarily reflect the representation of spectrotemporal sound attributes. Later activity on PLST represents a pre-lexical processing stage and is an intermediate step in the formation of word objects. Activity in prefrontal cortex appears directly involved in word object selection. The roles of other auditory and auditory-related cortical areas in the formation of word objects remain to be explored.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "M. Steinschneider",
+          "id": ""
+        },
+        {
+          "name": "K. Nourski",
+          "id": ""
+        },
+        {
+          "name": "A. Rhone",
+          "id": ""
+        },
+        {
+          "name": "H. Kawasaki",
+          "id": ""
+        },
+        {
+          "name": "H. Oya",
+          "id": ""
+        },
+        {
+          "name": "M. Howard",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:10567868",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7538425448386228,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 52181664,
+      "title": "Using Temporal Expectation to Assess Auditory Streaming in Mice",
+      "abstract": "Auditory streaming is the process by which environmental sound is segregated into discrete perceptual objects. The auditory system has a remarkable capability in this regard as revealed in psychophysical experiments in humans and other primates. However, little is known about the underlying neuronal mechanisms, in part because of the lack of suitable behavioural paradigms in non-primate species. The mouse is an increasingly popular model for studying the neural mechanisms of perception and action because of the range of molecular tools enabling precise manipulation of neural circuitry. Here we present a novel behavioural task that can be used to assess perceptual aspects of auditory streaming in head-fixed mice. Animals were trained to detect a target sound in a one of two simultaneously presented, isochronous pure tone sequences. Temporal expectation was manipulated by presenting the target sound in a particular stream either early (~2 s) or late (~4 s) with respect to trial onset in blocks of 25\u201330 trials. Animals reached high performance on this task (d' > 1 overall), and notably their false alarms were very instructive of their behavioural state. Indeed, false alarm timing was markedly delayed for late blocks compared to early ones, indicating that the animals associated a different context to an otherwise identical stimulus. More finely, we observed that the false alarms were timed to the onset of the sounds present in the target stream. This suggests that the animals could selectively follow the target stream despite the presence of a distractor stream. Extracellular electrophysiological recordings during the task revealed that sound processing is flexibly modulated in a manner consistent with the optimisation of behavioural outcome. Together, these results indicate that the perceptual streaming can be inferred via the timing of false alarms in mice, and provide a new paradigm with which to investigate neuronal mechanisms of selective attention.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Ga\u00eblle A. Chapuis",
+          "id": ""
+        },
+        {
+          "name": "P. Chadderton",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Behavioral Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:52181664",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7532274840959022,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 90433115,
+      "title": "Task Engagement Enhances Population Encoding of Stimulus Meaning in Primary Auditory Cortex",
+      "abstract": "The main functions of primary sensory cortical areas are classically considered to be the extraction and representation of stimulus features. In contrast, higher cortical sensory association areas are thought to be responsible for combining these sensory representations with internal motivations and learnt associations. These regions generate appropriate neural responses that are maintained until a motor command is executed. Within this framework, responses of the primary sensory areas during task performance are expected to carry less information about the behavioral meaning of the stimulus than higher sensory, association, motor and frontal cortices. Here we demonstrate instead that the neuronal population responses in the early primary auditory cortex (A1) display many aspects of responses generally associated with higher-level areas. A1 activity was recorded in awake ferrets while they were either passively listening or actively discriminating two periodic click trains of different rates in a Go/No-Go paradigm. By applying population-level dimensionality reduction techniques, we found that task-engagement induced a shift in the nature of the encoding from a sensory-driven representation of the two stimuli to a behaviorally relevant representation of the two categories that specifically enhances the target stimulus. We demonstrate that this shift in encoding relies partly on a novel mechanism of change in spontaneous activity patterns upon engagement in the task. We show that this population-level representation of stimuli in A1 population activity bears strong similarities to responses in the frontal cortex, but appears earlier following stimulus presentation. Analysis of neural activity recorded in various Go/No-Go tasks, with different sounds and reinforcement paradigms, reveals that this striking population-level enhancement of target representation is a general property of task engagement. These findings indicate that primary sensory cortices play a highly flexible role in the processing of incoming stimuli and implement a crucial change in the structure of population activity in order to extract task-relevant information during behavior.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "S. Bagur",
+          "id": ""
+        },
+        {
+          "name": "Martin Averseng",
+          "id": ""
+        },
+        {
+          "name": "Diego Elgueda",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        },
+        {
+          "name": "J. Fritz",
+          "id": ""
+        },
+        {
+          "name": "Pingbo Yin",
+          "id": ""
+        },
+        {
+          "name": "S. Shamma",
+          "id": ""
+        },
+        {
+          "name": "Yves Boubenec",
+          "id": ""
+        },
+        {
+          "name": "S. Ostojic",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:90433115",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7525704339751984,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 221910283,
+      "title": "Sensory Island Task (SIT): A New Behavioral Paradigm to Study Sensory Perception and Neural Processing in Freely Moving Animals",
+      "abstract": "A central function of sensory systems is the gathering of information about dynamic interactions with the environment during self-motion. To determine whether modulation of a sensory cue was externally caused or a result of self-motion is fundamental to perceptual invariance and requires the continuous update of sensory processing about recent movements. This process is highly context-dependent and crucial for perceptual performances such as decision-making and sensory object formation. Yet despite its fundamental ecological role, voluntary self-motion is rarely incorporated in perceptual or neurophysiological investigations of sensory processing in animals. Here, we present the Sensory Island Task (SIT), a new freely moving search paradigm to study sensory processing and perception. In SIT, animals explore an open-field arena to find a sensory target relying solely on changes in the presented stimulus, which is controlled by closed-loop position tracking in real-time. Within a few sessions, animals are trained via positive reinforcement to search for a particular area in the arena (\u201ctarget island\u201d), which triggers the presentation of the target stimulus. The location of the target island is randomized across trials, making the modulated stimulus feature the only informative cue for task completion. Animals report detection of the target stimulus by remaining within the island for a defined time (\u201csit-time\u201d). Multiple \u201cnon-target\u201d islands can be incorporated to test psychometric discrimination and identification performance. We exemplify the suitability of SIT for rodents (Mongolian gerbil, Meriones unguiculatus) and small primates (mouse lemur, Microcebus murinus) and for studying various sensory perceptual performances (auditory frequency discrimination, sound source localization, visual orientation discrimination). Furthermore, we show that pairing SIT with chronic electrophysiological recordings allows revealing neuronal signatures of sensory processing under ecologically relevant conditions during goal-oriented behavior. In conclusion, SIT represents a flexible and easily implementable behavioral paradigm for mammals that combines self-motion and natural exploratory behavior to study sensory sensitivity and decision-making and their underlying neuronal processing.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Dardo N. Ferreiro",
+          "id": ""
+        },
+        {
+          "name": "Diana Amaro",
+          "id": ""
+        },
+        {
+          "name": "Daniel Schmidtke",
+          "id": ""
+        },
+        {
+          "name": "Andrey Sobolev",
+          "id": ""
+        },
+        {
+          "name": "Paula Gundi",
+          "id": ""
+        },
+        {
+          "name": "L. Belliveau",
+          "id": ""
+        },
+        {
+          "name": "A. Sirota",
+          "id": ""
+        },
+        {
+          "name": "B. Grothe",
+          "id": ""
+        },
+        {
+          "name": "M. Pecka",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Behavioral Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:221910283",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7511725469202241,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 6593127,
+      "title": "Dynamic modulation of shared sensory and motor cortical rhythms mediates speech and non-speech discrimination performance",
+      "abstract": "Oscillatory models of speech processing have proposed that rhythmic cortical oscillations in sensory and motor regions modulate speech sound processing from the bottom-up via phase reset at low frequencies (3\u201310 Hz) and from the top-down via the disinhibition of alpha/beta rhythms (8\u201330 Hz). To investigate how the proposed rhythms mediate perceptual performance, electroencephalographic (EEG) was recorded while participants passively listened to or actively identified speech and tone-sweeps in a two-force choice in noise discrimination task presented at high and low signal-to-noise ratios. EEG data were decomposed using independent component analysis and clustered across participants using principle component methods in EEGLAB. Left and right hemisphere sensorimotor and posterior temporal lobe clusters were identified. Alpha and beta suppression was associated with active tasks only in sensorimotor and temporal clusters. In posterior temporal clusters, increases in phase reset at low frequencies were driven by the quality of bottom-up acoustic information for speech and non-speech stimuli, whereas phase reset in sensorimotor clusters was associated with top-down active task demands. A comparison of correct discrimination trials to those identified at chance showed an earlier performance related effect for the left sensorimotor cluster relative to the left-temporal lobe cluster during the syllable discrimination task only. The right sensorimotor cluster was associated with performance related differences for tone\u2013sweep stimuli only. Findings are consistent with internal model accounts suggesting that early efferent sensorimotor models transmitted along alpha and beta channels reflect a release from inhibition related to active attention to auditory discrimination. Results are discussed in the broader context of dynamic, oscillatory models of cognition proposing that top-down internally generated states interact with bottom-up sensory processing to enhance task performance.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "Andrew Bowers",
+          "id": ""
+        },
+        {
+          "name": "T. Saltuklaroglu",
+          "id": ""
+        },
+        {
+          "name": "A. Harkrider",
+          "id": ""
+        },
+        {
+          "name": "Matthew Wilson",
+          "id": ""
+        },
+        {
+          "name": "M. A. Toner",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Psychology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:6593127",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7460257872422498,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1074718,
+      "title": "Activations of Human Auditory Cortex During Visual and Auditory Selective Attention Tasks with Varying Difficulty",
+      "abstract": "The present study was designed to directly test the hypothesis that suppression of activations to task-irrelevant sounds contributes to the attention-related modulations of auditory cortex (AC) activations observed in previous fMRI studies. Subjects selectively attended to auditory (broadband noise bursts with pitch) or visual (Gabor gratings) asynchronous fast-rate stimulus streams concurrently presented to left-ear, right-ear, above-fixation, or below-fixation. Auditory and visual task difficulty was parametrically manipulated in three levels. Behavioral data obtained during fMRI indicated that subjects achieved acceptable performance levels in all tasks and that the task-difficulty manipulation was effective. Consistent with previous studies, AC activations strongly depended on the direction of attention. AC activations to sounds were higher during auditory than during visual tasks and AC activations were higher in the hemisphere contralateral to the attended ear. However, the effects of task difficulty on AC activations were weak or non-existent. In particular, increasing task difficulty was not associated with a systematic decrease of AC activations in areas that were modulated by attention. These results suggest that suppression of AC activations to task-irrelevant sounds is likely to be small or negligible as compared with the strong activation enhancements observed in fMRI during active auditory tasks.",
+      "year": 2010,
+      "authors": [
+        {
+          "name": "T. Rinne",
+          "id": ""
+        }
+      ],
+      "venue": "The Open Neuroimaging Journal",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:1074718",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7455085031381438,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 8074971,
+      "title": "Slow Modulation of Ongoing Discharge in the Auditory Cortex during an Interval-Discrimination Task",
+      "abstract": "In this study, we recorded single unit activity from rat auditory cortex while the animals performed an interval-discrimination task. The animals had to decide whether two auditory stimuli were separated by either 150 or 300\u2009ms, and go to the left or right nose poke accordingly. Spontaneous firing in between auditory responses was compared in the attentive versus non-attentive brain states. We describe the firing rate modulation detected during intervals while there was no auditory stimulation. Nearly 18% of neurons (n\u2009=\u200914) showed a prominent neuronal discharge during the interstimulus interval, in the form of an upward or downward ramp towards the second auditory stimulus. These patterns of spontaneous activity were often modulated in the attentive versus passive trials. Modulation of the spontaneous firing rate during the task was observed not only between auditory stimuli, but also in the interval preceding the stimulus. These slow modulatory components could be locally generated or the result of a top-down influence originated in higher associative association areas. Such a neuronal discharge may be related to the computation of the interval time and contribute to the perception of the auditory stimulus.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "J. M. Abolafia",
+          "id": ""
+        },
+        {
+          "name": "M. Martinez-Garcia",
+          "id": ""
+        },
+        {
+          "name": "G. Deco",
+          "id": ""
+        },
+        {
+          "name": "Maria V. Sanchez-Vives",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Integrative Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:8074971",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.7426072511805089,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 270445857,
+      "title": "Behavior-related visual activations in the auditory cortex of nonhuman primates.",
+      "abstract": "While it is well established that sensory cortical regions traditionally thought to be unimodal can be activated by stimuli from modalities other than the dominant one, functions of such foreign-modal activations are still not clear. Here we show that visual activations in early auditory cortex can be related to whether or not the monkeys engaged in audio-visual tasks, to the time when the monkeys reacted to the visual component of such tasks, and to the correctness of the monkeys' response to the auditory component of such tasks. These relationships between visual activations and behavior suggest that auditory cortex can be recruited for visually-guided behavior and that visual activations can prime auditory cortex such that it is prepared for processing future sounds. Our study thus provides evidence that foreign-modal activations in sensory cortex can contribute to a subject's ability to perform tasks on stimuli from foreign and dominant modalities.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Ying Huang",
+          "id": ""
+        },
+        {
+          "name": "M. Brosch",
+          "id": ""
+        }
+      ],
+      "venue": "Progress in neurobiology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:270445857",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.670915494459179,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 17527528,
+      "title": "Cellular mechanisms of brain-state-dependent gain modulation in visual cortex",
+      "abstract": "Visual cortical neurons fire at higher rates to visual stimuli during locomotion than during immobility, while maintaining orientation selectivity. The mechanisms underlying this change in gain are not understood. We performed whole-cell recordings from layer 2/3 and layer 4 visual cortical excitatory neurons and from parvalbumin-positive and somatostatin-positive inhibitory neurons in mice that were free to rest or run on a spherical treadmill. We found that the membrane potential of all cell types became more depolarized and (with the exception of somatostatin-positive interneurons) less variable during locomotion. Cholinergic input was essential for maintaining the unimodal membrane potential distribution during immobility, whereas noradrenergic input was necessary for the tonic depolarization associated with locomotion. Our results provide a mechanism for how neuromodulation controls the gain and signal-to-noise ratio of visual cortical neurons during changes in the state of vigilance.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "Pierre-Olivier Polack",
+          "id": ""
+        },
+        {
+          "name": "Jonathan Friedman",
+          "id": ""
+        },
+        {
+          "name": "P. Golshani",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.3464",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.6684012498067317,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256536314,
+      "title": "The Grossberg Code: Universal Neural Network Signatures of Perceptual Experience",
+      "abstract": "Two universal functional principles of Grossberg\u2019s Adaptive Resonance Theory decipher the brain code of all biological learning and adaptive intelligence. Low-level representations of multisensory stimuli in their immediate environmental context are formed on the basis of bottom-up activation and under the control of top-down matching rules that integrate high-level, long-term traces of contextual configuration. These universal coding principles lead to the establishment of lasting brain signatures of perceptual experience in all living species, from aplysiae to primates. They are re-visited in this concept paper on the basis of examples drawn from the original code and from some of the most recent related empirical findings on contextual modulation in the brain, highlighting the potential of Grossberg\u2019s pioneering insights and groundbreaking theoretical work for intelligent solutions in the domain of developmental and cognitive robotics.",
+      "year": 2023,
+      "authors": [],
+      "venue": "Inf.",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:256536314",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5790103166525831,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 13932798,
+      "title": "Visual task enhances spatial selectivity in the human auditory cortex",
+      "abstract": "The auditory cortex represents spatial locations differently from other sensory modalities. While visual and tactile cortices utilize topographical space maps, for audition no such cortical map has been found. Instead, auditory cortical neurons have wide spatial receptive fields and together they form a population rate code of sound source location. Recent studies have shown that this code is modulated by task conditions so that during auditory tasks it provides better selectivity to sound source location than during idle listening. The goal of this study was to establish whether the neural representation of auditory space can also be influenced by task conditions involving other sensory modalities than hearing. Therefore, we conducted magnetoencephalography (MEG) recordings in which auditory spatial selectivity of the human cortex was probed with an adaptation paradigm while subjects performed a visual task. Engaging in the task led to an increase in neural selectivity to sound source location compared to when no task was performed. This suggests that an enhancement in the population rate code of auditory space took place during task performance. This enhancement in auditory spatial selectivity was independent of the direction of visual orientation. Together with previous studies, these findings suggest that performing any demanding task, even one in which sounds and their source locations are irrelevant, can lead to enhancements in the neural representation of auditory space. Such mechanisms may have great survival value as sounds are capable of producing location information on potentially relevant events in all directions and over long distances.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "N. Salminen",
+          "id": ""
+        },
+        {
+          "name": "Joanna Aho",
+          "id": ""
+        },
+        {
+          "name": "M. Sams",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:13932798",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.554259126557286,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 14730986,
+      "title": "Knowledge About Sounds\u2014Context-Specific Meaning Differently Activates Cortical Hemispheres, Auditory Cortical Fields, and Layers in House Mice",
+      "abstract": "Activation of the auditory cortex (AC) by a given sound pattern is plastic, depending, in largely unknown ways, on the physiological state and the behavioral context of the receiving animal and on the receiver's experience with the sounds. Such plasticity can be inferred when house mouse mothers respond maternally to pup ultrasounds right after parturition and na\u00efve females have to learn to respond. Here we use c-FOS immunocytochemistry to quantify highly activated neurons in the AC fields and layers of seven groups of mothers and na\u00efve females who have different knowledge about and are differently motivated to respond to acoustic models of pup ultrasounds of different behavioral significance. Profiles of FOS-positive cells in the AC primary fields (AI, AAF), the ultrasonic field (UF), the secondary field (AII), and the dorsoposterior field (DP) suggest that activation reflects in AI, AAF, and UF the integration of sound properties with animal state-dependent factors, in the higher-order field AII the news value of a given sound in the behavioral context, and in the higher-order field DP the level of maternal motivation and, by left-hemisphere activation advantage, the recognition of the meaning of sounds in the given context. Anesthesia reduced activation in all fields, especially in cortical layers 2/3. Thus, plasticity in the AC is field-specific preparing different output of AC fields in the process of perception, recognition and responding to communication sounds. Further, the activation profiles of the auditory cortical fields suggest the differentiation between brains hormonally primed to know (mothers) and brains which acquired knowledge via implicit learning (na\u00efve females). In this way, auditory cortical activation discriminates between instinctive (mothers) and learned (na\u00efve females) cognition.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "Jonathan B. Fritz",
+          "id": ""
+        },
+        {
+          "name": "Jed A. Meltzer",
+          "id": ""
+        },
+        {
+          "name": "Baycrest",
+          "id": ""
+        },
+        {
+          "name": "Robert C. Liu",
+          "id": ""
+        },
+        {
+          "name": "Diana B. Geissler",
+          "id": ""
+        },
+        {
+          "name": "H. Schmidt",
+          "id": ""
+        },
+        {
+          "name": "G. Ehret",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:14730986",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.5531425382924502,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 262902251,
+      "title": "Modulation of visual responses by behavioral state in mouse visual cortex.",
+      "abstract": "Studies of visual processing in rodents have conventionally been performed on anesthetized animals, precluding examination of the effects of behavior on visually evoked responses. We have now studied the response properties of neurons in primary visual cortex of awake mice that were allowed to run on a freely rotating spherical treadmill with their heads fixed. Most neurons showed more than a doubling of visually evoked firing rate as the animal transitioned from standing still to running, without changes in spontaneous firing or stimulus selectivity. Tuning properties in the awake animal were similar to those measured previously in anesthetized animals. Response magnitude in the lateral geniculate nucleus did not increase with locomotion, demonstrating that the striking change in responsiveness did not result from peripheral effects at the eye. Interestingly, some narrow-spiking cells were spontaneously active during running but suppressed by visual stimuli. These results demonstrate powerful cell-type-specific modulation of visual processing by behavioral state in awake mice.",
+      "year": 2010,
+      "authors": [
+        {
+          "name": "C. Niell",
+          "id": ""
+        },
+        {
+          "name": "M. Stryker",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/20188652",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4967167780396446,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 797749,
+      "title": "Input-Specific Gain Modulation by Local Sensory Context Shapes Cortical and Thalamic Responses to Complex Sounds",
+      "abstract": "Summary Sensory neurons are customarily characterized by one or more linearly weighted receptive fields describing sensitivity in sensory space and time. We show that in auditory cortical and thalamic neurons, the weight of each receptive field element depends on the pattern of sound falling within a local neighborhood surrounding it in time and frequency. Accounting for this change in effective receptive field with spectrotemporal context improves predictions of both cortical and thalamic responses to stationary complex sounds. Although context dependence varies among neurons and across brain areas, there are strong shared qualitative characteristics. In a spectrotemporally rich soundscape, sound elements modulate neuronal responsiveness more effectively when they coincide with sounds at other frequencies, and less effectively when they are preceded by sounds at similar frequencies. This local-context-driven lability in the representation of complex sounds\u2014a modulation of \u201cinput-specific gain\u201d rather than \u201coutput gain\u201d\u2014may be a widespread motif in sensory processing.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "R. S. Williamson",
+          "id": ""
+        },
+        {
+          "name": "M. Ahrens",
+          "id": ""
+        },
+        {
+          "name": "J. Linden",
+          "id": ""
+        },
+        {
+          "name": "M. Sahani",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:797749",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.49246918976807363,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 5858478,
+      "title": "Contrast Gain Control in Auditory Cortex",
+      "abstract": "Summary The auditory system must represent sounds with a wide range of statistical properties. One important property is the spectrotemporal contrast in the acoustic environment: the variation in sound pressure in each frequency band, relative to the mean pressure. We show that neurons in ferret auditory cortex rescale their gain to partially compensate for the spectrotemporal contrast of recent stimulation. When contrast is low, neurons increase their gain, becoming more sensitive to small changes in the stimulus, although the effectiveness of contrast gain control is reduced at low mean levels. Gain is primarily determined by contrast near each neuron's preferred frequency, but there is also a contribution from contrast in more distant frequency bands. Neural responses are modulated by contrast over timescales of \u223c100 ms. By using contrast gain control to expand or compress the representation of its inputs, the auditory system may be seeking an efficient coding of natural sounds.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "Neil C. Rabinowitz",
+          "id": ""
+        },
+        {
+          "name": "B. Willmore",
+          "id": ""
+        },
+        {
+          "name": "J. Schnupp",
+          "id": ""
+        },
+        {
+          "name": "A. King",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/21689603",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.48790721028550427,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 10614898,
+      "title": "Task-Dependent Modulation of Medial Geniculate Body Is Behaviorally Relevant for Speech Recognition",
+      "abstract": "Summary Recent work has shown that responses in first-order sensory thalamic nuclei are modulated by cortical areas [1\u20135]. However, the functional role of such corticothalamic modulation and its relevance for human perception is still unclear. Here, we show in two functional magnetic resonance imaging (fMRI) studies that the neuronal response in the first-order auditory thalamus, the medial geniculate body (MGB), is increased when rapidly varying spectrotemporal features of speech sounds are processed, as compared to processing slowly varying spectrotemporal features of the same sounds. The strength of this task-dependent modulation is positively correlated with the speech recognition scores of individual subjects. These results show that task-dependent modulation of the MGB serves the processing of specific features of speech sounds and is behaviorally relevant for speech recognition. Our findings suggest that the first-order auditory thalamus is not simply a nonspecific gatekeeper controlled by attention [6]. Together with studies in nonhuman mammals [4, 5], our findings imply a mechanism in which the first-order auditory thalamus, possibly by corticothalamic modulation, reacts adaptively to features of sensory input.",
+      "year": 2008,
+      "authors": [
+        {
+          "name": "K. Kriegstein",
+          "id": ""
+        },
+        {
+          "name": "K. Kriegstein",
+          "id": ""
+        },
+        {
+          "name": "R. Patterson",
+          "id": ""
+        },
+        {
+          "name": "T. D. Griffiths",
+          "id": ""
+        },
+        {
+          "name": "T. D. Griffiths",
+          "id": ""
+        }
+      ],
+      "venue": "Current Biology",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/19062286",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4803712723081907,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 19814503,
+      "title": "Task-dependent recurrent dynamics in visual cortex",
+      "abstract": "The capacity for flexible sensory-action association in animals has been related to context-dependent attractor dynamics outside the sensory cortices. Here we report a line of evidence that flexibly modulated attractor dynamics during task switching are already present in the higher visual cortex in macaque monkeys. With a nonlinear decoding approach, we can extract the particular aspect of the neural population response that reflects the task-induced emergence of bistable attractor dynamics in a neural population, which could be obscured by standard unsupervised dimensionality reductions such as PCA. The dynamical modulation selectively increases the information relevant to task demands, indicating that such modulation is beneficial for perceptual decisions. A computational model that features nonlinear recurrent interaction among neurons with a task-dependent background input replicates the key properties observed in the experimental data. These results suggest that the context-dependent attractor dynamics involving the sensory cortex can underlie flexible perceptual abilities.",
+      "year": 2017,
+      "authors": [
+        {
+          "name": "Satohiro Tajima",
+          "id": ""
+        },
+        {
+          "name": "Kowa Koida",
+          "id": ""
+        },
+        {
+          "name": "Chihiro I. Tajima",
+          "id": ""
+        },
+        {
+          "name": "Hideyuki Suzuki",
+          "id": ""
+        },
+        {
+          "name": "K. Aihara",
+          "id": ""
+        },
+        {
+          "name": "H. Komatsu",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:19814503",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.4761145229525427,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 52938472,
+      "title": "The Interplay Between Cortical State and Perceptual Learning: A Focused Review",
+      "abstract": "Measurements of population activity in alert animals have demonstrated that the intrinsic response state of the cortex has profound effects on the neuronal representation of sensory inputs, raising the possibility that cortical state could influence the behavioral performance in perceptual learning (PL). PL is a process by which sensory experience leads to gradual and semi-permanent improvements in perceptual judgment, and it is generally agreed that these improvements are modulated by sensory cortical areas. Although the precise neural mechanisms underlying the improved perceptual judgment remain unclear, cortical state has been shown to impact the behavioral outcome of PL. We discuss several ways in which cortical state might influence PL based on the recent evidence for state-dependent modulation of sensory encoding. Conversely, training in a certain perceptual task feeds back to modulate cortical state, suggesting a bi-directional relationship between cortical state and behavioral outcomes of PL. We highlight the recent studies that shed light on the mechanism of the interplay between cortical state and PL.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "S. E. Kwon",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Systems Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:52938472",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.46959354478532805,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 13422510,
+      "title": "Processing of low-probability sounds by cortical neurons",
+      "abstract": "The ability to detect rare auditory events can be critical for survival. We report here that neurons in cat primary auditory cortex (A1) responded more strongly to a rarely presented sound than to the same sound when it was common. For the rare stimuli, we used both frequency and amplitude deviants. Moreover, some A1 neurons showed hyperacuity for frequency deviants\u2014a frequency resolution one order of magnitude better than receptive field widths in A1. In contrast, auditory thalamic neurons were insensitive to the probability of frequency deviants. These phenomena resulted from stimulus-specific adaptation in A1, which may be a single-neuron correlate of an extensively studied cortical potential\u2014mismatch negativity\u2014that is evoked by rare sounds. Our results thus indicate that A1 neurons, in addition to processing the acoustic features of sounds, may also be involved in sensory memory and novelty detection.",
+      "year": 2003,
+      "authors": [
+        {
+          "name": "N. Ulanovsky",
+          "id": ""
+        },
+        {
+          "name": "Liora Las",
+          "id": ""
+        },
+        {
+          "name": "Israel Nelken",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn1032",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.39496437903893206,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 6955746,
+      "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+      "abstract": "How is naturalistic multisensory information combined in the human brain? Based on MEG data we show that phase modulation of visual and auditory signals captures the dynamics of complex scenes.",
+      "year": 2010,
+      "authors": [
+        {
+          "name": "Huan Luo",
+          "id": ""
+        },
+        {
+          "name": "Zuxiang Liu",
+          "id": ""
+        },
+        {
+          "name": "D. Poeppel",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS Biology",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:6955746",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.38962125460814284,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 14649702,
+      "title": "Control of Prestimulus Activity Related to Improved Sensory Coding within a Discrimination Task",
+      "abstract": "Network state influences the processing of incoming stimuli. It is reasonable to expect, therefore, that animals might adjust cortical activity to improve sensory coding of behaviorally relevant stimuli. We tested this hypothesis, recording single-neuron activity from gustatory cortex (GC) in rats engaged in a two-alternative forced-choice taste discrimination task, and assaying the responses of these same neurons when the rats received the stimuli passively. We found that the task context affected the GC network state (reducing beta- and gamma-band field potential activity) and changed prestimulus and taste-induced single-neuron activity: before the stimulus, the activity of already low-firing neurons was further reduced, a change that was followed by comparable reductions of taste responses themselves. These changes served to sharpen taste selectivity, mainly by reducing responses to suboptimal stimuli. This sharpening of taste selectivity was specifically attributable to neurons with decreased prestimulus activities. Our results suggest the importance of prestimulus activity control for improving sensory coding within the task context.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "T. Yoshida",
+          "id": ""
+        },
+        {
+          "name": "D. Katz",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://api.semanticscholar.org/CorpusId:14649702",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.37077566006004886,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    }
+  ]
+}

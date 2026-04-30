@@ -1,0 +1,2588 @@
+{
+  "query": "Confounds and limitations of noise correlations as a measure of population coding and inter-areal communication",
+  "results": [
+    {
+      "corpusId": 2723062,
+      "title": "Neural correlations, population coding and computation",
+      "abstract": "How the brain encodes information in population activity, and how it combines and manipulates that activity as it carries out computations, are questions that lie at the heart of systems neuroscience. During the past decade, with the advent of multi-electrode recording and improved theoretical models, these questions have begun to yield answers. However, a complete understanding of neuronal variability, and, in particular, how it affects population codes, is missing. This is because variability in the brain is typically correlated, and although the exact effects of these correlations are not known, it is known that they can be large. Here, we review studies that address the interaction between neuronal noise and population codes, and discuss their implications for population coding in general.",
+      "year": 2006,
+      "authors": [
+        {
+          "name": "B. Averbeck",
+          "id": ""
+        },
+        {
+          "name": "P. Latham",
+          "id": ""
+        },
+        {
+          "name": "A. Pouget",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Reviews Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nrn1888",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9743372653009563,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 210332792,
+      "title": "Information-Limiting Correlations in Large Neural Populations",
+      "abstract": "Understanding the neural code requires understanding how populations of neurons code information. Theoretical models predict that information may be limited by correlated noise in large neural populations. Nevertheless, analyses based on tens of neurons have failed to find evidence of saturation. Moreover, some studies have shown that noise correlations can be very small, and therefore may not affect information coding. Understanding the neural code requires understanding how populations of neurons code information. Theoretical models predict that information may be limited by correlated noise in large neural populations. Nevertheless, analyses based on tens of neurons have failed to find evidence of saturation. Moreover, some studies have shown that noise correlations can be very small, and therefore may not affect information coding. To determine whether information-limiting correlations exist, we implanted eight Utah arrays in prefrontal cortex (PFC; area 46) of two male macaque monkeys, recording >500 neurons simultaneously. We estimated information in PFC about saccades as a function of ensemble size. Noise correlations were, on average, small (\u223c10\u22123). However, information scaled strongly sublinearly with ensemble size. After shuffling trials, destroying noise correlations, information was a linear function of ensemble size. Thus, we provide evidence for the existence of information-limiting noise correlations in large populations of PFC neurons. SIGNIFICANCE STATEMENT Recent theoretical work has shown that even small correlations can limit information if they are \u201cdifferential correlations,\u201d which are difficult to measure directly. However, they can be detected through decoding analyses on recordings from a large number of neurons over a large number of trials. We have achieved both by collecting neural activity in dorsal-lateral prefrontal cortex of macaques using eight microelectrode arrays (768 electrodes), from which we were able to compute accurate information estimates. We show, for the first time, strong evidence for information-limiting correlations. Despite pairwise correlations being small (on the order of 10\u22123), they affect information coding in populations on the order of 100 s of neurons.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "Ram\u00f3n Bartolo",
+          "id": ""
+        },
+        {
+          "name": "R. Saunders",
+          "id": ""
+        },
+        {
+          "name": "A. Mitz",
+          "id": ""
+        },
+        {
+          "name": "B. Averbeck",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.2072-19.2019",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9725177675877403,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 7540786,
+      "title": "Synergy, Redundancy, and Independence in Population Codes, Revisited",
+      "abstract": "Decoding the activity of a population of neurons is a fundamental problem in neuroscience. A key aspect of this problem is determining whether correlations in the activity, i.e., noise correlations, are important. If they are important, then the decoding problem is high dimensional: decoding algorithms must take the correlational structure in the activity into account. If they are not important, or if they play a minor role, then the decoding problem can be reduced to lower dimension and thus made more tractable. The issue of whether correlations are important has been a subject of heated debate. The debate centers around the validity of the measures used to address it. Here, we evaluate three of the most commonly used ones: synergy, \u0394Ishuffled, and \u0394I. We show that synergy and \u0394Ishuffled are confounded measures: they can be zero when correlations are clearly important for decoding and positive when they are not. In contrast, \u0394I is not confounded. It is zero only when correlations are not important for decoding and positive only when they are; that is, it is zero only when one can decode exactly as well using a decoder that ignores correlations as one can using a decoder that does not, and it is positive only when one cannot decode as well. Finally, we show that \u0394I has an information theoretic interpretation; it is an upper bound on the information lost when correlations are ignored.",
+      "year": 2005,
+      "authors": [
+        {
+          "name": "P. Latham",
+          "id": ""
+        },
+        {
+          "name": "S. Nirenberg",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.5319-04.2005",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9714634762190482,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 2958438,
+      "title": "The Effect of Correlated Variability on the Accuracy of a Population Code",
+      "abstract": "We study the impact of correlated neuronal firing rate variability on the accuracy with which an encoded quantity can be extracted from a population of neurons. Contrary to widespread belief, correlations in the variabilities of neuronal firing rates do not, in general, limit the increase in coding accuracy provided by using large populations of encoding neurons. Furthermore, in some cases, but not all, correlations improve the accuracy of a population code.",
+      "year": 1999,
+      "authors": [
+        {
+          "name": "L. Abbott",
+          "id": ""
+        },
+        {
+          "name": "P. Dayan",
+          "id": ""
+        }
+      ],
+      "venue": "Neural Computation",
+      "journal": null,
+      "url": "https://doi.org/10.1162/089976699300016827",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9702560984684613,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 15227213,
+      "title": "Population coding in neuronal systems with correlated noise.",
+      "abstract": "Neuronal representations of external events are often distributed across large populations of cells. We study the effect of correlated noise on the accuracy of these neuronal population codes. Our main question is whether the inherent error in the population code can be suppressed by increasing the size of the population N in the presence of correlated noise. We address this issue using a model of a population of neurons that are broadly tuned to an angular variable in two dimensions. The fluctuations in the neuronal activities are modeled as Gaussian noises with pairwise correlations that decay exponentially with the difference between the preferred angles of the correlated cells. We assume that the system is broadly tuned, which means that both the correlation length and the width of the tuning curves of the mean responses span a substantial fraction of the entire system length. The performance of the system is measured by the Fisher information (FI), which bounds its estimation error. By calculating the FI in the limit of a large N, we show that positive correlations decrease the estimation capability of the network, relative to the uncorrelated population. The information capacity saturates to a finite value as the number of cells in the population grows. In contrast, negative correlations substantially increase the information capacity of the neuronal population. These results are supplemented by the effect of correlations on the mutual information of the system. Our analysis provides an estimate of the effective number of statistically independent degrees of freedom, denoted N(eff), that a large correlated system can have. According to our theory N(eff) remains finite in the limit of a large N. Estimating the parameters of the correlations and tuning curves from experimental data in some cortical areas that code for angles, we predict that the number of effective degrees of freedom embedded in localized populations in these areas is less than or of the order of approximately 10(2).",
+      "year": 2001,
+      "authors": [
+        {
+          "name": "H. Sompolinsky",
+          "id": ""
+        },
+        {
+          "name": "Hyoungsoo Yoon",
+          "id": ""
+        },
+        {
+          "name": "K. Kang",
+          "id": ""
+        },
+        {
+          "name": "Maoz Shamir",
+          "id": ""
+        }
+      ],
+      "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/11735965",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9699533692450117,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 369234,
+      "title": "Neural population coding: combining insights from microscopic and mass signals",
+      "abstract": "Highlights \u2022 Neural population codes are organized at multiple spatial scales.\u2022 Microscopic organization of neural codes reveals a key role of neural heterogeneity.\u2022 Microscopic and population dynamics interact to make processing state-dependent.\u2022 Additional computational analyses of neural activity across resolutions are needed.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "S. Panzeri",
+          "id": ""
+        },
+        {
+          "name": "J. Macke",
+          "id": ""
+        },
+        {
+          "name": "J. Gross",
+          "id": ""
+        },
+        {
+          "name": "C. Kayser",
+          "id": ""
+        }
+      ],
+      "venue": "Trends in Cognitive Sciences",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/25670005",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9671423180222155,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 2633016,
+      "title": "Information-limiting correlations",
+      "abstract": "Computational strategies used by the brain strongly depend on the amount of information that can be stored in population activity, which in turn strongly depends on the pattern of noise correlations. In vivo, noise correlations tend to be positive and proportional to the similarity in tuning properties. Such correlations are thought to limit information, which has led to the suggestion that decorrelation increases information. In contrast, we found, analytically and numerically, that decorrelation does not imply an increase in information. Instead, the only information-limiting correlations are what we refer to as differential correlations: correlations proportional to the product of the derivatives of the tuning curves. Unfortunately, differential correlations are likely to be very small and buried under correlations that do not limit information, making them particularly difficult to detect. We found, however, that the effect of differential correlations on information can be detected with relatively simple decoders.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "R. Moreno-Bote",
+          "id": ""
+        },
+        {
+          "name": "J. Beck",
+          "id": ""
+        },
+        {
+          "name": "I. Kanitscheider",
+          "id": ""
+        },
+        {
+          "name": "Xaq Pitkow",
+          "id": ""
+        },
+        {
+          "name": "P. Latham",
+          "id": ""
+        },
+        {
+          "name": "A. Pouget",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.3807",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9669265081262342,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 8886242,
+      "title": "Effects of noise correlations on information encoding and decoding.",
+      "abstract": "Response variability is often correlated across populations of neurons, and these noise correlations may play a role in information coding. In previous studies, this possibility has been examined from the encoding and decoding perspectives. Here we used d prime and related information measures to examine how studies of noise correlations from these two perspectives are related. We found that for a pair of neurons, the effect of noise correlations on information decoding can be zero when the effect of noise correlations on the information encoded obtains its largest positive or negative values. Furthermore, there can be no effect of noise correlations on the information encoded when it has an effect on information decoding. We also measured the effect of noise correlations on information encoding and decoding in simultaneously recorded neurons in the supplementary motor area to see how well d prime accounted for the information actually present in the neural responses and to see how noise correlations affected encoding and decoding in real data. These analyses showed that d prime provides an accurate measure of information encoding and decoding in our population of neurons. We also found that the effect of noise correlations on information encoding was somewhat larger than the effect of noise correlations on information decoding, but both were relatively small. Finally, as predicted theoretically, the effects of correlations were slightly greater for larger ensembles (3-8 neurons) than for pairs of neurons.",
+      "year": 2006,
+      "authors": [
+        {
+          "name": "B. Averbeck",
+          "id": ""
+        },
+        {
+          "name": "Daeyeol Lee",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neurophysiology",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/16554512",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9666659872838111,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 4334383,
+      "title": "Correlated neuronal discharge rate and its implications for psychophysical performance",
+      "abstract": "SINGLE neurons can signal subtle changes in the sensory environment with surprising fidelity, often matching the perceptual sensitivity of trained psychophysical observers1\u201310. This similarity poses an intriguing puzzle: why is psychophysical sensitivity not greater than that of single neurons? Pooling responses across neurons should average out noise in the activity of single cells, leading to substantially improved psychophysical performance. If, however, noise is correlated among these neurons, the beneficial effects of pooling would be diminished10\u201312. To assess correlation within a pool, the responses of pairs of neurons were recorded simultaneously during repeated stimulus presentations. We report here that the observed covariation in spike count was relatively weak, the correlation coefficient averaging 0.12. A theoretical analysis revealed, however, that weak correlation can limit substantially the signalling capacity of the pool. In addition, theory suggests a relationship between neuronal responses and psychophysical decisions which may prove useful for identifying cell populations underlying specific perceptual capacities.",
+      "year": 1994,
+      "authors": [
+        {
+          "name": "E. Zohary",
+          "id": ""
+        },
+        {
+          "name": "M. Shadlen",
+          "id": ""
+        },
+        {
+          "name": "W. Newsome",
+          "id": ""
+        }
+      ],
+      "venue": "Nature",
+      "journal": null,
+      "url": "https://doi.org/10.1038/370140A0",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9634397010252254,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 7396882,
+      "title": "The Effect of Noise Correlations in Populations of Diversely Tuned Neurons",
+      "abstract": "The amount of information encoded by networks of neurons critically depends on the correlation structure of their activity. Neurons with similar stimulus preferences tend to have higher noise correlations than others. In homogeneous populations of neurons, this limited range correlation structure is highly detrimental to the accuracy of a population code. Therefore, reduced spike count correlations under attention, after adaptation, or after learning have been interpreted as evidence for a more efficient population code. Here, we analyze the role of limited range correlations in more realistic, heterogeneous population models. We use Fisher information and maximum-likelihood decoding to show that reduced correlations do not necessarily improve encoding accuracy. In fact, in populations with more than a few hundred neurons, increasing the level of limited range correlations can substantially improve encoding accuracy. We found that this improvement results from a decrease in noise entropy that is associated with increasing correlations if the marginal distributions are unchanged. Surprisingly, for constant noise entropy and in the limit of large populations, the encoding accuracy is independent of both structure and magnitude of noise correlations.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "Alexander S. Ecker",
+          "id": ""
+        },
+        {
+          "name": "Philipp Berens",
+          "id": ""
+        },
+        {
+          "name": "A. Tolias",
+          "id": ""
+        },
+        {
+          "name": "M. Bethge",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.2539-11.2011",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9634253461816914,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 15957010,
+      "title": "Synergy, Redundancy, and Independence in Population Codes",
+      "abstract": "A key issue in understanding the neural code for an ensemble of neurons is the nature and strength of correlations between neurons and how these correlations are related to the stimulus. The issue is complicated by the fact that there is not a single notion of independence or lack of correlation. We distinguish three kinds: (1) activity independence; (2) conditional independence; and (3) information independence. Each notion is related to an information measure: the information between cells, the information between cells given the stimulus, and the synergy of cells about the stimulus, respectively. We show that these measures form an interrelated framework for evaluating contributions of signal and noise correlations to the joint information conveyed about the stimulus and that at least two of the three measures must be calculated to characterize a population code. This framework is compared with others recently proposed in the literature. In addition, we distinguish questions about how information is encoded by a population of neurons from how that information can be decoded. Although information theory is natural and powerful for questions of encoding, it is not sufficient for characterizing the process of decoding. Decoding fundamentally requires an error measure that quantifies the importance of the deviations of estimated stimuli from actual stimuli. Because there is no a priori choice of error measure, questions about decoding cannot be put on the same level of generality as for encoding.",
+      "year": 2003,
+      "authors": [
+        {
+          "name": "Elad Schneidman",
+          "id": ""
+        },
+        {
+          "name": "W. Bialek",
+          "id": ""
+        },
+        {
+          "name": "Michael J. Berry",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.23-37-11539.2003",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.961914537343756,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 25600329,
+      "title": "Origin of information-limiting noise correlations",
+      "abstract": "Significance Populations of neurons encode information in activity patterns that vary across repeated presentation of the same input and are correlated across neurons (noise correlations). Such noise correlations can limit information about sensory stimuli and therefore limit behavioral performance in tasks such as discrimination between two similar stimuli. Therefore it is important to understand where and how noise correlations are generated. Most previous accounts focused on sources of variability inside the brain. Here we focus instead on noise that is injected at the sensory periphery and propagated to the cortex: We show that this simple framework accounts for many known properties of noise correlations and explains behavioral performance in discrimination tasks, without the need to assume further sources of information loss. The ability to discriminate between similar sensory stimuli relies on the amount of information encoded in sensory neuronal populations. Such information can be substantially reduced by correlated trial-to-trial variability. Noise correlations have been measured across a wide range of areas in the brain, but their origin is still far from clear. Here we show analytically and with simulations that optimal computation on inputs with limited information creates patterns of noise correlations that account for a broad range of experimental observations while at same time causing information to saturate in large neural populations. With the example of a network of V1 neurons extracting orientation from a noisy image, we illustrate to our knowledge the first generative model of noise correlations that is consistent both with neurophysiology and with behavioral thresholds, without invoking suboptimal encoding or decoding or internal sources of variability such as stochastic network dynamics or cortical state fluctuations. We further show that when information is limited at the input, both suboptimal connectivity and internal fluctuations could similarly reduce the asymptotic information, but they have qualitatively different effects on correlations leading to specific experimental predictions. Our study indicates that noise at the sensory periphery could have a major effect on cortical representations in widely studied discrimination tasks. It also provides an analytical framework to understand the functional relevance of different sources of experimentally measured correlations.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "I. Kanitscheider",
+          "id": ""
+        },
+        {
+          "name": "Ruben Coen-Cagli",
+          "id": ""
+        },
+        {
+          "name": "A. Pouget",
+          "id": ""
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+      "journal": null,
+      "url": "https://doi.org/10.1073/pnas.1508738112",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.955976967455026,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 258788124,
+      "title": "Information Geometry of the Retinal Representation Manifold",
+      "abstract": "The ability for the brain to discriminate among visual stimuli is constrained by their retinal representations. Previous studies of visual discriminability have been limited to either low-dimensional artificial stimuli or pure theoretical considerations without a realistic encoding model. Here we propose a novel framework for understanding stimulus discriminability achieved by retinal representations of naturalistic stimuli with the method of information geometry. To model the joint probability distribution of neural responses conditioned on the stimulus, we created a stochastic encoding model of a population of salamander retinal ganglion cells based on a three-layer convolutional neural network model. This model not only accurately captured the mean response to natural scenes but also a variety of second-order statistics. With the model and the proposed theory, we computed the Fisher information metric over stimuli to study the most discriminable stimulus directions. We found that the most discriminable stimulus varied substantially across stimuli, allowing an examination of the relationship between the most discriminable stimulus and the current stimulus. By examining responses generated by the most discriminable stimuli we further found that the most discriminative response mode is often aligned with the most stochastic mode. This finding carries the important implication that under natural scenes, retinal noise correlations are information-limiting rather than increasing information transmission as has been previously speculated. We additionally observed that sensitivity saturates less in the population than for single cells and that as a function of firing rate, Fisher information varies less than sensitivity. We conclude that under natural scenes, population coding benefits from complementary coding and helps to equalize the information carried by different firing rates, which may facilitate decoding of the stimulus under principles of information maximization.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "Xuehao Ding",
+          "id": ""
+        },
+        {
+          "name": "Dongsoo Lee",
+          "id": ""
+        },
+        {
+          "name": "Joshua B. Melander",
+          "id": ""
+        },
+        {
+          "name": "George Sivulka",
+          "id": ""
+        },
+        {
+          "name": "S. Ganguli",
+          "id": ""
+        },
+        {
+          "name": "S. Baccus",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/37292703",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9559299578533313,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 354153,
+      "title": "Population coding in mouse visual cortex: response reliability and dissociability of stimulus tuning and noise correlation",
+      "abstract": "The primary visual cortex is an excellent model system for investigating how neuronal populations encode information, because of well-documented relationships between stimulus characteristics and neuronal activation patterns. We used two-photon calcium imaging data to relate the performance of different methods for studying population coding (population vectors, template matching, and Bayesian decoding algorithms) to their underlying assumptions. We show that the variability of neuronal responses may hamper the decoding of population activity, and that a normalization to correct for this variability may be of critical importance for correct decoding of population activity. Second, by comparing noise correlations and stimulus tuning we find that these properties have dissociated anatomical correlates, even though noise correlations have been previously hypothesized to reflect common synaptic input. We hypothesize that noise correlations arise from large non-specific increases in spiking activity acting on many weak synapses simultaneously, while neuronal stimulus response properties are dependent on more reliable connections. Finally, this paper provides practical guidelines for further research on population coding and shows that population coding cannot be approximated by a simple summation of inputs, but is heavily influenced by factors such as input reliability and noise correlation structure.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "J. Montijn",
+          "id": ""
+        },
+        {
+          "name": "M. Vinck",
+          "id": ""
+        },
+        {
+          "name": "C. Pennartz",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Computational Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/24917812",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9556556746400642,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 253968032,
+      "title": "The impact of functional correlations on task information coding",
+      "abstract": "State-dependent neural correlations can be understood from a neural coding framework. Noise correlations \u2013 trial-to-trial or moment-to-moment co-variability \u2013 can be interpreted only if the underlying signal correlation \u2013 similarity of task selectivity between pairs of neural units \u2013 is known. Despite many investigations in local spiking circuits, it remains unclear how this coding framework applies to large-scale brain networks. Here we investigated relationships between large-scale noise correlations and signal correlations in a multi-task human fMRI dataset. We found that task-state noise correlation changes (e.g., functional connectivity) did not typically change in the same direction as their underlying signal correlation (e.g., tuning similarity of two regions). This suggests that 1) trial-by-trial variability typically decreases between similarly tuned regions, and 2) stimulus-driven activity does not linearly superimpose atop the network\u2019s background activity. Crucially, noise correlations that changed in the opposite direction as their signal correlation (i.e., anti-aligned correlations) improved information coding of these brain regions. In contrast, noise correlations that changed in the same direction (aligned noise correlations) as their signal correlation did not. Interestingly, these aligned noise correlations were primarily correlation increases, suggesting that most functional correlation increases across fMRI networks actually degrade information coding. These findings illustrate that state-dependent noise correlations shape information coding of functional brain networks, with interpretation of correlation changes requiring knowledge of underlying signal correlations.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Takuya Ito",
+          "id": ""
+        },
+        {
+          "name": "J. Murray",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://doi.org/10.1162/netn_a_00402",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9544058442841923,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 212940254,
+      "title": "Fundamental bounds on the fidelity of sensory cortical coding",
+      "abstract": "How the brain processes information accurately despite stochastic neural activity is a longstanding question1. For instance, perception is fundamentally limited by the information that the brain can extract from the noisy dynamics of sensory neurons. Seminal experiments2,3 suggest that correlated noise in sensory cortical neural ensembles is what limits their coding accuracy4\u20136, although how correlated noise affects neural codes remains debated7\u201311. Recent theoretical work proposes that how a neural ensemble\u2019s sensory tuning properties relate statistically to its correlated noise patterns is a greater determinant of coding accuracy than is absolute noise strength12\u201314. However, without simultaneous recordings from thousands of cortical neurons with shared sensory inputs, it is unknown whether correlated noise limits coding fidelity. Here we present a 16-beam, two-photon microscope to monitor activity across the mouse primary visual cortex, along with analyses to quantify the information conveyed by large neural ensembles. We found that, in the visual cortex, correlated noise constrained signalling for ensembles with 800\u20131,300 neurons. Several noise components of the ensemble dynamics grew proportionally to the ensemble size and the encoded visual signals, revealing the predicted information-limiting correlations12\u201314. Notably, visual signals were perpendicular to the largest noise mode, which therefore did not limit coding fidelity. The information-limiting noise modes were approximately ten times smaller and concordant with mouse visual acuity15. Therefore, cortical design principles appear to enhance coding accuracy by restricting around 90% of noise fluctuations to modes that do not limit signalling fidelity, whereas much weaker correlated noise modes inherently bound sensory discrimination. A microscopy system that enables simultaneous recording from hundreds of neurons in the mouse visual cortex reveals that the brain enhances its coding capacity by representing visual inputs in dimensions perpendicular to correlated noise.",
+      "year": 2020,
+      "authors": [
+        {
+          "name": "O. Rumyantsev",
+          "id": ""
+        },
+        {
+          "name": "J. Lecoq",
+          "id": ""
+        },
+        {
+          "name": "Oscar Hernandez",
+          "id": ""
+        },
+        {
+          "name": "Yanping Zhang",
+          "id": ""
+        },
+        {
+          "name": "J. Savall",
+          "id": ""
+        },
+        {
+          "name": "R. Chrapkiewicz",
+          "id": ""
+        },
+        {
+          "name": "Jane Li",
+          "id": ""
+        },
+        {
+          "name": "Hongkui Zeng",
+          "id": ""
+        },
+        {
+          "name": "S. Ganguli",
+          "id": ""
+        },
+        {
+          "name": "M. Schnitzer",
+          "id": ""
+        }
+      ],
+      "venue": "Nature",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41586-020-2130-2",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9543186341504984,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 101729,
+      "title": "Disambiguating the role of noise correlations when decoding neural populations together",
+      "abstract": "One of the most controversial problems in neural decoding is quantifying the information loss caused by ignoring noise correlations during optimal brain computations. For more than a decade, the measure here called $ \\Delta I^{DL} $ has been believed exact. However, we have recently shown that it can exceed the information loss $ \\Delta I^{B} $ caused by optimal decoders constructed ignoring noise correlations. Unfortunately, the different information notions underlying $ \\Delta I^{DL} $ and $ \\Delta I^{B} $, and the putative rigorous information-theoretical derivation of $ \\Delta I^{DL} $, both render unclear whether those findings indicate either flaws in $ \\Delta I^{DL} $ or major departures from traditional relations between information and decoding. Here we resolve this paradox and prove that, under certain conditions, observing $ \\Delta I^{DL} {>}\\Delta I^{B} $ implies that $ \\Delta I^{DL} $ is flawed. Motivated by this analysis, we test both measures using neural populations that transmit independent information. Our results show that $ \\Delta I^{DL} $ may deem noise correlations more important when decoding the populations together than when decoding them in parallel, whereas the opposite may occur for $ \\Delta I^{B} $. We trace these phenomena back, for $ \\Delta I^{B} $, to the choice of tie-breaking rules, and for $ \\Delta I^{DL} $, to unforeseen limitations within its information-theoretical foundations. Our study contributes with better estimates that potentially improve theoretical and experimental inferences currently drawn from $ \\Delta I^{DL} $ without noticing that it may constitute an upper bound. On the practical side, our results promote the design of optimal decoding algorithms and neuroprosthetics without recording noise correlations, thereby saving experimental and computational resources.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "H. G. Eyherabide",
+          "id": ""
+        }
+      ],
+      "venue": "arXiv.org",
+      "journal": null,
+      "url": "https://arxiv.org/pdf/1608.05501.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9514343501156869,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 132596693,
+      "title": "Understanding multivariate brain activity: Evaluating the effect of voxelwise noise correlations on population codes in functional magnetic resonance imaging",
+      "abstract": "Previous studies have shown that neurons exhibit trial-by-trial correlated activity and that such noise correlations (NCs) greatly impact the accuracy of population codes. Meanwhile, multivariate pattern analysis (MVPA) has become a mainstream approach in functional magnetic resonance imaging (fMRI), but it remains unclear how NCs between voxels affect MVPA accuracy. Here, we tackle this issue by combining voxel-encoding modeling and MVPA. We focus on a well-established form of NC, tuning compatible noise correlation (TCNC), whose sign and magnitude are systematically related to the tuning similarity between two units. We first replicate the classical finding that TCNCs impair population codes in a standard neuronal population. We then extend our analysis to fMRI data and show that voxelwise TCNCs do not impair and can even improve MVPA accuracy when TCNCs are strong or the number of voxels (i.e., pool size) is large. Further computational analyses demonstrate that the discrepancy between the effect of TCNCs in both neuronal and voxel populations can be explained by units\u2019 tuning heterogeneity and pool sizes. Our results provide a theoretical foundation to understand the effect of correlated activity on population codes under different neural measurements. Our results also suggest that the conventional MVPA approach conflates several key aspects of neural coding, and future fMRI research may need to characterize different properties (e.g., NC) of multivariate responses to assess the accuracy of population codes. SIGNIFICANCE STATEMENT Noise correlations (NC) is the key component of the multivariate response distribution and thus characterizing their effect on population codes is the cornerstone for understanding probabilistic computation in the brain. Despite extensive studies on NCs in unit recording experiments, little is known with respect to their role in functional magnetic resonance imaging (fMRI). We characterize the effect of voxelwise NC by building voxel-encoding models and directly quantifying the amount of information in multivariate fMRI data. In contrast to the detrimental effects of NC implied in unit recording data, we find that the voxelwise NCs can enhance information codes in several situations. Our work provides a new approach to characterize population responses in fMRI research.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Ruyuan Zhang",
+          "id": ""
+        },
+        {
+          "name": "Xue-Xin Wei",
+          "id": ""
+        },
+        {
+          "name": "Kendrick Norris Kay",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/32810133",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9467083194320259,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16444088,
+      "title": "Structures of Neural Correlation and How They Favor Coding.",
+      "abstract": "The neural representation of information suffers from \"noise\"-the trial-to-trial variability in the response of neurons. The impact of correlated noise upon population coding has been debated, but a direct connection between theory and experiment remains tenuous. Here, we substantiate this connection and\u00a0propose a refined theoretical picture. Using simultaneous recordings from a population of direction-selective retinal ganglion cells, we demonstrate that coding benefits from noise correlations. The effect is appreciable already in small populations, yet it is\u00a0a collective phenomenon. Furthermore, the stimulus-dependent structure of correlation is key. We\u00a0develop simple functional models that capture the\u00a0stimulus-dependent statistics. We then use them to quantify the performance of population coding, which depends upon interplays of feature sensitivities and noise correlations in the population. Because favorable structures of correlation emerge robustly in circuits with noisy, nonlinear elements, they will arise and benefit coding beyond the confines of retina.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "F. Franke",
+          "id": ""
+        },
+        {
+          "name": "M. Fiscella",
+          "id": ""
+        },
+        {
+          "name": "Maksim Sevelev",
+          "id": ""
+        },
+        {
+          "name": "B. Roska",
+          "id": ""
+        },
+        {
+          "name": "Andreas Hierlemann",
+          "id": ""
+        },
+        {
+          "name": "R. D. Silveira",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26796692",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9392759790268899,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 10616540,
+      "title": "Correlated neuronal discharges that increase coding efficiency during perceptual discrimination.",
+      "abstract": "During a sensory discrimination task, the responses of multiple sensory neurons must be combined to generate a choice. The optimal combination of responses is determined both by their dependence on the sensory stimulus and by their cofluctuations across trials-that is, the noise correlations. Positively correlated noise is considered deleterious, because it limits the coding accuracy of populations of similarly tuned neurons. However, positively correlated fluctuations between differently tuned neurons actually increase coding accuracy, because they allow the common noise to be subtracted without signal loss. This is demonstrated with data recorded from the secondary somatosensory cortex of monkeys performing a vibrotactile discrimination task. The results indicate that positive correlations are not always harmful and may be exploited by cortical networks to enhance the neural representation of features to be discriminated.",
+      "year": 2003,
+      "authors": [
+        {
+          "name": "R. Romo",
+          "id": ""
+        },
+        {
+          "name": "Adri\u00e1n Hern\u00e1ndez",
+          "id": ""
+        },
+        {
+          "name": "A. Zainos",
+          "id": ""
+        },
+        {
+          "name": "E. Salinas",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/12765615",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.938034653574201,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 18427026,
+      "title": "Correlations and Neuronal Population Information.",
+      "abstract": "Brain function involves the activity of neuronal populations. Much recent effort has been devoted to measuring the activity of neuronal populations in different parts of the brain under various experimental conditions. Population activity patterns contain rich structure, yet many studies have focused on measuring pairwise relationships between members of a larger population-termed noise correlations. Here we review recent progress in understanding how these correlations affect population information, how information should be quantified, and what mechanisms may give rise to correlations. As population coding theory has improved, it has made clear that some forms of correlation are more important for information than others. We argue that this is a critical lesson for those interested in neuronal population responses more generally: Descriptions of population responses should be motivated by and linked to well-specified function. Within this context, we offer suggestions of where current theoretical frameworks fall short.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "A. Kohn",
+          "id": ""
+        },
+        {
+          "name": "Ruben Coen-Cagli",
+          "id": ""
+        },
+        {
+          "name": "I. Kanitscheider",
+          "id": ""
+        },
+        {
+          "name": "A. Pouget",
+          "id": ""
+        }
+      ],
+      "venue": "Annual Review of Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/27145916",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9377408814182742,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 14652014,
+      "title": "Direction-Selective Circuits Shape Noise to Ensure a Precise Population Code.",
+      "abstract": "Neural responses are noisy, and circuit structure can\u00a0correlate this noise across neurons. Theoretical studies show that noise correlations can have diverse effects on population coding, but these studies rarely explore stimulus dependence of noise correlations. Here, we show that noise correlations in responses of ON-OFF direction-selective retinal ganglion cells are strongly stimulus dependent, and we uncover the circuit mechanisms producing this stimulus dependence. A population model based on these mechanistic studies shows that stimulus-dependent noise correlations improve the encoding of motion direction 2-fold compared to independent noise. This work demonstrates a mechanism by which a neural circuit effectively shapes its signal and noise in concert, minimizing corruption of signal by noise. Finally, we generalize our findings beyond direction coding in the retina and show that stimulus-dependent correlations will generally enhance information coding in populations of diversely tuned neurons.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "J. Zylberberg",
+          "id": ""
+        },
+        {
+          "name": "Jon Cafaro",
+          "id": ""
+        },
+        {
+          "name": "Maxwell H. Turner",
+          "id": ""
+        },
+        {
+          "name": "E. Shea-Brown",
+          "id": ""
+        },
+        {
+          "name": "F. Rieke",
+          "id": ""
+        }
+      ],
+      "venue": "Neuron",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26796691",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9359617060029352,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 254408801,
+      "title": "Constraints on the design of neuromorphic circuits set by the properties of neural population codes",
+      "abstract": "In the brain, information is encoded, transmitted and used to inform behaviour at the level of timing of action potentials distributed over population of neurons. To implement neural-like systems in silico, to emulate neural function, and to interface successfully with the brain, neuromorphic circuits need to encode information in a way compatible to that used by populations of neuron in the brain. To facilitate the cross-talk between neuromorphic engineering and neuroscience, in this review we first critically examine and summarize emerging recent findings about how population of neurons encode and transmit information. We examine the effects on encoding and readout of information for different features of neural population activity, namely the sparseness of neural representations, the heterogeneity of neural properties, the correlations among neurons, and the timescales (from short to long) at which neurons encode information and maintain it consistently over time. Finally, we critically elaborate on how these facts constrain the design of information coding in neuromorphic circuits. We focus primarily on the implications for designing neuromorphic circuits that communicate with the brain, as in this case it is essential that artificial and biological neurons use compatible neural codes. However, we also discuss implications for the design of neuromorphic systems for implementation or emulation of neural computation.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "S. Panzeri",
+          "id": ""
+        },
+        {
+          "name": "Ella Janotte",
+          "id": ""
+        },
+        {
+          "name": "Alejandro Peque\u00f1o-Zurro",
+          "id": ""
+        },
+        {
+          "name": "Jacopo Bonato",
+          "id": ""
+        },
+        {
+          "name": "C. Bartolozzi",
+          "id": ""
+        }
+      ],
+      "venue": "Neuromorph. Comput. Eng.",
+      "journal": null,
+      "url": "https://doi.org/10.1088/2634-4386%2Facaf9c",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9343130307701645,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 25796245,
+      "title": "Shared noise variability facilitates discrimination of natural images in V4 population.",
+      "abstract": "The visual system is usually simplied as a hierarchical feed-forward filtering system containing independently functioning neurons. However, interactions among visual neurons exist in neural population. The pairwise shared noise variability of spike counts, or noise correlation, is an easily accessible and potentially powerful measure of such interactions. About the role of noise correlation in a population code, the literature includes multiple, often conflicting, perspectives. This is partly due to how noise correlation is experimentally quantified (Cohen & Kohn, 2011), and partly to how its impact is evaluated. In the present study, we attempted to address these discrepancies and to more objectively assess noise correlation and its role in visual coding. We used a 32-channel semi-chronic microdrive array to record spiking activity from the foveal region of macaque area V4 in a passive viewing task. Our study differed from previous investigations in three primary respects: 1) We used complex natural images as visual stimuli, instead of artificial patterns with limited variability, to better approximate naturalistic visual experience; 2) we quantified noise correlation independently for each stimulus rather than using the mean correlation, so as to preserve the stimulus modulation of correlation that is informative for coding (Ponce-Alvarez, Thiele, Albright, Stoner, & Deco, 2013); 3) we evaluated the coding performance using the likelihood ratio of a multi-variant gaussian model, a decoder approach that provides advantages over direct estimation of information given limited data (Moreno-Bote et al., 2014). Our preliminary results suggest that the pattern of noise correlation improves discrimination of natural stimuli, providing the first evidence of synergistic processing with neurons exhibiting shared noise variability. Meeting abstract presented at VSS 2015.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "Shaobo Guan",
+          "id": ""
+        },
+        {
+          "name": "Ruobing Xia",
+          "id": ""
+        },
+        {
+          "name": "David L. Sheinberg",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Vision",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26326785",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9319889075254477,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 254246511,
+      "title": "Self-Organization of Nonlinearly Coupled Neural Fluctuations Into Synergistic Population Codes",
+      "abstract": "Abstract Neural activity in the brain exhibits correlated fluctuations that may strongly influence the properties of neural population coding. However, how such correlated neural fluctuations may arise from the intrinsic neural circuit dynamics and subsequently affect the computational properties of neural population activity remains poorly understood. The main difficulty lies in resolving the nonlinear coupling between correlated fluctuations with the overall dynamics of the system. In this study, we investigate the emergence of synergistic neural population codes from the intrinsic dynamics of correlated neural fluctuations in a neural circuit model capturing realistic nonlinear noise coupling of spiking neurons. We show that a rich repertoire of spatial correlation patterns naturally emerges in a bump attractor network and further reveals the dynamical regime under which the interplay between differential and noise correlations leads to synergistic codes. Moreover, we find that negative correlations may induce stable bound states between two bumps, a phenomenon previously unobserved in firing rate models. These noise-induced effects of bump attractors lead to a number of computational advantages including enhanced working memory capacity and efficient spatiotemporal multiplexing and can account for a range of cognitive and behavioral phenomena related to working memory. This study offers a dynamical approach to investigating realistic correlated neural fluctuations and insights to their roles in cortical computations.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "He Ma",
+          "id": ""
+        },
+        {
+          "name": "Y. Qi",
+          "id": ""
+        },
+        {
+          "name": "P. Gong",
+          "id": ""
+        },
+        {
+          "name": "Jie Zhang",
+          "id": ""
+        },
+        {
+          "name": "Wenlian Lu",
+          "id": ""
+        },
+        {
+          "name": "Jianfeng Feng",
+          "id": ""
+        }
+      ],
+      "venue": "Neural Computation",
+      "journal": null,
+      "url": "https://doi.org/10.1162/neco_a_01612",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9318632278361294,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 255806598,
+      "title": "When does recurrent connectivity improve neural population coding?",
+      "abstract": "Neural systems contain many cells, and an important problem is to understand if and how those neurons work together to form a functioning system. In sensory neuroscience -- which is our focus -- this function is to encode information about a stimulus so that it can be transmitted to other brain areas. An experimentally accessible, and hence popular, way to assess collective behavior is to measure the trial-to-trial covariability in the responses of multiple neurons over repeats of the same stimulus, called noise correlations. Repeat presentations of the same stimulus yield different responses on each trial, and that variability is typically correlated across different neurons [1,2] (although, see [3] for one counterexample). \n \nIn the past two decades, the impact of these noise correlations on population coding has generated great interest. While nothing can add more information about the stimulus than was contained in the inputs (the data processing inequality), noise correlations determine the extent to which noise in the neural system degrades the amount of information that a neural population conveys about a stimulus (for example, see [4-6]). \n \nThere are two main ways in which these noise correlations can be generated: the cells may receive common (noisy) input from (some of) the same upstream source(s), or the cells may be (recurrently) coupled to one another. At the same time, most work on noise correlations and population coding (with a few notable exceptions, including [7,8]) ignores their mechanistic origins. Interestingly, the few studies that have considered the mechanistic origins of noise correlations [7,8] have concluded that recurrent connectivity tends to hinder population coding, or has little overall effect: even though recurrent coupling can \u201csharpen\u201d neural tuning curves, this advantage is more than offset by the fact that it generates harmful noise correlations. This begs the question of when -- if ever -- recurrent coupling can improve population coding, and of whether noise correlations with different mechanistic origins have different impacts on coding performance? \n \nTo address these issues, we are investigating models in which groups of cells with, and without, recurrent coupling are driven by noisy inputs. The cells themselves are then noisy spike generators, and we are varying the fraction of shared inputs to the cells (which modifies the noise correlations due to common input), and the inter-neuronal connectivity, and computing the coding capacity of the resultant networks. Preliminary results indicate that, in some cases \u2013 similar to those discussed in [9] \u2013 recurrent coupling can combat the cell-intrinsic variabililty enough that the population\u2019s coding performance is improved even though the noise correlations the are generated by that coupling do themselves hinder that coding performance. We are in the process of expanding and generalizing on this work. \n \nSupport for this work came from NSF grants DMS-1122106, and CRCNS DMS-1208027 and a Burroughs- Wellcome Fund Career Award at the Scientific Interface to ESB.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "J. Zylberberg",
+          "id": ""
+        },
+        {
+          "name": "E. Shea-Brown",
+          "id": ""
+        }
+      ],
+      "venue": "BMC Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1186/1471-2202-15-S1-P49",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9317191535236858,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 53762436,
+      "title": "Population Coding and Correlated Variability in Electrosensory Pathways",
+      "abstract": "The fact that perception and behavior depend on the simultaneous and coordinated activity of neural populations is well established. Understanding encoding through neuronal population activity is however complicated by the statistical dependencies between the activities of neurons, which can be present in terms of both their mean (signal correlations) and their response variability (noise correlations). Here, we review the state of knowledge regarding population coding and the influence of correlated variability in the electrosensory pathways of the weakly electric fish Apteronotus leptorhynchus. We summarize known population coding strategies at the peripheral level, which are largely unaffected by noise correlations. We then move on to the hindbrain, where existing data from the electrosensory lateral line lobe (ELL) shows the presence of noise correlations. We summarize the current knowledge regarding the mechanistic origins of noise correlations and known mechanisms of stimulus dependent correlation shaping in ELL. We finish by considering future directions for understanding population coding in the electrosensory pathways of weakly electric fish, highlighting the benefits of this model system for understanding the origins and impact of noise correlations on population coding.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Volker Hofmann",
+          "id": ""
+        },
+        {
+          "name": "M. Chacron",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Integrative Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/30542271",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9306397381682445,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 255903346,
+      "title": "Computational methods to study information processing in neural circuits",
+      "abstract": "The brain is an information processing machine and thus naturally lends itself to be studied using computational tools based on the principles of information theory. For this reason, computational methods based on or inspired by information theory have been a cornerstone of practical and conceptual progress in neuroscience. In this Review, we address how concepts and computational tools related to information theory are spurring the development of principled theories of information processing in neural circuits and the development of influential mathematical methods for the analyses of neural population recordings. We review how these computational approaches reveal mechanisms of essential functions performed by neural circuits. These functions include efficiently encoding sensory information and facilitating the transmission of information to downstream brain areas to inform and guide behavior. Finally, we discuss how further progress and insights can be achieved, in particular by studying how competing requirements of neural encoding and readout may be optimally traded off to optimize neural information processing.",
+      "year": 2023,
+      "authors": [
+        {
+          "name": "V. Koren",
+          "id": ""
+        },
+        {
+          "name": "Giulio Bondanelli",
+          "id": ""
+        },
+        {
+          "name": "S. Panzeri",
+          "id": ""
+        }
+      ],
+      "venue": "Computational and Structural Biotechnology Journal",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/36698970",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9264248166224343,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 2078489,
+      "title": "Stimulus-Dependent Correlations and Population Codes",
+      "abstract": "Abstract The magnitude of correlations between stimulus-driven responses of pairs of neurons can itself be stimulus dependent. We examine how this dependence affects the information carried by neural populations about the stimuli that drive them. Stimulus-dependent changes in correlations can both carry information directly and modulate the information separately carried by the firing rates and variances. We use Fisher information to quantify these effects and show that, although stimulus-dependent correlations often carry little information directly, their modulatory effects on the overall information can be large. In particular, if the stimulus dependence is such that correlations increase with stimulus-induced firing rates, this can significantly enhance the information of the population when the structure of correlations is determined solely by the stimulus. However, in the presence of additional strong spatial decay of correlations, such stimulus dependence may have a negative impact. Opposite relationships hold when correlations decrease with firing rates.",
+      "year": 2008,
+      "authors": [
+        {
+          "name": "K. Josic\u0300",
+          "id": ""
+        },
+        {
+          "name": "E. Shea-Brown",
+          "id": ""
+        },
+        {
+          "name": "B. Doiron",
+          "id": ""
+        },
+        {
+          "name": "J. D. L. Rocha",
+          "id": ""
+        }
+      ],
+      "venue": "Neural Computation",
+      "journal": null,
+      "url": "https://doi.org/10.1162/neco.2009.10-08-879",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9251318797422031,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 6831069,
+      "title": "Measuring and interpreting neuronal correlations",
+      "abstract": "Mounting evidence suggests that understanding how the brain encodes information and performs computations will require studying the correlations between neurons. The recent advent of recording techniques such as multielectrode arrays and two-photon imaging has made it easier to measure correlations, opening the door for detailed exploration of their properties and contributions to cortical processing. However, studies have reported discrepant findings, providing a confusing picture. Here we briefly review these studies and conduct simulations to explore the influence of several experimental and physiological factors on correlation measurements. Differences in response strength, the time window over which spikes are counted, spike sorting conventions and internal states can all markedly affect measured correlations and systematically bias estimates. Given these complicating factors, we offer guidelines for interpreting correlation data and a discussion of how best to evaluate the effect of correlations on cortical processing.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        },
+        {
+          "name": "A. Kohn",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.2842",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9233236208474758,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1635501,
+      "title": "Robust information propagation through noisy neural circuits",
+      "abstract": "Sensory neurons give highly variable responses to stimulation, which can limit the amount of stimulus information available to downstream circuits. Much work has investigated the factors that affect the amount of information encoded in these population responses, leading to insights about the role of covariability among neurons, tuning curve shape, etc. However, the informativeness of neural responses is not the only relevant feature of population codes; of potentially equal importance is how robustly that information propagates to downstream structures. For instance, to quantify the retina\u2019s performance, one must consider not only the informativeness of the optic nerve responses, but also the amount of information that survives the spike-generating nonlinearity and noise corruption in the next stage of processing, the lateral geniculate nucleus. Our study identifies the set of covariance structures for the upstream cells that optimize the ability of information to propagate through noisy, nonlinear circuits. Within this optimal family are covariances with \u201cdifferential correlations\u201d, which are known to reduce the information encoded in neural population activities. Thus, covariance structures that maximize information in neural population codes, and those that maximize the ability of this information to propagate, can be very different. Moreover, redundancy is neither necessary nor sufficient to make population codes robust against corruption by noise: redundant codes can be very fragile, and synergistic codes can\u2014in some cases\u2014optimize robustness against noise.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "J. Zylberberg",
+          "id": ""
+        },
+        {
+          "name": "A. Pouget",
+          "id": ""
+        },
+        {
+          "name": "P. Latham",
+          "id": ""
+        },
+        {
+          "name": "E. Shea-Brown",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS Comput. Biol.",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/28419098",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9231419036424449,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 18034474,
+      "title": "Multiscale codes in the nervous system: the problem of noise correlations and the ambiguity of periodic scales.",
+      "abstract": "Encoding information about continuous variables using noisy computational units is a challenge; nonetheless, asymptotic theory shows that combining multiple periodic scales for coding can be highly precise despite the corrupting influence of noise [Mathis, Herz, and Stemmler, Phys. Rev. Lett. 109, 018103 (2012)]. Indeed, the cortex seems to use periodic, multiscale grid codes to represent position accurately. Here we show how such codes can be read out without taking the long-term limit; even on short time scales, the precision of such codes scales exponentially in the number N of neurons. Does this finding also hold for neurons that are not firing in a statistically independent fashion? To assess the extent to which biological grid codes are subject to statistical dependences, we first analyze the noise correlations between pairs of grid code neurons in behaving rodents. We find that if the grids of two neurons align and have the same length scale, the noise correlations between the neurons can reach values as high as 0.8. For increasing mismatches between the grids of the two neurons, the noise correlations fall rapidly. Incorporating such correlations into a population coding model reveals that the correlations lessen the resolution, but the exponential scaling of resolution with N is unaffected.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "Alexander Mathis",
+          "id": ""
+        },
+        {
+          "name": "A. Herz",
+          "id": ""
+        },
+        {
+          "name": "Martin B Stemmler",
+          "id": ""
+        }
+      ],
+      "venue": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/24032870",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9225657676271664,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 277059201,
+      "title": "Neural coding: Foundational concepts, statistical formulations, and recent advances.",
+      "abstract": "Neural coding refers to the processes by which external stimuli are translated into neural activity and represented in a manner that drives behavior. Research in this field aims to elucidate these processes by identifying the neural activity and mechanisms responsible for stimulus recognition and behavioral execution. This article provides a concise review of foundational studies and key concepts in neural coding, along with statistical formulations and recent advances in population coding research enabled by large-scale recordings.",
+      "year": 2025,
+      "authors": [
+        {
+          "name": "H. Shimazaki",
+          "id": ""
+        }
+      ],
+      "venue": "Neurosciences research",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/40107457",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9215893490731433,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 20847972,
+      "title": "Population-Level Neural Codes Are Robust to Single-Neuron Variability from a Multidimensional Coding Perspective.",
+      "abstract": "Sensory neurons are often tuned to particular stimulus features, but their responses to repeated presentation of the same stimulus can vary over subsequent trials. This presents a problem for understanding the\u00a0functioning of the brain, because downstream neuronal populations ought to construct accurate stimulus representations, even upon singular exposure. To study how trial-by-trial fluctuations (i.e., noise) in activity influence cortical representations of sensory input, we performed chronic calcium imaging of GCaMP6-expressing populations in mouse V1. We observed that high-dimensional response correlations, i.e., dependencies in activation strength among multiple neurons, can be used to predict single-trial, single-neuron noise. These multidimensional correlations are structured such that variability in the response of single neurons is relatively harmless to population representations of visual stimuli. We propose that multidimensional coding may represent a canonical principle of cortical circuits, explaining why the apparent noisiness of neuronal responses is compatible with accurate neural representations of stimulus features.",
+      "year": 2016,
+      "authors": [
+        {
+          "name": "J. Montijn",
+          "id": ""
+        },
+        {
+          "name": "Guido T. Meijer",
+          "id": ""
+        },
+        {
+          "name": "C. Lansink",
+          "id": ""
+        },
+        {
+          "name": "C. Pennartz",
+          "id": ""
+        }
+      ],
+      "venue": "Cell Reports",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/27545876",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9211986886680227,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 16803178,
+      "title": "Implications of Neuronal Diversity on Population Coding",
+      "abstract": "In many cortical and subcortical areas, neurons are known to modulate their average firing rate in response to certain external stimulus features. It is widely believed that information about the stimulus features is coded by a weighted average of the neural responses. Recent theoretical studies have shown that the information capacity of such a coding scheme is very limited in the presence of the experimentally observed pairwise correlations. However, central to the analysis of these studies was the assumption of a homogeneous population of neurons. Experimental findings show a considerable measure of heterogeneity in the response properties of different neurons. In this study, we investigate the effect of neuronal heterogeneity on the information capacity of a correlated population of neurons. We show that information capacity of a heterogeneous network is not limited by the correlated noise, but scales linearly with the number of cells in the population. This information cannot be extracted by the population vector readout, whose accuracy is greatly suppressed by the correlated noise. On the other hand, we show that an optimal linear readout that takes into account the neuronal heterogeneity can extract most of this information. We study analytically the nature of the dependence of the optimal linear readout weights on the neuronal diversity. We show that simple online learning can generate readout weights with the appropriate dependence on the neuronal diversity, thereby yielding efficient readout.",
+      "year": 2006,
+      "authors": [
+        {
+          "name": "Maoz Shamir",
+          "id": ""
+        },
+        {
+          "name": "H. Sompolinsky",
+          "id": ""
+        }
+      ],
+      "venue": "Neural Computation",
+      "journal": null,
+      "url": "https://doi.org/10.1162/neco.2006.18.8.1951",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9187263930589589,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 8456067,
+      "title": "Attention improves performance primarily by reducing interneuronal correlations",
+      "abstract": "Visual attention can improve behavioral performance by allowing observers to focus on the important information in a complex scene. Attention also typically increases the firing rates of cortical sensory neurons. Rate increases improve the signal-to-noise ratio of individual neurons, and this improvement has been assumed to underlie attention-related improvements in behavior. We recorded dozens of neurons simultaneously in visual area V4 and found that changes in single neurons accounted for only a small fraction of the improvement in the sensitivity of the population. Instead, over 80% of the attentional improvement in the population signal was caused by decreases in the correlations between the trial-to-trial fluctuations in the responses of pairs of neurons. These results suggest that the representation of sensory information in populations of neurons and the way attention affects the sensitivity of the population may only be understood by considering the interactions between neurons.",
+      "year": 2009,
+      "authors": [
+        {
+          "name": "Marlene R. Cohen",
+          "id": ""
+        },
+        {
+          "name": "J. Maunsell",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nn.2439",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.917385919844221,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 285103249,
+      "title": "State-Dependent Dissociation of Shared Input and Directed Information Flow in the Visual Cortex",
+      "abstract": "Understanding how brain state and sensory input shape inter-laminar communication is essential for interpreting cortical population dynamics. Using laminar recordings in macaque V1, we apply reduced-rank regression to quantify low-dimensional predictive subspaces linking Input and Superficial layers. We find that both visual stimulation and internal state (eyes open vs. closed) modulate the structure and efficacy of these subspaces, but through distinct mechanisms. Visual input induces a directional, feedforward pattern from input to superficial layers, while wakefulness-related modulation enhances coordination more symmetrically. Delay analysis and network simulations confirm that structured, layer-specific inputs produce directional prediction, whereas global fluctuations yield undirected co-activation. Importantly, differential structure across layers predicts the emergence of communication asymmetry. These findings dissociate communication from shared modulation, providing a principled framework for interpreting inter-population correlations. Our results generalize to broader cortical circuits, offering insights into when population coupling reflects genuine information flow versus global state dynamics.",
+      "year": 2026,
+      "authors": [
+        {
+          "name": "Yuxuan Xue",
+          "id": ""
+        },
+        {
+          "name": "Mitchell P. Morton",
+          "id": ""
+        },
+        {
+          "name": "AS Nandy",
+          "id": ""
+        },
+        {
+          "name": "Monika P. Jadi",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/41648268",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.917379139817402,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 203067692,
+      "title": "Trial-by-trial voxelwise noise correlations improve population coding of orientation in human V1",
+      "abstract": "Prior empirical and theoretical studies in neurophysiology have suggested that noise correlations between neurons could have a great impact on the fidelity of population codes in macaque visual cortex. However, it remains unclear whether such insights generalize to the large-scale brain activity in human sensory cortex. Here, we use functional magnetic resonance imaging (fMRI) to examine the effect of noise correlations on population coding of orientation in human V1. Trialwise responses of each V1 voxel is estimated for four orientations. We estimate the Fisher information carried by voxel responses for orientation in the empirically observed data (i.e., with noise correlations) and in a simulated regime in which voxelwise noise correlations are absent. Results show that the removal of noise correlations dramatically reduces information by one order of magnitude. This suggests that correlated activity could mediate the accuracy of population codes in the human brain, and that voxelwise noise correlations in human V1 are mostly beneficial, unlike the neuronal noise correlations that are often found to be detrimental.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "Ruyuan Zhang",
+          "id": ""
+        },
+        {
+          "name": "Xue-Xin Wei",
+          "id": ""
+        },
+        {
+          "name": "Xiangbin Teng",
+          "id": ""
+        },
+        {
+          "name": "Kendrick Norris Kay",
+          "id": ""
+        }
+      ],
+      "venue": "2019 Conference on Cognitive Computational Neuroscience",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/ed24/ef66e56ba03fe79f6cc991a2601f2b98d2ac.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9165663166817053,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 24452436,
+      "title": "Untitled",
+      "abstract": null,
+      "year": null,
+      "authors": [],
+      "venue": null,
+      "journal": null,
+      "url": null,
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9144208452638056,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 7751145,
+      "title": "Functional Heterogeneity in Neighboring Neurons of Cat Primary Visual Cortex in Response to Both Artificial and Natural Stimuli",
+      "abstract": "Neurons in primary visual cortex of many mammals are clustered according to their preference to stimulus parameters such as orientation and spatial frequency. Nevertheless, responses to complex visual stimuli are highly heterogeneous between adjacent neurons. To investigate the relation between these observations, we recorded from pairs of neighboring neurons in area 17 of anesthetized cats in response to stimuli of differing complexity: sinusoidal drifting gratings, binary dense noise, and natural movies. Comparisons of the tuning curves revealed similar orientation and direction preferences for neighboring neurons, but large differences in preferred phase, direction selectivity, and tuning width of spatial frequency. No pair was similar across all tuning properties. The neurons' firing rates averaged across multiple stimulus repetitions (the \u201csignal\u201d) were also compared. Binned between 10 and 200 ms, the correlation between these signals was close to zero in the median across all pairs for all stimulus classes. Signal correlations agreed poorly with differences in tuning properties, except for receptive field offset and relative modulation (i.e., the strength of phase modulation). Nonetheless, signal correlations for different stimulus classes were well correlated with each other, even for gratings and movies. Conversely, trial-to-trial fluctuations (termed \u201cnoise\u201d) were poorly correlated between neighboring neurons, suggesting low degrees of common input. In response to gratings and visual noise, signal and noise correlations were well correlated with each other, but less so for responses to movies. These findings have relevance for our understanding of the processing of natural stimuli in a functionally heterogeneous cortical network.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "K. Martin",
+          "id": ""
+        },
+        {
+          "name": "Sylvia Schr\u00f6der",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.4071-12.2013",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9138904682424113,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273961329,
+      "title": "Measuring Stimulus Information Transfer Between Neural Populations through the Communication Subspace",
+      "abstract": "Sensory processing arises from the communication between neural populations across multiple brain areas. While the widespread presence of neural response variability shared throughout a neural population limits the amount of stimulus-related information those populations can accurately represent, how this variability affects the interareal communication of sensory information is unknown. We propose a mathematical framework to understand the impact of neural population response variability on sensory information transmission. We combine linear Fisher information, a metric connecting stimulus representation and variability, with the framework of communication subspaces, which suggests that functional mappings between cortical populations are low-dimensional relative to the space of population activity patterns. From this, we partition Fisher information depending on the alignment between the population covariance and the mean tuning direction projected onto the communication subspace or its orthogonal complement. We provide mathematical and numerical analyses of our proposed decomposition of Fisher information and examine theoretical scenarios that demonstrate how to leverage communication subspaces for flexible routing and gating of stimulus information. This work will provide researchers investigating interareal communication with a theoretical lens through which to understand sensory information transmission and guide experimental design.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Oren Weiss",
+          "id": ""
+        },
+        {
+          "name": "Ruben Coen-Cagli",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/39574567",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9136770708841788,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 245813280,
+      "title": "Random Compressed Coding with Neurons",
+      "abstract": "Classical models of efficient coding in neurons assume simple mean responses\u2014\u2018tuning curves\u2019\u2014such as bellshaped or monotonic functions of a stimulus feature. Real neurons, however, can be more complex: grid cells, for example, exhibit periodic responses which impart the neural population code with high accuracy. But do highly accurate codes require fine tuning of the response properties? We address this question with the use of a benchmark model: a neural network with random synaptic weights which result in output cells with irregular tuning curves. Irregularity enhances the local resolution of the code but gives rise to catastrophic, global errors. For optimal smoothness of the tuning curves, when local and global errors balance out, the neural network compresses information from a high-dimensional representation to a low-dimensional one, and the resulting distributed code achieves exponential accuracy. An analysis of recordings from monkey motor cortex points to such \u2018compressed efficient coding\u2019. Efficient codes do not require a finely tuned design\u2014they emerge robustly from irregularity or randomness.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "S. Malerba",
+          "id": ""
+        },
+        {
+          "name": "Mirko Pieropan",
+          "id": ""
+        },
+        {
+          "name": "Y. Burak",
+          "id": ""
+        },
+        {
+          "name": "Rava Azeredo da Silveira",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/40111998",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9126941635095903,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 13164984,
+      "title": "When and Why Noise Correlations Are Important in Neural Decoding",
+      "abstract": "Information may be encoded both in the individual activity of neurons and in the correlations between their activities. Understanding whether knowledge of noise correlations is required to decode all the encoded information is fundamental for constructing computational models, brain\u2013machine interfaces, and neuroprosthetics. If correlations can be ignored with tolerable losses of information, the readout of neural signals is simplified dramatically. To that end, previous studies have constructed decoders assuming that neurons fire independently and then derived bounds for the information that is lost. However, here we show that previous bounds were not tight and overestimated the importance of noise correlations. In this study, we quantify the exact loss of information induced by ignoring noise correlations and show why previous estimations were not tight. Further, by studying the elementary parts of the decoding process, we determine when and why information is lost on a single-response basis. We introduce the minimum decoding error to assess the distinctive role of noise correlations under natural conditions. We conclude that all of the encoded information can be decoded without knowledge of noise correlations in many more situations than previously thought.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "H. G. Eyherabide",
+          "id": ""
+        },
+        {
+          "name": "I. Samengo",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.0357-13.2013",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9119465733343539,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 231740876,
+      "title": "The Geometry of Information Coding in Correlated Neural Populations.",
+      "abstract": "Neurons in the brain represent information in their collective activity. The fidelity of this neural population code depends on whether and how variability in the response of one neuron is shared with other neurons. Two decades of studies have investigated the influence of these noise correlations on the properties of neural coding. We provide an overview of the theoretical developments on the topic. Using simple, qualitative, and general arguments, we discuss, categorize, and relate the various published results. We emphasize the relevance of the fine structure of noise correlation, and we present a new approach to the issue. Throughout this review, we emphasize a geometrical picture of how noise correlations impact the neural code. Expected final online publication date for the Annual Review of Neuroscience, Volume 44 is July 2021. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "R. A. da Silveira",
+          "id": ""
+        },
+        {
+          "name": "F. Rieke",
+          "id": ""
+        }
+      ],
+      "venue": "Annual Review of Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/33863252",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.911921382758234,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 5712901,
+      "title": "Efficient population coding of naturalistic whisker motion in the ventro-posterior medial thalamus based on precise spike timing",
+      "abstract": "The rodent whisker-associated thalamic nucleus (VPM) contains a somatotopic map where whisker representation is divided into distinct neuronal sub-populations, called \u201cbarreloids\u201d. Each barreloid projects to its associated cortical barrel column and so forms a gateway for incoming sensory stimuli to the barrel cortex. We aimed to determine how the population of neurons within one barreloid encodes naturalistic whisker motion. In rats, we recorded the extracellular activity of up to nine single neurons within a single barreloid, by implanting silicon probes parallel to the longitudinal axis of the barreloids. We found that play-back of texture-induced whisker motion evoked sparse responses, timed with millisecond precision. At the population level, there was synchronous activity: however, different subsets of neurons were synchronously active at different times. Mutual information between population responses and whisker motion increased near linearly with population size. When normalized to factor out firing rate differences, we found that texture was encoded with greater informational-efficiency than white noise. These results indicate that, within each VPM barreloid, there is a rich and efficient population code for naturalistic whisker motion based on precisely timed, population spike patterns.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "M. Bale",
+          "id": ""
+        },
+        {
+          "name": "Robin A. A. Ince",
+          "id": ""
+        },
+        {
+          "name": "Greta Santagata",
+          "id": ""
+        },
+        {
+          "name": "R. Petersen",
+          "id": ""
+        }
+      ],
+      "venue": "Front. Neural Circuits",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26441549",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9115888840968066,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 59815016,
+      "title": "Noise Correlations and Information Encoding and Decoding",
+      "abstract": "Neuronal noise is correlated in the brain, and these correlations can affect both information encoding and decoding. In this chapter we discuss the recent progress that has been made, both theoretical and empirical, on how noise correlations affect information encoding and decoding. Specifically, we discuss theoretical results which show the conditions under which correlations either do or do not cause the amount of encoded information to saturate in modestly large populations of neurons. Correspondingly, we also describe the conditions under which information decoding can be affected by the presence of correlations. Complementing the theory, empirical studies have generally shown that the effects of correlations on both encoding and decoding are small in pairs of neurons. However, theory shows that small effects at the level of pairs of neurons can lead to large effects in populations. Thus, it is difficult to draw conclusions about the effects of correlations at the population level by studying pairs of neurons. Therefore, we conclude the chapter by briefly considering the issues around estimating information in larger populations.",
+      "year": 2009,
+      "authors": [
+        {
+          "name": "B. Averbeck",
+          "id": ""
+        }
+      ],
+      "venue": null,
+      "journal": null,
+      "url": "https://doi.org/10.1007/978-1-4419-0389-1_11",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9106912761489729,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 235677314,
+      "title": "Revisiting Persistent Neuronal Activity During Covert Spatial Attention",
+      "abstract": "Persistent activity has been observed in the prefrontal cortex (PFC), in particular during the delay periods of visual attention tasks. Classical approaches based on the average activity over multiple trials have revealed that such an activity encodes the information about the attentional instruction provided in such tasks. However, single-trial approaches have shown that activity in this area is rather sparse than persistent and highly heterogeneous not only within the trials but also between the different trials. Thus, this observation raised the question of how persistent the actually persistent attention-related prefrontal activity is and how it contributes to spatial attention. In this paper, we review recent evidence of precisely deconstructing the persistence of the neural activity in the PFC in the context of attention orienting. The inclusion of machine-learning methods for decoding the information reveals that attention orienting is a highly dynamic process, possessing intrinsic oscillatory dynamics working at multiple timescales spanning from milliseconds to minutes. Dimensionality reduction methods further show that this persistent activity dynamically incorporates multiple sources of information. This novel framework reflects a high complexity in the neural representation of the attention-related information in the PFC, and how its computational organization predicts behavior.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "J. Amengual",
+          "id": ""
+        },
+        {
+          "name": "S. Ben Hamed",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neural Circuits",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/34276314",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9061191405933445,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1434672,
+      "title": "Mouse V1 population correlates of visual detection rely on heterogeneity within neuronal response patterns",
+      "abstract": "Previous studies have demonstrated the importance of the primary sensory cortex for the detection, discrimination, and awareness of visual stimuli, but it is unknown how neuronal populations in this area process detected and undetected stimuli differently. Critical differences may reside in the mean strength of responses to visual stimuli, as reflected in bulk signals detectable in functional magnetic resonance imaging, electro-encephalogram, or magnetoencephalography studies, or may be more subtly composed of differentiated activity of individual sensory neurons. Quantifying single-cell Ca2+ responses to visual stimuli recorded with in vivo two-photon imaging, we found that visual detection correlates more strongly with population response heterogeneity rather than overall response strength. Moreover, neuronal populations showed consistencies in activation patterns across temporally spaced trials in association with hit responses, but not during nondetections. Contrary to models relying on temporally stable networks or bulk signaling, these results suggest that detection depends on transient differentiation in neuronal activity within cortical populations. DOI: http://dx.doi.org/10.7554/eLife.10163.001",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "J. Montijn",
+          "id": ""
+        },
+        {
+          "name": "P. M. Goltstein",
+          "id": ""
+        },
+        {
+          "name": "C. Pennartz",
+          "id": ""
+        }
+      ],
+      "venue": "eLife",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26646184",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9051485304018912,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 231607292,
+      "title": "Lessons From Deep Neural Networks for Studying the Coding Principles of Biological Neural Networks",
+      "abstract": "One of the central goals in systems neuroscience is to understand how information is encoded in the brain, and the standard approach is to identify the relation between a stimulus and a neural response. However, the feature of a stimulus is typically defined by the researcher's hypothesis, which may cause biases in the research conclusion. To demonstrate potential biases, we simulate four likely scenarios using deep neural networks trained on the image classification dataset CIFAR-10 and demonstrate the possibility of selecting suboptimal/irrelevant features or overestimating the network feature representation/noise correlation. Additionally, we present studies investigating neural coding principles in biological neural networks to which our points can be applied. This study aims to not only highlight the importance of careful assumptions and interpretations regarding the neural response to stimulus features but also suggest that the comparative study between deep and biological neural networks from the perspective of machine learning can be an effective strategy for understanding the coding principles of the brain.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Hyojin Bae",
+          "id": ""
+        },
+        {
+          "name": "S. Kim",
+          "id": ""
+        },
+        {
+          "name": "Chang-Eop Kim",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Systems Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/33519390",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9046839550868834,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 256674891,
+      "title": "Cortical state dynamics and selective attention define the spatial pattern of correlated variability in neocortex",
+      "abstract": "Correlated activity fluctuations in the neocortex influence sensory responses and behavior. Neural correlations reflect anatomical connectivity but also change dynamically with cognitive states such as attention. Yet, the network mechanisms defining the population structure of correlations remain unknown. We measured correlations within columns in the visual cortex. We show that the magnitude of correlations, their attentional modulation, and dependence on lateral distance are explained by columnar On-Off dynamics, which are synchronous activity fluctuations reflecting cortical state. We developed a network model in which the On-Off dynamics propagate across nearby columns generating spatial correlations with the extent controlled by attentional inputs. This mechanism, unlike previous proposals, predicts spatially non-uniform changes in correlations during attention. We confirm this prediction in our columnar recordings by showing that in superficial layers the largest changes in correlations occur at intermediate lateral distances. Our results reveal how spatially structured patterns of correlated variability emerge through interactions of cortical state dynamics, anatomical connectivity, and attention. Noise correlations in the neocortex change dynamically with cognitive states. Here the authors show how heterogeneous spatial patterns of noise correlations emerge through interactions of cortical On-Off dynamics, connectivity, and attention.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Yan Shi",
+          "id": ""
+        },
+        {
+          "name": "Nicholas A. Steinmetz",
+          "id": ""
+        },
+        {
+          "name": "Tirin Moore",
+          "id": ""
+        },
+        {
+          "name": "K. Boahen",
+          "id": ""
+        },
+        {
+          "name": "Tatiana A. Engel",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41467-021-27724-4",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9036053963355858,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 57757053,
+      "title": "Understanding Sensory Information Processing Through Simultaneous Multi-area Population Recordings",
+      "abstract": "The goal of sensory neuroscience is to understand how the brain creates its myriad of representations of the world, and uses these representations to produce perception and behavior. Circuits of neurons in spatially segregated regions of brain tissue have distinct functional specializations, and these regions are connected to form a functional processing hierarchy. Advances in technology for recording neuronal activity from multiple sites in multiple cortical areas mean that we are now able to collect data that reflects how information is transformed within and between connected members of this hierarchy. This advance is an important step in understanding the brain because, after the sensory organs have transduced a physical signal, every processing stage takes the activity of other neurons as its input, not measurements of the physical world. However, as we explore the potential of studying how populations of neurons in multiple areas respond in concert, we must also expand both the analytical tools that we use to make sense of these data and the scope of the theories that we attempt to define. In this article, we present an overview of some of the most promising analytical approaches for making inferences from population recordings in multiple brain areas, such as dimensionality reduction and measuring changes in correlated variability, and examine how they may be used to address longstanding questions in sensory neuroscience.",
+      "year": 2019,
+      "authors": [
+        {
+          "name": "E. Zavitz",
+          "id": ""
+        },
+        {
+          "name": "N. Price",
+          "id": ""
+        }
+      ],
+      "venue": "Front. Neural Circuits",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/30687020",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.9003942765801218,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 12143985,
+      "title": "Noise Correlations Have Little Influence on the Coding of Selective Attention in Area V1",
+      "abstract": "Neurons in the visual primary cortex (area V1) do not only code simple features but also whether image elements are attended or not. These attentional signals are weaker than the feature-selective responses, and their reliability may therefore be limited by the noisiness of neuronal responses. Here we show that it is possible to decode the locus of attention on a single trial from the activity of a small population of neurons in area V1. Previous studies suggested that correlations between the activities of neurons that are part of a population limit the information gain, but here we report that the impact of these noise correlations depends on the relative position of the neurons' receptive fields. Correlations reduce the benefit of pooling neuronal responses evoked by the same object but actually enhance the advantage of pooling responses evoked by different objects. These opposing effects cancelled each other at the population level, so that the net effect of the noise correlations was negligible and attention could be decoded reliably. Our results suggest that noise correlations are caused by large-scale fluctuations in cortical excitability, which can be removed by a comparison of the response strengths evoked by different objects.",
+      "year": 2008,
+      "authors": [
+        {
+          "name": "Jasper Poort",
+          "id": ""
+        },
+        {
+          "name": "P. Roelfsema",
+          "id": ""
+        }
+      ],
+      "venue": "Cerebral Cortex",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/70d9/17965c03a2e9288e4ffdc038cac8c6cb2206.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8989180388798935,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 15230084,
+      "title": "Limited range correlations, when modulated by firing rate, can substantially improve neural population coding",
+      "abstract": "Neural activities are unreliable indicators of features of the external world [1], and an open question is how our nervous systems function robustly in the presence of this noise. One possibility arises from the observation that variability is often correlated between neurons [2], leading to the important theoretical question of when and how noise correlations affect neural population codes. Much work has investigated this issue, leading to impressive insights about how the relationship between the statistical structures of signals vs noise affects neural population coding. Despite this progress, an important issue has been largely overlooked by the field: that of firing-rate-dependent correlations. Notably, the same pair of neurons can display different noise correlations in response to different stimuli; those correlations coefficients typically increase with increases in the neurons' firing rates [2,3]. \n \nIn this paper, we investigate the role of so-called \"limited range\" correlations on population codes, either in the presence, or the absence of rate-modulation of the correlation coefficients. Limited-range correlations are frequently-observed population-wide correlation structures in which cells with similar tuning curves have positive noise correlations, and the correlations decrease with decreasing tuning curve similarity [2,4]. These patterns of noise correlation are typically harmful to population coding [5] (yielding worse population coding performance than would be obtained with the same tuning curves and noise variances for all cells, but no noise correlations); these effects are somewhat dependent on the degree of heterogeneity in the population's tuning curves [6,7]. \n \nExperimentally reported noise correlations are usually averaged over stimuli, thereby masking any stimulus dependence. Herein, we will demonstrate that, when correlation coefficients increase with the product of mean neural firing rates (as in [2,3]), the stimulus-averaged correlation coefficients will display limited-range structure. When the rate dependence of these correlations is ignored, those correlations appear to be quite harmful to the population code, in accordance with previous theoretical work [5]. Surprisingly, when the rate dependence is taken into account, the correlations can yield much better population coding than would be obtained in the presence of uncorrelated noise. These effects persist for either homogeneous or heterogeneous sets of neural tuning curves. One prior study [8] also found that rate-dependent correlations can have very different impacts on population codes than can rate-independent ones, but did not make the connection between firing-rate-dependent correlations and the frequently observed limited-range correlation structure. Overall, our results emphasize that, for understanding the impact of limited-range correlations on neural population coding, the firing-rate dependence of those correlations is a potentially important consideration. Thus, it is important to report not only stimulus-averaged correlation coefficients, but also the relationship between those correlation coefficients and the neural firing rates.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "J. Zylberberg",
+          "id": ""
+        },
+        {
+          "name": "Jon Cafaro",
+          "id": ""
+        },
+        {
+          "name": "Maxwell H. Turner",
+          "id": ""
+        },
+        {
+          "name": "F. Rieke",
+          "id": ""
+        },
+        {
+          "name": "E. Shea-Brown",
+          "id": ""
+        }
+      ],
+      "venue": "BMC Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1186/1471-2202-16-S1-O16",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8987526110100265,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 3691376,
+      "title": "Relating the Structure of Noise Correlations in Macaque Primary Visual Cortex to Decoder Performance",
+      "abstract": "Noise correlations in neuronal responses can have a strong influence on the information available in large populations. In addition, the structure of noise correlations may have a great impact on the utility of different algorithms to extract this information that may depend on the specific algorithm, and hence may affect our understanding of population codes in the brain. Thus, a better understanding of the structure of noise correlations and their interplay with different readout algorithms is required. Here we use eigendecomposition to investigate the structure of noise correlations in populations of about 50\u2013100 simultaneously recorded neurons in the primary visual cortex of anesthetized monkeys, and we relate this structure to the performance of two common decoders: the population vector and the optimal linear estimator. Our analysis reveals a non-trivial correlation structure, in which the eigenvalue spectrum is composed of several distinct large eigenvalues that represent different shared modes of fluctuation extending over most of the population, and a semi-continuous tail. The largest eigenvalue represents a uniform collective mode of fluctuation. The second and third eigenvalues typically show either a clear functional (i.e., dependent on the preferred orientation of the neurons) or spatial structure (i.e., dependent on the physical position of the neurons). We find that the number of shared modes increases with the population size, being roughly 10% of that size. Furthermore, we find that the noise in each of these collective modes grows linearly with the population. This linear growth of correlated noise power can have limiting effects on the utility of averaging neuronal responses across large populations, depending on the readout. Specifically, the collective modes of fluctuation limit the accuracy of the population vector but not of the optimal linear estimator.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Or P. Mendels",
+          "id": ""
+        },
+        {
+          "name": "Maoz Shamir",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Computational Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/29556186",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8964964576793346,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 5706748,
+      "title": "Cellular and Circuit Mechanisms Maintain Low Spike Co-Variability and Enhance Population Coding in Somatosensory Cortex",
+      "abstract": "The responses of cortical neurons are highly variable across repeated presentations of a stimulus. Understanding this variability is critical for theories of both sensory and motor processing, since response variance affects the accuracy of neural codes. Despite this influence, the cellular and circuit mechanisms that shape the trial-to-trial variability of population responses remain poorly understood. We used a combination of experimental and computational techniques to uncover the mechanisms underlying response variability of populations of pyramidal (E) cells in layer 2/3 of rat whisker barrel cortex. Spike trains recorded from pairs of E-cells during either spontaneous activity or whisker deflected responses show similarly low levels of spiking co-variability, despite large differences in network activation between the two states. We developed network models that show how spike threshold non-linearities dilute E-cell spiking co-variability during spontaneous activity and low velocity whisker deflections. In contrast, during high velocity whisker deflections, cancelation mechanisms mediated by feedforward inhibition maintain low E-cell pairwise co-variability. Thus, the combination of these two mechanisms ensure low E-cell population variability over a wide range of whisker deflection velocities. Finally, we show how this active decorrelation of population variability leads to a drastic increase in the population information about whisker velocity. The prevalence of spiking non-linearities and feedforward inhibition in the nervous system suggests that the mechanisms for low network variability presented in our study may generalize throughout the brain.",
+      "year": 2012,
+      "authors": [
+        {
+          "name": "C. Ly",
+          "id": ""
+        },
+        {
+          "name": "Jason W. Middleton",
+          "id": ""
+        },
+        {
+          "name": "B. Doiron",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Computational Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/22408615",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8954829456415332,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 5483611,
+      "title": "Five key factors determining pairwise correlations in visual cortex",
+      "abstract": "The responses of cortical neurons to repeated presentation of a stimulus are highly variable, yet correlated. These \u201cnoise correlations\u201d reflect a low-dimensional structure of population dynamics. Here, we examine noise correlations in 22,705 pairs of neurons in primary visual cortex (V1) of anesthetized cats, during ongoing activity and in response to artificial and natural visual stimuli. We measured how noise correlations depend on 11 factors. Because these factors are themselves not independent, we distinguished their influences using a nonlinear additive model. The model revealed that five key factors play a predominant role in determining pairwise correlations. Two of these are distance in cortex and difference in sensory tuning: these are known to decrease correlation. A third factor is firing rate: confirming most earlier observations, it markedly increased pairwise correlations. A fourth factor is spike width: cells with a broad spike were more strongly correlated amongst each other. A fifth factor is spike isolation: neurons with worse isolation were more correlated, even if they were recorded on different electrodes. For pairs of neurons with poor isolation, this last factor was the main determinant of correlations. These results were generally independent of stimulus type and timescale of analysis, but there were exceptions. For instance, pairwise correlations depended on difference in orientation tuning more during responses to gratings than to natural stimuli. These results consolidate disjoint observations in a vast literature on pairwise correlations and point towards regularities of population coding in sensory cortex.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "D. P. Schulz",
+          "id": ""
+        },
+        {
+          "name": "M. Sahani",
+          "id": ""
+        },
+        {
+          "name": "M. Carandini",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neurophysiology",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/705b/6bd7506739d29e9ae95b5a3bff36d853a61f.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8953599828785815,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 52976684,
+      "title": "Perceptual learning of fine contrast discrimination changes neuronal tuning and population coding in macaque V4",
+      "abstract": "Perceptual learning, the improvement in perceptual abilities with training, is thought to be mediated by an alteration of neuronal tuning. It remains poorly understood how tuning properties change as training progresses, whether improved stimulus tuning directly links to increased behavioural readout of sensory information, or how population coding mechanisms change with training. Here, we recorded continuously from multiple neuronal clusters in area V4 while macaque monkeys learned a fine contrast categorization task. Training increased neuronal coding abilities by shifting the steepest point of contrast response functions towards the categorization boundary. Population coding accuracy of difficult discriminations resulted largely from an increased information coding of individual channels, particularly for those channels that in early learning had larger ability for easy discriminations, but comparatively small encoding abilities for difficult discriminations. Population coding was also enhanced by specific changes in correlations. Neuronal activity became more indicative of upcoming choices with training. Perceptual learning, the improvement in perceptual abilities with training, is thought to involve changes in neuronal 'tuning'. Here, the authors show that perceptual learning works by making neurons increasingly sensitive to task-relevant differences in stimuli, and by improving population coding mechanisms.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "Mehdi Sanayei",
+          "id": ""
+        },
+        {
+          "name": "Xing Chen",
+          "id": ""
+        },
+        {
+          "name": "D. Chicharro",
+          "id": ""
+        },
+        {
+          "name": "C. Distler",
+          "id": ""
+        },
+        {
+          "name": "S. Panzeri",
+          "id": ""
+        },
+        {
+          "name": "A. Thiele",
+          "id": ""
+        }
+      ],
+      "venue": "Nature Communications",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41467-018-06698-w",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8928757253435776,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 20719714,
+      "title": "Mutual information of local field potentials distinguishes area-V2 stripe compartments",
+      "abstract": "Purpose Determining how information is represented by populations of neurons in different cortical areas is critical to our understanding of the brain mechanisms of visual perception. Recently, information-theoretical approaches have been applied to the analysis of spike trains of multiple neurons. However, other neurophysiological signals, such as local field potentials (LFPs), offer a different source of information worthy of investigating in this way. In this study, we investigate how the modular organization of area V2 of macaque monkeys impacts the information represented in LFPs. Materials and methods LFPs were recorded from a 32-channel microelectrode array implanted in area V2 of an anesthetized macaque monkey. The electrode positions were recovered in histological tissue stained for cytochrome oxidase (CO) to reveal the modular organization of V2. Visual stimuli consisted of a variety of moving gratings that differed in orientation, direction, spatial frequency, and chromatic content. Results LFPs were separated into different frequency bands for analysis of mutual information as a function of stimulus type and CO-stripe location. High-\u03b3-band LFPs revealed the highest information content across the electrode array. The distributions of total mutual information as well as mutual information due to correlations varied greatly by CO stripe. This analysis indicates that local correlations within each CO stripe generally reduce mutual information, whereas correlations between stripes greatly increase mutual information. Conclusion The decomposition mutual information based on the power of different frequency bands of LFPs provides new insight into the impact of modular architecture on population coding in area V2. Unlike other cortical areas, such as V1, where mutual information based on LFP correlations is largely determined by cortical separation, mutual information in V2 is also fundamentally determined by the CO-stripe architecture.",
+      "year": 2014,
+      "authors": [
+        {
+          "name": "Arun Parajuli",
+          "id": ""
+        },
+        {
+          "name": "A. Eriksson",
+          "id": ""
+        },
+        {
+          "name": "D. Felleman",
+          "id": ""
+        }
+      ],
+      "venue": "Eye and Brain",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/7f77/6b133ac156b37f298f5f689871acbc1dab46.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8916914345236725,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 48361468,
+      "title": "Selective Changes in Noise Correlations Contribute to an Enhanced Representation of Saccadic Targets in Prefrontal Neuronal Ensembles",
+      "abstract": "Abstarct An ensemble of neurons can provide a dynamic representation of external stimuli, ongoing processes, or upcoming actions. This dynamic representation could be achieved by changes in the activity of individual neurons and/or their interactions. To investigate these possibilities, we simultaneously recorded from ensembles of prefrontal neurons in non-human primates during a memory-guided saccade task. Using both decoding and encoding methods, we examined changes in the information content of individual neurons and that of ensembles between visual encoding and saccadic target selection. We found that individual neurons maintained their limited spatial sensitivity between these cognitive states, whereas the ensemble selectively improved its encoding of spatial locations far from the neurons\u2019 preferred locations. This population-level \u201cencoding expansion\u201d was not due to the ceiling effect at the preferred locations and was accompanied by selective changes in noise correlations for non-preferred locations. Moreover, the encoding expansion was observed for ensembles of different types of neurons and could not be explained by shifts in the preferred location of individual neurons. Our results demonstrate that the representation of space by neuronal ensembles is dynamically enhanced prior to saccades, and this enhancement occurs alongside changes in noise correlations more than changes in the activity of individual neurons.",
+      "year": 2018,
+      "authors": [
+        {
+          "name": "M. Dehaqani",
+          "id": ""
+        },
+        {
+          "name": "A. Vahabie",
+          "id": ""
+        },
+        {
+          "name": "M. Parsa",
+          "id": ""
+        },
+        {
+          "name": "B. Noudoost",
+          "id": ""
+        },
+        {
+          "name": "A. Soltani",
+          "id": ""
+        }
+      ],
+      "venue": "Cerebral Cortex",
+      "journal": null,
+      "url": "https://doi.org/10.1093/cercor%2Fbhy141",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.888009750796599,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 11964549,
+      "title": "Functional constraints in the evolution of brain circuits",
+      "abstract": "Regardless of major anatomical and neurodevelopmental differences, the vertebrate isocortex shows a remarkably well-conserved organization. In the isocortex, reciprocal connections between excitatory and inhibitory neurons are distributed across multiple layers, encompassing modular, dynamical and recurrent functional networks during information processing. These dynamical brain networks are often organized in neuronal assemblies interacting through rhythmic phase relationships. Accordingly, these oscillatory interactions are observed across multiple brain scale levels, and they are associated with several sensory, motor, and cognitive processes. Most notably, oscillatory interactions are also found in the complete spectrum of vertebrates. Yet, it is unknown why this functional organization is so well conserved in evolution. In this perspective, we propose some ideas about how functional requirements of the isocortex can account for the evolutionary stability observed in microcircuits across vertebrates. We argue that isocortex architectures represent canonical microcircuits resulting from: (i) the early selection of neuronal architectures based on the oscillatory excitatory-inhibitory balance, which lead to the implementation of compartmentalized oscillations and (ii) the subsequent emergence of inferential coding strategies (predictive coding), which are able to expand computational capacities. We also argue that these functional constraints may be the result of several advantages that oscillatory activity contributes to brain network processes, such as information transmission and code reliability. In this manner, similarities in mesoscale brain circuitry and input-output organization between different vertebrate groups may reflect evolutionary constraints imposed by these functional requirements, which may or may not be traceable to a common ancestor.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "C. Bosman",
+          "id": ""
+        },
+        {
+          "name": "F. Aboitiz",
+          "id": ""
+        }
+      ],
+      "venue": "Frontiers in Neuroscience",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26388716",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.886890899724123,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 18072815,
+      "title": "Activation of Parallel Fiber Feedback by Spatially Diffuse Stimuli Reduces Signal and Noise Correlations via Independent Mechanisms in a Cerebellum-Like Structure",
+      "abstract": "Correlations between the activities of neighboring neurons are observed ubiquitously across systems and species and are dynamically regulated by several factors such as the stimulus' spatiotemporal extent as well as by the brain's internal state. Using the electrosensory system of gymnotiform weakly electric fish, we recorded the activities of pyramidal cell pairs within the electrosensory lateral line lobe (ELL) under spatially localized and diffuse stimulation. We found that both signal and noise correlations were markedly reduced (>40%) under the latter stimulation. Through a network model incorporating key anatomical features of the ELL, we reveal how activation of diffuse parallel fiber feedback from granule cells by spatially diffuse stimulation can explain both the reduction in signal as well as the reduction in noise correlations seen experimentally through independent mechanisms. First, we show that burst-timing dependent plasticity, which leads to a negative image of the stimulus and thereby reduces single neuron responses, decreases signal but not noise correlations. Second, we show trial-to-trial variability in the responses of single granule cells to sensory input reduces noise but not signal correlations. Thus, our model predicts that the same feedback pathway can simultaneously reduce both signal and noise correlations through independent mechanisms. To test this prediction experimentally, we pharmacologically inactivated parallel fiber feedback onto ELL pyramidal cells. In agreement with modeling predictions, we found that inactivation increased both signal and noise correlations but that there was no significant relationship between magnitude of the increase in signal correlations and the magnitude of the increase in noise correlations. The mechanisms reported in this study are expected to be generally applicable to the cerebellum as well as other cerebellum-like structures. We further discuss the implications of such decorrelation on the neural coding strategies used by the electrosensory and by other systems to process natural stimuli.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "B. Simmonds",
+          "id": ""
+        },
+        {
+          "name": "M. Chacron",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS Comput. Biol.",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/658e/62cbe600ee3b7f0a66fc69f5a45d7462c3fb.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.8834983158271876,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 250731002,
+      "title": "Targeted dimensionality reduction enables reliable estimation of neural population coding accuracy from trial-limited data",
+      "abstract": "Rapidly developing technology for large scale neural recordings has allowed researchers to measure the activity of hundreds to thousands of neurons at single cell resolution in vivo. Neural decoding analyses are a widely used tool used for investigating what information is represented in this complex, high-dimensional neural population activity. Most population decoding methods assume that correlated activity between neurons has been estimated accurately. In practice, this requires large amounts of data, both across observations and across neurons. Unfortunately, most experiments are fundamentally constrained by practical variables that limit the number of times the neural population can be observed under a single stimulus and/or behavior condition. Therefore, new analytical tools are required to study neural population coding while taking into account these limitations. Here, we present a simple and interpretable method for dimensionality reduction that allows neural decoding metrics to be calculated reliably, even when experimental trial numbers are limited. We illustrate the method using simulations and compare its performance to standard approaches for dimensionality reduction and decoding by applying it to single-unit electrophysiological data collected from auditory cortex.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Charles R. Heller",
+          "id": ""
+        },
+        {
+          "name": "S. David",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS ONE",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/fab0/f868c4b4c97e7fae961a72ce9c12b111a8f4.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3817134449271669,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 235200408,
+      "title": "Synergistic population coding of natural communication stimuli by hindbrain electrosensory neurons",
+      "abstract": "Understanding how neural populations encode natural stimuli with complex spatiotemporal structure to give rise to perception remains a central problem in neuroscience. Here we investigated population coding of natural communication stimuli by hindbrain neurons within the electrosensory system of weakly electric fish Apteronotus leptorhynchus. Overall, we found that simultaneously recorded neural activities were correlated: signal but not noise correlations were variable depending on the stimulus waveform as well as the distance between neurons. Combining the neural activities using an equal-weight sum gave rise to discrimination performance between different stimulus waveforms that was limited by redundancy introduced by noise correlations. However, using an evolutionary algorithm to assign different weights to individual neurons before combining their activities (i.e., a weighted sum) gave rise to increased discrimination performance by revealing synergistic interactions between neural activities. Our results thus demonstrate that correlations between the neural activities of hindbrain electrosensory neurons can enhance information about the structure of natural communication stimuli that allow for reliable discrimination between different waveforms by downstream brain areas.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "Ziqi Wang",
+          "id": ""
+        },
+        {
+          "name": "M. Chacron",
+          "id": ""
+        }
+      ],
+      "venue": "Scientific Reports",
+      "journal": null,
+      "url": "https://doi.org/10.1038/s41598-021-90413-1",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.37490256451492776,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 32388259,
+      "title": "Consistency requirements determine optimal noise correlations in neural populations",
+      "abstract": "A key challenge in population coding is to understand the role of correlations between the activities of different neurons. While the existence of correlations in primary visual cortex (for example), is somewhat controversial, retina presents a relatively clean story, with many studies observing that correlations exist and are important in shaping the population activity distribution. Given the retina's role in conveying visual information to the brain, and the relative clarity of the experimental data, retina offers a unique opportunity to study how correlations affect neural function. This question has received much attention, and previous work emphasizes that we must distinguish between two important types of correlations. First, there are the signal correlations, which describe how the mean (averaged over trials of the same stimulus) responses of two cells co-vary as the stimulus is changed. The noise correlations, on the other hand, describe how two neurons' responses co-vary over the repeat trials of the same stimulus. How do signal- and noise- correlations inter-relate with respect to population coding? Several theoretical principles have emerged. For example, Averbeck et al. [1] showed that, for optimal discriminability of two different stimuli, a pair of neurons should have opposite signs for their signal- and noise- correlations: positive signal correlations demand negative noise correlations, and vice versa. This \"opponent signal and noise correlations\" situation yields better discriminability than occurs with uncorrelated noise, and these results do extend to larger populations. For heterogeneous populations, subsequent works indicates that the situation is more nuanced. \n \nTo experimentally test these theoretical ideas, we measured the noise correlations for a population of direction selective retinal ganglion cells with different signal correlations for different pairs, and observed that, regardless of the signal correlations (positive for some cell pairs, and negative for others), all neural pairs had small positive noise correlations. This is in contrast with the notion of opponent signal and noise correlations. To understand this discrepancy, we created a simple mathematical model of our experimental system, in which the overlap between two neurons' tuning curves dictates their signal correlations; the signal correlations differed between cell pairs, and belong to the set {0, 1,-1}. The noise correlations are the independent variable for our numerical experiments. Note that our model population has 8 (>2) neurons in it. In our model, optimal coding performance (measured, for example, using linear Fisher information) occurs when the noise covariance matrices lie on a boundary of the space of allowed covariances. Recall that only positive definite covariance (and correlation) matrices are possible, which means that correlations between pairs need to be consistent across the population; this requirement shapes the boundary. For example, if neurons A and B have a perfect noise correlation (\u03c1AB = 1), and so do neurons B and C (\u03c1BC = 1) then neurons A and C must also have a perfect noise correlation (\u03c1AC = 1). One cannot choose (\u03c1AB, \u03c1BC, \u03c1AC ) = (1,1,-1), for example, and pair-by-pair arguments about what the noise correlations should be will necessarily miss this restriction. We have further proven mathematically that, regardless of the encoder details, the optimal encoder, using either OLE performance, or linear Fisher information as a metric, must lie on a boundary of the space of allowed noise covariance matrices. The small all-positive noise correlations we observed yielded near-optimal performance in our model population. Considering one pair at a time, it might be better to choose negative noise correlations for cell pairs with positive signal correlations and vice versa, but such choices may be impossible, due to the requirement that the correlations be consistent across the population. Since the optimal solutions must lie on the boundary of the allowed space of correlation matrices, the consistency requirement is a critical factor in determining the noise correlation structure that optimizes population coding.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "J. Zylberberg",
+          "id": ""
+        },
+        {
+          "name": "Maxwell H. Turner",
+          "id": ""
+        },
+        {
+          "name": "Yu Hu",
+          "id": ""
+        },
+        {
+          "name": "Jon Cafaro",
+          "id": ""
+        },
+        {
+          "name": "G. Schwartz",
+          "id": ""
+        },
+        {
+          "name": "F. Rieke",
+          "id": ""
+        },
+        {
+          "name": "E. Shea-Brown",
+          "id": ""
+        }
+      ],
+      "venue": "BMC Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1186/1471-2202-14-S1-F1",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.36323650439671185,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 196172,
+      "title": "A thesaurus for a neural population code",
+      "abstract": "Information is carried in the brain by the joint spiking patterns of large groups of noisy, unreliable neurons. This noise limits the capacity of the neural code and determines how information can be transmitted and read-out. To accurately decode, the brain must overcome this noise and identify which patterns are semantically similar. We use models of network encoding noise to learn a thesaurus for populations of neurons in the vertebrate retina responding to artificial and natural videos, measuring the similarity between population responses to visual stimuli based on the information they carry. This thesaurus reveals that the code is organized in clusters of synonymous activity patterns that are similar in meaning but may differ considerably in their structure. This organization is highly reminiscent of the design of engineered codes. We suggest that the brain may use this structure and show how it allows accurate decoding of novel stimuli from novel spiking patterns. DOI: http://dx.doi.org/10.7554/eLife.06134.001",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "E. Ganmor",
+          "id": ""
+        },
+        {
+          "name": "R. Segev",
+          "id": ""
+        },
+        {
+          "name": "Elad Schneidman",
+          "id": ""
+        }
+      ],
+      "venue": "eLife",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/26347983",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3492209097379003,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 273901038,
+      "title": "MINT: A toolbox for the analysis of multivariate neural information coding and transmission",
+      "abstract": "Information theory has deeply influenced the conceptualization of brain information processing and is a mainstream framework for analyzing how neural networks in the brain process information to generate behavior. Information theory tools have been initially conceived and used to study how information about sensory variables is encoded by the activity of small neural populations. However, recent multivariate information theoretic advances have enabled addressing how information is exchanged across areas and used to inform behavior. Moreover, its integration with dimensionality-reduction techniques has enabled addressing information encoding and communication by the activity of large neural populations or many brain areas, as recorded by multichannel activity measurements in functional imaging and electrophysiology. Here, we provide a Multivariate Information in Neuroscience Toolbox (MINT) that combines these new methods with statistical tools for robust estimation from limited-size empirical datasets. We demonstrate the capabilities of MINT by applying it to both simulated and real neural data recorded with electrophysiology or calcium imaging, but all MINT functions are equally applicable to other brain-activity measurement modalities. We highlight the synergistic opportunities that combining its methods afford for reverse engineering of specific information processing and flow between neural populations or areas, and for discovering how information processing functions emerge from interactions between neurons or areas. MINT works on Linux, Windows and macOS operating systems, is written in MATLAB (requires MATLAB version 2018b or newer) and depends on 5 native MATLAB toolboxes. The calculation of one possible way to compute information redundancy requires the installation and compilation of C files (made available by us also as pre-compiled files). MINT is freely available at https://github.com/panzerilab/MINT with DOI 10.5281/zenodo.13998526 and operates under a GNU GPLv3 license.",
+      "year": 2024,
+      "authors": [
+        {
+          "name": "Gabriel Mat\u00edas Lorenz",
+          "id": ""
+        },
+        {
+          "name": "N. M. Engel",
+          "id": ""
+        },
+        {
+          "name": "Marco Celotto",
+          "id": ""
+        },
+        {
+          "name": "L. Ko\u00e7illari",
+          "id": ""
+        },
+        {
+          "name": "Sebastiano Curreli",
+          "id": ""
+        },
+        {
+          "name": "Tommaso Fellin",
+          "id": ""
+        },
+        {
+          "name": "Stefano Panzeri",
+          "id": ""
+        }
+      ],
+      "venue": "bioRxiv",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/40233091",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.34834935876877093,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 4382879,
+      "title": "Noise correlations improve response fidelity and stimulus encoding",
+      "abstract": "Computation in the nervous system often relies on the integration of signals from parallel circuits with different functional properties. Correlated noise in these inputs can, in principle, have diverse and dramatic effects on the reliability of the resulting computations. Such theoretical predictions have rarely been tested experimentally because of a scarcity of preparations that permit measurement of both the covariation of a neuron\u2019s input signals and the effect on a cell\u2019s output of manipulating such covariation. Here we introduce a method to measure covariation of the excitatory and inhibitory inputs a cell receives. This method revealed strong correlated noise in the inputs to two types of retinal ganglion cell. Eliminating correlated noise without changing other input properties substantially decreased the accuracy with which a cell\u2019s spike outputs encoded light inputs. Thus, covariation of excitatory and inhibitory inputs can be a critical determinant of the reliability of neural coding and computation.",
+      "year": 2010,
+      "authors": [
+        {
+          "name": "Jon Cafaro",
+          "id": ""
+        },
+        {
+          "name": "F. Rieke",
+          "id": ""
+        }
+      ],
+      "venue": "Nature",
+      "journal": null,
+      "url": "https://doi.org/10.1038/nature09570",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.34453817050251456,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 249956880,
+      "title": "Cognitive experience alters cortical involvement in goal-directed navigation",
+      "abstract": "Neural activity in the mammalian cortex has been studied extensively during decision tasks, and recent work aims to identify under what conditions cortex is actually necessary for these tasks. We discovered that mice with distinct cognitive experiences, beyond sensory and motor learning, use different cortical areas and neural activity patterns to solve the same navigation decision task, revealing past learning as a critical determinant of whether cortex is necessary for goal-directed navigation. We used optogenetics and calcium imaging to study the necessity and neural activity of multiple cortical areas in mice with different training histories. Posterior parietal cortex and retrosplenial cortex were mostly dispensable for accurate performance of a simple navigation task. In contrast, these areas were essential for the same simple task when mice were previously trained on complex tasks with delay periods or association switches. Multiarea calcium imaging showed that, in mice with complex-task experience, single-neuron activity had higher selectivity and neuron\u2013neuron correlations were weaker, leading to codes with higher task information. Therefore, past experience is a key factor in determining whether cortical areas have a causal role in goal-directed navigation.",
+      "year": 2022,
+      "authors": [
+        {
+          "name": "Charlotte Arlt",
+          "id": ""
+        },
+        {
+          "name": "Roberto Barroso-Luque",
+          "id": ""
+        },
+        {
+          "name": "S. Kira",
+          "id": ""
+        },
+        {
+          "name": "Carissa A Bruno",
+          "id": ""
+        },
+        {
+          "name": "Ningjing Xia",
+          "id": ""
+        },
+        {
+          "name": "Selmaan N. Chettih",
+          "id": ""
+        },
+        {
+          "name": "Sofia Soares",
+          "id": ""
+        },
+        {
+          "name": "Noah L. Pettit",
+          "id": ""
+        },
+        {
+          "name": "C. Harvey",
+          "id": ""
+        }
+      ],
+      "venue": "eLife",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/e92f/d6fe99c39a32fc94c851bd714b5b415542a1.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33997703293300136,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 231962426,
+      "title": "Estimating Fisher discriminant error in a linear integrator model of neural population activity",
+      "abstract": "Decoding approaches provide a useful means of estimating the information contained in neuronal circuits. In this work, we analyze the expected classification error of a decoder based on Fisher linear discriminant analysis. We provide expressions that relate decoding error to the specific parameters of a population model that performs linear integration of sensory input. Results show conditions that lead to beneficial and detrimental effects of noise correlation on decoding. Further, the proposed framework sheds light on the contribution of neuronal noise, highlighting cases where, counter-intuitively, increased noise may lead to improved decoding performance. Finally, we examined the impact of dynamical parameters, including neuronal leak and integration time constant, on decoding. Overall, this work presents a fruitful approach to the study of decoding using a comprehensive theoretical framework that merges dynamical parameters with estimates of readout error.",
+      "year": 2021,
+      "authors": [
+        {
+          "name": "M. Calderini",
+          "id": ""
+        },
+        {
+          "name": "J. Thivierge",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Mathematical Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1186/s13408-021-00104-4",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33618422506401935,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 142851945,
+      "title": "Heterogeneity and dynamics of cortical populations coding visual detection",
+      "abstract": "Previous studies have demonstrated the importance of the primary sensory cortex for the detection, discrimination and awareness of visual stimuli, but it is unknown how neuronal populations in this area process detected and undetected stimuli differently. Critical differences may reside in the mean strength of responses to visual stimuli, as reflected in bulk signals detectable in fMRI, EEG or MEG studies, or may be more subtly composed of differentiated activity of individual sensory neurons. Quantifying single-cell Ca2+ responses to visual stimuli recorded with in vivo 2-photon imaging, we found that visual detection correlates more strongly with population response heterogeneity rather than overall response strength. Moreover, neuronal populations showed consistencies in activation patterns across temporally spaced trials in association with hit responses, but not during non-detections. Contrary to models relying on temporally stable networks or bulk-signaling, these results suggest that detection depends on transient differentiation in neuronal activity within cortical populations.",
+      "year": 2015,
+      "authors": [
+        {
+          "name": "J. Montijn",
+          "id": ""
+        },
+        {
+          "name": "P. M. Goltstein",
+          "id": ""
+        },
+        {
+          "name": "C. Pennartz",
+          "id": ""
+        }
+      ],
+      "venue": null,
+      "journal": null,
+      "url": "https://arxiv.org/pdf/1502.05169.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33420791923975113,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1413198,
+      "title": "Neural heterogeneity and efficient population codes for communication signals.",
+      "abstract": "Efficient sensory coding implies that populations of neurons should represent information-rich aspects of a signal with little redundancy. Recent studies have shown that neural heterogeneity in higher brain areas enhances the efficiency of encoding by reducing redundancy across the population. Here, we study how neural heterogeneity in the early stages of sensory processing influences the efficiency of population codes. Through the analysis of in vivo recordings, we contrast the encoding of two types of communication signals of electric fishes in the most peripheral sensory area of the CNS, the electrosensory lateral line lobe (ELL). We show that communication signals used during courtship (big chirps) and during aggressive encounters (small chirps) are encoded by different populations of ELL pyramidal cells, namely I-cells and E-cells, respectively. Most importantly, we show that the encoding strategy differs for the two signals and we argue that these differences allow these cell types to encode specifically information-rich features of the signals. Small chirps are detected, and their timing is accurately signaled through stereotyped spike bursts, whereas the shape of big chirps is accurately represented by variable increases in firing rate. Furthermore, we show that the heterogeneity across I-cells enhances the efficiency of the population code and thus permits the accurate discrimination of different quality courtship signals. Our study shows the importance of neural heterogeneity early in a sensory system and that it initiates the sparsification of sensory representation thereby contributing to the efficiency of the neural code.",
+      "year": 2010,
+      "authors": [
+        {
+          "name": "G. Marsat",
+          "id": ""
+        },
+        {
+          "name": "L. Maler",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neurophysiology",
+      "journal": null,
+      "url": "https://www.ncbi.nlm.nih.gov/pubmed/20631220",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.33333673866442876,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 7916090,
+      "title": "Reassessing optimal neural population codes with neurometric functions",
+      "abstract": "Cortical circuits perform the computations underlying rapid perceptual decisions within a few dozen milliseconds with each neuron emitting only a few spikes. Under these conditions, the theoretical analysis of neural population codes is challenging, as the most commonly used theoretical tool\u2014Fisher information\u2014can lead to erroneous conclusions about the optimality of different coding schemes. Here we revisit the effect of tuning function width and correlation structure on neural population codes based on ideal observer analysis in both a discrimination and a reconstruction task. We show that the optimal tuning function width and the optimal correlation structure in both paradigms strongly depend on the available decoding time in a very similar way. In contrast, population codes optimized for Fisher information do not depend on decoding time and are severely suboptimal when only few spikes are available. In addition, we use the neurometric functions of the ideal observer in the classification task to investigate the differential coding properties of these Fisher-optimal codes for fine and coarse discrimination. We find that the discrimination error for these codes does not decrease to zero with increasing population size, even in simple coarse discrimination tasks. Our results suggest that quite different population codes may be optimal for rapid decoding in cortical computations than those inferred from the optimization of Fisher information.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "Philipp Berens",
+          "id": ""
+        },
+        {
+          "name": "Alexander S. Ecker",
+          "id": ""
+        },
+        {
+          "name": "S. Gerwinn",
+          "id": ""
+        },
+        {
+          "name": "A. Tolias",
+          "id": ""
+        },
+        {
+          "name": "M. Bethge",
+          "id": ""
+        }
+      ],
+      "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+      "journal": null,
+      "url": "https://doi.org/10.1073/pnas.1015904108",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3332365819783757,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 27517457,
+      "title": "Simultaneous Studies of Firing Patterns in Several Neurons",
+      "abstract": "A tungsten microelectrode with several small holes burnt in the vinyl insulation enables the action potentials from several adjacent neurons to be observed simultaneously. A digital computer is used to separate the contributions of each neuron by examining and classifying the waveforms of the action potentials. These methods allow studies to be made of interactions between neurons that lie close together.",
+      "year": 1964,
+      "authors": [
+        {
+          "name": "Brain Drain",
+          "id": ""
+        },
+        {
+          "name": "J. Saxton",
+          "id": ""
+        },
+        {
+          "name": "Mohole",
+          "id": ""
+        },
+        {
+          "name": "G Allott",
+          "id": ""
+        },
+        {
+          "name": "Rhythm Method",
+          "id": ""
+        },
+        {
+          "name": "R G Potter",
+          "id": ""
+        },
+        {
+          "name": "J. Angel",
+          "id": ""
+        },
+        {
+          "name": "T. W. Marton",
+          "id": ""
+        },
+        {
+          "name": "C. Heimsch",
+          "id": ""
+        },
+        {
+          "name": "D. P. Keily",
+          "id": ""
+        },
+        {
+          "name": "W. H. Wagner",
+          "id": ""
+        },
+        {
+          "name": "F. Fremont-Smith",
+          "id": ""
+        },
+        {
+          "name": "A. T. Mcpherson",
+          "id": ""
+        },
+        {
+          "name": "H. Deason",
+          "id": ""
+        },
+        {
+          "name": "C. Ware",
+          "id": ""
+        },
+        {
+          "name": "Xenon Fluorosilicate",
+          "id": ""
+        },
+        {
+          "name": "Related Compounds",
+          "id": ""
+        },
+        {
+          "name": "Clifford",
+          "id": ""
+        },
+        {
+          "name": "Bridgman Anvils",
+          "id": ""
+        },
+        {
+          "name": "Kirk",
+          "id": ""
+        },
+        {
+          "name": "R. J. V. Aisn S",
+          "id": ""
+        }
+      ],
+      "venue": "Science",
+      "journal": null,
+      "url": "https://doi.org/10.1126/science.143.3612.1325",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3307701935467988,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 1782461,
+      "title": "Constructing Noise-Invariant Representations of Sound in the Auditory Pathway",
+      "abstract": "Along the auditory pathway from auditory nerve to midbrain to cortex, individual neurons adapt progressively to sound statistics, enabling the discernment of foreground sounds, such as speech, over background noise.",
+      "year": 2013,
+      "authors": [
+        {
+          "name": "Neil C. Rabinowitz",
+          "id": ""
+        },
+        {
+          "name": "B. Willmore",
+          "id": ""
+        },
+        {
+          "name": "A. King",
+          "id": ""
+        },
+        {
+          "name": "J. Schnupp",
+          "id": ""
+        }
+      ],
+      "venue": "PLoS Biology",
+      "journal": null,
+      "url": "https://pdfs.semanticscholar.org/e6f4/a1f2c0471a9d738e4d5ae4802f84ba2182f0.pdf",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.3286866241638772,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    },
+    {
+      "corpusId": 14733828,
+      "title": "A Neurally Efficient Implementation of Sensory Population Decoding",
+      "abstract": "A sensory stimulus evokes activity in many neurons, creating a population response that must be \u201cdecoded\u201d by the brain to estimate the parameters of that stimulus. Most decoding models have suggested complex neural circuits that compute optimal estimates of sensory parameters on the basis of responses in many sensory neurons. We propose a slightly suboptimal but practically simpler decoder. Decoding neurons integrate their inputs across 100 ms, incoming spikes are weighted by the preferred stimulus of the neuron of origin, and a local, cellular nonlinearity approximates divisive normalization without dividing explicitly. The suboptimal decoder includes two simplifying approximations. It uses estimates of firing rate across the population rather than computing the total population response, and it implements divisive normalization with local cellular mechanisms of single neurons rather than more complicated neural circuit mechanisms. When applied to the practical problem of estimating target speed from a realistic simulation of the population response in extrastriate visual area MT, the suboptimal decoder has almost the same accuracy and precision as traditional decoding models. It succeeds in predicting the precision and imprecision of motor behavior using a suboptimal decoding computation because it adds only a small amount of imprecision to the code for target speed in MT, which is itself imprecise.",
+      "year": 2011,
+      "authors": [
+        {
+          "name": "Kris S. Chaisanguanthum",
+          "id": ""
+        },
+        {
+          "name": "S. Lisberger",
+          "id": ""
+        }
+      ],
+      "venue": "Journal of Neuroscience",
+      "journal": null,
+      "url": "https://doi.org/10.1523/JNEUROSCI.6776-10.2011",
+      "publicationDate": null,
+      "citationCount": null,
+      "categories": [],
+      "relevanceScore": 0.32130215776850285,
+      "relevanceJudgement": null,
+      "snippets": [],
+      "citationContexts": [],
+      "legalToShow": true,
+      "numOfOmittedCitationContextsDueLegal": 0
+    }
+  ]
+}

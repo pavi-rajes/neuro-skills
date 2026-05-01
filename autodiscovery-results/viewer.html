@@ -491,6 +491,13 @@
     font-family: inherit; transition: border-color 0.12s, color 0.12s;
   }
   .export-notes-btn:hover { border-color: var(--teal); color: var(--teal); }
+  .claude-btn {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 11px; font-weight: 700; font-family: 'JetBrains Mono', monospace;
+    color: var(--pink); background: var(--pink-dim); border: 1px solid var(--pink-mid);
+    border-radius: 5px; padding: 3px 9px; cursor: pointer; transition: background 0.12s, border-color 0.12s;
+  }
+  .claude-btn:hover { background: #4d1830; border-color: var(--pink); }
 </style>
 </head>
 <body>
@@ -968,6 +975,7 @@ function renderCard(eid) {
       <div class="card-eyebrow" style="display:flex;align-items:center;gap:8px">
         <span>${exp.run_name} · #${exp.id_in_run} · ${exp.experiment_id} · <a href="https://autodiscovery.allen.ai/runs/shared/${exp.run_id}?exp=${exp.id_in_run}" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none;font-weight:700">↗ AutoDiscovery</a></span>
         <button class="fav-btn-header${_favorites.has(eid) ? ' on' : ''}" id="fav-btn-header-${eid}" title="Favorite this experiment" onclick="toggleFav('${eid}', event)">${_favorites.has(eid) ? '★' : '☆'}</button>
+        <button class="claude-btn" title="Open this experiment card in Claude" onclick="openInClaude('${eid}')">Ask Claude ↗</button>
       </div>
       <div class="card-title">${escHtml(exp.hypothesis.slice(0, 160))}${exp.hypothesis.length > 160 ? '…' : ''}</div>
       <div class="card-meta">
@@ -1170,6 +1178,94 @@ function exportNotes() {
     document.body.appendChild(a); a.click();
     document.body.removeChild(a); URL.revokeObjectURL(a.href);
   } catch(e) { alert('Could not export notes: ' + e.message); }
+}
+
+// ── Ask Claude ───────────────────────────────────────────────────────────────
+
+function buildClaudePrompt(eid) {
+  const exp = DATA.experiments.find(e => e.experiment_id === eid);
+  const lit = DATA.literature[eid];
+  const cardMd = DATA.cards[eid];
+  const parts = [];
+
+  parts.push(`## Experiment: ${exp.experiment_id} (${exp.run_name} #${exp.id_in_run})`);
+  parts.push(`**Hypothesis:** ${exp.hypothesis}`);
+  parts.push(`**Verdict:** ${exp.verdict} | Mechanistic score: ${exp.mechanistic_score}/5${lit ? ` | Novelty: Tier ${lit.novelty_tier}` : ''}`);
+  parts.push(`**Belief update:** prior ${exp.prior.toFixed(3)} → posterior ${exp.posterior.toFixed(3)} (surprise Δ${exp.surprise.toFixed(3)})`);
+  if (exp.finding) parts.push(`**Finding:** ${exp.finding}`);
+  if (exp.flags && exp.flags.length) parts.push(`**Flags:** ${exp.flags.join('; ')}`);
+
+  if (lit) {
+    const km = lit.knowledge_map || {};
+    if (km.known && km.known.length)
+      parts.push(`\n### What is Known\n${km.known.map(k => `- ${k}`).join('\n')}`);
+    if (km.unknown && km.unknown.length)
+      parts.push(`\n### Unknown / Contested\n${km.unknown.map(k => `- ${k}`).join('\n')}`);
+    if (km.how_this_sheds_light)
+      parts.push(`\n### How This Hypothesis Contributes\n${km.how_this_sheds_light}`);
+    if (km.contribution_type)
+      parts.push(`**Contribution type:** ${km.contribution_type}`);
+
+    const formatPapers = (papers) => (papers || []).slice(0, 4).map(p => {
+      const authYear = p.authors ? `${p.authors.split(',')[0].trim()} et al., ${p.year || '?'}` : (p.year || '?');
+      return `- **${p.title}** (${authYear})${p.claim ? `\n  "${p.claim}"` : ''}`;
+    }).join('\n');
+
+    const sup = formatPapers(lit.supporting);
+    if (sup) parts.push(`\n### Supporting Literature\n${sup}`);
+    const opp = formatPapers(lit.opposing);
+    if (opp) parts.push(`\n### Opposing Literature\n${opp}`);
+    const ctx = formatPapers(lit.contextual);
+    if (ctx) parts.push(`\n### Contextual Literature\n${ctx}`);
+  }
+
+  if (cardMd) {
+    const sec3 = /## 3\. Experimental Plan\n([\s\S]*?)(?=\n## \d\.|$)/.exec(cardMd);
+    const sec5 = /## 5\. Results and Findings\n([\s\S]*?)(?=\n## \d\.|$)/.exec(cardMd);
+    const sec6 = /## 6\. Reflection\n([\s\S]*?)$/.exec(cardMd);
+    if (sec3) parts.push(`\n### Experimental Plan\n${sec3[1].trim()}`);
+    if (sec5) parts.push(`\n### Results and Findings\n${sec5[1].trim()}`);
+    if (sec6) parts.push(`\n### Reflection\n${sec6[1].trim()}`);
+  }
+
+  return parts.join('\n');
+}
+
+function openInClaude(eid) {
+  const prompt = buildClaudePrompt(eid);
+  navigator.clipboard.writeText(prompt).then(() => {
+    showToast('Prompt copied — paste into Claude (⌘V)');
+    window.open('https://claude.ai/new', '_blank', 'noopener,noreferrer');
+  }).catch(() => {
+    // Clipboard blocked (e.g. file:// origin in some browsers) — fall back to prompt
+    const ta = document.createElement('textarea');
+    ta.value = prompt;
+    ta.style.cssText = 'position:fixed;opacity:0;pointer-events:none';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast('Prompt copied — paste into Claude (⌘V)');
+    window.open('https://claude.ai/new', '_blank', 'noopener,noreferrer');
+  });
+}
+
+function showToast(msg) {
+  let t = document.getElementById('claude-toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'claude-toast';
+    t.style.cssText = 'position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(12px);background:#0A1C18;border:1px solid var(--pink-mid);color:var(--text);font-size:13px;font-family:Inter,sans-serif;padding:10px 20px;border-radius:10px;box-shadow:0 4px 20px #000a;opacity:0;transition:opacity 0.2s,transform 0.2s;z-index:9999;pointer-events:none';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.style.opacity = '1';
+  t.style.transform = 'translateX(-50%) translateY(0)';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => {
+    t.style.opacity = '0';
+    t.style.transform = 'translateX(-50%) translateY(12px)';
+  }, 3500);
 }
 
 // init

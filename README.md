@@ -1,6 +1,6 @@
 # neuro-skills
 
-Agent skills for neuroscience data workflows. Drop these into your AI coding assistant to give it domain-specific knowledge for exploring and analyzing NWB datasets on S3.
+Agent skills for neuroscience data workflows. Drop these into your AI coding assistant to give it domain-specific knowledge for exploring NWB datasets on S3 and working with [AutoDiscovery](https://autodiscovery.allen.ai) findings.
 
 ---
 
@@ -10,25 +10,17 @@ Agent skills for neuroscience data workflows. Drop these into your AI coding ass
 
 Browse and query NWB (Neurodata Without Borders) datasets stored on public or private S3 buckets — without downloading files. Uses `lazynwb` + `polars` for fast, selective multi-file queries over S3.
 
-**Default bucket:** `s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/` — used automatically when no S3 path is specified. To change it, update the `description` field in `SKILL.md` before deploying.
+**Default bucket:** `s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/` — used automatically when no S3 path is specified.
 
 **Capabilities:**
 - List bucket contents: file counts, sizes, subjects, date ranges
 - Filter sessions by subject, date, or session count from filenames alone (no file I/O)
 - Query NWB content: brain regions, unit counts, quality metrics, epoch tags, trial structure
 - Optimizes query speed (fast metadata → medium electrode/trial tables → slow unit scans)
-- Built-in support for the Allen Institute Dynamic Routing dataset
 
 **Runtime dependencies:**
-
 ```
-boto3
-botocore
-lazynwb      # https://pypi.org/project/lazynwb/
-polars
-upath
-fsspec
-h5py
+boto3  botocore  lazynwb  polars  upath  fsspec  h5py
 ```
 
 ---
@@ -41,151 +33,146 @@ Apply a neuroscience analysis from a published paper to NWB data on S3. Accepts 
 - Fetch papers from DOIs, URLs, arXiv IDs, or local PDFs
 - Extract analysis requirements: regions, trial windows, bin sizes, normalization, quality thresholds
 - Select sessions from S3 that meet the paper's inclusion criteria (via `lazynwb`)
-- Load spike times for selected units via `pynwb`
 - Templates for common analyses: linear decoding, PCA/trajectories, PSTH, communication subspace (RRR), noise/signal correlations
-- Built-in support for the Allen Institute Dynamic Routing dataset
 
 **Runtime dependencies:**
+```
+boto3  botocore  lazynwb  polars  upath  fsspec  h5py  pynwb  numpy  scikit-learn  matplotlib
+```
+
+---
+
+### `experiment-triage`
+
+Triage AutoDiscovery experiments for scientific rigor and mechanistic value. Takes a run ID, fetches the experiment list, and scores each hypothesis for methodological validity, mechanistic depth, and confound risk.
+
+**Capabilities:**
+- Filter experiments by verdict (PASS / FLAG), mechanistic score, and novelty
+- Identify methodological red flags (small N, confounds, circular logic)
+- Rank hypotheses by prior belief, surprise factor, and interpretability
+- Output a structured triage JSON consumed by the downstream card skills
+
+---
+
+### `experiment-card`
+
+Build a structured experiment card for a hypothesis from AutoDiscovery. Takes a run ID + experiment ID and produces a card with literature evidence, knowledge map, novelty score, experimental plan, and conservative interpretation.
+
+**Capabilities:**
+- Semantic Scholar literature search — supporting, opposing, and contextual papers
+- Knowledge map: what is known, what is contested, how this hypothesis contributes
+- Novelty tier (T1–T4) and contribution type classification
+- Experimental plan with objective, steps, and deliverables
+
+---
+
+### `pilot-to-full`
+
+Scale a confirmed AutoDiscovery finding from the 5-session NWB pilot to the full ~114-session S3 cohort. Takes a run ID and experiment ID, loads the pilot notebook, and re-executes the analysis at full N.
+
+**Capabilities:**
+- Loads pilot code from `autodiscovery-results/pilot-to-full/`
+- Discovers all available sessions in the S3 cohort via `lazynwb`
+- Re-runs the analysis with proper statistical power and saves results
+
+---
+
+### `experiment-card-viewer`
+
+Build or rebuild the self-contained HTML experiment card viewer from triage and card artifacts. The viewer is a single `viewer.html` file — no server required.
+
+**Capabilities:**
+- Renders all experiment cards from a triage run in a browsable sidebar
+- Knowledge map, literature tabs (supporting / opposing / contextual), belief update chart
+- Per-card notes (persisted to disk when served via `serve_viewer.py`)
+- "Ask Claude" button — copies the full card context to clipboard and opens `claude.ai/new`
+
+---
+
+## AutoDiscovery Workflow
+
+The skills chain together into a full analysis pipeline:
 
 ```
-boto3
-botocore
-lazynwb
-polars
-upath
-fsspec
-h5py
-pynwb
-numpy
-scikit-learn
-matplotlib
+AutoDiscovery run
+      │
+      ▼
+experiment-triage     → scores all experiments, produces triage JSON
+      │
+      ▼
+experiment-card       → builds card per experiment (literature, plan, novelty)
+      │
+      ├──▶ pilot-to-full       → scales confirmed findings to full cohort
+      │
+      └──▶ experiment-card-viewer  → renders everything into viewer.html
 ```
 
 ---
 
 ## Example Queries
 
-Once deployed, try asking your agent. You can tell it your bucket once per session and skip the path in follow-up questions:
+### NWB data exploration
 
 ```
-"Remember s3://my-bucket/nwb/ as my default dataset"
-"Which subjects have at least 4 sessions?"
-"Which sessions have an optotagging epoch?"
-"Find sessions with VISp and CA1 co-recorded"
+"Summarize the dataset at s3://my-bucket/nwb/"
+"Which sessions have VISp and CA1 co-recorded?"
+"Find sessions with at least 50 good units in motor cortex"
+"Apply the decoding analysis from doi:10.1016/j.neuron.2019.01.023 to our dataset"
 ```
 
-Or include the path explicitly each time:
+### AutoDiscovery
 
-
-**Bucket exploration:**
-- `"What's in s3://my-bucket/data/ ?"`
-- `"How many sessions and subjects are in this bucket? s3://my-bucket/nwb/"`
-- `"Summarize the dataset at s3://my-bucket/data/ — file count, size, subjects, date range"`
-
-**Session filtering (fast, no file reads):**
-- `"Find all sessions for subject 366122 in s3://my-bucket/nwb/"`
-- `"Which subjects have at least 5 sessions?"`
-- `"List sessions recorded in October 2024"`
-
-**Brain region queries:**
-- `"Which sessions in s3://my-bucket/nwb/ have recordings in visual cortex?"`
-- `"Find all NWB files with hippocampus recordings at s3://my-bucket/nwb/"`
-- `"Which sessions in s3://my-bucket/nwb/ recorded both VISp and CA1 simultaneously?"`
-- `"What brain regions are covered across s3://my-bucket/nwb/?"`
-
-**Unit quality and counts:**
-- `"Which sessions in s3://my-bucket/nwb/ have at least 50 good units in VISp?"`
-- `"Find sessions in s3://my-bucket/nwb/ with enough CA1 neurons for decoding (>30 good units)"`
-- `"Show me high-firing-rate units in motor cortex with presence_ratio > 0.95 in s3://my-bucket/nwb/"`
-
-**Paper analysis:**
-- `"Apply the decoding analysis from doi:10.1016/j.neuron.2019.01.023 to s3://my-bucket/nwb/"`
-- `"Replicate figure 3 from https://arxiv.org/abs/2310.12345 on our dataset"`
-- `"Use the communication subspace method from Semedo et al. 2019 on VISp and ACA"`
-- `"Run the noise correlation analysis from this PDF: /path/to/paper.pdf"`
-
-**Allen Dynamic Routing specific:**
-- `"Summarize the dataset at s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/"`
-- `"How many sessions have both visual context block as the first block?"`
-- `"Find sessions suitable for VISp↔MOs communication subspace analysis in s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/"`
+```
+"Triage the experiments from run c003951b"
+"Build an experiment card for node_2_2 from run c003951b"
+"Scale node_2_2 to the full cohort"
+"Rebuild the experiment card viewer"
+```
 
 ---
 
 ## Deployment
 
-The skill is a single file. Run the commands below from your project root — they download `SKILL.md` directly from GitHub.
+Each skill is a single `SKILL.md` file. The commands below append it to your project's instruction file.
 
-### Claude Code (CLI or VS Code extension)
-
-Claude Code reads `CLAUDE.md` automatically at the start of every session.
+### Claude Code
 
 ```bash
-# nwb-s3-browser only
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md >> CLAUDE.md
-
-# paper-analysis only
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/paper-analysis/SKILL.md >> CLAUDE.md
-
-# both skills
+# Individual skills
 curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md >> CLAUDE.md
 curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/paper-analysis/SKILL.md >> CLAUDE.md
+curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/experiment-triage/SKILL.md >> CLAUDE.md
+curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/experiment-card/SKILL.md >> CLAUDE.md
+curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/pilot-to-full/SKILL.md >> CLAUDE.md
+curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/experiment-card-viewer/SKILL.md >> CLAUDE.md
 ```
-
-The VS Code Claude extension (Claude Code for VS Code) uses the same `CLAUDE.md` mechanism — no extra steps needed.
-
----
-
-### Claude.ai Projects
-
-Add one or both skills to your Project Knowledge:
-- [nwb-s3-browser SKILL.md](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/nwb-s3-browser/SKILL.md)
-- [paper-analysis SKILL.md](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/paper-analysis/SKILL.md)
-
-Open the file, copy its contents, then go to your Project → **Project Knowledge** → **Add content** and paste.
-
-Active for all conversations in that project.
-
----
 
 ### Cursor
 
-Cursor reads agent rules from `.cursor/rules/*.mdc` files. The SKILL.md frontmatter is compatible with the `.mdc` format.
-
-**Project-scoped** (active only in this repo):
-
 ```bash
 mkdir -p .cursor/rules
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md -o .cursor/rules/nwb-s3-browser.mdc
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/paper-analysis/SKILL.md -o .cursor/rules/paper-analysis.mdc
+for skill in nwb-s3-browser paper-analysis experiment-triage experiment-card pilot-to-full experiment-card-viewer; do
+  curl -sL "https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/$skill/SKILL.md" \
+    -o ".cursor/rules/$skill.mdc"
+done
 ```
 
-**Global** (active in every Cursor project):
+### Claude.ai Projects
 
-```bash
-mkdir -p ~/.cursor/rules
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md -o ~/.cursor/rules/nwb-s3-browser.mdc
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/paper-analysis/SKILL.md -o ~/.cursor/rules/paper-analysis.mdc
-```
+Add skill files to **Project Knowledge** → **Add content**:
+- [nwb-s3-browser](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/nwb-s3-browser/SKILL.md)
+- [paper-analysis](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/paper-analysis/SKILL.md)
+- [experiment-triage](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/experiment-triage/SKILL.md)
+- [experiment-card](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/experiment-card/SKILL.md)
+- [pilot-to-full](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/pilot-to-full/SKILL.md)
+- [experiment-card-viewer](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/experiment-card-viewer/SKILL.md)
 
-The `description` in the frontmatter tells the Cursor agent when to activate the skill (e.g. when you mention an `s3://` path with `.nwb` files).
-
----
-
-### GitHub Copilot in VS Code
-
-**Workspace instructions** (VS Code 1.96+, active in this repo):
+### GitHub Copilot (VS Code)
 
 ```bash
 mkdir -p .github
-# Concatenate both skills into a single instructions file
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/nwb-s3-browser/SKILL.md > .github/copilot-instructions.md
-curl -sL https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/paper-analysis/SKILL.md >> .github/copilot-instructions.md
+for skill in nwb-s3-browser paper-analysis experiment-triage experiment-card pilot-to-full experiment-card-viewer; do
+  curl -sL "https://raw.githubusercontent.com/pavi-rajes/neuro-skills/main/skills/$skill/SKILL.md" \
+    >> .github/copilot-instructions.md
+done
 ```
-
-Copilot Chat automatically includes `.github/copilot-instructions.md` for all requests in the workspace.
-
-**User-level instructions** (global, all workspaces):
-
-1. Open VS Code Settings (`Cmd+,`) and search for `copilot instructions`
-2. Under **GitHub Copilot › Chat: Code Generation Instructions**, click **Add Item**
-3. Paste the contents of [SKILL.md](https://github.com/pavi-rajes/neuro-skills/blob/main/skills/nwb-s3-browser/SKILL.md)

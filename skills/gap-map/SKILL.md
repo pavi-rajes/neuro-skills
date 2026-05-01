@@ -50,12 +50,12 @@ The script reads from:
 
 | Artifact | Location | Required |
 |---|---|---|
-| Triage JSON | `autodiscovery-runs/<runid>/triage.json` | Yes |
-| Literature JSONs | `autodiscovery-runs/<runid>/experiment-cards/literature_evidence/*_literature.json` | Yes — at least one needed for gaps |
+| Triage JSON | `autodiscovery-runs/<run_name>/triage.json` | Yes |
+| Literature JSONs | `autodiscovery-runs/<run_name>/experiment-cards/literature_evidence/*_literature.json` | Yes — at least one needed for gaps |
 
 ```bash
-ls autodiscovery-runs/<runid>/
-ls autodiscovery-runs/<runid>/experiment-cards/literature_evidence/
+ls autodiscovery-runs/<run_name>/
+ls autodiscovery-runs/<run_name>/experiment-cards/literature_evidence/
 ```
 
 If triage JSON is missing, run the `experiment-triage` skill first.
@@ -76,7 +76,7 @@ All four must be present. `numpy` and `scipy` are usually already installed.
 ## Step 3 — Run the Builder
 
 ```bash
-cd autodiscovery-runs/<runid>
+cd autodiscovery-runs/<run_name>
 python3 build_gap_map.py
 ```
 
@@ -87,7 +87,7 @@ Loading sentence-transformers model (all-MiniLM-L6-v2)…
 Embedding N hypotheses…
 Embedding M gaps…
 Running UMAP…
-Gap map written to: /path/to/autodiscovery-runs/<runid>/gap_map.html
+Gap map written to: /path/to/autodiscovery-runs/<run_name>/gap_map.html
   M gaps  ·  N hypotheses  ·  UMAP 2D
 ```
 
@@ -96,7 +96,7 @@ the cached model and take ~5–10 seconds.
 
 Open the result:
 ```bash
-open autodiscovery-runs/<runid>/gap_map.html
+open autodiscovery-runs/<run_name>/gap_map.html
 ```
 
 ---
@@ -118,7 +118,7 @@ After building, confirm:
 
 ## What build_gap_map.py Does
 
-`autodiscovery-runs/<runid>/build_gap_map.py` runs in 5 stages:
+`autodiscovery-runs/<run_name>/build_gap_map.py` runs in 5 stages:
 
 | Stage | What |
 |---|---|

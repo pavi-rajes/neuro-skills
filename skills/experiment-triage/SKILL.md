@@ -339,12 +339,12 @@ data actually supports:
 Create the output directory if it doesn't exist:
 
 ```bash
-mkdir -p autodiscovery-runs/<runid>
+mkdir -p autodiscovery-runs/<run_name>
 ```
 
 Write two files — a machine-readable index and a human-readable report:
 
-**`autodiscovery-runs/<runid>/triage.json`**
+**`autodiscovery-runs/<run_name>/triage.json`**
 
 ```json
 {
@@ -384,7 +384,7 @@ Write two files — a machine-readable index and a human-readable report:
 }
 ```
 
-**`autodiscovery-runs/<runid>/triage.md`**
+**`autodiscovery-runs/<run_name>/triage.md`**
 
 A human-readable report with: run metadata, passing experiment details, full triage table,
 reject summary, and cross-finding narrative. Use the display format from 7a.
@@ -398,7 +398,7 @@ The JSON is designed for easy programmatic loading:
 ```python
 import json
 
-with open("autodiscovery-runs/<runid>/triage.json") as f:
+with open("autodiscovery-runs/<run_name>/triage.json") as f:
     triage = json.load(f)
 
 # All passing experiment IDs

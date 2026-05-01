@@ -6,7 +6,7 @@ description: >
   card for experiment X", or "what does the literature say about this hypothesis". Takes a run
   ID + experiment ID, or a hypothesis loaded from a triage JSON. Produces a structured card
   with literature evidence, knowledge map, novelty score, and a conservative interpretation
-  of findings. Saves to autodiscovery-runs/<runid>/experiment-cards/.
+  of findings. Saves to autodiscovery-runs/<run_name>/experiment-cards/.
 argument-hint: <runid> <experiment_id>
 user-invocable: true
 ---
@@ -26,7 +26,7 @@ components; this skill implements **Component 2: Literature Evidence** and the
 ```python
 import json
 
-with open("autodiscovery-runs/<runid>/triage.json") as f:
+with open("autodiscovery-runs/<run_name>/triage.json") as f:
     triage = json.load(f)
 
 # Find the experiment
@@ -473,12 +473,12 @@ merge parts, do not proceed to the next part until the current one is complete.*
 ## Step 8 — Save Outputs
 
 ```bash
-mkdir -p autodiscovery-runs/<runid>/experiment-cards/literature_evidence
+mkdir -p autodiscovery-runs/<run_name>/experiment-cards/literature_evidence
 ```
 
 Write two files:
 
-**`autodiscovery-runs/<runid>/experiment-cards/literature_evidence/<experiment_id>_literature.json`**
+**`autodiscovery-runs/<run_name>/experiment-cards/literature_evidence/<experiment_id>_literature.json`**
 
 ```json
 {
@@ -524,7 +524,7 @@ Write two files:
 }
 ```
 
-**`autodiscovery-runs/<runid>/experiment-cards/<experiment_id>_card.md`**
+**`autodiscovery-runs/<run_name>/experiment-cards/<experiment_id>_card.md`**
 
 ```markdown
 # Experiment Card: <experiment_id>
@@ -637,7 +637,7 @@ what the experiment cannot resolve>
 ```python
 import json
 
-with open("autodiscovery-runs/<runid>/experiment-cards/literature_evidence/<experiment_id>_literature.json") as f:
+with open("autodiscovery-runs/<run_name>/experiment-cards/literature_evidence/<experiment_id>_literature.json") as f:
     evidence = json.load(f)
 
 supporting        = evidence["supporting"]

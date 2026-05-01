@@ -35,7 +35,7 @@ it upgrades to a **Resolution**.
 ## Output folder
 
 ```
-autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/
+autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/
 ├── session_manifest.csv     # eligible sessions with region unit counts
 ├── pilot_to_full.ipynb      # patched analysis notebook
 └── replication_report.md    # verdict + per-session summary
@@ -205,7 +205,7 @@ import pandas as pd
 
 manifest = pd.DataFrame(rows)
 manifest.to_csv(
-    f"autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/session_manifest.csv",
+    f"autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/session_manifest.csv",
     index=False
 )
 print(manifest.to_string(index=False))
@@ -340,7 +340,7 @@ Insert the shim on the line after `nwb = io.read()` (or `nwb = io.read()`).
 ### 6a. Create the artifacts folder
 
 ```bash
-mkdir -p autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/artifacts
+mkdir -p autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/artifacts
 ```
 
 ### 6b. Patch figure-save calls to write into artifacts/
@@ -351,7 +351,7 @@ Before writing the notebook, redirect all figure output in the pilot code to
 ```python
 import re, os
 
-artifacts_dir = "autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/artifacts"
+artifacts_dir = "autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/artifacts"
 
 # Redirect existing plt.savefig(...) calls to artifacts/
 def redirect_savefig(code, artifacts_dir):
@@ -387,14 +387,14 @@ notebook_py = f"""# %%
 {patched_code}
 """
 
-py_path = "autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/pilot_to_full.py"
+py_path = "autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/pilot_to_full.py"
 with open(py_path, "w") as f:
     f.write(notebook_py)
 ```
 
 ```bash
-jupytext --to ipynb autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/pilot_to_full.py
-rm autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/pilot_to_full.py
+jupytext --to ipynb autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/pilot_to_full.py
+rm autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/pilot_to_full.py
 ```
 
 Execute and save the output notebook (use `python3 -m nbconvert` — the `jupyter`
@@ -404,14 +404,14 @@ CLI alias may not be installed):
 python3 -m nbconvert --to notebook --execute \
     --ExecutePreprocessor.timeout=7200 \
     --output pilot_to_full_executed.ipynb \
-    --output-dir autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/ \
-    autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/pilot_to_full.ipynb
+    --output-dir autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/ \
+    autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/pilot_to_full.ipynb
 ```
 
 The output folder now contains:
 
 ```
-autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/
+autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/
 ├── session_manifest.csv
 ├── pilot_to_full.ipynb             # source notebook (no outputs)
 ├── pilot_to_full_executed.ipynb    # executed notebook with all cell outputs
@@ -438,7 +438,7 @@ Common issues:
 
 ## Step 7 — Write the Replication Report
 
-Save to `autodiscovery-runs/<runid>/pilot-to-full/<experiment_id>/replication_report.md`.
+Save to `autodiscovery-runs/<run_name>/pilot-to-full/<experiment_id>/replication_report.md`.
 
 Extract the key result from the notebook output cells and write:
 

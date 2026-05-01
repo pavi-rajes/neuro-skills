@@ -13,7 +13,7 @@ user-invocable: true
 # Experiment Card Viewer
 
 Generates a self-contained `viewer.html` from all triage, literature, and card artifacts in
-`autodiscovery-runs/<runid>/`. The viewer is a single HTML file — no server required, opens in any
+`autodiscovery-runs/<run_name>/`. The viewer is a single HTML file — no server required, opens in any
 browser.
 
 ---
@@ -46,16 +46,16 @@ The viewer reads from three artifact types:
 
 | Artifact | Location | Required |
 |---|---|---|
-| Triage JSON | `autodiscovery-runs/<runid>/triage.json` | Yes — sidebar won't populate without it |
-| Literature JSON | `autodiscovery-runs/<runid>/experiment-cards/literature_evidence/<eid>_literature.json` | No — card renders without it but Prior Work / Knowledge Map will be empty |
-| Card markdown | `autodiscovery-runs/<runid>/experiment-cards/<eid>_card.md` | No — sections 03/05/06 will be empty |
+| Triage JSON | `autodiscovery-runs/<run_name>/triage.json` | Yes — sidebar won't populate without it |
+| Literature JSON | `autodiscovery-runs/<run_name>/experiment-cards/literature_evidence/<eid>_literature.json` | No — card renders without it but Prior Work / Knowledge Map will be empty |
+| Card markdown | `autodiscovery-runs/<run_name>/experiment-cards/<eid>_card.md` | No — sections 03/05/06 will be empty |
 
 Check what's present:
 
 ```bash
-ls autodiscovery-runs/<runid>/
-ls autodiscovery-runs/<runid>/experiment-cards/literature_evidence/
-ls autodiscovery-runs/<runid>/experiment-cards/*_card.md 2>/dev/null
+ls autodiscovery-runs/<run_name>/
+ls autodiscovery-runs/<run_name>/experiment-cards/literature_evidence/
+ls autodiscovery-runs/<run_name>/experiment-cards/*_card.md 2>/dev/null
 ```
 
 If triage JSON is missing, run the `experiment-triage` skill first.
@@ -66,19 +66,19 @@ If literature JSONs or card markdowns are missing, run the `experiment-card` ski
 ## Step 2 — Run the Builder
 
 ```bash
-cd autodiscovery-runs/<runid>
+cd autodiscovery-runs/<run_name>
 python3 build_viewer.py
 ```
 
 Expected output:
 ```
-Viewer written to: /path/to/autodiscovery-runs/<runid>/viewer.html
+Viewer written to: /path/to/autodiscovery-runs/<run_name>/viewer.html
 Experiments: N (M with cards)
 ```
 
 Open the result:
 ```bash
-open autodiscovery-runs/<runid>/viewer.html
+open autodiscovery-runs/<run_name>/viewer.html
 ```
 
 ---
@@ -101,7 +101,7 @@ After rebuilding, confirm:
 
 ## What build_viewer.py Does
 
-`autodiscovery-runs/<runid>/build_viewer.py` is the single source of truth for the viewer.
+`autodiscovery-runs/<run_name>/build_viewer.py` is the single source of truth for the viewer.
 It is a ~1000-line Python script that generates a fully self-contained HTML file with
 all data embedded as a JS constant. No external dependencies.
 
@@ -144,7 +144,7 @@ auto-update when files change.
 
 ## Modifying the Viewer
 
-All viewer logic lives in `autodiscovery-runs/<runid>/build_viewer.py`. The file is structured
+All viewer logic lives in `autodiscovery-runs/<run_name>/build_viewer.py`. The file is structured
 as a Python script that writes one long HTML string.
 
 **Key customization points:**

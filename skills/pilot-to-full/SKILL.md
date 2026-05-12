@@ -26,7 +26,7 @@ it upgrades to a **Resolution**.
 1. **Load** — fetch the experiment code and identify regions from the AutoDiscovery run
 2. **Enumerate** — scan the full S3 fleet for sessions matching those regions
 3. **Confirm** — show session count and coverage; wait for sign-off
-4. **Patch** — replace the local `datasets` list with S3 paths; swap file-open to fsspec
+4. **Patch** — replace the local `datasets` list with filenames; inject a configurable path resolver that accepts either an S3 base URL or a local `DATA_DIR` (e.g. a Code Ocean data asset mount)
 5. **Run** — execute the patched analysis in a notebook across all eligible sessions
 6. **Report** — per-session results, group statistics, and Constraint/Resolution verdict
 
@@ -215,13 +215,13 @@ The manifest columns are:
 
 | Column | Content |
 |---|---|
-| `nwb_path` | Full `s3://` path — used for loading in Steps 5–6 |
-| `filename` | Bare filename (e.g. `664851_2023-11-16.nwb`) — for display |
+| `filename` | Bare filename (e.g. `664851_2023-11-16.nwb`) — primary key for path resolution |
+| `nwb_path` | Full `s3://` path at enumeration time — retained for reference only |
 | `regions_present` | Comma-separated list of all QC-passing locations in this session |
 | `n_<group>` | QC unit count for each region group from the pilot code |
 
 The manifest is the single source of truth for Steps 4–6. All subsequent steps
-load `nwb_path` from it.
+resolve paths from `filename` via the configurable path resolver (see Step 4).
 
 ---
 
@@ -237,9 +237,10 @@ Do not proceed without explicit user confirmation. Present:
 > **Eligible (regions present):** `<len(eligible)>` sessions
 > **Passing unit threshold:** `<len(selected_paths)>` sessions
 >
-> I'll patch the `datasets` list in the pilot code to use these S3 paths and
-> swap the file-open call to use `fsspec` for S3 access. The analysis logic
-> is unchanged.
+> I'll patch the `datasets` list in the pilot code to use bare filenames and
+> inject a path resolver. Set `S3_BASE` to load from S3, or set `DATA_DIR`
+> to a local mount (e.g. a Code Ocean data asset at `/data/dr-nwb/`).
+> The analysis logic is unchanged.
 >
 > Estimated runtime: ~`<N × seconds_per_session>` minutes
 >
@@ -251,42 +252,82 @@ relax the unit threshold or proceed?"*
 
 ---
 
-## Step 5 — Patch the Code for S3
+## Step 5 — Patch the Code
 
-Two minimal changes to the pilot code:
+Three minimal changes to the pilot code. The goal is to keep filenames as the
+stable identifier and let the user switch between S3 and a local data directory
+(e.g. Code Ocean data asset) by changing a single config variable.
 
-### 5a. Replace the `datasets` list
+### 5a. Inject the data-source config block
+
+Prepend this block to the notebook. The user changes exactly one line to switch
+between S3 and a local mount:
+
+```python
+DATA_SOURCE_CONFIG = """
+import os
+
+# ── data source ───────────────────────────────────────────────────────────────
+# Set DATA_DIR to a local directory (e.g. Code Ocean data asset) to load files
+# from disk.  Leave it as None to load from S3 via the S3_BASE URL instead.
+#
+# Examples:
+#   DATA_DIR = "/data/dr-nwb/"           # Code Ocean mounted asset
+#   DATA_DIR = None                       # use S3
+#
+S3_BASE  = "s3://aind-scratch-data/dynamic-routing/cache/nwb/v0.0.273/"
+DATA_DIR = None
+
+def _resolve_path(filename):
+    if DATA_DIR is not None:
+        return os.path.join(DATA_DIR, filename)
+    return S3_BASE + filename
+
+"""
+```
+
+Inject this at the very top of the patched code (before any imports).
+
+### 5b. Replace the `datasets` list with filenames
 
 Find the hardcoded list (named `datasets`, `FILES`, `NWB_FILES`, or similar) and
-replace it with the S3 paths:
+replace it with bare filenames from the manifest:
 
 ```python
 import re
 
-# The pilot list typically looks like:
-#   datasets = ['664851_2023-11-15.nwb', '759434_2025-02-04.nwb', ...]
-# Replace with full S3 paths
-
-s3_list_str = "[\n" + ",\n".join(f'    "{p}"' for p in selected_paths) + "\n]"
+# filenames is a list of bare filenames: ['664851_2023-11-15.nwb', ...]
+filename_list_str = "[\n" + ",\n".join(f'    "{fn}"' for fn in filenames) + "\n]"
 
 # Replace any assignment that looks like: varname = ['...nwb', ...]
 patched_code = re.sub(
-    r"(datasets|FILES|NWB_FILES|file_list|nwb_files)\s*=\s*\[[^\]]*\]",
-    rf"\1 = {s3_list_str}",
+    r"(datasets|FILES|NWB_FILES|file_list|nwb_files|nwb_paths)\s*=\s*\[[^\]]*\]",
+    rf"\1 = {filename_list_str}",
     code,
     flags=re.DOTALL
 )
 ```
 
-### 5b. Patch the file-open call
-
-The pilot opens files locally with `NWBHDF5IO(path, 'r')`. Replace with fsspec:
+Then replace every use of the list variable in the loop with `_resolve_path(filename)`:
 
 ```python
-S3_OPEN_PREAMBLE = """
+# If the pilot iterates: for path in datasets:
+#   replace loop body's open call with _resolve_path(path)
+# This is handled automatically by 5c below since _open_nwb calls _resolve_path.
+```
+
+### 5c. Patch the file-open call
+
+The pilot opens files locally with `NWBHDF5IO(path, 'r')`. Replace with an
+`_open_nwb` helper that calls `_resolve_path` and handles both S3 (via fsspec)
+and local paths transparently:
+
+```python
+OPEN_NWB_HELPER = """
 import fsspec as _fsspec
 
-def _open_nwb(path):
+def _open_nwb(filename):
+    path = _resolve_path(filename)
     if path.startswith("s3://"):
         _fs = _fsspec.filesystem("s3", anon=True)
         return NWBHDF5IO(_fs.open(path, "rb"), "r", load_namespaces=True)
@@ -294,27 +335,23 @@ def _open_nwb(path):
 
 """
 
-# Inject the helper after the last pynwb import line
+# Inject after the last pynwb import line
 patched_code = re.sub(
     r"(from pynwb import NWBHDF5IO\n)",
-    r"\1" + S3_OPEN_PREAMBLE,
+    r"\1" + OPEN_NWB_HELPER,
     patched_code,
     count=1
 )
 
-# Replace all NWBHDF5IO(..., 'r') open calls with _open_nwb(...)
-# Handles: NWBHDF5IO(path, 'r'), NWBHDF5IO(f, 'r'), pynwb.NWBHDF5IO(fpath, 'r')
+# Replace all NWBHDF5IO(var, 'r') open calls with _open_nwb(var)
 patched_code = re.sub(
     r"(?:pynwb\.)?NWBHDF5IO\((\w+),\s*['\"]r['\"]\)",
     r"_open_nwb(\1)",
     patched_code
 )
-
-# Also handle context manager: with NWBHDF5IO(...) → with _open_nwb(...)
-# (already covered by the above replacement)
 ```
 
-### 5c. Handle `nwb.trials` for newer sessions
+### 5d. Handle `nwb.trials` for newer sessions
 
 Some 2024+ NWB files put trials in `intervals/trials`, not `nwb.trials`.
 Add a compatibility shim after the open call if the code uses `nwb.trials`:
@@ -331,7 +368,7 @@ TRIALS_SHIM = """
 """
 ```
 
-Insert the shim on the line after `nwb = io.read()` (or `nwb = io.read()`).
+Insert the shim on the line after `nwb = io.read()`.
 
 ---
 
@@ -492,8 +529,17 @@ at N=<full_N> sessions."
 
 - **Do not rewrite the analysis** — patch only the file list and open call. Method
   drift is indistinguishable from biology drift when comparing pilot vs. full N.
-- **Patch minimally** — two regex substitutions. If the code resists clean patching,
-  show the user the specific lines to change and ask them to confirm before proceeding.
+- **Patch minimally** — three injections (config block, filename list, open helper).
+  If the code resists clean patching, show the user the specific lines to change and
+  ask them to confirm before proceeding.
+- **Filename is the stable identifier** — the manifest stores `filename` as the primary
+  key. `nwb_path` is retained for reference but not used at runtime. The notebook
+  resolves the full path via `_resolve_path(filename)` at load time, so switching
+  from S3 to Code Ocean requires only changing `DATA_DIR` in the config cell.
+- **Code Ocean data asset** — on Code Ocean, NWB files in a data asset are typically
+  mounted at `/data/<asset-name>/`. Set `DATA_DIR = "/data/<asset-name>/"` in the
+  config cell. The `filename` column in the manifest must match the filenames in the
+  mounted directory exactly.
 - **`structure` vs `location`** — the pilot code filters on `units['structure']`. In
   2024+ NWB sessions this column may be absent; `units['location']` is the equivalent.
   Check the first session before running the full fleet and add a column alias if needed:

@@ -118,15 +118,21 @@ Ask the user to confirm if uncertain.
 
 ## Step 3 — Enumerate Eligible Sessions and Write Manifest
 
-Use the same patterns as `nwb-s3-browser`: `boto3` for listing (not `UPath.glob`),
-`fio.config.anon = True` for auth, `/units` table with `location` column for region
-queries. The manifest is written here with per-session region detail.
+Two-tier scan: `electrodes` table first (fast, works for ALL session versions
+including 2024+) to narrow candidates, then `/units` on candidates only for QC
+unit counts. **Never use `map_elements` with a lambda** — it defeats polars lazy
+evaluation, forces eager row-by-row Python execution, and requires `cloudpickle`.
+Use native `str.contains()` expressions instead; they compile to Rust and are
+evaluated lazily.
 
-### 3a. Find sessions with the required regions
+> **Why `electrodes` not `units` for Tier 1?**  
+> `electrodes` is a small table (one row per probe channel) with no spike data.  
+> `units` carries `spike_times` arrays. Even with column projection, lazynwb must
+> open each file header for `/units` which is ~3× slower.  
+> More critically: 2024+ NWB sessions do **not** store `location` in `/units` —
+> only in `electrodes`. Using `/units` for region presence misses those sessions.
 
-Use boto3 only to obtain S3 paths (needed by lazynwb). The filtering happens
-entirely in the `/units` scan — only sessions that have QC units in the required
-regions are returned. The full file list is never shown to the user.
+### 3a. List S3 paths
 
 ```python
 import boto3
@@ -152,29 +158,48 @@ all_paths = [
 ]
 
 # region_groups maps a display label → substrings from the pilot code
-# e.g. {"PFC": ["MOs","ACA","PL","ILA","ORB"], "sensory": ["VISp","AUDp"]}
+# e.g. {"PFC": ["ACA","PL","ILA","ORB"], "visual": ["VIS"]}
 region_groups = { ... }   # populated from Step 2 extraction
 min_units = 5             # read from pilot code (MIN_UNITS or equivalent); fall back to 5
-
 all_patterns = [p for patterns in region_groups.values() for p in patterns]
+```
 
-# Single scan: project to location + default_qc, filter to relevant regions only
-lf = lazynwb.scan_nwb(all_paths, "/units", raise_on_missing=False)
-units_df = (
+### 3b. Tier 1 — region presence via `electrodes` (fast)
+
+```python
+# Build filter using native str.contains — no lambda, no map_elements
+region_filter = pl.lit(False)
+for p in all_patterns:
+    region_filter = region_filter | pl.col("location").str.contains(p)
+
+lf = lazynwb.scan_nwb(all_paths, "electrodes", raise_on_missing=False)
+tier1_df = (
     lf
+    .select("_nwb_path", "location")
+    .filter(pl.col("location").is_not_null())
+    .filter(region_filter)
+    .unique()
+    .collect()
+)
+candidate_paths = tier1_df["_nwb_path"].unique().to_list()
+print(f"Candidate sessions (electrodes Tier 1): {len(candidate_paths)}")
+```
+
+### 3c. Tier 2 — QC unit counts from `/units` on candidates only
+
+```python
+lf2 = lazynwb.scan_nwb(candidate_paths, "/units", raise_on_missing=False)
+units_df = (
+    lf2
     .filter(pl.col("default_qc") == True)
-    .filter(
-        pl.col("location").is_not_null() &
-        pl.col("location").map_elements(
-            lambda loc: any(p in loc for p in all_patterns), return_dtype=pl.Boolean
-        )
-    )
+    .filter(pl.col("location").is_not_null())
+    .filter(region_filter)
     .select("_nwb_path", "location")
     .collect()
 )
 ```
 
-### 3b. Build per-session unit counts and filter
+### 3d. Build per-session unit counts and filter
 
 ```python
 rows = []
@@ -198,7 +223,7 @@ for path in units_df["_nwb_path"].unique().to_list():
 print(f"Sessions with required regions (≥{min_units} units/group): {len(rows)}")
 ```
 
-### 3c. Save the manifest
+### 3f. Save the manifest
 
 ```python
 import pandas as pd
